@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DAG Viewer — L0GIC.io</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #cy {
+      width: 100%;
+      height: 600px;
+      background-color: #1a1a1a;
+      border: 1px solid #444;
+    }
+    .tooltip {
+      position: absolute;
+      background: #222;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      pointer-events: none;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DAG Viewer</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+      <a href="forensic.html">🧾 Forensic Report</a>
+      <a href="about.html">📡 About</a>
+    </nav>
+  </header>
+
+  <section>
+    <p>This graph visualizes laundering paths from WALLET_4 to Binance 1 Hot Wallet and downstream clusters. Hover over nodes for semantic labels.</p>
+    <div id="cy"></div>
+    <div class="tooltip" id="tooltip"></div>
+  </section>
+
+  <footer>
+    &copy; 2025 Patrick Crosby — L0GIC.io is an open-source forensic intelligence project.
+  </footer>
+
+  <script src="https://unpkg.com/cytoscape@3.24.0/dist/cytoscape.min.js"></script>
+  <script>
+    const tooltip = document.getElementById('tooltip');
+
+    const cy = cytoscape({
+      container: document.getElementById('cy'),
+      elements: [
+        { data: { id: 'WALLET_4', label: 'WALLET_4\nSource Wallet' } },
+        { data: { id: 'LAYER_1', label: '0x9Ce3...\nLayer 1' } },
+        { data: { id: 'LAYER_2', label: '0xBC76...\nLayer 2' } },
+        { data: { id: 'BINANCE', label: 'Binance 1 Hot Wallet\nExchange Deposit' } },
+        { data: { id: 'CLUSTER_A', label: 'Cluster Node A\nParallel Path' } },
+        { data: { id: 'CLUSTER_B', label: 'Cluster Node B\nMajority Dispersal' } },
+
+        { data: { source: 'WALLET_4', target: 'LAYER_1' } },
+        { data: { source: 'LAYER_1', target: 'LAYER_2' } },
+        { data: { source: 'LAYER_2', target: 'BINANCE' } },
+        { data: { source: 'BINANCE', target: 'CLUSTER_A' } },
+        { data: { source: 'BINANCE', target: 'CLUSTER_B' } }
+      ],
+      style: [
+        {
+          selector: 'node',
+          style: {
+            'background-color': '#00ffe0',
+            'label': 'data(label)',
+            'color': '#fff',
+            'text-valign': 'center',
+            'text-halign': 'center',
+            'font-size': '10px',
+            'width': '50px',
+            'height': '50px'
+          }
+        },
+        {
+          selector: 'edge',
+          style: {
+            'width': 2,
+            'line-color': '#888',
+            'target-arrow-color': '#888',
+            'target-arrow-shape': 'triangle'
+          }
+        }
+      ],
+      layout: {
+        name: 'dagre',
+        rankDir: 'LR',
+        nodeSep: 100,
+        edgeSep: 50
+      }
+    });
+
+    cy.on('mouseover', 'node', function(evt){
+      const node = evt.target;
+      tooltip.style.display = 'block';
+      tooltip.textContent = node.data('label');
+    });
+
+    cy.on('mouseout', 'node', function(){
+      tooltip.style.display = 'none';
+    });
+
+    cy.on('mousemove', function(evt){
+      tooltip.style.left = evt.originalEvent.pageX + 10 + 'px';
+      tooltip.style.top = evt.originalEvent.pageY + 10 + 'px';
+    });
+  </script>
+</body>
+</html>

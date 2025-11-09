@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    { "data": { "id": "WALLET_4", "label": "WALLET_4\nSource Wallet" } },
+    { "data": { "id": "LAYER_1", "label": "0x9Ce3...\nLayer 1" } },
+    { "data": { "id": "LAYER_2", "label": "0xBC76...\nLayer 2" } },
+    { "data": { "id": "BINANCE", "label": "Binance 1 Hot Wallet\nExchange Deposit" } },
+    { "data": { "id": "CLUSTER_A", "label": "Cluster Node A\nParallel Path" } },
+    { "data": { "id": "CLUSTER_B", "label": "Cluster Node B\nMajority Dispersal" } }
+  ],
+  "edges": [
+    { "data": { "source": "WALLET_4", "target": "LAYER_1" } },
+    { "data": { "source": "LAYER_1", "target": "LAYER_2" } },
+    { "data": { "source": "LAYER_2", "target": "BINANCE" } },
+    { "data": { "source": "BINANCE", "target": "CLUSTER_A" } },
+    { "data": { "source": "BINANCE", "target": "CLUSTER_B" } }
+  ]
+}
