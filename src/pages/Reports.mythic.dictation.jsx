@@ -1,7 +1,7 @@
 // src/pages/Reports.mythic.dictation.jsx
 import React from 'react';
 import ScrollViewer from '../components/ScrollViewer';
-import reportsScroll from '../reports/Reports.md?raw';
+import reportsScroll from '../reports/reports.md?raw';
 
 export default function ReportsMythicDictation() {
   return (
