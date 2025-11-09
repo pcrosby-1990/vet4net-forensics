@@ -23,11 +23,60 @@
   box-shadow: 0 0 12px rgba(108, 52, 131, 0.2);
   width: 320px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
 .codex-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 0 16px rgba(108, 52, 131, 0.4);
+}
+
+.codex-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.codex-card .sigils-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.codex-card .status-glyph {
+  font-size: 1.25rem;
+  opacity: 0.7;
+}
+
+.codex-card .fragment-text {
+  margin: 0.75rem 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.codex-card .breathline {
+  font-style: italic;
+  opacity: 0.8;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+  color: #6c3483;
+}
+
+.codex-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.codex-card .witness {
+  font-weight: 500;
+}
+
+.codex-card .timestamp {
+  text-align: right;
 }
 
 /* ✧ Codex Nav */
