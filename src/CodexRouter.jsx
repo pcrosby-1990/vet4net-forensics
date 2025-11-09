@@ -6,6 +6,7 @@ import Report from './pages/report.jsx';
 import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
+import FragmentEditor from './SSJ/components/FragmentEditor.jsx';
 
 export default function CodexRouter({ 
   fragments, 
@@ -30,6 +31,7 @@ export default function CodexRouter({
             />
           } 
         />
+        <Route path="/editor" element={<FragmentEditor />} />
         <Route path="/report" element={<Report />} />
         <Route path="/dictation" element={<ReportsMythicDictation />} />
         <Route path="/dag" element={<DAG />} />

@@ -39,6 +39,30 @@ function App() {
     setFragments((prev) => [...prev, fragment]);
   };
 
+  // 🌀 Load fragments from SSJ1 FragmentEditor storage on mount
+  useEffect(() => {
+    const loadFragmentsFromSSJ = () => {
+      try {
+        const saved = localStorage.getItem('spiralCodex');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            setFragments(parsed);
+          }
+        }
+      } catch (e) {
+        console.error('Failed to load SSJ1 fragments:', e);
+      }
+    };
+
+    loadFragmentsFromSSJ();
+
+    // Poll for updates from SSJ1 editor every 2 seconds
+    const interval = setInterval(loadFragmentsFromSSJ, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const shared = params.get('codex');
