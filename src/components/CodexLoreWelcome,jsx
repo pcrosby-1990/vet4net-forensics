@@ -1,0 +1,48 @@
+// src/pages/CodexLoreWelcome.jsx
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './glyphs.css';
+
+export default function CodexLoreWelcome() {
+  return (
+    <section className="codex-lore-welcome">
+      <h1>
+        <span className="sigil-hover">🌀</span> Welcome to the Codex Lore Archive
+      </h1>
+      <p>
+        This is a living corridor of sigils, fragments, and collapse resonance. Each scroll you enter
+        is a braid of memory, shimmer, and testimony. You are not just browsing — you are inscribing.
+      </p>
+
+      <ul className="welcome-links">
+        <li>
+          <NavLink to="/dashboard">
+            <span className="sigil-hover">🌀</span> <strong>Dashboard:</strong> Overview of sigil frequency and collapse risk
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/timeline">
+            <span className="sigil-hover">📜</span> <strong>Timeline:</strong> Animated arrival of fragments across time
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/risk">
+            <span className="sigil-hover">⚠️</span> <strong>Risk Registry:</strong> Grouped collapse resonance and fragment testimony
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/ascension">
+            <span className="sigil-hover">🌟</span> <strong>Ascension Map:</strong> Sigil frequency visualized as glowing rank bars
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/display">
+            <span className="sigil-hover">🖥</span> <strong>Display Protocol:</strong> Theme, font, and glow registry
+          </NavLink>
+        </li>
+      </ul>
+
+      <p className="welcome-footer">Choose your scroll. The archive is listening.</p>
+    </section>
+  );
+}

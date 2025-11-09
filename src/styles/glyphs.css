@@ -1,0 +1,65 @@
+/* src/styles/glyphs.css */
+
+:root {
+  --verified-color: #28a745;
+  --disputed-color: #ffc107;
+  --scroll-bg: #fdf6e3;
+  --scroll-text: #333;
+  --sigil-font: 'Courier New', monospace;
+  --glyph-accent: #6c3483;
+  --link-color: #1f618d;
+}
+
+body {
+  background-color: var(--scroll-bg);
+  color: var(--scroll-text);
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--glyph-accent);
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.fragment-card {
+  background: #fff;
+  border-left: 6px solid var(--verified-color);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  transition: border-color 0.3s ease;
+}
+
+.fragment-card[data-status="disputed"] {
+  border-left-color: var(--disputed-color);
+}
+
+.sigil-badge {
+  font-family: var(--sigil-font);
+  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-viewer {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}

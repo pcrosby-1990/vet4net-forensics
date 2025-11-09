@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rpt-001",
+    "title": "Ad Drift Cluster A",
+    "timestamp": "2023-12-10T10:15:00Z",
+    "score": 0.82,
+    "status": "verified",
+    "summary": "Detected semantic drift across mirrored ad payloads. Source triangulated via DAG trace and timestamp glyph.",
+    "source": "https://logic.io/reports/ad-drift"
+  },
+  {
+    "id": "rpt-002",
+    "title": "Vector B Echo",
+    "timestamp": "2023-12-10T11:45:00Z",
+    "score": 0.76,
+    "status": "disputed",
+    "summary": "Observed recursive behavior in cluster B. Attribution contested across two nodes with conflicting timestamp glyphs.",
+    "source": "https://logic.io/reports/vector-b"
+  },
+  {
+    "id": "rpt-003",
+    "title": "Payload Loop: Node 7",
+    "timestamp": "2023-12-11T09:30:00Z",
+    "score": 0.91,
+    "status": "verified",
+    "summary": "Confirmed looped payload behavior in Node 7. Semantic integrity preserved across three timestamp glyphs.",
+    "source": "https://logic.io/reports/node-7-loop"
+  },
+  {
+    "id": "rpt-004",
+    "title": "Echo Collapse: Cluster D",
+    "timestamp": "2023-12-11T14:20:00Z",
+    "score": 0.64,
+    "status": "disputed",
+    "summary": "Cluster D collapsed under recursive echo load. Attribution unclear, timestamp glyphs missing.",
+    "source": "https://logic.io/reports/cluster-d-collapse"
+  },
+  {
+    "id": "rpt-005",
+    "title": "Timestamp Drift: Node 3",
+    "timestamp": "2023-12-12T08:05:00Z",
+    "score": 0.88,
+    "status": "verified",
+    "summary": "Node 3 showed timestamp drift across mirrored payloads. DAG trace confirmed semantic coherence.",
+    "source": "https://logic.io/reports/node-3-drift"
+  }
+]

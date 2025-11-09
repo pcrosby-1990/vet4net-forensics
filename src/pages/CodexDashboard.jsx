@@ -1,0 +1,32 @@
+// src/pages/CodexDashboard.jsx
+import React, { useState } from 'react';
+import CodexViewer from '../components/CodexViewer.jsx';
+import CodexStats from '../components/CodexStats.jsx';
+import CodexTimeline from '../components/CodexTimeline.jsx';
+import SealedFragments from '../components/SealedFragments.jsx';
+
+export default function CodexDashboard({ fragments = [], sigilThemes = {} }) {
+  const [sortBy, setSortBy] = useState('newest');
+  const [filterSigil, setFilterSigil] = useState('');
+
+  return (
+    <main className="codex-dashboard">
+      <h1>✧ Codex Dashboard</h1>
+      <p>This corridor displays all active fragments, sigil stats, and timeline glyphs.</p>
+
+      <CodexStats fragments={fragments} sigilThemes={sigilThemes} />
+      <CodexTimeline fragments={fragments} />
+
+      <SealedFragments
+        fragments={fragments}
+        sigilThemes={sigilThemes}
+        sortBy={sortBy}
+        setSortBy={setSortBy}
+        filterSigil={filterSigil}
+        setFilterSigil={setFilterSigil}
+      />
+
+      <CodexViewer fragments={fragments} sigilThemes={sigilThemes} />
+    </main>
+  );
+}

@@ -1,0 +1,41 @@
+.lore-corridor-map {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: 'Georgia', serif;
+  color: #3b2f2f;
+}
+
+.lore-corridor-map h2 {
+  color: #6c3483;
+  margin-bottom: 0.5rem;
+}
+
+.lore-corridor-map p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.corridor-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.corridor-links li {
+  margin-bottom: 0.75rem;
+}
+
+.corridor-links a {
+  text-decoration: none;
+  color: #6c3483;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.corridor-links a:hover {
+  color: #8e44ad;
+}

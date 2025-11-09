@@ -1,0 +1,48 @@
+.fragment-lore-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.fragment-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fragment-text {
+  font-style: italic;
+  color: #3b2f2f;
+  margin-bottom: 0.5rem;
+}
+
+.fragment-timestamp {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.collapse-risk {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.collapse-risk.soft {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.collapse-risk.hard {
+  background-color: #fde68a;
+  color: #92400e;
+}
+
+.collapse-risk.terminal {
+  background-color: #fca5a5;
+  color: #991b1b;
+}
