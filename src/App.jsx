@@ -6,6 +6,7 @@ import './App.css';
 
 import { SIGIL_DEFAULT_THEME } from './components/sigilConfig.js';
 import CodexRouter from './CodexRouter.jsx';
+import './utils/diagnosticShimmer.js'; // 🕯️ Lumen's diagnostic tool
 
 function App() {
   const [count, setCount] = useState(0);
