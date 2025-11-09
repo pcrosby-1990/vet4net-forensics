@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
-import Report from './pages/Report.jsx';
+import Report from './pages/report.jsx';
 import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
