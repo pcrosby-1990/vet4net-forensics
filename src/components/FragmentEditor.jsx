@@ -6,7 +6,7 @@ import React, {
   useMemo
 } from 'react';
 
-import EditorPanel from './EditorPanel';
+import EditorPanel from './editorpanel';
 import FragmentList from './FragmentList';
 import { idbGet, idbSet } from './storage/idb';
 
