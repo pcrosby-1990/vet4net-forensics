@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SigilBadge from '../components/SigilBadge';
-import Timeline from '../components/Timeline';
+import Timeline from '../components/timeline';
 import FragmentEditor from '../components/FragmentEditor';
 
 export default function Report() {
