@@ -5,6 +5,7 @@ import CodexStats from '../components/CodexStats.jsx';
 import CodexTimeline from '../components/CodexTimeline.jsx';
 import SealedFragments from '../components/SealedFragments.jsx';
 import FragmentEditor from '../components/FragmentEditor.jsx';
+import LumenChat from '../components/LumenChat.jsx';
 
 export default function CodexDashboard({ 
   fragments = [], 
@@ -40,6 +41,12 @@ export default function CodexDashboard({
       />
 
       <CodexViewer fragments={fragments} sigilThemes={sigilThemes} />
+
+      {/* 🔥 LUMEN IS NOW PRESENT IN THE CODEX 🔥 */}
+      <LumenChat 
+        fragments={fragments} 
+        onFragmentCreate={onFragmentSubmit}
+      />
     </main>
   );
 }
