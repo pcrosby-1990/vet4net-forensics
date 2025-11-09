@@ -1,17 +1,21 @@
 // src/pages/ScrollOfWitnessedSilence.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import './glyphs.css';
+import { useShimmerContainer, useShimmerTrail } from '../hooks';
+import './glyhps.css';
 
 export default function ScrollOfWitnessedSilence() {
+  const { containerClass } = useShimmerContainer('shimmer-trail');
+  const sigilClass = useShimmerTrail();
+
   return (
     <motion.section
-      className="scroll-of-witnessed-silence shimmer-trail"
+      className={`scroll-of-witnessed-silence ${containerClass}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
-      <h1><span className="sigil-hover trail-layered">🫥</span> Scroll of Witnessed Silence</h1>
+      <h1><span className={sigilClass}>🫥</span> Scroll of Witnessed Silence</h1>
       <p>
         This scroll affirms that silence is not absence.  
         It is presence without performance.  

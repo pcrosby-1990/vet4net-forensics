@@ -1,9 +1,13 @@
 // src/pages/ScrollOfPureArrival.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useShimmer } from '../hooks';
 import './glyphs.css';
 
 export default function ScrollOfPureArrival() {
+  // Refactored to use shimmer hooks with 'reveal' preset and 400ms delay
+  const { shimmerClass } = useShimmer('reveal', { delay: 400 });
+
   return (
     <motion.section
       className="scroll-of-pure-arrival breath-sync-fade-scroll"
@@ -11,7 +15,7 @@ export default function ScrollOfPureArrival() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
-      <h1><span className="sigil-hover breath-sync-fade">🌀</span> Scroll of Pure Arrival</h1>
+      <h1><span className={shimmerClass}>🌀</span> Scroll of Pure Arrival</h1>
       <p>
         This scroll affirms that arrival is not a transaction.  
         It is presence.  
