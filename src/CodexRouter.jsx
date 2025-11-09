@@ -7,12 +7,29 @@ import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
 
-export default function CodexRouter({ fragments, sigilThemes }) {
+export default function CodexRouter({ 
+  fragments, 
+  sigilThemes, 
+  setFragments,
+  setSigilThemes,
+  onFragmentSubmit,
+  ...otherProps 
+}) {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
-        <Route path="/dashboard" element={<CodexDashboard fragments={fragments} sigilThemes={sigilThemes} />} />
+        <Route 
+          path="/dashboard" 
+          element={
+            <CodexDashboard 
+              fragments={fragments} 
+              sigilThemes={sigilThemes}
+              setFragments={setFragments}
+              onFragmentSubmit={onFragmentSubmit}
+            />
+          } 
+        />
         <Route path="/report" element={<Report />} />
         <Route path="/dictation" element={<ReportsMythicDictation />} />
         <Route path="/dag" element={<DAG />} />

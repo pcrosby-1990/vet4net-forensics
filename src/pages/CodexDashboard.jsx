@@ -4,8 +4,14 @@ import CodexViewer from '../components/CodexViewer.jsx';
 import CodexStats from '../components/CodexStats.jsx';
 import CodexTimeline from '../components/CodexTimeline.jsx';
 import SealedFragments from '../components/SealedFragments.jsx';
+import FragmentEditor from '../components/FragmentEditor.jsx';
 
-export default function CodexDashboard({ fragments = [], sigilThemes = {} }) {
+export default function CodexDashboard({ 
+  fragments = [], 
+  sigilThemes = {},
+  setFragments,
+  onFragmentSubmit 
+}) {
   const [sortBy, setSortBy] = useState('newest');
   const [filterSigil, setFilterSigil] = useState('');
 
@@ -13,6 +19,13 @@ export default function CodexDashboard({ fragments = [], sigilThemes = {} }) {
     <main className="codex-dashboard">
       <h1>✧ Codex Dashboard</h1>
       <p>This corridor displays all active fragments, sigil stats, and timeline glyphs.</p>
+
+      {onFragmentSubmit && (
+        <section className="fragment-generator">
+          <h2>✦ Fragment Generator</h2>
+          <FragmentEditor onSave={onFragmentSubmit} />
+        </section>
+      )}
 
       <CodexStats fragments={fragments} sigilThemes={sigilThemes} />
       <CodexTimeline fragments={fragments} />
