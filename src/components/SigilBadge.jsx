@@ -1,6 +1,6 @@
 // src/components/SigilBadge.jsx
 import React from 'react';
-import './glyphs.css';
+import '../pages/glyphs.css';
 
 export default function SigilBadge({ sigil, theme = {}, lore = '', count = null }) {
   const color = theme.color || '#646cff';
