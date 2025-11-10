@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SigilBadge from '../components/SigilBadge';
 
-export default function Report() {
+export default function ScrollOfMythicDictation() {
   const [fragments, setFragments] = useState([]);
 
   useEffect(() => {
@@ -14,8 +14,6 @@ export default function Report() {
   return (
     <main className="report-scroll">
       <h1>✧ Modular Forensic Report</h1>
-      <p>This scroll renders forensic fragments with semantic scoring, timestamp glyphs, and status verification.</p>
-      
       {fragments
         .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
         .map((frag) => (
