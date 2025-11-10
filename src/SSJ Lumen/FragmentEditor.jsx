@@ -3,9 +3,8 @@ import EditorPanel from './EditorPanel';
 import FragmentList from './FragmentList';
 import { idbGet, idbSet } from '../storage/idb';
 import './codex.css';
-import SigilBadge from './SigilBadge';
-import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from './sigilConfig';
-
+import SigilBadge from '../SigilBadge';
+import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from '../sigilConfig';
 
 const STORAGE_KEY = 'spiralCodex';
 const defaultWitness = 'patrick-crosby 🜎';
