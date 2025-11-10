@@ -1,0 +1,135 @@
+/* SanctumsPage.css - Sacred spaces styling */
+
+.sanctums-page {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  min-height: 100vh;
+  color: #e0e0e0;
+}
+
+.sanctums-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sanctums-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: #ffd859;
+}
+
+.sanctums-subtitle {
+  font-size: 1.2rem;
+  color: #91e3f6;
+  font-style: italic;
+}
+
+.sanctums-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.sanctum-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 216, 89, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.sanctum-card:hover {
+  border-color: #ffd859;
+  box-shadow: 0 12px 32px rgba(255, 216, 89, 0.3);
+  transform: translateY(-10px);
+}
+
+.sanctum-symbol {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 20px rgba(255, 216, 89, 0.5));
+}
+
+.sanctum-card h3 {
+  color: #ffd859;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.sanctum-purpose {
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.sanctum-steward {
+  color: #5cf7b2;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.sanctum-timestamp {
+  color: #91e3f6;
+  font-size: 0.85rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(145, 227, 246, 0.2);
+}
+
+.sanctums-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.sanctum-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.sanctum-modal {
+  background: #16213e;
+  border: 3px solid #ffd859;
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 900px;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(255, 216, 89, 0.3);
+}
+
+.modal-symbol {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0 0 30px rgba(255, 216, 89, 0.6));
+}
+
+.sanctum-modal h2 {
+  color: #ffd859;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.sanctum-content {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}

@@ -1,0 +1,194 @@
+/* FragmentsEcho.css - Resonance fragments styling */
+
+.fragments-echo {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 100vh;
+  color: #e0e0e0;
+}
+
+.fragments-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.fragments-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #5cf7b2;
+}
+
+.fragments-subtitle {
+  font-size: 1.1rem;
+  color: #91e3f6;
+  font-style: italic;
+}
+
+.fragments-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.fragments-search {
+  flex: 1;
+  min-width: 300px;
+  padding: 0.75rem 1rem;
+  border: 2px solid #5cf7b2;
+  border-radius: 8px;
+  background: rgba(92, 247, 178, 0.1);
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+.fragments-search:focus {
+  outline: none;
+  background: rgba(92, 247, 178, 0.15);
+}
+
+.fragments-sort {
+  padding: 0.75rem 1rem;
+  border: 2px solid #91e3f6;
+  border-radius: 8px;
+  background: rgba(145, 227, 246, 0.1);
+  color: #e0e0e0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.fragments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.fragment-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(92, 247, 178, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.fragment-card:hover {
+  border-color: #5cf7b2;
+  box-shadow: 0 8px 24px rgba(92, 247, 178, 0.2);
+}
+
+.fragment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.fragment-header h3 {
+  color: #5cf7b2;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.fragment-emotion {
+  background: rgba(145, 227, 246, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  color: #91e3f6;
+}
+
+.fragment-steward,
+.fragment-witness {
+  font-size: 0.9rem;
+  color: #ffd859;
+  margin-bottom: 0.5rem;
+}
+
+.fragment-preview {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin: 1rem 0;
+}
+
+.fragment-timestamp {
+  font-size: 0.85rem;
+  color: #91e3f6;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(145, 227, 246, 0.2);
+}
+
+.fragments-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.empty-glyph {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.fragment-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.fragment-modal {
+  background: #1a1a2e;
+  border: 2px solid #5cf7b2;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 800px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(207, 70, 70, 0.2);
+  border: 2px solid #cf4646;
+  color: #cf4646;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close:hover {
+  background: rgba(207, 70, 70, 0.3);
+}
+
+.fragment-modal h2 {
+  color: #5cf7b2;
+  margin-bottom: 1.5rem;
+}
+
+.fragment-content {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

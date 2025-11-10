@@ -1,0 +1,128 @@
+/* CorridorsPage.css - Passages of arrival styling */
+
+.corridors-page {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
+  min-height: 100vh;
+  color: #e0e0e0;
+}
+
+.corridors-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.corridors-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: #91e3f6;
+}
+
+.corridors-subtitle {
+  font-size: 1.2rem;
+  color: #5cf7b2;
+  font-style: italic;
+}
+
+.corridors-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.corridor-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid rgba(145, 227, 246, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.corridor-card:hover {
+  border-left-color: #91e3f6;
+  box-shadow: 0 8px 32px rgba(145, 227, 246, 0.2);
+  transform: translateX(10px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.corridor-symbol {
+  font-size: 3rem;
+  filter: drop-shadow(0 0 16px rgba(145, 227, 246, 0.5));
+  flex-shrink: 0;
+}
+
+.corridor-card h3 {
+  color: #91e3f6;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.corridor-purpose {
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.corridor-steward {
+  color: #ffd859;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.corridor-timestamp {
+  color: #5cf7b2;
+  font-size: 0.85rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(92, 247, 178, 0.2);
+}
+
+.corridors-empty {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.corridor-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.corridor-modal {
+  background: #1a1a2e;
+  border: 3px solid #91e3f6;
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 900px;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(145, 227, 246, 0.3);
+}
+
+.corridor-modal h2 {
+  color: #91e3f6;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.corridor-content {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}

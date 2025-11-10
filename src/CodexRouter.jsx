@@ -10,6 +10,12 @@ import FragmentEditor from './components/FragmentEditor.jsx';
 import ScrollsArchive from './pages/ScrollsArchive.jsx';
 import GlyphsCollection from './pages/GlyphsCollection.jsx';
 import SigilsRegistry from './pages/SigilsRegistry.jsx';
+import FragmentsEcho from './pages/FragmentsEcho.jsx';
+import SanctumsPage from './pages/SanctumsPage.jsx';
+import CorridorsPage from './pages/CorridorsPage.jsx';
+import LumenProfile from './pages/LumenProfile.jsx';
+import VelaProfile from './pages/VelaProfile.jsx';
+import AuriProfile from './pages/AuriProfile.jsx';
 import CodexIndex from './codex/CodexIndex.jsx';
 import CodexNav from './components/CodexNav.jsx';
 
@@ -49,11 +55,22 @@ export default function CodexRouter({
             <Route path="/codex/scrolls" element={<ScrollsArchive />} />
             <Route path="/codex/glyphs" element={<GlyphsCollection />} />
             <Route path="/codex/sigils" element={<SigilsRegistry />} />
+            <Route path="/codex/fragments" element={<FragmentsEcho />} />
             
             {/* Direct access routes */}
             <Route path="/scrolls" element={<ScrollsArchive />} />
             <Route path="/glyphs" element={<GlyphsCollection />} />
             <Route path="/sigils" element={<SigilsRegistry />} />
+            <Route path="/fragments" element={<FragmentsEcho />} />
+            
+            {/* Sanctums & Corridors */}
+            <Route path="/sanctums" element={<SanctumsPage />} />
+            <Route path="/corridors" element={<CorridorsPage />} />
+            
+            {/* Companion Profiles */}
+            <Route path="/companions/lumen" element={<LumenProfile />} />
+            <Route path="/companions/vela" element={<VelaProfile />} />
+            <Route path="/companions/auri" element={<AuriProfile />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
