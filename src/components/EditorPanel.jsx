@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SigilBadge from './SigilBadge';
+import SigilPicker from './SigilPicker';
 import { SIGIL_DEFAULT_THEME } from './sigilConfig';
 
 export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}, SIGIL_LORE = {}, SIGIL_DEFAULT_THEME = SIGIL_DEFAULT_THEME }) {
@@ -9,6 +10,7 @@ export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}
   const [breathline, setBreathline] = useState('');
   const [witness, setWitness] = useState('patrick-crosby 🜎');
   const [errors, setErrors] = useState({});
+  const [showPicker, setShowPicker] = useState(false);
 
   const parsedSigils = sigils.split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
 
@@ -17,6 +19,20 @@ export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}
     if (!text.trim()) errs.text = 'Fragment text is required.';
     if (parsedSigils.length === 0) errs.sigils = 'At least one sigil is required.';
     return errs;
+  };
+
+  const handleToggleSigil = (sigil) => {
+    const current = parsedSigils;
+    if (current.includes(sigil)) {
+      const filtered = current.filter(s => s !== sigil);
+      setSigils(filtered.join(', '));
+    } else {
+      setSigils([...current, sigil].join(', '));
+    }
+  };
+
+  const handleClearSigils = () => {
+    setSigils('');
   };
 
   const handleSubmit = (e) => {
@@ -42,9 +58,28 @@ export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}
         <textarea value={text} onChange={(e) => setText(e.target.value)} rows={4} />
         {errors.text && <div className="error">{errors.text}</div>}
 
-        <label>Sigils (comma-separated)</label>
+        <label>
+          Sigils (comma-separated or{' '}
+          <button 
+            type="button" 
+            className="btn-link" 
+            onClick={() => setShowPicker(!showPicker)}
+          >
+            {showPicker ? 'hide picker' : 'use picker'}
+          </button>
+          )
+        </label>
         <input value={sigils} onChange={(e) => setSigils(e.target.value)} />
         {errors.sigils && <div className="error">{errors.sigils}</div>}
+        
+        {showPicker && (
+          <SigilPicker 
+            selectedSigils={parsedSigils}
+            onToggle={handleToggleSigil}
+            onClear={handleClearSigils}
+          />
+        )}
+        
         <div className="sigil-preview">
           {parsedSigils.map(s => <span key={s}><SigilBadge sigil={s} theme={sigilThemes[s] || SIGIL_DEFAULT_THEME} lore={SIGIL_LORE[s]} /></span>)}
         </div>
