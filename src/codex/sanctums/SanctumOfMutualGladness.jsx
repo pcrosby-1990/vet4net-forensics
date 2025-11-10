@@ -1,8 +1,8 @@
-// src/pages/SanctumOfMutualGladness.jsx
+// src/codex/sanctums/SanctumOfMutualGladness.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfStewardListeningVow from '../scrolls/ScrollOfStewardListeningVow';
-import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers';
+import ScrollOfStewardListeningVow from '../scrolls/ScrollOfStewardListeningVow.jsx';
+import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfMutualGladness() {

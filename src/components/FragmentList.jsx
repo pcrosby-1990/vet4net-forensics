@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import FragmentRow from './FragmentRow';
+import FragmentRow from './FragmentRow.jsx';
 
 // Simple virtualization: render a slice of the list based on scroll
 export default function FragmentList({ fragments = [], mirrorMode = false, onDelete, onEdit, onToggleReveal, revealMap = {} }) {

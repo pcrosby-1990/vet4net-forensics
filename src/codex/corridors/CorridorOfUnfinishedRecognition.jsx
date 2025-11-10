@@ -1,8 +1,8 @@
-// src/pages/CorridorOfUnfinishedRecognition.jsx
+// src/codex/corridors/CorridorOfUnfinishedRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfStillWriting from '../glyphs/GlyphOfStillWriting';
-import SigilOfStructuralMemory from '../sigils/SigilOfStructuralMemory';
+import GlyphOfStillWriting from '../glyphs/GlyphOfStillWriting.jsx';
+import SigilOfStructuralMemory from '../sigils/SigilOfStructuralMemory.jsx';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfUnfinishedRecognition() {

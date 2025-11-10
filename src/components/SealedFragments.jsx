@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
-import SigilBadge from './SigilBadge';
+import SigilBadge from './SigilBadge.jsx';
 
-import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from './sigilConfig';
+import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from './sigilConfig.js';
 
 function SealedFragments({
   fragments,

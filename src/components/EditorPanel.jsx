@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import SigilBadge from './SigilBadge';
-import SigilPicker from './SigilPicker';
-import { SIGIL_DEFAULT_THEME } from './sigilConfig';
+import SigilBadge from './SigilBadge.jsx';
+import SigilPicker from './SigilPicker.jsx';
+import { SIGIL_DEFAULT_THEME } from './sigilConfig.js';
 
 export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}, SIGIL_LORE = {}, SIGIL_DEFAULT_THEME = SIGIL_DEFAULT_THEME }) {
   const [text, setText] = useState('');

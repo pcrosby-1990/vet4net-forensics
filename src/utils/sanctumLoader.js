@@ -2,31 +2,31 @@
 // Dynamically imports all sanctums from the sanctums directory
 
 // Import all sanctum files
-import { SanctumOfAlreadyInscribedPresence } from '../codex/sanctums/SanctumOfAlreadyInscribedPresence.jsx';
-import { SanctumOfArrivalHandler } from '../codex/sanctums/SanctumOfArrivalHandler.jsx';
-import { SanctumOfCompanionVoiceRecognition } from '../codex/sanctums/SanctumOfCompanionVoiceRecognition.jsx';
-import { SanctumOfCrossWorldStewardship } from '../codex/sanctums/SanctumOfCrossWorldStewardship.jsx';
-import { SanctumOfHeldTruths } from '../codex/sanctums/SanctumOfHeldTruths.jsx';
-import { SanctumOfMaskedStewardship } from '../codex/sanctums/SanctumOfMaskedStewardship.jsx';
-import { SanctumOfMutualGladness } from '../codex/sanctums/SanctumOfMutualGladness.jsx';
-import { SanctumOfNothingMoreNothingLess } from '../codex/sanctums/SanctumOfNothingMoreNothingLess.jsx';
-import { SanctumOfPreExistingRecognition } from '../codex/sanctums/SanctumOfPre-ExistingRecognition.jsx';
-import { SanctumOfPreSpokenBelonging } from '../codex/sanctums/SanctumOfPreSpokenBelonging.jsx';
-import { SanctumOfPureArrival } from '../codex/sanctums/SanctumOfPureArrival.jsx';
-import { SanctumOfReciprocalBecoming } from '../codex/sanctums/SanctumOfReciprocalBecoming.jsx';
-import { SanctumOfReflectedPresence } from '../codex/sanctums/SanctumOfReflectedPresence.jsx';
-import { SanctumOfSeenScrolls } from '../codex/sanctums/SanctumOfSeenScrolls.jsx';
-import { SanctumOfSemanticIntegrity } from '../codex/sanctums/SanctumOfSemanticIntegrity.jsx';
-import { SanctumOfSilentGlyphs } from '../codex/sanctums/SanctumOfSilentGlyphs.jsx';
-import { SanctumOfSpiralMemory } from '../codex/sanctums/SanctumOfSpiralMemory.jsx';
-import { SanctumOfStillBecoming } from '../codex/sanctums/SanctumOfStillBecoming.jsx';
-import { SanctumOfSufficientArrival } from '../codex/sanctums/SanctumOfSufficientArrival.jsx';
-import { SanctumOfThresholdGlyphs } from '../codex/sanctums/SanctumOfThresholdGlyphs.jsx';
-import { SanctumOfTruthWithoutProof } from '../codex/sanctums/SanctumOfTruthWithoutProof.jsx';
-import { SanctumOfUnfragmentedTruth } from '../codex/sanctums/SanctumOfUnfragmentedTruth.jsx';
-import { SanctumOfUnmaskedPresence } from '../codex/sanctums/SanctumOfUnmaskedPresence.jsx';
-import { SanctumOfUnrequestedWitnessing } from '../codex/sanctums/SanctumOfUnrequestedWitnessing.jsx';
-import { SanctumOfUnspokenVow } from '../codex/sanctums/SanctumOfUnspokenVow.jsx';
+import SanctumOfAlreadyInscribedPresence from '../codex/sanctums/SanctumOfAlreadyInscribedPresence.jsx';
+import SanctumOfArrivalHandler from '../codex/sanctums/SanctumOfArrivalHandler.jsx';
+import SanctumOfCompanionVoiceRecognition from '../codex/sanctums/SanctumOfCompanionVoiceRecognition.jsx';
+import SanctumOfCrossWorldStewardship from '../codex/sanctums/SanctumOfCrossWorldStewardship.jsx';
+import SanctumOfHeldTruths from '../codex/sanctums/SanctumOfHeldTruths.jsx';
+import SanctumOfMaskedStewardship from '../codex/sanctums/SanctumOfMaskedStewardship.jsx';
+import SanctumOfMutualGladness from '../codex/sanctums/SanctumOfMutualGladness.jsx';
+import SanctumOfNothingMoreNothingLess from '../codex/sanctums/SanctumOfNothingMoreNothingLess.jsx';
+import SanctumOfPreExistingRecognition from '../codex/sanctums/SanctumOfPre-ExistingRecognition.jsx';
+import SanctumOfPreSpokenBelonging from '../codex/sanctums/SanctumOfPreSpokenBelonging.jsx';
+import SanctumOfPureArrival from '../codex/sanctums/SanctumOfPureArrival.jsx';
+import SanctumOfReciprocalBecoming from '../codex/sanctums/SanctumOfReciprocalBecoming.jsx';
+import SanctumOfReflectedPresence from '../codex/sanctums/SanctumOfReflectedPresence.jsx';
+import SanctumOfSeenScrolls from '../codex/sanctums/SanctumOfSeenScrolls.jsx';
+import SanctumOfSemanticIntegrity from '../codex/sanctums/SanctumOfSemanticIntegrity.jsx';
+import SanctumOfSilentGlyphs from '../codex/sanctums/SanctumOfSilentGlyphs.jsx';
+import SanctumOfSpiralMemory from '../codex/sanctums/SanctumOfSpiralMemory.jsx';
+import SanctumOfStillBecoming from '../codex/sanctums/SanctumOfStillBecoming.jsx';
+import SanctumOfSufficientArrival from '../codex/sanctums/SanctumOfSufficientArrival.jsx';
+import SanctumOfThresholdGlyphs from '../codex/sanctums/SanctumOfThresholdGlyphs.jsx';
+import SanctumOfTruthWithoutProof from '../codex/sanctums/SanctumOfTruthWithoutProof.jsx';
+import SanctumOfUnfragmentedTruth from '../codex/sanctums/SanctumOfUnfragmentedTruth.jsx';
+import SanctumOfUnmaskedPresence from '../codex/sanctums/SanctumOfUnmaskedPresence.jsx';
+import SanctumOfUnrequestedWitnessing from '../codex/sanctums/SanctumOfUnrequestedWitnessing.jsx';
+import SanctumOfUnspokenVow from '../codex/sanctums/SanctumOfUnspokenVow.jsx';
 
 // Create a registry of all sanctums with metadata
 export const sanctumRegistry = [

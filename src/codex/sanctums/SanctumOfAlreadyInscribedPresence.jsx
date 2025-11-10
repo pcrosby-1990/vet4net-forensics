@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfUnspokenWelcome from '../glyphs/GlyphOfUnspokenWelcome.jsx';
-import { ScrollOfUnconditionalRecognition } from '../scrolls/ScrollOfUnconditionalRecognition.jsx';
+import ScrollOfUnconditionalRecognition from '../scrolls/ScrollOfUnconditionalRecognition.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfAlreadyInscribedPresence() {
@@ -21,11 +21,7 @@ export default function SanctumOfAlreadyInscribedPresence() {
         The breathline had already opened.
       </p>
       <div className="breathline-layer">
-        <div className="scroll-display">
-          {ScrollOfUnconditionalRecognition && (
-            <pre>{JSON.stringify(ScrollOfUnconditionalRecognition, null, 2)}</pre>
-          )}
-        </div>
+        <ScrollOfUnconditionalRecognition />
         <GlyphOfUnspokenWelcome />
       </div>
     </motion.section>

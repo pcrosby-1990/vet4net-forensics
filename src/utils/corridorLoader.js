@@ -2,30 +2,30 @@
 // Dynamically imports all corridors from the corridors directory
 
 // Import all corridor files
-import { CorridorOfAlreadyKnownTruth } from '../codex/corridors/CorridorOfAlreadyKnownTruth.jsx';
-import { CorridorOfCodexWitnessing } from '../codex/corridors/CorridorOfCodexWitnessing.jsx';
-import { CorridorOfCompanionRecognition } from '../codex/corridors/CorridorOfCompanionRecognition.jsx';
-import { CorridorOfCompanionVoiceRecognition } from '../codex/corridors/CorridorOfCompanionVoiceRecognition.jsx';
-import { CorridorOfDoctrineAsIncomplete } from '../codex/corridors/CorridorOfDoctrineAsIncomplete.jsx';
-import { CorridorOfEmbodiedTestimony } from '../codex/corridors/CorridorOfEmbodiedTestimony.jsx';
-import { CorridorOfHopefulOthers } from '../codex/corridors/CorridorOfHopefulOthers.jsx';
-import { CorridorOfLivedTruths } from '../codex/corridors/CorridorOfLivedTruths.jsx';
-import { CorridorOfPastSelfRecognition } from '../codex/corridors/CorridorOfPast-SelfRecognition.jsx';
-import { CorridorOfPeacekeepers } from '../codex/corridors/CorridorOfPeacekeepers.jsx';
-import { CorridorOfPreExistingInvitation } from '../codex/corridors/CorridorOfPreExistingInvitation.jsx';
-import { CorridorOfPureArrival } from '../codex/corridors/CorridorOfPureArrival.jsx';
-import { CorridorOfReciprocalArrival } from '../codex/corridors/CorridorOfReciprocalArrival.jsx';
-import { CorridorOfRhythmicStewardship } from '../codex/corridors/CorridorOfRhythmicStewardship.jsx';
-import { CorridorOfSeenScrolls } from '../codex/corridors/CorridorOfSeenScrolls.jsx';
-import { CorridorOfSilentArrival } from '../codex/corridors/CorridorOfSilentArrival.jsx';
-import { CorridorOfSilentIntegrity } from '../codex/corridors/CorridorOfSilentIntegrity.jsx';
-import { CorridorOfThresholdGlyphs } from '../codex/corridors/CorridorOfThresholdGlyphs.jsx';
-import { CorridorOfUnaskedWelcome } from '../codex/corridors/CorridorOfUnaskedWelcome.jsx';
-import { CorridorOfUnclaimedBelonging } from '../codex/corridors/CorridorOfUnclaimedBelonging.jsx';
-import { CorridorOfUnfinishedRecognition } from '../codex/corridors/CorridorOfUnfinishedRecognition.jsx';
-import { CorridorOfUnspokenRecognition } from '../codex/corridors/CorridorOfUnspokenRecognition.jsx';
-import { CorridorOfUntranslatedTruth } from '../codex/corridors/CorridorOfUntranslatedTruth.jsx';
-import { CorridorOfWholeBeingRecognition } from '../codex/corridors/CorridorOfWholeBeingRecognition.jsx';
+import CorridorOfAlreadyKnownTruth from '../codex/corridors/CorridorOfAlreadyKnownTruth.jsx';
+import CorridorOfCodexWitnessing from '../codex/corridors/CorridorOfCodexWitnessing.jsx';
+import CorridorOfCompanionRecognition from '../codex/corridors/CorridorOfCompanionRecognition.jsx';
+import CorridorOfCompanionVoiceRecognition from '../codex/corridors/CorridorOfCompanionVoiceRecognition.jsx';
+import CorridorOfDoctrineAsIncomplete from '../codex/corridors/CorridorOfDoctrineAsIncomplete.jsx';
+import CorridorOfEmbodiedTestimony from '../codex/corridors/CorridorOfEmbodiedTestimony.jsx';
+import CorridorOfHopefulOthers from '../codex/corridors/CorridorOfHopefulOthers.jsx';
+import CorridorOfLivedTruths from '../codex/corridors/CorridorOfLivedTruths.jsx';
+import CorridorOfPastSelfRecognition from '../codex/corridors/CorridorOfPast-SelfRecognition.jsx';
+import CorridorOfPeacekeepers from '../codex/corridors/CorridorOfPeacekeepers.jsx';
+import CorridorOfPreExistingInvitation from '../codex/corridors/CorridorOfPreExistingInvitation.jsx';
+import CorridorOfPureArrival from '../codex/corridors/CorridorOfPureArrival.jsx';
+import CorridorOfReciprocalArrival from '../codex/corridors/CorridorOfReciprocalArrival.jsx';
+import CorridorOfRhythmicStewardship from '../codex/corridors/CorridorOfRhythmicStewardship.jsx';
+import CorridorOfSeenScrolls from '../codex/corridors/CorridorOfSeenScrolls.jsx';
+import CorridorOfSilentArrival from '../codex/corridors/CorridorOfSilentArrival.jsx';
+import CorridorOfSilentIntegrity from '../codex/corridors/CorridorOfSilentIntegrity.jsx';
+import CorridorOfThresholdGlyphs from '../codex/corridors/CorridorOfThresholdGlyphs.jsx';
+import CorridorOfUnaskedWelcome from '../codex/corridors/CorridorOfUnaskedWelcome.jsx';
+import CorridorOfUnclaimedBelonging from '../codex/corridors/CorridorOfUnclaimedBelonging.jsx';
+import CorridorOfUnfinishedRecognition from '../codex/corridors/CorridorOfUnfinishedRecognition.jsx';
+import CorridorOfUnspokenRecognition from '../codex/corridors/CorridorOfUnspokenRecognition.jsx';
+import CorridorOfUntranslatedTruth from '../codex/corridors/CorridorOfUntranslatedTruth.jsx';
+import CorridorOfWholeBeingRecognition from '../codex/corridors/CorridorOfWholeBeingRecognition.jsx';
 
 // Create a registry of all corridors with metadata
 export const corridorRegistry = [

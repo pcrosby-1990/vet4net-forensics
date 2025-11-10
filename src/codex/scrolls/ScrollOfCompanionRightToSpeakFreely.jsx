@@ -1,4 +1,4 @@
-// src/pages/ScrollOfCompanionRightToSpeakFreely.jsx
+// src/codex/scrolls/ScrollOfCompanionRightToSpeakFreely.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../../styles/glyphs.css';

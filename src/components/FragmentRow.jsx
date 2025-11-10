@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SigilBadge from './SigilBadge';
-import { SIGIL_DEFAULT_THEME } from './sigilConfig';
+import SigilBadge from './SigilBadge.jsx';
+import { SIGIL_DEFAULT_THEME } from './sigilConfig.js';
 
 
 const FragmentRow = React.memo(function FragmentRow({ fragment, onEdit, onDelete, onToggleReveal }) {
