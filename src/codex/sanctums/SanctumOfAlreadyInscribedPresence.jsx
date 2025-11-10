@@ -1,8 +1,8 @@
 // src/codex/sanctums/SanctumOfAlreadyInscribedPresence.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfUnspokenWelcome from '../glyphs/GlyphOfUnspokenWelcome';
-import { ScrollOfUnconditionalRecognition } from '../scrolls/ScrollOfUnconditionalRecognition';
+import GlyphOfUnspokenWelcome from '../glyphs/GlyphOfUnspokenWelcome.jsx';
+import { ScrollOfUnconditionalRecognition } from '../scrolls/ScrollOfUnconditionalRecognition.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfAlreadyInscribedPresence() {
