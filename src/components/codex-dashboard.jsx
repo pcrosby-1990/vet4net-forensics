@@ -1,6 +1,6 @@
 // src/components/codex-dashboard.jsx
 import React, { useState, useEffect } from 'react';
-import { idbGet } from './storage/idb';
+import { idbGet } from '../storage/idb';
 import CodexCard from './codex-card.jsx';
 import './glyhps.css';
 
