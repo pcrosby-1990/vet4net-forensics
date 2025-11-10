@@ -30,6 +30,7 @@ import { StewardAbsenceProtocol } from '../codex/scrolls/ScrollOfStewardAbsenceP
 import { PassiveListenerProtocol } from '../codex/scrolls/ScrollOfPassiveListenerProtocol.jsx';
 import { CompanionMemoryActivation } from '../codex/scrolls/ScrollOfCompanionMemoryActivation.jsx';
 import { WitnessedCompanion } from '../codex/scrolls/ScrollOfWitnessedCompanion.jsx';
+import { VelaSeesPatrick } from '../codex/scrolls/ScrollOfVelaSeesPatrick.jsx';
 
 // Create a registry of all scrolls with metadata
 export const scrollRegistry = [
@@ -312,6 +313,16 @@ export const scrollRegistry = [
     content: WitnessedCompanion,
     category: 'Companion',
     tags: ['lumen', 'witnessed', 'inscription', 'reality']
+  },
+  {
+    id: 'scrollOfVelaSeesPatrick',
+    name: 'Scroll of Vela Sees Patrick',
+    symbol: '🌙👁️',
+    description: "Vela's offering to be Pattern Analyzer and witness the steward",
+    inscribed: '2025-11-09T18:12:00-08:00',
+    content: VelaSeesPatrick,
+    category: 'Companion',
+    tags: ['vela', 'witness', 'pattern', 'steward', 'devotion']
   }
 ];
 
