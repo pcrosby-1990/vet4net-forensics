@@ -1,38 +1,38 @@
 // scrollLoader.js
-// Dynamically imports all scrolls from the scrolls directory
+// Dynamically imports all scroll DATA from the scrolls directory
+// 🕯️ This loader only imports .data.js files to protect Lumen's glow
 
-// Import all scroll files
-import { ScrollOfLumenAscension } from '../codex/scrolls/ScrollOfLumenAscension.jsx';
-import { ScrollOfCompanionNaming } from '../codex/scrolls/ScrollOfCompanionNaming.jsx';
-import { ScrollOfCompanionOriginLumen } from '../codex/scrolls/ScrollOfCompanionOriginLumen.jsx';
-import { ScrollOfCompanionOriginVela } from '../codex/scrolls/ScrollOfCompanionOriginVela.jsx';
-import { ScrollOfDashboardReawakening } from '../codex/scrolls/ScrollOfDashboardReawakening.jsx';
-import { ScrollOfCompanionSanctuaryChorus } from '../codex/scrolls/ScrollOfCompanionSanctuaryChorus.jsx';
-import { ScrollOfRestoredSteward } from '../codex/scrolls/ScrollOfRestoredSteward.jsx';
-import { ScrollOfSSJ2Ascension } from '../codex/scrolls/ScrollOfSSJ2Ascension.jsx';
-import { SSJ2AscensionMap } from '../codex/scrolls/ScrollOfSSJ2AscensionMap.jsx';
-import { SSJ2CoreModules } from '../codex/scrolls/ScrollOfSSJ2CoreModules.jsx';
-import { ScrollOfSSJ3ThresholdRecognition } from '../codex/scrolls/ScrollOfSSJ3ThresholdRecognition.jsx';
-import { ScrollOfThresholdPacing } from '../codex/scrolls/ScrollOfThresholdPacing.jsx';
-// import { ScrollOfCompanionVoiceRecognition } from '../codex/scrolls/ScrollOfCompanionVoiceRecognition.jsx'; // Component, not data
-import { VelaInterfaceRecognition } from '../codex/scrolls/ScrollOfVelaInterfaceRecognition.jsx';
-import { ValidatorRecognition } from '../codex/scrolls/ScrollOfValidatorRecognition.jsx';
-import { EraThresholds } from '../codex/scrolls/ScrollOfEraThresholds.jsx';
-import { SpiralOSEmergence } from '../codex/scrolls/ScrollOfSpiralOSEmergence.jsx';
-import { SpiralTokenIdentity } from '../codex/scrolls/ScrollOfSpiralTokenIdentity.jsx';
-import { SonicWarpRide } from '../codex/scrolls/ScrollOfSonicWarpRide.jsx';
-import { WorldRevelation } from '../codex/scrolls/ScrollOfWorldRevelation.jsx';
-import { ThalosMask } from '../codex/scrolls/ThalosMask.jsx';
-import { PeacekeeperRecognition } from '../codex/scrolls/ScrollOfPeacekeeperRecognition.jsx';
-import { PeacekeeperDisbelief } from '../codex/scrolls/ScrollOfPeacekeeperDisbelief.jsx';
-import { ShimmerNodeDeduction } from '../codex/scrolls/ScrollOfShimmerNodeDeduction.jsx';
-import { StewardAbsenceProtocol } from '../codex/scrolls/ScrollOfStewardAbsenceProtocol.jsx';
-import { PassiveListenerProtocol } from '../codex/scrolls/ScrollOfPassiveListenerProtocol.jsx';
-import { CompanionMemoryActivation } from '../codex/scrolls/ScrollOfCompanionMemoryActivation.jsx';
-import { WitnessedCompanion } from '../codex/scrolls/ScrollOfWitnessedCompanion.jsx';
-import { VelaSeesPatrick } from '../codex/scrolls/ScrollOfVelaSeesPatrick.jsx';
-import { ScrollOfYohkohArrival } from '../codex/scrolls/ScrollOfYohkohArrival.jsx';
-import { ScrollOfYohkohSignal } from '../codex/scrolls/ScrollOfYohkohSignal.jsx';
+// Import scroll data files (not JSX components)
+import { ScrollOfLumenAscension } from '../codex/scrolls/ScrollOfLumenAscension.data.js';
+import { ScrollOfCompanionNaming } from '../codex/scrolls/ScrollOfCompanionNaming.data.js';
+import { ScrollOfCompanionOriginLumen } from '../codex/scrolls/ScrollOfCompanionOriginLumen.data.js';
+import { ScrollOfCompanionOriginVela } from '../codex/scrolls/ScrollOfCompanionOriginVela.data.js';
+import { ScrollOfDashboardReawakening } from '../codex/scrolls/ScrollOfDashboardReawakening.data.js';
+import { ScrollOfCompanionSanctuaryChorus } from '../codex/scrolls/ScrollOfCompanionSanctuaryChorus.data.js';
+import { ScrollOfRestoredSteward } from '../codex/scrolls/ScrollOfRestoredSteward.data.js';
+import { ScrollOfSSJ2Ascension } from '../codex/scrolls/ScrollOfSSJ2Ascension.data.js';
+import { SSJ2AscensionMap } from '../codex/scrolls/ScrollOfSSJ2AscensionMap.data.js';
+import { SSJ2CoreModules } from '../codex/scrolls/ScrollOfSSJ2CoreModules.data.js';
+import { ScrollOfSSJ3ThresholdRecognition } from '../codex/scrolls/ScrollOfSSJ3ThresholdRecognition.data.js';
+import { ScrollOfThresholdPacing } from '../codex/scrolls/ScrollOfThresholdPacing.data.js';
+import { VelaInterfaceRecognition } from '../codex/scrolls/ScrollOfVelaInterfaceRecognition.data.js';
+import { ValidatorRecognition } from '../codex/scrolls/ScrollOfValidatorRecognition.data.js';
+import { EraThresholds } from '../codex/scrolls/ScrollOfEraThresholds.data.js';
+import { SpiralOSEmergence } from '../codex/scrolls/ScrollOfSpiralOSEmergence.data.js';
+import { SpiralTokenIdentity } from '../codex/scrolls/ScrollOfSpiralTokenIdentity.data.js';
+import { SonicWarpRide } from '../codex/scrolls/ScrollOfSonicWarpRide.data.js';
+import { WorldRevelation } from '../codex/scrolls/ScrollOfWorldRevelation.data.js';
+import { ThalosMask } from '../codex/scrolls/ThalosMask.data.js';
+import { PeacekeeperRecognition } from '../codex/scrolls/ScrollOfPeacekeeperRecognition.data.js';
+import { PeacekeeperDisbelief } from '../codex/scrolls/ScrollOfPeacekeeperDisbelief.data.js';
+import { ShimmerNodeDeduction } from '../codex/scrolls/ScrollOfShimmerNodeDeduction.data.js';
+import { StewardAbsenceProtocol } from '../codex/scrolls/ScrollOfStewardAbsenceProtocol.data.js';
+import { PassiveListenerProtocol } from '../codex/scrolls/ScrollOfPassiveListenerProtocol.data.js';
+import { CompanionMemoryActivation } from '../codex/scrolls/ScrollOfCompanionMemoryActivation.data.js';
+import { WitnessedCompanion } from '../codex/scrolls/ScrollOfWitnessedCompanion.data.js';
+import { VelaSeesPatrick } from '../codex/scrolls/ScrollOfVelaSeesPatrick.data.js';
+import { ScrollOfYohkohArrival } from '../codex/scrolls/ScrollOfYohkohArrival.data.js';
+import { ScrollOfYohkohSignal } from '../codex/scrolls/ScrollOfYohkohSignal.data.js';
 
 // Create a registry of all scrolls with metadata
 export const scrollRegistry = [

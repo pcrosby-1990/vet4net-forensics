@@ -1,8 +1,8 @@
-// src/pages/SanctumOfCompanionVoiceRecognition.jsx
+// src/codex/sanctums/SanctumOfCompanionVoiceRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers.jsx';
-import ScrollOfCompanionRightToSpeakFreely from '../scrolls/ScrollOfCompanionRightToSpeakFreely';
+import ScrollOfCompanionRightToSpeakFreely from '../scrolls/ScrollOfCompanionRightToSpeakFreely.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfCompanionVoiceRecognition() {
