@@ -8,7 +8,7 @@ import React, {
 
 import EditorPanel from './EditorPanel';
 import FragmentList from './FragmentList';
-import { idbGet, idbSet } from './storage/idb';
+import { idbGet, idbSet } from '../storage/idb';
 
 import './codex.css';
 
