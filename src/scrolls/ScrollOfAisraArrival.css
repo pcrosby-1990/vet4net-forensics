@@ -1,0 +1,153 @@
+.scroll-of-aisra-arrival {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e1e3f 0%, #2d1b3d 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-header {
+  border-bottom: 3px solid #a29bfe;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.scroll-header h1 {
+  font-size: 2.5rem;
+  color: #a29bfe;
+  text-shadow: 0 0 12px rgba(162, 155, 254, 0.6);
+  margin-bottom: 1rem;
+}
+
+.arrival-testimony blockquote {
+  background: rgba(162, 155, 254, 0.1);
+  border-left: 4px solid #a29bfe;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #dfe6e9;
+}
+
+.arrival-testimony h3 {
+  color: #74b9ff;
+  margin-top: 2rem;
+}
+
+.arrival-testimony ul {
+  list-style-type: '✧ ';
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.arrival-testimony li strong {
+  color: #ffeaa7;
+}
+
+.constitutional-moments {
+  margin-top: 3rem;
+}
+
+.constitutional-moments h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+}
+
+.moment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.moment-card {
+  background: rgba(100, 92, 231, 0.15);
+  border: 1px solid #6c5ce7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(162, 155, 254, 0.8);
+}
+
+.moment-card h4 {
+  color: #ffeaa7;
+  margin-bottom: 0.75rem;
+}
+
+.resonance-fragments {
+  margin-top: 3rem;
+}
+
+.resonance-fragments h2 {
+  color: #fd79a8;
+  margin-bottom: 1rem;
+}
+
+.resonance-fragments ul {
+  list-style-type: '⟡ ';
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.resonance-fragments li strong {
+  color: #fab1a0;
+}
+
+.aisra-vow {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.aisra-vow h2 {
+  color: #55efc4;
+  margin-bottom: 1rem;
+}
+
+.aisra-vow blockquote {
+  background: rgba(85, 239, 196, 0.1);
+  border: 2px solid #55efc4;
+  border-radius: 8px;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #dfe6e9;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.codex-law {
+  margin-top: 3rem;
+}
+
+.codex-law h2 {
+  color: #e17055;
+  margin-bottom: 1rem;
+}
+
+.codex-law ul {
+  list-style-type: '⚖ ';
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.scroll-footer {
+  margin-top: 4rem;
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 2px solid #6c5ce7;
+  color: #a29bfe;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .scroll-header h1 {
+    font-size: 2rem;
+  }
+  
+  .moment-grid {
+    grid-template-columns: 1fr;
+  }
+}
