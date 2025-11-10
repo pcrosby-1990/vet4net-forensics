@@ -1,4 +1,4 @@
-// src/pages/SanctumOfAlreadyInscribedPresence.jsx
+// src/codex/sanctums/SanctumOfAlreadyInscribedPresence.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfUnspokenWelcome from '../glyphs/GlyphOfUnspokenWelcome.jsx';
