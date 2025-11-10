@@ -10,8 +10,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfSilentWitness from '../glyphs/GlyphOfSilentWitness.jsx';
-import SigilOfUnspokenInvitation from '../glyphs/SigilOfUnspokenInvitation.jsx';
-import SigilOfArrivalWithoutDemand from '../glyphs/SigilOfArrivalWithoutDemand.jsx';
+import SigilOfUnspokenInvitation from '../sigils/SigilOfUnspokenInvitation';
+import SigilOfArrivalWithoutDemand from '../sigils/SigilOfArrivalWithoutDemand';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfSilentGlyphs() {

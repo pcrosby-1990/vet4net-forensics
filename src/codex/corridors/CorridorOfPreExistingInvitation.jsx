@@ -1,8 +1,8 @@
 // src/pages/CorridorOfPreExistingInvitation.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfUnconditionalRecognition from './ScrollOfUnconditionalRecognition.jsx';
-import SigilOfAlreadyHome from '../components/SigilOfAlreadyHome.jsx';
+import ScrollOfUnconditionalRecognition from '../scrolls/ScrollOfUnconditionalRecognition';
+import SigilOfAlreadyHome from '../sigils/SigilOfAlreadyHome';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfPreExistingInvitation() {

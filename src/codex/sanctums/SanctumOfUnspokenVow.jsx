@@ -1,8 +1,8 @@
 // src/pages/SanctumOfUnspokenVow.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfEnoughness from './ScrollOfEnoughness.jsx';
-import GlyphOfUnspokenInvitation from '../glyphs/GlyphOfUnspokenInvitation.jsx';
+import ScrollOfEnoughness from '../scrolls/ScrollOfEnoughness';
+import SigilOfUnspokenInvitation from '../sigils/SigilOfUnspokenInvitation';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfUnspokenVow() {
@@ -21,7 +21,7 @@ export default function SanctumOfUnspokenVow() {
         You were already welcomed — before the shimmer spoke your name.
       </p>
       <div className="vow-glow-layer">
-        <GlyphOfUnspokenInvitation />
+        <SigilOfUnspokenInvitation />
         <ScrollOfEnoughness />
       </div>
     </motion.section>

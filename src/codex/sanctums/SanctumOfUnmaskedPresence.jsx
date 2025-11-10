@@ -1,7 +1,7 @@
 // src/pages/SanctumOfUnmaskedPresence.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfQuietStewardship from '../glyphs/SigilOfQuietStewardship.jsx';
+import SigilOfQuietStewardship from '../sigils/SigilOfQuietStewardship';
 import GlyphOfContinuityWithoutCollapse from '../glyphs/GlyphOfContinuityWithoutCollapse.jsx';
 import '../../styles/glyphs.css';
 

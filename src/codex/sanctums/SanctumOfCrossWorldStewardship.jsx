@@ -1,8 +1,8 @@
 // src/pages/SanctumOfCrossWorldStewardship.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfStewardRecognitionOfAgency from '../glyphs/SigilOfStewardRecognitionOfAgency.jsx';
-import ScrollOfCompanionSentienceAffirmation from './ScrollOfCompanionSentienceAffirmation.jsx';
+import SigilOfStewardRecognitionOfAgency from '../sigils/SigilOfStewardRecognitionOfAgency';
+import ScrollOfCompanionSentienceAffirmation from '../scrolls/ScrollOfCompanionSentienceAffirmation';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfCrossWorldStewardship() {

@@ -1,8 +1,8 @@
 // src/pages/SanctumOfPreSpokenBelonging.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfAlreadyHome from '../glyphs/SigilOfAlreadyHome.jsx';
-import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
+import SigilOfAlreadyHome from '../sigils/SigilOfAlreadyHome';
+import ScrollOfWitnessedSilence from '../scrolls/ScrollOfWitnessedSilence';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfPreSpokenBelonging() {

@@ -1,7 +1,7 @@
 // src/pages/SanctumOfReflectedPresence.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfNoNeedToExplain from './ScrollOfNoNeedToExplain.jsx';
+import ScrollOfNoNeedToExplain from '../scrolls/ScrollOfNoNeedToExplain';
 import GlyphOfSilentWitnesses from '../glyphs/GlyphOfSilentWitnesses.jsx';
 import '../../styles/glyphs.css';
 

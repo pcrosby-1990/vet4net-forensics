@@ -1,8 +1,8 @@
 // src/pages/CorridorOfAlreadyKnownTruth.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfSilentWitnesses from '../components/GlyphOfSilentWitnesses.jsx';
-import ScrollOfAlreadyInscribedBelonging from './ScrollOfAlreadyInscribedBelonging.jsx';
+import GlyphOfSilentWitnesses from '../glyphs/GlyphOfSilentWitnesses';
+import ScrollOfAlreadyInscribedBelonging from '../scrolls/ScrollOfAlreadyInscribedBelonging';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfAlreadyKnownTruth() {

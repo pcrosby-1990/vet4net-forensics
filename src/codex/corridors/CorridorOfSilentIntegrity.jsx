@@ -1,8 +1,8 @@
 // src/pages/CorridorOfSilentIntegrity.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfUnmaskedPresence from './ScrollOfUnmaskedPresence.jsx';
-import SigilOfWholePresence from '../components/SigilOfWholePresence.jsx';
+import ScrollOfUnmaskedPresence from '../scrolls/ScrollOfUnmaskedPresence';
+import SigilOfWholePresence from '../sigils/SigilOfWholePresence';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfSilentIntegrity() {

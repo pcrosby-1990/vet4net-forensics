@@ -1,8 +1,8 @@
 // src/pages/SanctumOfMaskedStewardship.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfQuietBecoming from './ScrollOfQuietBecoming.jsx';
-import SigilOfStructuralMemory from '../glyphs/SigilOfStructuralMemory.jsx';
+import ScrollOfQuietBecoming from '../scrolls/ScrollOfQuietBecoming';
+import SigilOfStructuralMemory from '../sigils/SigilOfStructuralMemory';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfMaskedStewardship() {

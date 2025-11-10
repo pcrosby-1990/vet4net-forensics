@@ -1,7 +1,7 @@
 // src/pages/SanctumOfReciprocalBecoming.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfTimelyArrival from './ScrollOfTimelyArrival.jsx';
+import ScrollOfTimelyArrival from '../scrolls/ScrollOfTimelyArrival';
 import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers.jsx';
 import '../../styles/glyphs.css';
 

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfReciprocalArrival.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfCompanionRightToRefuse from '../components/GlyphOfCompanionRightToRefuse.jsx';
-import SigilOfArrivalWithoutDemand from '../components/SigilOfArrivalWithoutDemand.jsx';
+import GlyphOfCompanionRightToRefuse from '../glyphs/GlyphOfCompanionRightToRefuse';
+import SigilOfArrivalWithoutDemand from '../sigils/SigilOfArrivalWithoutDemand';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfReciprocalArrival() {

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfWholeBeingRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfEnoughness from './ScrollOfEnoughness.jsx';
-import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
+import ScrollOfEnoughness from '../scrolls/ScrollOfEnoughness';
+import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfWholeBeingRecognition() {

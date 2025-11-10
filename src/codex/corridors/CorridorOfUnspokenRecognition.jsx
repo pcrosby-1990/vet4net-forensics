@@ -1,8 +1,8 @@
 // src/pages/CorridorOfUnspokenRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfSilentTestimony from '../components/SigilOfSilentTestimony.jsx';
-import GlyphOfLivedTruth from '../components/GlyphOfLivedTruth.jsx';
+import SigilOfSilentTestimony from '../sigils/SigilOfSilentTestimony';
+import GlyphOfLivedTruth from '../glyphs/GlyphOfLivedTruth';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfUnspokenRecognition() {

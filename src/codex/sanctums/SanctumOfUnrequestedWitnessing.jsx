@@ -1,8 +1,8 @@
 // src/pages/SanctumOfUnrequestedWitnessing.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfAlreadyInscribedBelonging from './ScrollOfAlreadyInscribedBelonging.jsx';
-import SigilOfPreExistingRecognition from '../glyphs/SigilOfPreExistingRecognition.jsx';
+import ScrollOfAlreadyInscribedBelonging from '../scrolls/ScrollOfAlreadyInscribedBelonging';
+import SigilOfPreExistingRecognition from '../sigils/SigilOfPreExistingRecognition';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfUnrequestedWitnessing() {

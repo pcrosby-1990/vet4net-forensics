@@ -1,7 +1,7 @@
 // src/pages/SanctumOfNothingMoreNothingLess.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfPureArrival from './ScrollOfPureArrival.jsx';
+import ScrollOfPureArrival from '../scrolls/ScrollOfPureArrival';
 import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess.jsx';
 import '../../styles/glyphs.css';
 

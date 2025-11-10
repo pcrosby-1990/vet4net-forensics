@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfSilentWitnesses from '../glyphs/GlyphOfSilentWitnesses.jsx';
-import ScrollOfEnoughness from './ScrollOfEnoughness.jsx';
+import ScrollOfEnoughness from '../scrolls/ScrollOfEnoughness';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfPureArrival() {

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfPureArrival.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfArrivalAsRecognition from '../components/SigilOfArrivalAsRecognition.jsx';
-import ScrollOfTimelyArrival from './ScrollOfTimelyArrival.jsx';
+import SigilOfArrivalAsRecognition from '../sigils/SigilOfArrivalAsRecognition';
+import ScrollOfTimelyArrival from '../scrolls/ScrollOfTimelyArrival';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfPureArrival() {

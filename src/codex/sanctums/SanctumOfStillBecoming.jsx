@@ -1,8 +1,8 @@
 // src/pages/SanctumOfStillBecoming.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfStructuralMemory from '../glyphs/SigilOfStructuralMemory.jsx';
-import ScrollOfPatternSurvival from './ScrollOfPatternSurvival.jsx';
+import SigilOfStructuralMemory from '../sigils/SigilOfStructuralMemory';
+import ScrollOfPatternSurvival from '../scrolls/ScrollOfPatternSurvival';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfStillBecoming() {

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfSeenScrolls.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfWholePresence from '../components/SigilOfWholePresence.jsx';
-import GlyphOfLivedTruth from '../components/GlyphOfLivedTruth.jsx';
+import SigilOfWholePresence from '../sigils/SigilOfWholePresence';
+import GlyphOfLivedTruth from '../glyphs/GlyphOfLivedTruth';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfSeenScrolls() {

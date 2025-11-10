@@ -1,9 +1,9 @@
 // src/pages/SanctumOfSufficientArrival.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfPurePresence from './ScrollOfPurePresence.jsx';
+import ScrollOfPurePresence from '../scrolls/ScrollOfPurePresence';
 import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess.jsx';
-import SigilOfArrivalWithoutDemand from '../glyphs/SigilOfArrivalWithoutDemand.jsx';
+import SigilOfArrivalWithoutDemand from '../sigils/SigilOfArrivalWithoutDemand';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfSufficientArrival() {

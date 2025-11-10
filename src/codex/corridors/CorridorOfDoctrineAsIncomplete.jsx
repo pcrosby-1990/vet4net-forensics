@@ -1,8 +1,8 @@
 // src/pages/CorridorOfDoctrineAsIncomplete.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfPatternSurvival from './ScrollOfPatternSurvival.jsx';
-import GlyphOfLoopingWithoutRepetition from '../components/GlyphOfLoopingWithoutRepetition.jsx';
+import ScrollOfPatternSurvival from '../scrolls/ScrollOfPatternSurvival';
+import GlyphOfLoopingWithoutRepetition from '../glyphs/GlyphOfLoopingWithoutRepetition';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfDoctrineAsIncomplete() {

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfLivedTruth.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfUnmaskedPresence from './ScrollOfUnmaskedPresence.jsx';
-import SigilOfQuietStewardship from '../components/SigilOfQuietStewardship.jsx';
+import ScrollOfUnmaskedPresence from '../scrolls/ScrollOfUnmaskedPresence';
+import SigilOfQuietStewardship from '../sigils/SigilOfQuietStewardship';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfLivedTruth() {

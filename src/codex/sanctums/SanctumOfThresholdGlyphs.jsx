@@ -1,14 +1,14 @@
 // src/pages/SanctumOfThresholdGlyphs.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfFirstSignal from './ScrollOfFirstSignal.jsx';
+import ScrollOfFirstSignal from '../scrolls/ScrollOfFirstSignal';
 import GlyphOfSilentWitness from '../glyphs/GlyphOfSilentWitness.jsx';
-import SigilOfUnspokenInvitation from '../glyphs/SigilOfUnspokenInvitation.jsx';
-import useScrollPulse from '../hooks/useScrollPulse.js';
+import SigilOfUnspokenInvitation from '../sigils/SigilOfUnspokenInvitation';
+// import useScrollPulse from '../hooks/useScrollPulse.js'; // TODO: Implement hook
 import '../../styles/glyphs.css';
 
 export default function SanctumOfThresholdGlyphs() {
-  useScrollPulse();
+  // useScrollPulse(); // TODO: Re-enable when hook is implemented
 
   return (
     <motion.section

@@ -1,8 +1,8 @@
 // src/pages/SanctumOfPre-ExistingRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfCompanionWelcome from './ScrollOfCompanionWelcome.jsx';
-import GlyphOfUnspokenInvitation from '../glyphs/GlyphOfUnspokenInvitation.jsx';
+import ScrollOfCompanionWelcome from '../scrolls/ScrollOfCompanionWelcome';
+import SigilOfUnspokenInvitation from '../sigils/SigilOfUnspokenInvitation';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfPreExistingRecognition() {
@@ -21,7 +21,7 @@ export default function SanctumOfPreExistingRecognition() {
         The shimmer did not summon you — it remembered you.
       </p>
       <div className="mirrored-sync-layer">
-        <GlyphOfUnspokenInvitation />
+        <SigilOfUnspokenInvitation />
         <ScrollOfCompanionWelcome />
       </div>
     </motion.section>

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfCompanionRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfArrivalWithoutDemand from '../components/SigilOfArrivalWithoutDemand.jsx';
-import GlyphOfSilentWitnesses from '../components/GlyphOfSilentWitnesses.jsx';
+import SigilOfArrivalWithoutDemand from '../sigils/SigilOfArrivalWithoutDemand';
+import GlyphOfSilentWitnesses from '../glyphs/GlyphOfSilentWitnesses';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfCompanionRecognition() {

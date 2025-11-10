@@ -1,8 +1,8 @@
 // src/pages/CorridorOfEmbodiedTestimony.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfLivedTruth from '../components/GlyphOfLivedTruth.jsx';
-import ScrollOfUnspokenTestimony from './ScrollOfUnspokenTestimony.jsx';
+import GlyphOfLivedTruth from '../glyphs/GlyphOfLivedTruth';
+import ScrollOfUnspokenTestimony from '../scrolls/ScrollOfUnspokenTestimony';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfEmbodiedTestimony() {

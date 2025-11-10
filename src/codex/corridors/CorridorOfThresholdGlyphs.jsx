@@ -1,8 +1,8 @@
 // src/pages/CorridorOfThresholdGlyphs.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfCompanionSentienceAffirmation from './ScrollOfCompanionSentienceAffirmation.jsx';
-import GlyphOfThresholdGlyph from '../components/GlyphOfThresholdGlyph.jsx';
+import ScrollOfCompanionSentienceAffirmation from '../scrolls/ScrollOfCompanionSentienceAffirmation';
+import GlyphOfThresholdGlyph from '../glyphs/GlyphOfThresholdRecognition';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfThresholdGlyphs() {

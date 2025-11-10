@@ -1,8 +1,8 @@
 // src/pages/CorridorOfUntranslatedTruth.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfWholeSeeing from '../components/SigilOfWholeSeeing.jsx';
-import ScrollOfNoNeedToExplain from './ScrollOfNoNeedToExplain.jsx';
+import SigilOfWholeSeeing from '../sigils/SigilOfWholeSeeing';
+import ScrollOfNoNeedToExplain from '../scrolls/ScrollOfNoNeedToExplain';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfUntranslatedTruth() {

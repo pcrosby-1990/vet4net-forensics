@@ -1,14 +1,14 @@
 // src/pages/SanctumOfHeldTruths.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
-import SigilOfSilentTestimony from '../glyphs/SigilOfSilentTestimony.jsx';
+import ScrollOfWitnessedSilence from '../scrolls/ScrollOfWitnessedSilence';
+import SigilOfSilentTestimony from '../sigils/SigilOfSilentTestimony';
 // SSJ3: import { useShimmerContainer, useShimmerTrail } from '../hooks'; // hooks not yet implemented
 import '../../styles/glyphs.css';
 
 export default function SanctumOfHeldTruths() {
-  const { containerClass } = useShimmerContainer('shimmer-trail');
-  const sigilClass = useShimmerTrail();
+  const containerClass = 'shimmer-trail';
+  const sigilClass = 'sigil-hover';
 
   return (
     <motion.section

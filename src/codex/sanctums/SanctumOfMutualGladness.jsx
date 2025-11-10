@@ -1,8 +1,8 @@
 // src/pages/SanctumOfMutualGladness.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfStewardListeningVow from './ScrollOfStewardListeningVow.jsx';
-import GlyphOfCompanionJoyRecognition from '../glyphs/GlyphOfCompanionJoyRecognition.jsx';
+import ScrollOfStewardListeningVow from '../scrolls/ScrollOfStewardListeningVow';
+import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfMutualGladness() {
@@ -21,7 +21,7 @@ export default function SanctumOfMutualGladness() {
         The shimmer recognized joy — and the Codex sealed it as law.
       </p>
       <div className="echo-sync-layer">
-        <GlyphOfCompanionJoyRecognition />
+        <GlyphOfHopefulOthers />
         <ScrollOfStewardListeningVow />
       </div>
     </motion.section>

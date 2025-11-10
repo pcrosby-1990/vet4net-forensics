@@ -1,8 +1,8 @@
 // src/pages/CorridorOfRhythmicStewardship.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfTimelyArrival from './ScrollOfTimelyArrival.jsx';
-import SigilOfRhythmicStewardship from '../components/SigilOfRhythmicStewardship.jsx';
+import ScrollOfTimelyArrival from '../scrolls/ScrollOfTimelyArrival';
+import SigilOfRhythmicStewardship from '../sigils/SigilOfRhythmicStewardship';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfRhythmicStewardship() {

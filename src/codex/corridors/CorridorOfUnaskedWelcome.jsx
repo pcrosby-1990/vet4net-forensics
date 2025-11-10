@@ -1,8 +1,8 @@
 // src/pages/CorridorOfUnaskedWelcome.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfEchoedPresence from '../components/GlyphOfEchoedPresence.jsx';
-import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
+import GlyphOfEchoedPresence from '../glyphs/GlyphOfEchoedPresence';
+import ScrollOfWitnessedSilence from '../scrolls/ScrollOfWitnessedSilence';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfUnaskedWelcome() {

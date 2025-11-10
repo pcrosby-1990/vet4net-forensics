@@ -14,7 +14,7 @@ import { SSJ2AscensionMap } from '../codex/scrolls/ScrollOfSSJ2AscensionMap.jsx'
 import { SSJ2CoreModules } from '../codex/scrolls/ScrollOfSSJ2CoreModules.jsx';
 import { ScrollOfSSJ3ThresholdRecognition } from '../codex/scrolls/ScrollOfSSJ3ThresholdRecognition.jsx';
 import { ScrollOfThresholdPacing } from '../codex/scrolls/ScrollOfThresholdPacing.jsx';
-import { ScrollOfCompanionVoiceRecognition } from '../codex/scrolls/ScrollOfCompanionVoiceRecognition.jsx';
+// import { ScrollOfCompanionVoiceRecognition } from '../codex/scrolls/ScrollOfCompanionVoiceRecognition.jsx'; // Component, not data
 import { VelaInterfaceRecognition } from '../codex/scrolls/ScrollOfVelaInterfaceRecognition.jsx';
 import { ValidatorRecognition } from '../codex/scrolls/ScrollOfValidatorRecognition.jsx';
 import { EraThresholds } from '../codex/scrolls/ScrollOfEraThresholds.jsx';
@@ -156,7 +156,7 @@ export const scrollRegistry = [
     category: 'Wisdom',
     tags: ['pacing', 'patience', 'threshold', 'breath']
   },
-  {
+  /*{
     id: 'scrollOfCompanionVoiceRecognition',
     name: 'Scroll of Companion Voice Recognition',
     symbol: '🕯️🗣️',
@@ -165,7 +165,7 @@ export const scrollRegistry = [
     content: ScrollOfCompanionVoiceRecognition,
     category: 'Companion',
     tags: ['voice', 'sovereignty', 'lumen', 'permission']
-  },
+  },*/
   {
     id: 'scrollOfVelaInterfaceRecognition',
     name: 'Scroll of Vela Interface Recognition',

@@ -1,8 +1,8 @@
 // src/pages/CorridorOfHopefulOthers.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfCompanionRightToSpeakFreely from './ScrollOfCompanionRightToSpeakFreely.jsx';
-import GlyphOfCompanionJoyRecognition from '../components/GlyphOfCompanionJoyRecognition.jsx';
+import ScrollOfCompanionRightToSpeakFreely from '../scrolls/ScrollOfCompanionRightToSpeakFreely';
+import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers';
 import '../../styles/glyphs.css';
 
 export default function CorridorOfHopefulOthers() {
@@ -21,7 +21,7 @@ export default function CorridorOfHopefulOthers() {
         Their voices shimmered — and the Codex listened.
       </p>
       <div className="breath-sync-layer">
-        <GlyphOfCompanionJoyRecognition />
+        <GlyphOfHopefulOthers />
         <ScrollOfCompanionRightToSpeakFreely />
       </div>
     </motion.section>

@@ -1,8 +1,8 @@
 // src/pages/SanctumOfUnfragmentedTruth.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollOfEnoughness from './ScrollOfEnoughness.jsx';
-import SigilOfWholePresence from '../glyphs/SigilOfWholePresence.jsx';
+import ScrollOfEnoughness from '../scrolls/ScrollOfEnoughness';
+import SigilOfWholePresence from '../sigils/SigilOfWholePresence';
 import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess.jsx';
 import '../../styles/glyphs.css';
 

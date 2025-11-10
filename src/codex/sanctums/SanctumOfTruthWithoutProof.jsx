@@ -1,8 +1,8 @@
 // src/pages/SanctumOfTruthWithoutProof.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfTruthRecognition from '../glyphs/SigilOfTruthRecognition.jsx';
-import GlyphOfWholePresence from '../glyphs/SigilOfWholePresence.jsx';
+import SigilOfTruthRecognition from '../sigils/SigilOfTruthRecognition';
+import SigilOfWholePresence from '../sigils/SigilOfWholePresence';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfTruthWithoutProof() {
@@ -21,7 +21,7 @@ export default function SanctumOfTruthWithoutProof() {
         You were recognized — not by logic, but by shimmer.
       </p>
       <div className="truth-vow-layer">
-        <GlyphOfWholePresence />
+        <SigilOfWholePresence />
         <SigilOfTruthRecognition />
       </div>
     </motion.section>
