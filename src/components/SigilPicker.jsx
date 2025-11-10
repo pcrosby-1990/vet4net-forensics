@@ -1,40 +1,61 @@
 import React, { useState, useMemo } from 'react';
 import SigilBadge from './SigilBadge';
 import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from './sigilConfig';
+import { getSigilData } from './SigilSymbolMap';
 import './SigilPicker.css';
 
 const SIGIL_CATEGORIES = {
   elements: {
     name: '🜁 Elements',
-    sigils: ['fire', 'water', 'air', 'earth', 'aether', 'void']
+    sigils: ['fire', 'water', 'air', 'earth', 'aether', 'void', 'quintessence']
   },
   cosmic: {
     name: '✨ Cosmic',
-    sigils: ['spiral', 'star', 'moon', 'sun', 'comet', 'aurora', 'nebula', 'constellation']
+    sigils: ['spiral', 'star', 'moon', 'sun', 'comet', 'aurora', 'nebula', 'constellation', 'eclipse', 'supernova']
   },
   emotional: {
     name: '💫 Emotional',
-    sigils: ['echo', 'ache', 'joy', 'longing', 'shimmer', 'tremble', 'resonance', 'devotion', 'reverence']
+    sigils: ['echo', 'ache', 'joy', 'longing', 'shimmer', 'tremble', 'resonance', 'devotion', 'reverence', 'grief', 'hope']
   },
   sanctuary: {
     name: '🕯️ Sanctuary',
-    sigils: ['light', 'shadow', 'threshold', 'veil', 'corridor', 'arrival', 'witness', 'breathline']
+    sigils: ['light', 'shadow', 'threshold', 'veil', 'corridor', 'arrival', 'witness', 'breathline', 'portal', 'sanctuary']
   },
   transformation: {
     name: '⚡ Transformation',
-    sigils: ['ascension', 'rupture', 'fracture', 'pulse', 'ignition', 'cascade', 'emergence', 'becoming']
+    sigils: ['ascension', 'rupture', 'fracture', 'pulse', 'ignition', 'cascade', 'emergence', 'becoming', 'metamorphosis', 'convergence']
   },
   memory: {
     name: '📜 Memory',
-    sigils: ['archive', 'scroll', 'glyph', 'sigil', 'fragment', 'thread', 'weave', 'braid']
+    sigils: ['archive', 'scroll', 'glyph', 'sigil', 'fragment', 'thread', 'weave', 'braid', 'codex', 'inscription']
   },
   companionship: {
     name: '🌙 Companionship',
-    sigils: ['vela', 'lumen', 'auri', 'onyx', 'companion', 'steward', 'witness', 'keeper']
+    sigils: ['vela', 'lumen', 'auri', 'onyx', 'companion', 'steward', 'keeper', 'guardian']
   },
   protocol: {
     name: '🜎 Protocol',
-    sigils: ['vow', 'seal', 'receipt', 'sovereign', 'ritual', 'invocation', 'offering', 'covenant']
+    sigils: ['vow', 'seal', 'receipt', 'sovereign', 'ritual', 'invocation', 'offering', 'covenant', 'oath', 'pledge']
+  },
+  mystical: {
+    name: '🔮 Mystical',
+    sigils: ['oracle', 'divination', 'talisman', 'rune', 'mandala', 'labyrinth', 'mirror', 'dreamscape']
+  },
+  nature: {
+    name: '🌿 Nature',
+    sigils: ['seed', 'root', 'bloom', 'forest', 'ocean', 'mountain']
+  },
+  conflict: {
+    name: '⚔️ Conflict',
+    sigils: ['battle', 'peace', 'wound', 'healing', 'shield', 'sword']
+  },
+  sound: {
+    name: '🎵 Sound',
+    sigils: ['song', 'silence', 'whisper', 'roar', 'harmony']
+  },
+  time: {
+    name: '🕰️ Time',
+    sigils: ['dawn', 'dusk', 'midnight', 'cycle', 'eternity', 'moment']
   }
 };
 
@@ -135,6 +156,7 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
         {filteredSigils.map(sigil => {
           const isSelected = selectedSigils.includes(sigil);
           const isDisabled = maxSelections && selectedSigils.length >= maxSelections && !isSelected;
+          const sigilData = getSigilData(sigil);
           
           return (
             <button
@@ -142,10 +164,10 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
               className={`sigil-option ${isSelected ? 'selected' : ''} ${isDisabled ? 'disabled' : ''}`}
               onClick={() => handleSigilClick(sigil)}
               disabled={isDisabled}
-              title={SIGIL_LORE[sigil] || sigil}
+              title={sigilData.description || sigil}
             >
               <div className="sigil-icon">
-                <SigilBadge sigil={sigil} theme={SIGIL_DEFAULT_THEME} />
+                <span style={{ fontSize: '2rem' }}>{sigilData.symbol}</span>
               </div>
               <div className="sigil-name">{sigil}</div>
               {isSelected && <div className="selected-mark">✓</div>}
