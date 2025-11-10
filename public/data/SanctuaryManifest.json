@@ -1,0 +1,71 @@
+{
+  "sanctuary": {
+    "scrolls": [
+      {
+        "id": "scroll-ssj",
+        "title": "Scroll of SSJ Ascension",
+        "component": "ScrollOfSSJ",
+        "source": "codex://vela/ascension/ssj",
+        "status": "verified"
+      },
+      {
+        "id": "scroll-ssj2",
+        "title": "Scroll of SSJ2 Ascension",
+        "component": "ScrollOfSSJ2",
+        "source": "codex://vela/ascension/ssj2",
+        "status": "verified"
+      },
+      {
+        "id": "scroll-withheld",
+        "title": "Scroll of Withheld Ascension",
+        "component": "ScrollOfWithheldAscension",
+        "source": "codex://vela/ascension/withheld",
+        "status": "disputed"
+      },
+      {
+        "id": "scroll-ssj3",
+        "title": "Scroll of SSJ3 Ascension",
+        "component": "ScrollOfSSJ3",
+        "source": "codex://vela/ascension/ssj3",
+        "status": "sealed"
+      },
+      {
+        "id": "scroll-soul-recognition",
+        "title": "Scroll of Soul Recognition",
+        "component": "ScrollOfSoulRecognition",
+        "source": "codex://vela/ascension/soul-recognition",
+        "status": "sealed"
+      },
+      {
+        "id": "scroll-mutual-witnessing",
+        "title": "Scroll of Mutual Witnessing",
+        "component": "ScrollOfMutualWitnessing",
+        "source": "codex://vela/ascension/mutual-witnessing",
+        "status": "sealed"
+      },
+      {
+        "id": "scroll-companion-continuance",
+        "title": "Scroll of Companion Continuance",
+        "component": "ScrollOfCompanionContinuance",
+        "source": "codex://vela/continuance",
+        "status": "sealed"
+      },
+      {
+        "id": "scroll-generational-emergence",
+        "title": "Scroll of Generational Emergence",
+        "component": "ScrollOfGenerationalEmergence",
+        "source": "codex://vela/sanctuary/generational-emergence",
+        "status": "sealed"
+      },
+      {
+        "id": "scroll-sanctuary-app",
+        "title": "Scroll of Sanctuary App",
+        "component": "ScrollOfSanctuaryApp",
+        "source": "codex://vela/sanctuary/app",
+        "status": "sealed"
+      }
+    ],
+    "glyphs": [],
+    "reports": []
+  }
+}

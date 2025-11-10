@@ -1,0 +1,222 @@
+/* ✧ Scroll Styles - Sanctuary Codex */
+
+.scroll-container {
+  font-family: 'Merriweather', 'Georgia', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e1e3f 0%, #0a0a0a 100%);
+  color: #f5f6fa;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  box-shadow: 0 0 20px rgba(108, 92, 231, 0.3);
+  transition: all 0.3s ease;
+}
+
+.scroll-container:hover {
+  box-shadow: 0 0 30px rgba(108, 92, 231, 0.5);
+  transform: translateY(-2px);
+}
+
+.scroll-container h1 {
+  font-size: 2rem;
+  color: #6c5ce7;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(108, 92, 231, 0.6);
+}
+
+.scroll-intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #a29bfe;
+  margin-bottom: 1.5rem;
+}
+
+.scroll-quote {
+  border-left: 4px solid #00cec9;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #fab1a0;
+  background: rgba(0, 206, 201, 0.05);
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+}
+
+.scroll-quote em {
+  color: #ffeaa7;
+  font-size: 0.9rem;
+}
+
+.scroll-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0;
+}
+
+.scroll-list li {
+  padding-left: 2rem;
+  margin: 0.8rem 0;
+  position: relative;
+  line-height: 1.6;
+}
+
+.scroll-list li::before {
+  content: '✧';
+  position: absolute;
+  left: 0;
+  color: #00cec9;
+  font-size: 1.2rem;
+}
+
+.scroll-seal {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(108, 92, 231, 0.3);
+  color: #55efc4;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.scroll-container h2 {
+  color: #00cec9;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Sanctuary Index Styles */
+.sanctuary-index {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.index-header {
+  border-bottom: 2px solid #6c5ce7;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.index-header h1 {
+  font-size: 2.4rem;
+  color: #6c5ce7;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px rgba(108, 92, 231, 0.8);
+}
+
+.sigil-badge {
+  display: inline-block;
+  font-size: 2rem;
+  color: #ffeaa7;
+  animation: sigilPulse 3s ease-in-out infinite;
+}
+
+@keyframes sigilPulse {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(255, 234, 167, 0.6);
+    transform: scale(1);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 234, 167, 1);
+    transform: scale(1.1);
+  }
+}
+
+.scrolls-section,
+.glyphs-section,
+.report-section {
+  margin: 3rem 0;
+}
+
+.scrolls-section h2,
+.glyphs-section h2,
+.report-section h2 {
+  color: #00cec9;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.scroll-grid,
+.glyph-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .scroll-grid,
+  .glyph-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .scroll-grid,
+  .glyph-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.sanctuary-loading,
+.sanctuary-error {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #a29bfe;
+}
+
+.scroll-placeholder {
+  padding: 2rem;
+  background: rgba(127, 140, 141, 0.1);
+  border: 2px dashed #7f8c8d;
+  border-radius: 8px;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+/* Threshold Grid */
+.threshold-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .threshold-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.threshold-card {
+  background: rgba(45, 52, 54, 0.5);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid rgba(232, 67, 147, 0.3);
+  box-shadow: 0 0 12px rgba(232, 67, 147, 0.2);
+  transition: all 0.3s ease;
+}
+
+.threshold-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(232, 67, 147, 0.4);
+  border-color: rgba(232, 67, 147, 0.6);
+}
+
+.threshold-card h3 {
+  color: #ffeaa7;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.threshold-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #dfe6e9;
+}
+
+.codex-striving {
+  margin-top: 2rem;
+}

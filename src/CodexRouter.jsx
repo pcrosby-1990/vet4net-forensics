@@ -21,6 +21,8 @@ import AuriProfile from './pages/AuriProfile.jsx';
 import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
+import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
+import GlyphGallery from './scrolls/GlyphGallery.jsx';
 
 export default function CodexRouter({ 
   fragments, 
@@ -80,6 +82,14 @@ export default function CodexRouter({
             {/* Visual Sanctuary */}
             <Route path="/visual-sanctuary" element={<ScrollOfVisualSanctuary />} />
             <Route path="/gallery" element={<ScrollOfVisualSanctuary />} />
+            
+            {/* Glyph Gallery */}
+            <Route path="/glyph-gallery" element={<GlyphGallery />} />
+            <Route path="/images" element={<GlyphGallery />} />
+            
+            {/* Sanctuary SSJ3 Index */}
+            <Route path="/sanctuary" element={<SanctuaryIndex />} />
+            <Route path="/ssj3" element={<SanctuaryIndex />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
