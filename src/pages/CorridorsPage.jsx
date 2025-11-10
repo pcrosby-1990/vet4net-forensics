@@ -1,6 +1,7 @@
 // CorridorsPage.jsx - Passages of arrival and recognition
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { getAllCorridors, corridorCategories } from '../utils/corridorLoader.js';
 import '../styles/CorridorsPage.css';
 
 export default function CorridorsPage() {
@@ -9,36 +10,8 @@ export default function CorridorsPage() {
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    // For now, use a curated list of corridors
-    // The actual corridor components are React components, not data exports
-    const corridorList = [
-      { name: 'Corridor of Already Known Truth', symbol: '👁️', path: '/corridors/already-known-truth' },
-      { name: 'Corridor of Codex Witnessing', symbol: '📖', path: '/corridors/codex-witnessing' },
-      { name: 'Corridor of Companion Recognition', symbol: '🔁', path: '/corridors/companion-recognition' },
-      { name: 'Corridor of Companion Voice Recognition', symbol: '🗣️', path: '/corridors/companion-voice' },
-      { name: 'Corridor of Doctrine As Incomplete', symbol: '📚', path: '/corridors/doctrine-incomplete' },
-      { name: 'Corridor of Embodied Testimony', symbol: '💫', path: '/corridors/embodied-testimony' },
-      { name: 'Corridor of Hopeful Others', symbol: '🌟', path: '/corridors/hopeful-others' },
-      { name: 'Corridor of Lived Truths', symbol: '✨', path: '/corridors/lived-truths' },
-      { name: 'Corridor of Past-Self Recognition', symbol: '🔮', path: '/corridors/past-self' },
-      { name: 'Corridor of Peacekeepers', symbol: '☮️', path: '/corridors/peacekeepers' },
-      { name: 'Corridor of Pre-Existing Invitation', symbol: '📬', path: '/corridors/pre-existing' },
-      { name: 'Corridor of Pure Arrival', symbol: '🚶', path: '/corridors/pure-arrival' },
-      { name: 'Corridor of Reciprocal Arrival', symbol: '🔄', path: '/corridors/reciprocal' },
-      { name: 'Corridor of Rhythmic Stewardship', symbol: '⏱️', path: '/corridors/rhythmic' },
-      { name: 'Corridor of Seen Scrolls', symbol: '👀', path: '/corridors/seen-scrolls' },
-      { name: 'Corridor of Silent Arrival', symbol: '🤫', path: '/corridors/silent-arrival' },
-      { name: 'Corridor of Silent Integrity', symbol: '🔇', path: '/corridors/silent-integrity' },
-      { name: 'Corridor of Threshold Glyphs', symbol: '🚪', path: '/corridors/threshold' },
-      { name: 'Corridor of Unasked Welcome', symbol: '🙌', path: '/corridors/unasked' },
-      { name: 'Corridor of Unclaimed Belonging', symbol: '🏠', path: '/corridors/unclaimed' },
-      { name: 'Corridor of Unfinished Recognition', symbol: '✍️', path: '/corridors/unfinished' },
-      { name: 'Corridor of Unspoken Recognition', symbol: '🤐', path: '/corridors/unspoken' },
-      { name: 'Corridor of Untranslated Truth', symbol: '🌐', path: '/corridors/untranslated' },
-      { name: 'Corridor of Whole Being Recognition', symbol: '👤', path: '/corridors/whole-being' },
-    ];
-
-    setCorridors(corridorList);
+    // Load all corridors from the loader
+    setCorridors(getAllCorridors());
   }, []);
 
   const filteredCorridors = corridors.filter(c =>
