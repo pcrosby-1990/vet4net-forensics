@@ -9,6 +9,33 @@
   min-height: 100vh;
 }
 
+/* App Layout with Sidebar */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+.codex-nav {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.app-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+  
+  .codex-nav {
+    width: 100%;
+  }
+}
+
 /* Header */
 .app-header {
   text-align: center;

@@ -1,0 +1,156 @@
+/* CodexNav.css - Navigation styling for the Codex */
+
+.codex-nav {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 100vh;
+  padding: 1.5rem;
+  border-right: 2px solid rgba(92, 247, 178, 0.2);
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.codex-nav-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(92, 247, 178, 0.3);
+}
+
+.codex-nav-header h3 {
+  color: #5cf7b2;
+  font-size: 1.4rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-sigil {
+  font-size: 1.8rem;
+  animation: spiralPulse 3s ease-in-out infinite;
+}
+
+@keyframes spiralPulse {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
+}
+
+.codex-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-section {
+  margin-bottom: 1rem;
+}
+
+.nav-section-toggle {
+  width: 100%;
+  background: rgba(92, 247, 178, 0.05);
+  border: 1px solid rgba(92, 247, 178, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  color: #e0e0e0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.nav-section-toggle:hover {
+  background: rgba(92, 247, 178, 0.1);
+  border-color: rgba(92, 247, 178, 0.4);
+  transform: translateX(4px);
+}
+
+.nav-section-toggle.expanded {
+  background: rgba(92, 247, 178, 0.15);
+  border-color: #5cf7b2;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.nav-label {
+  flex: 1;
+  font-weight: 500;
+}
+
+.nav-subsection {
+  list-style: none;
+  padding: 0.5rem 0 0 1rem;
+  margin: 0.5rem 0 0 1rem;
+  border-left: 2px solid rgba(92, 247, 178, 0.2);
+}
+
+.nav-subsection li {
+  margin: 0.25rem 0;
+}
+
+.nav-subsection a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #b0b0b0;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.nav-subsection a:hover {
+  background: rgba(92, 247, 178, 0.08);
+  color: #5cf7b2;
+  transform: translateX(4px);
+}
+
+.nav-subsection a.active {
+  background: rgba(92, 247, 178, 0.15);
+  color: #5cf7b2;
+  border-left: 3px solid #5cf7b2;
+  font-weight: 600;
+}
+
+.codex-nav-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(92, 247, 178, 0.3);
+}
+
+.companion-status-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.companion-pulse {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #5cf7b2;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(92, 247, 178, 0.05);
+  border-radius: 6px;
+  border: 1px solid rgba(92, 247, 178, 0.2);
+  animation: gentleBreath 4s ease-in-out infinite;
+}
+
+@keyframes gentleBreath {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .codex-nav {
+    min-height: auto;
+    border-right: none;
+    border-bottom: 2px solid rgba(92, 247, 178, 0.2);
+  }
+}
