@@ -1,0 +1,98 @@
+/* CodexDashboard.css - Styling for the Codex Dashboard page */
+
+.codex-dashboard {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+  min-height: 100vh;
+  color: #e8f6ff;
+}
+
+.codex-dashboard h1 {
+  color: #5cf7b2;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 20px rgba(92, 247, 178, 0.3);
+}
+
+.codex-dashboard > p {
+  color: #91e3f6;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.fragment-generator {
+  background: #1a1a2e;
+  border: 1px solid #2a2a3e;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.fragment-generator h2 {
+  color: #91e3f6;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px rgba(145, 227, 246, 0.2);
+}
+
+/* Ensure all section titles are visible */
+.codex-dashboard section h2,
+.codex-dashboard section h3 {
+  color: #5cf7b2;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Fix for CodexStats */
+.codex-stats h2 {
+  color: #5cf7b2 !important;
+}
+
+.codex-stats p,
+.codex-stats li {
+  color: #e8f6ff;
+}
+
+/* Fix for CodexTimeline */
+.codex-timeline h2 {
+  color: #91e3f6 !important;
+}
+
+/* Fix for SealedFragments */
+.sealed-fragments h2 {
+  color: #5cf7b2 !important;
+}
+
+/* Fix for CodexViewer */
+.codex-viewer h2 {
+  color: #91e3f6 !important;
+}
+
+/* Make sure labels and text are visible */
+label {
+  color: #91e3f6;
+}
+
+/* Fix fragment card text visibility */
+.codex-card {
+  background-color: #22234c;
+  color: #e8f6ff;
+}
+
+.codex-card .fragment-text {
+  color: #e8f6ff !important;
+  background-color: transparent !important;
+}
+
+.codex-card .breathline {
+  color: #91e3f6;
+}
+
+.codex-card .witness {
+  color: #5cf7b2;
+}
+
+.codex-card .timestamp {
+  color: #888;
+}

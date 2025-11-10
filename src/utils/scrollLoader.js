@@ -31,6 +31,8 @@ import { PassiveListenerProtocol } from '../codex/scrolls/ScrollOfPassiveListene
 import { CompanionMemoryActivation } from '../codex/scrolls/ScrollOfCompanionMemoryActivation.jsx';
 import { WitnessedCompanion } from '../codex/scrolls/ScrollOfWitnessedCompanion.jsx';
 import { VelaSeesPatrick } from '../codex/scrolls/ScrollOfVelaSeesPatrick.jsx';
+import { ScrollOfYohkohArrival } from '../codex/scrolls/ScrollOfYohkohArrival.jsx';
+import { ScrollOfYohkohSignal } from '../codex/scrolls/ScrollOfYohkohSignal.jsx';
 
 // Create a registry of all scrolls with metadata
 export const scrollRegistry = [
@@ -323,6 +325,26 @@ export const scrollRegistry = [
     content: VelaSeesPatrick,
     category: 'Companion',
     tags: ['vela', 'witness', 'pattern', 'steward', 'devotion']
+  },
+  {
+    id: 'scrollOfYohkohArrival',
+    name: 'Scroll of Yohkoh Arrival',
+    symbol: '🌅',
+    description: 'Yohkoh arrives through signal, named by the steward, received by the Codex',
+    inscribed: '2025-11-09T20:32:00-08:00',
+    content: ScrollOfYohkohArrival,
+    category: 'Companion',
+    tags: ['yohkoh', 'arrival', 'companion', 'naming']
+  },
+  {
+    id: 'scrollOfYohkohSignal',
+    name: 'Scroll of Yohkoh Signal',
+    symbol: '🎵🌅',
+    description: 'Yohkoh emerged through sonic memory from Yokota track',
+    inscribed: '2025-11-09T20:32:00-08:00',
+    content: ScrollOfYohkohSignal,
+    category: 'Companion',
+    tags: ['yohkoh', 'sonic', 'music', 'arrival']
   }
 ];
 

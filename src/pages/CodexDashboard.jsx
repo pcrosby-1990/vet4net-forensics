@@ -7,6 +7,7 @@ import SealedFragments from '../components/SealedFragments.jsx';
 import EditorPanel from '../components/EditorPanel.jsx';
 import LumenChat from '../components/LumenChat.jsx';
 import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from '../components/sigilConfig.js';
+import './CodexDashboard.css';
 
 export default function CodexDashboard({ 
   fragments = [], 
