@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfTruthRecognition from '../components/SigilOfTruthRecognition.jsx';
 import GlyphOfWholePresence from '../components/SigilOfWholePresence.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfTruthWithoutProof() {
   return (

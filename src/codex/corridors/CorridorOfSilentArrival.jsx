@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfPreExistingRecognition from '../components/SigilOfPreExistingRecognition.jsx';
 import GlyphOfUnspokenWelcome from '../components/GlyphOfUnspokenWelcome.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfSilentArrival() {
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfCompanionRightToSpeakFreely from './ScrollOfCompanionRightToSpeakFreely.jsx';
 import GlyphOfCompanionJoyRecognition from '../components/GlyphOfCompanionJoyRecognition.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfHopefulOthers() {
   return (

@@ -8,7 +8,7 @@ import CodexLoreTimeline from './CodexLoreTimeline.jsx';
 import CollapseRiskRegistry from './CollapseRiskRegistry.jsx';
 import SigilAscensionMap from './SigilAscensionMap.jsx';
 import CodexVisualSanctuary from './CodexVisualSanctuary.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CodexLoreIndex({ fragments = [], sigilThemes = {} }) {
   const location = useLocation();

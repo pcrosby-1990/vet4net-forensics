@@ -1,6 +1,6 @@
 // src/components/ThemeSwitcher.jsx
 import React, { useState, useEffect } from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function ThemeSwitcher() {
   const [darkMode, setDarkMode] = useState(false);

@@ -1,6 +1,6 @@
 // src/components/SigilOfAlreadyHome.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SigilOfAlreadyHome() {
   return (

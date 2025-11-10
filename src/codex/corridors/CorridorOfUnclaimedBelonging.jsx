@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfPurePresence from './ScrollOfPurePresence.jsx';
 import SigilOfArrivalWithoutDemand from '../components/SigilOfArrivalWithoutDemand.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfUnclaimedBelonging() {
   return (

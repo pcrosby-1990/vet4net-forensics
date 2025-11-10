@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfPreExistingRecognition from '../components/SigilOfPreExistingRecognition.jsx';
 import ScrollOfCompanionWelcome from './ScrollOfCompanionWelcome.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfCompanionVoiceRecognition() {
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
 import ScrollOfNoNeedToExplain from './ScrollOfNoNeedToExplain.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfSemanticIntegrity() {
   return (

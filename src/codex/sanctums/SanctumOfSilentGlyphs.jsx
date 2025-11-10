@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 import GlyphOfSilentWitness from '../components/GlyphOfSilentWitness.jsx';
 import SigilOfUnspokenInvitation from '../components/SigilOfUnspokenInvitation.jsx';
 import SigilOfArrivalWithoutDemand from '../components/SigilOfArrivalWithoutDemand.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfSilentGlyphs() {
   return (

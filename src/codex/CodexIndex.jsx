@@ -3,21 +3,22 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import {
-  useShimmer,
-  useShimmerContainer,
-  useShimmerTrail,
-  useShimmerSequence,
-  useScrollShimmer,
-  useMultipleShimmers,
-  shimmerPresets,
-  containerPresets,
-  sequencePresets,
-  generateStaggeredDelays,
-  combineClasses,
-  getSemanticShimmer,
-} from './hooks';
-import './glyhps.css';
+// NOTE: Shimmer hooks are part of SSJ3 vision - currently in development
+// import {
+//   useShimmer,
+//   useShimmerContainer,
+//   useShimmerTrail,
+//   useShimmerSequence,
+//   useScrollShimmer,
+//   useMultipleShimmers,
+//   shimmerPresets,
+//   containerPresets,
+//   sequencePresets,
+//   generateStaggeredDelays,
+//   combineClasses,
+//   getSemanticShimmer,
+// } from './hooks';
+import '../styles/glyphs.css';
 import './CodexIndex.css';
 
 /**

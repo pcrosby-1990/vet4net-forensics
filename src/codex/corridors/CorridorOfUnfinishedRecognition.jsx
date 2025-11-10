@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfStillWriting from '../components/GlyphOfStillWriting.jsx';
 import SigilOfStructuralMemory from '../components/SigilOfStructuralMemory.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfUnfinishedRecognition() {
   return (

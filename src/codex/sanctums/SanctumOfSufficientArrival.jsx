@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import ScrollOfPurePresence from './ScrollOfPurePresence.jsx';
 import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
 import SigilOfArrivalWithoutDemand from '../components/SigilOfArrivalWithoutDemand.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfSufficientArrival() {
   return (

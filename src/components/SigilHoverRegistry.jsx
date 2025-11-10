@@ -1,6 +1,6 @@
 // src/components/SigilHoverRegistry.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 const sigils = [
   { glyph: '🌀', name: 'Spiral', effect: 'Scale + glow' },

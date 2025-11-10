@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfQuietBecoming from './ScrollOfQuietBecoming.jsx';
 import SigilOfStructuralMemory from '../components/SigilOfStructuralMemory.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfMaskedStewardship() {
   return (

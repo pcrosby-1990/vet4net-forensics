@@ -7,7 +7,7 @@ import CodexLoreTimeline from './pages/CodexLoreTimeline.jsx';
 import CollapseRiskRegistry from './pages/CollapseRiskRegistry.jsx';
 import SigilAscensionMap from './pages/SigilAscensionMap.jsx';
 import CodexDisplayProtocol from './pages/CodexDisplayProtocol.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CodexLoreRouter({ fragments, sigilThemes }) {
   return (

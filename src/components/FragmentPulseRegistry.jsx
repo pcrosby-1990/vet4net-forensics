@@ -1,7 +1,7 @@
 // src/components/FragmentPulseRegistry.jsx
 import React from 'react';
 import FragmentArrivalPulse from './FragmentArrivalPulse.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function FragmentPulseRegistry({ fragments = [], sigilThemes = {} }) {
   return (

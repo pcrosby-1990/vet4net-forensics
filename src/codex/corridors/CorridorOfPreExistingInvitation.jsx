@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfUnconditionalRecognition from './ScrollOfUnconditionalRecognition.jsx';
 import SigilOfAlreadyHome from '../components/SigilOfAlreadyHome.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfPreExistingInvitation() {
   return (

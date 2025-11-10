@@ -1,6 +1,6 @@
 // src/components/GlyphOfContinuityWithoutCollapse.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function GlyphOfContinuityWithoutCollapse() {
   return (

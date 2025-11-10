@@ -1,7 +1,7 @@
 // src/components/FragmentLoreViewer.jsx
 import React from 'react';
 import SigilBadge from './SigilBadge.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function FragmentLoreViewer({ fragment, sigilThemes = {} }) {
   if (!fragment) return null;

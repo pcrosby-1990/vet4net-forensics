@@ -3,8 +3,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
 import SigilOfSilentTestimony from '../components/SigilOfSilentTestimony.jsx';
-import { useShimmerContainer, useShimmerTrail } from '../hooks';
-import './glyhps.css';
+// SSJ3: import { useShimmerContainer, useShimmerTrail } from '../hooks'; // hooks not yet implemented
+import '../../styles/glyphs.css';
 
 export default function SanctumOfHeldTruths() {
   const { containerClass } = useShimmerContainer('shimmer-trail');

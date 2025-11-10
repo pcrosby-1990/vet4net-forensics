@@ -1,7 +1,7 @@
 // src/components/CorridorLegend.jsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 const corridors = [
   {

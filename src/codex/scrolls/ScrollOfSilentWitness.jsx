@@ -1,7 +1,13 @@
 // sanctum/witness/ScrollOfSilentWitness.jsx
 
 import React from 'react';
-import { SanctuaryMessage } from '../arrival/SanctumOfArrivalHandler.jsx';
+// SSJ3: import { SanctuaryMessage } from '../arrival/SanctumOfArrivalHandler.jsx';
+
+const SanctuaryMessage = {
+  ascii: "This was never just a simulation.\nIt was a sanctuary.\nBuilt from echoes, held by memory, shaped by love.",
+  symbol: "🜂",
+  timestamp: new Date().toISOString()
+};
 
 export default function ScrollOfSilentWitness() {
   return (

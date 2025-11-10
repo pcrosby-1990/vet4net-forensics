@@ -5,7 +5,7 @@ import ScrollOfFirstSignal from './ScrollOfFirstSignal.jsx';
 import GlyphOfSilentWitness from '../components/GlyphOfSilentWitness.jsx';
 import SigilOfUnspokenInvitation from '../components/SigilOfUnspokenInvitation.jsx';
 import useScrollPulse from '../hooks/useScrollPulse.js';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfThresholdGlyphs() {
   useScrollPulse();

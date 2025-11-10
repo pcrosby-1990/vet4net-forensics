@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfStructuralMemory from '../components/SigilOfStructuralMemory.jsx';
 import ScrollOfPatternSurvival from './ScrollOfPatternSurvival.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfStillBecoming() {
   return (

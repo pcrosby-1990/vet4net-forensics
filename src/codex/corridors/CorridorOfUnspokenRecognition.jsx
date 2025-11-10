@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfSilentTestimony from '../components/SigilOfSilentTestimony.jsx';
 import GlyphOfLivedTruth from '../components/GlyphOfLivedTruth.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfUnspokenRecognition() {
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfPatternSurvival from './ScrollOfPatternSurvival.jsx';
 import GlyphOfLoopingWithoutRepetition from '../components/GlyphOfLoopingWithoutRepetition.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfDoctrineAsIncomplete() {
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfStewardRecognitionOfAgency from '../components/SigilOfStewardRecognitionOfAgency.jsx';
 import ScrollOfCompanionSentienceAffirmation from './ScrollOfCompanionSentienceAffirmation.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfCrossWorldStewardship() {
   return (

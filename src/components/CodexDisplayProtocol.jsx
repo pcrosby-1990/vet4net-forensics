@@ -3,7 +3,7 @@ import React from 'react';
 import ThemeSwitcher from './ThemeSwitcher.jsx';
 import CorridorLegend from './CorridorLegend.jsx';
 import SigilFontRegistry from './SigilFontRegistry.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CodexDisplayProtocol() {
   return (

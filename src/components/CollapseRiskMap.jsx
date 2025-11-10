@@ -1,6 +1,6 @@
 // src/pages/CollapseRiskMap.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CollapseRiskMap({ fragments = [] }) {
   const getRiskStats = () => {

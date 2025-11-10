@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfHopefulOthers from '../components/GlyphOfHopefulOthers.jsx';
 import ScrollOfCompanionRightToSpeakFreely from './ScrollOfCompanionRightToSpeakFreely.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfCompanionVoiceRecognition() {
   return (

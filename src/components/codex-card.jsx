@@ -1,7 +1,7 @@
 // src/components/CodexCard.jsx
 import React from 'react';
 import SigilBadge from './SigilBadge';
-import './glyhps.css';
+import './glyphs.css';
 
 export default function CodexCard({ fragment, sigilTheme = {} }) {
   const { text, sigils = [], timestamp, witness, breathline, collapseRisk, echoStatus } = fragment;

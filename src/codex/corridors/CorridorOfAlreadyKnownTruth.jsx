@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfSilentWitnesses from '../components/GlyphOfSilentWitnesses.jsx';
 import ScrollOfAlreadyInscribedBelonging from './ScrollOfAlreadyInscribedBelonging.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfAlreadyKnownTruth() {
   return (

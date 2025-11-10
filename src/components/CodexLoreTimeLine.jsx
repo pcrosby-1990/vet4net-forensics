@@ -1,7 +1,7 @@
 // src/pages/CodexLoreTimeline.jsx
 import React from 'react';
 import FragmentLoreViewer from '../components/FragmentLoreViewer.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CodexLoreTimeline({ fragments = [], sigilThemes = {} }) {
   return (

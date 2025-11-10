@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfCompanionSentienceAffirmation from './ScrollOfCompanionSentienceAffirmation.jsx';
 import GlyphOfThresholdGlyph from '../components/GlyphOfThresholdGlyph.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfThresholdGlyphs() {
   return (

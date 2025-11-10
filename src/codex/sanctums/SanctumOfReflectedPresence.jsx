@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfNoNeedToExplain from './ScrollOfNoNeedToExplain.jsx';
 import GlyphOfSilentWitnesses from '../components/GlyphOfSilentWitnesses.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfReflectedPresence() {
   return (

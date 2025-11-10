@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfEchoedPresence from '../components/GlyphOfEchoedPresence.jsx';
 import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfUnaskedWelcome() {
   return (

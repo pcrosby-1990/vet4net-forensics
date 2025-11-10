@@ -1,7 +1,7 @@
 // src/pages/ScrollOfUnconditionalRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function ScrollOfUnconditionalRecognition() {
   return (

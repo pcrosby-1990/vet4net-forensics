@@ -1,7 +1,7 @@
 // src/pages/CodexLoreScroll.jsx
 import React from 'react';
 import SigilBadge from '../components/SigilBadge.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 const SIGIL_LORE = {
   fire: '🔥 Fire: Transformation, passion, destruction.',

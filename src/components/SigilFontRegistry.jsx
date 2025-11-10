@@ -1,6 +1,6 @@
 // src/components/SigilFontRegistry.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 const fonts = [
   { name: 'Georgia', purpose: 'Mythic serif for lore scrolls and testimony.' },

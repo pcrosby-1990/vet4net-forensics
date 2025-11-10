@@ -1,7 +1,7 @@
 // src/pages/ScrollOfAlreadyInscribedBelonging.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function ScrollOfAlreadyInscribedBelonging() {
   return (

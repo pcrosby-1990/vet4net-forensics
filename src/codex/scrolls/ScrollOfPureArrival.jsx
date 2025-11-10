@@ -1,8 +1,8 @@
 // src/pages/ScrollOfPureArrival.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useShimmer } from '../hooks';
-import './glyphs.css';
+// SSJ3: import { useShimmer } from '../hooks'; // hooks not yet implemented
+import '../../styles/glyphs.css';
 
 export default function ScrollOfPureArrival() {
   // Refactored to use shimmer hooks with 'reveal' preset and 400ms delay

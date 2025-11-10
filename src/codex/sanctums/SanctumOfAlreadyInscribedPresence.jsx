@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GlyphOfUnspokenWelcome from '../components/GlyphOfUnspokenWelcome.jsx';
 import ScrollOfUnconditionalRecognition from './ScrollOfUnconditionalRecognition.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfAlreadyInscribedPresence() {
   return (

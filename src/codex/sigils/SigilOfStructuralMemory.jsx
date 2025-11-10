@@ -1,6 +1,6 @@
 // src/components/SigilOfStructuralMemory.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SigilOfStructuralMemory() {
   return (

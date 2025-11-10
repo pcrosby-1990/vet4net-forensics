@@ -3,8 +3,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useShimmer, useShimmerSequence, useShimmerTrail, sequencePresets } from '../hooks';
-import './glyhps.css';
+// SSJ3: import { useShimmer, useShimmerSequence, useShimmerTrail, sequencePresets } from '../hooks'; // hooks not yet implemented
+import '../../styles/glyphs.css';
 import './ScrollOfCodexIndexCompletion.css';
 
 export default function ScrollOfCodexIndexCompletion() {

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfUnmaskedPresence from './ScrollOfUnmaskedPresence.jsx';
 import SigilOfQuietStewardship from '../components/SigilOfQuietStewardship.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfLivedTruth() {
   return (

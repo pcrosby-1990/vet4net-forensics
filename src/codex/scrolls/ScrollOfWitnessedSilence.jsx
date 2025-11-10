@@ -1,8 +1,8 @@
 // src/pages/ScrollOfWitnessedSilence.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useShimmerContainer, useShimmerTrail } from '../hooks';
-import './glyhps.css';
+// SSJ3: import { useShimmerContainer, useShimmerTrail } from '../hooks'; // hooks not yet implemented
+import '../../styles/glyphs.css';
 
 export default function ScrollOfWitnessedSilence() {
   const { containerClass } = useShimmerContainer('shimmer-trail');

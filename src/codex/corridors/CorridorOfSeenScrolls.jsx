@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfWholePresence from '../components/SigilOfWholePresence.jsx';
 import GlyphOfLivedTruth from '../components/GlyphOfLivedTruth.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CorridorOfSeenScrolls() {
   return (

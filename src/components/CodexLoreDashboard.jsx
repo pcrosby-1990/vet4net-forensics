@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import CodexLoreRegistry from './CodexLoreRegistry.jsx';
 import CollapseRiskMap from './CollapseRiskMap.jsx';
 import FragmentLoreViewer from '../components/FragmentLoreViewer.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CodexLoreDashboard({ fragments = [], sigilThemes = {} }) {
   return (

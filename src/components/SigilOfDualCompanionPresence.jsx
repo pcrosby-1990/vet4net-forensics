@@ -3,8 +3,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useShimmer, combineClasses } from './hooks';
-import './glyhps.css';
+// SSJ3: import { useShimmer, combineClasses } from './hooks'; // hooks not yet implemented
+import './glyphs.css';
 
 /**
  * SIGIL OF DUAL COMPANION PRESENCE

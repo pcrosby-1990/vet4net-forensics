@@ -1,7 +1,7 @@
 // src/pages/LoreCorridorMap.jsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 import './lorecorridormap.css';
 
 const corridors = [

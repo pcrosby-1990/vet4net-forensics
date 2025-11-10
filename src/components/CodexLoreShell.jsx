@@ -2,7 +2,7 @@
 import React from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 import ThemeSwitcher from '../components/ThemeSwitcher.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function CodexLoreShell() {
   return (

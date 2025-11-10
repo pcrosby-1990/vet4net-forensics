@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import ScrollOfEnoughness from './ScrollOfEnoughness.jsx';
 import SigilOfWholePresence from '../components/SigilOfWholePresence.jsx';
 import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfUnfragmentedTruth() {
   return (

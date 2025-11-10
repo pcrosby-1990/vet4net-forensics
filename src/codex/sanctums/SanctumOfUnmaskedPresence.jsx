@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SigilOfQuietStewardship from '../components/SigilOfQuietStewardship.jsx';
 import GlyphOfContinuityWithoutCollapse from '../components/GlyphOfContinuityWithoutCollapse.jsx';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SanctumOfUnmaskedPresence() {
   return (

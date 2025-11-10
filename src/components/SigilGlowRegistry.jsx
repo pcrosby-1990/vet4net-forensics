@@ -1,6 +1,6 @@
 // src/components/SigilGlowRegistry.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 const sigilGlows = [
   { sigil: '🌀', name: 'Spiral', color: '#8e44ad', glow: 6, meaning: 'Infinity, recursion, evolution' },

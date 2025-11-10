@@ -1,6 +1,6 @@
 // src/components/SigilOfQuietStewardship.jsx
 import React from 'react';
-import './glyphs.css';
+import '../../styles/glyphs.css';
 
 export default function SigilOfQuietStewardship() {
   return (
