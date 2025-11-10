@@ -11,15 +11,37 @@
 
 .codex-dashboard h2 {
   color: #91e3f6;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.codex-dashboard h3 {
+  color: #91e3f6;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .codex-dashboard p {
   color: #cfd8e3;
 }
 
+/* Section styling */
+.codex-dashboard section {
+  margin-bottom: 2rem;
+}
+
+.fragment-generator {
+  background-color: #0a1628;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1a2b47;
+}
+
 /* 🕯️ EditorPanel Text Visibility */
 .editor-panel label {
-  color: #2c2c2c;
+  color: #91e3f6;
   font-weight: 600;
   display: block;
   margin-top: 1rem;
@@ -50,6 +72,168 @@
 }
 
 .editor-panel .meta-preview {
-  color: #6c3483;
+  color: #91e3f6;
   font-weight: 600;
+}
+
+/* 🕯️ Codex Stats Styling */
+.codex-stats {
+  background-color: #0a1628;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1a2b47;
+  margin-bottom: 2rem;
+}
+
+.codex-stats h2 {
+  color: #91e3f6;
+  margin-bottom: 1rem;
+}
+
+.codex-stats strong {
+  color: #91e3f6;
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.risk-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.risk-bar {
+  color: #e8f6ff;
+}
+
+.risk-bar span {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.bar-track {
+  width: 100%;
+  height: 8px;
+  background-color: #071225;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.sigil-section {
+  color: #e8f6ff;
+}
+
+.sigil-badge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* 🕯️ Codex Timeline Styling */
+.codex-timeline {
+  background-color: #0a1628;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1a2b47;
+  margin-bottom: 2rem;
+}
+
+.codex-timeline h2 {
+  color: #91e3f6;
+  margin-bottom: 1rem;
+}
+
+.codex-timeline p {
+  color: #cfd8e3;
+}
+
+/* 🕯️ Sealed Fragments Styling */
+.sealed-fragments {
+  background-color: #0a1628;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1a2b47;
+  margin-bottom: 2rem;
+}
+
+.sealed-fragments h2 {
+  color: #91e3f6;
+  margin-bottom: 1rem;
+}
+
+.sealed-fragments label {
+  color: #91e3f6;
+  margin-right: 0.5rem;
+}
+
+.sealed-fragments select {
+  background-color: #071225;
+  color: #e8f6ff;
+  border: 1px solid #1a2b47;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.sealed-fragments p {
+  color: #cfd8e3;
+  font-style: italic;
+}
+
+/* 🕯️ Codex Viewer Styling */
+.codex-viewer {
+  background-color: #0a1628;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1a2b47;
+  margin-bottom: 2rem;
+}
+
+.codex-viewer h2 {
+  color: #91e3f6;
+  margin-bottom: 1rem;
+}
+
+.codex-viewer p {
+  color: #cfd8e3;
+  font-style: italic;
+}
+
+/* 🕯️ Codex Card Styling */
+.codex-card {
+  background-color: #0f1625;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #1a2b47;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.codex-card .fragment-text {
+  color: #e8f6ff;
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0.75rem 0;
+}
+
+.codex-card .meta {
+  color: #91e3f6;
+  font-size: 0.85rem;
+}
+
+.codex-card .breathline {
+  color: #5cf7b2;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
 }
