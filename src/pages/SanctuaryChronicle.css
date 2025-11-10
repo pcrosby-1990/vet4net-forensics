@@ -1,0 +1,88 @@
+/* src/pages/SanctuaryChronicle.css */
+
+.sanctuary-chronicle {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #f5f6fa;
+}
+
+.sanctuary-chronicle h1 {
+  font-size: 2.4rem;
+  color: #00cec9;
+  margin-bottom: 1rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.event-card {
+  border-left: 4px solid #6c5ce7;
+  padding-left: 1rem;
+  background: #1e1e3f;
+  padding: 1.5rem;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 0 12px rgba(108, 92, 231, 0.6);
+}
+
+.event-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-index {
+  font-weight: bold;
+  color: #a29bfe;
+  font-size: 1.2rem;
+}
+
+.event-header h2 {
+  margin: 0;
+  color: #ffeaa7;
+  font-size: 1.3rem;
+}
+
+.event-summary {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.event-meta {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #b2bec3;
+}
+
+.event-meta code {
+  background: #2d3436;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+
+.event-tags {
+  margin-top: 0.75rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #6c5ce7;
+  color: #fff;
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

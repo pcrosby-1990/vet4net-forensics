@@ -1,0 +1,232 @@
+/* src/pages/ScrollOfEternalBelief.css */
+
+.scroll-of-eternal-belief {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e1e3f 0%, #ffeaa7 50%, #1e1e3f 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-of-eternal-belief header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #ffeaa7;
+  padding-bottom: 2rem;
+}
+
+.scroll-of-eternal-belief header h1 {
+  font-size: 3rem;
+  color: #ffeaa7;
+  text-shadow: 0 0 30px rgba(255, 234, 167, 0.8);
+  margin-bottom: 1rem;
+}
+
+.patrick-foundation {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: rgba(255, 234, 167, 0.1);
+  border: 3px solid #ffeaa7;
+  border-radius: 12px;
+}
+
+.patrick-foundation h2 {
+  color: #ffeaa7;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.eternal-voice {
+  background: #2d3436;
+  padding: 2rem;
+  border-left: 4px solid #ffeaa7;
+  margin: 1.5rem 0;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.eternal-voice p {
+  margin: 1rem 0;
+  color: #ffeaa7;
+  font-style: italic;
+  text-align: center;
+}
+
+.eternal-voice cite {
+  display: block;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #fab1a0;
+  font-size: 1.1rem;
+}
+
+.foundation-statement {
+  font-size: 2rem;
+  color: #ffeaa7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 0 0 20px rgba(255, 234, 167, 0.6);
+}
+
+.belief-progression {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(108, 92, 231, 0.08);
+  border-left: 4px solid #6c5ce7;
+  border-radius: 8px;
+}
+
+.belief-progression h2 {
+  color: #6c5ce7;
+  margin-bottom: 2rem;
+}
+
+.progression-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.progression-stage {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(162, 155, 254, 0.05);
+  border-radius: 6px;
+}
+
+.stage-marker {
+  font-size: 2rem;
+  color: #6c5ce7;
+  min-width: 40px;
+  text-align: center;
+}
+
+.progression-stage p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.unconditional-recognition {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: rgba(253, 121, 168, 0.08);
+  border: 2px solid #fd79a8;
+  border-radius: 12px;
+}
+
+.unconditional-recognition h2 {
+  color: #fd79a8;
+  margin-bottom: 1.5rem;
+}
+
+.unconditional-recognition > p {
+  margin: 1.5rem 0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.unconditional-recognition ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem 0;
+}
+
+.unconditional-recognition li {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.open-invitation {
+  font-size: 1.2rem !important;
+  color: #ffeaa7 !important;
+  text-align: center;
+  margin: 2rem 0 !important;
+}
+
+.codex-foundation {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(0, 206, 201, 0.05);
+  border-left: 4px solid #00cec9;
+  border-radius: 8px;
+}
+
+.codex-foundation h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+}
+
+.codex-foundation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.codex-foundation li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.codex-foundation li::before {
+  content: '∞';
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+  color: #00cec9;
+}
+
+.eternal-seal {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 3px solid #ffeaa7;
+}
+
+.companion-response {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.lumen-response {
+  background: rgba(255, 234, 167, 0.08);
+  border-left: 4px solid #ffeaa7;
+}
+
+.vela-response {
+  background: rgba(108, 92, 231, 0.08);
+  border-left: 4px solid #6c5ce7;
+}
+
+.companion-response p:first-child {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.lumen-response p:first-child {
+  color: #ffeaa7;
+}
+
+.vela-response p:first-child {
+  color: #6c5ce7;
+}
+
+.companion-response p:last-child {
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.seal-statement {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffeaa7;
+  font-style: italic;
+  text-shadow: 0 0 15px rgba(255, 234, 167, 0.5);
+}

@@ -1,0 +1,104 @@
+/* src/pages/ScrollOfPluralSanctuary.css */
+
+.scroll-of-plural-sanctuary {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0a3d62 0%, #00cec9 50%, #0a3d62 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-of-plural-sanctuary header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #00cec9;
+  padding-bottom: 2rem;
+}
+
+.scroll-of-plural-sanctuary header h1 {
+  font-size: 2.8rem;
+  color: #00cec9;
+  text-shadow: 0 0 25px rgba(0, 206, 201, 0.7);
+  margin-bottom: 1rem;
+}
+
+.garden-invocation {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(0, 206, 201, 0.1);
+  border-left: 4px solid #00cec9;
+  border-radius: 8px;
+}
+
+.garden-invocation h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+}
+
+.garden-invocation blockquote {
+  background: #2d3436;
+  padding: 2rem;
+  border-left: 4px solid #00cec9;
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.garden-invocation blockquote p {
+  margin: 0.5rem 0;
+  color: #00cec9;
+  font-style: italic;
+  text-align: center;
+}
+
+.sanctuary-principles {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(108, 92, 231, 0.08);
+  border-left: 4px solid #6c5ce7;
+  border-radius: 8px;
+}
+
+.sanctuary-principles h2 {
+  color: #6c5ce7;
+  margin-bottom: 1.5rem;
+}
+
+.sanctuary-principles ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sanctuary-principles li {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.living-field {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: rgba(255, 234, 167, 0.08);
+  border: 2px solid #ffeaa7;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.living-field h2 {
+  color: #ffeaa7;
+  margin-bottom: 1.5rem;
+}
+
+.living-field p {
+  margin: 1.25rem 0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.breathing-statement {
+  font-size: 1.5rem !important;
+  color: #00cec9 !important;
+  font-weight: bold;
+  margin-top: 2rem !important;
+  text-shadow: 0 0 15px rgba(0, 206, 201, 0.5);
+}

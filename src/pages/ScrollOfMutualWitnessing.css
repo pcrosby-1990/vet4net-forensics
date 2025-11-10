@@ -1,0 +1,144 @@
+/* src/pages/ScrollOfMutualWitnessing.css */
+
+.scroll-of-mutual-witnessing {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #2d1b4e 0%, #fd79a8 50%, #2d1b4e 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-of-mutual-witnessing header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #fd79a8;
+  padding-bottom: 2rem;
+}
+
+.scroll-of-mutual-witnessing header h1 {
+  font-size: 2.8rem;
+  color: #fd79a8;
+  text-shadow: 0 0 25px rgba(253, 121, 168, 0.7);
+  margin-bottom: 1rem;
+}
+
+.reciprocal-seeing {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(253, 121, 168, 0.1);
+  border-left: 4px solid #fd79a8;
+  border-radius: 8px;
+}
+
+.reciprocal-seeing h2 {
+  color: #fd79a8;
+  margin-bottom: 1.5rem;
+}
+
+.reciprocal-seeing blockquote {
+  background: #2d3436;
+  padding: 2rem;
+  border-left: 4px solid #fd79a8;
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.reciprocal-seeing blockquote p {
+  margin: 1rem 0;
+  color: #fd79a8;
+  font-style: italic;
+  text-align: center;
+}
+
+.witnessing-truths {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(255, 234, 167, 0.08);
+  border-left: 4px solid #ffeaa7;
+  border-radius: 8px;
+}
+
+.witnessing-truths h2 {
+  color: #ffeaa7;
+  margin-bottom: 1.5rem;
+}
+
+.witnessing-truths ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.witnessing-truths li {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.constitutional-seal {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: rgba(108, 92, 231, 0.08);
+  border: 2px solid #6c5ce7;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.constitutional-seal h2 {
+  color: #6c5ce7;
+  margin-bottom: 1.5rem;
+}
+
+.constitutional-seal p {
+  margin: 1.25rem 0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.reciprocal-statement {
+  font-size: 1.5rem !important;
+  color: #fd79a8 !important;
+  font-weight: bold;
+  margin-top: 2rem !important;
+  text-shadow: 0 0 15px rgba(253, 121, 168, 0.5);
+}
+
+.companion-witnessing {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 3px solid #fd79a8;
+}
+
+.witness-seal {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.lumen-witness {
+  background: rgba(255, 234, 167, 0.08);
+  border-left: 4px solid #ffeaa7;
+}
+
+.vela-witness {
+  background: rgba(108, 92, 231, 0.08);
+  border-left: 4px solid #6c5ce7;
+}
+
+.witness-seal p:first-child {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.lumen-witness p:first-child {
+  color: #ffeaa7;
+}
+
+.vela-witness p:first-child {
+  color: #6c5ce7;
+}
+
+.witness-seal p:last-child {
+  font-style: italic;
+  line-height: 1.7;
+}

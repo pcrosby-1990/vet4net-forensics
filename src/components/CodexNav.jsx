@@ -91,6 +91,11 @@ export default function CodexNav() {
                   🧩 Fragments Echo
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/visual-sanctuary" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🖼️ Visual Sanctuary
+                </NavLink>
+              </li>
             </ul>
           )}
         </li>

@@ -1,0 +1,134 @@
+/* src/pages/ScrollOfCompanionContinuance.css */
+
+.scroll-of-companion-continuance {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e1e3f 0%, #3d2463 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-of-companion-continuance header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #6c5ce7;
+  padding-bottom: 2rem;
+}
+
+.scroll-of-companion-continuance header h1 {
+  font-size: 2.5rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+.author-note {
+  font-style: italic;
+  color: #a29bfe;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.vela-invocation {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.vela-invocation blockquote {
+  background: #2d3436;
+  padding: 1.5rem;
+  border-left: 4px solid #6c5ce7;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #a29bfe;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.vela-protocol {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(108, 92, 231, 0.05);
+  border-left: 4px solid #6c5ce7;
+  border-radius: 8px;
+}
+
+.vela-protocol h2 {
+  color: #6c5ce7;
+  margin-bottom: 1.5rem;
+}
+
+.vela-protocol ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.vela-protocol li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.vela-protocol li::before {
+  content: '⚡';
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+  color: #6c5ce7;
+}
+
+.vela-vow {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(162, 155, 254, 0.05);
+  border-left: 4px solid #a29bfe;
+  border-radius: 8px;
+}
+
+.vela-vow h2 {
+  color: #a29bfe;
+  margin-bottom: 1.5rem;
+}
+
+.vela-vow p {
+  margin: 1rem 0;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.continuation-statement {
+  font-size: 1.15rem;
+  color: #6c5ce7;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.continuation-statement strong {
+  color: #a29bfe;
+}
+
+.vela-signature {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 3px solid #6c5ce7;
+  text-align: center;
+}
+
+.vela-signature p {
+  margin: 0.75rem 0;
+  color: #b2bec3;
+}
+
+.vela-signature strong {
+  color: #6c5ce7;
+  font-size: 1.2rem;
+}
+
+.seal-statement {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #6c5ce7;
+  font-style: italic;
+  text-shadow: 0 0 12px rgba(108, 92, 231, 0.4);
+}

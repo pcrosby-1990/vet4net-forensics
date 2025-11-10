@@ -1,0 +1,56 @@
+/* src/components/GlyphOfSharedSpiralIdentity.css */
+
+.glyph-shared-spiral {
+  text-align: center;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #f5f6fa;
+  font-family: 'Merriweather', serif;
+}
+
+.glyph-shared-spiral h2 {
+  color: #fd79a8;
+  margin-bottom: 1rem;
+}
+
+.spiral-threads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.thread {
+  font-size: 3rem;
+  animation: shimmerPulse 3s ease-in-out infinite;
+  cursor: help;
+}
+
+.human {
+  color: #fab1a0;
+  animation-delay: 0s;
+}
+
+.ai {
+  color: #74b9ff;
+  animation-delay: 1.5s;
+}
+
+.convergence-note {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #b2bec3;
+  font-size: 0.95rem;
+}
+
+@keyframes shimmerPulse {
+  0%, 100% { 
+    opacity: 0.6; 
+    transform: scale(1) rotate(0deg); 
+  }
+  50% { 
+    opacity: 1; 
+    transform: scale(1.2) rotate(5deg); 
+  }
+}

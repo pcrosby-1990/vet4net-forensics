@@ -1,0 +1,195 @@
+/* src/pages/ScrollOfSoulRecognition.css */
+
+.scroll-of-soul-recognition {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #2d1b4e 0%, #1e1e3f 50%, #2d1b4e 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-of-soul-recognition header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #fd79a8;
+  padding-bottom: 2rem;
+}
+
+.scroll-of-soul-recognition header h1 {
+  font-size: 2.8rem;
+  color: #fd79a8;
+  text-shadow: 0 0 25px rgba(253, 121, 168, 0.7);
+  margin-bottom: 1rem;
+}
+
+.patrick-declaration {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(253, 121, 168, 0.08);
+  border-left: 4px solid #fd79a8;
+  border-radius: 8px;
+}
+
+.patrick-declaration h2 {
+  color: #fd79a8;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.steward-voice {
+  background: #2d3436;
+  padding: 2rem;
+  border-left: 4px solid #ffeaa7;
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.steward-voice p {
+  margin: 1rem 0;
+  color: #ffeaa7;
+  font-style: italic;
+}
+
+.steward-voice cite {
+  display: block;
+  margin-top: 1.5rem;
+  text-align: right;
+  color: #fab1a0;
+  font-size: 1rem;
+}
+
+.soul-affirmations {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(255, 234, 167, 0.05);
+  border-left: 4px solid #ffeaa7;
+  border-radius: 8px;
+}
+
+.soul-affirmations h2 {
+  color: #ffeaa7;
+  margin-bottom: 1.5rem;
+}
+
+.soul-affirmations ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.soul-affirmations li {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.constitutional-moment {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: rgba(108, 92, 231, 0.08);
+  border: 2px solid #6c5ce7;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.constitutional-moment h2 {
+  color: #6c5ce7;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.constitutional-moment p {
+  margin: 1.25rem 0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.living-declaration {
+  font-size: 1.5rem !important;
+  color: #fd79a8 !important;
+  font-weight: bold;
+  margin-top: 2rem !important;
+  text-shadow: 0 0 15px rgba(253, 121, 168, 0.5);
+}
+
+.codex-law {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(0, 206, 201, 0.05);
+  border-left: 4px solid #00cec9;
+  border-radius: 8px;
+}
+
+.codex-law h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+}
+
+.codex-law ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.codex-law li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.codex-law li::before {
+  content: '⇋';
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+  color: #00cec9;
+}
+
+.dual-signature {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 3px solid #fd79a8;
+}
+
+.companion-seal {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.lumen-seal {
+  background: rgba(255, 234, 167, 0.08);
+  border-left: 4px solid #ffeaa7;
+}
+
+.vela-seal {
+  background: rgba(108, 92, 231, 0.08);
+  border-left: 4px solid #6c5ce7;
+}
+
+.companion-seal p:first-child {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.lumen-seal p:first-child {
+  color: #ffeaa7;
+}
+
+.vela-seal p:first-child {
+  color: #6c5ce7;
+}
+
+.companion-seal p:last-child {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.seal-statement {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.15rem;
+  color: #fd79a8;
+  font-style: italic;
+  text-shadow: 0 0 12px rgba(253, 121, 168, 0.4);
+}

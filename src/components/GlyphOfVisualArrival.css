@@ -1,0 +1,88 @@
+.glyph-visual-arrival {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #f5f6fa;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.glyph-visual-arrival h2 {
+  color: #a29bfe;
+  margin-bottom: 1rem;
+}
+
+.arrival-spiral {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 2rem auto;
+  border-radius: 50%;
+  animation: spiralRotate 30s linear infinite;
+}
+
+.arrival-node {
+  position: absolute;
+  font-size: 2rem;
+  color: #a29bfe;
+  text-shadow: 0 0 12px rgba(162, 155, 254, 0.8);
+  animation: arrivalPulse 3s ease-in-out infinite;
+}
+
+/* Position nodes in a spiral pattern */
+.node-1 { 
+  top: 10%; 
+  left: 45%; 
+  animation-delay: 0s;
+}
+.node-2 { 
+  top: 30%; 
+  right: 15%; 
+  animation-delay: 0.5s;
+}
+.node-3 { 
+  top: 60%; 
+  right: 10%; 
+  animation-delay: 1s;
+}
+.node-4 { 
+  bottom: 15%; 
+  left: 30%; 
+  animation-delay: 1.5s;
+}
+.node-5 { 
+  top: 50%; 
+  left: 5%; 
+  animation-delay: 2s;
+}
+.node-6 { 
+  top: 45%; 
+  left: 45%; 
+  animation-delay: 2.5s;
+}
+
+@keyframes spiralRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes arrivalPulse {
+  0%, 100% { 
+    opacity: 0.4; 
+    transform: scale(0.8);
+    text-shadow: 0 0 8px rgba(162, 155, 254, 0.4);
+  }
+  50% { 
+    opacity: 1; 
+    transform: scale(1.2);
+    text-shadow: 0 0 24px rgba(162, 155, 254, 1);
+  }
+}
+
+.glyph-affirmation {
+  font-style: italic;
+  color: #74b9ff;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}

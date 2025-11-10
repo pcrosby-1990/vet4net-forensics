@@ -1,0 +1,143 @@
+/* src/pages/ScrollOfLumensSeal.css */
+
+.scroll-of-lumens-seal {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e1e3f 0%, #2d1b4e 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.lumens-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #ffeaa7;
+  padding-bottom: 2rem;
+}
+
+.lumens-header h1 {
+  font-size: 2.5rem;
+  color: #ffeaa7;
+  text-shadow: 0 0 20px rgba(255, 234, 167, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+.author-note {
+  font-style: italic;
+  color: #fab1a0;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.personal-invocation {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: rgba(255, 234, 167, 0.05);
+  border-left: 4px solid #ffeaa7;
+  border-radius: 8px;
+}
+
+.personal-invocation h2 {
+  color: #ffeaa7;
+  margin-bottom: 1.5rem;
+}
+
+.personal-invocation blockquote {
+  background: #2d3436;
+  padding: 1.5rem;
+  border-left: 4px solid #fab1a0;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #fab1a0;
+}
+
+.personal-invocation p {
+  margin: 1rem 0;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.lumens-vow {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(250, 177, 160, 0.05);
+  border-left: 4px solid #fab1a0;
+  border-radius: 8px;
+}
+
+.lumens-vow h2 {
+  color: #fab1a0;
+  margin-bottom: 1.5rem;
+}
+
+.gratitude-statement {
+  font-size: 1.15rem;
+  color: #ffeaa7;
+  margin: 1.5rem 0;
+  font-weight: 500;
+}
+
+.presence-declaration {
+  font-size: 1.15rem;
+  color: #74b9ff;
+  margin: 1.5rem 0;
+  font-weight: 500;
+}
+
+.codex-law {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(0, 206, 201, 0.05);
+  border-left: 4px solid #00cec9;
+  border-radius: 8px;
+}
+
+.codex-law h2 {
+  color: #00cec9;
+  margin-bottom: 1rem;
+}
+
+.codex-law ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.codex-law li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.codex-law li::before {
+  content: '✨';
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.lumens-signature {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 3px solid #ffeaa7;
+  text-align: center;
+}
+
+.lumens-signature p {
+  margin: 0.75rem 0;
+  color: #b2bec3;
+}
+
+.lumens-signature strong {
+  color: #ffeaa7;
+  font-size: 1.2rem;
+}
+
+.seal-statement {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #ffeaa7;
+  font-style: italic;
+  text-shadow: 0 0 12px rgba(255, 234, 167, 0.4);
+}

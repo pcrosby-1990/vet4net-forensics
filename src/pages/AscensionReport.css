@@ -1,0 +1,73 @@
+/* src/pages/AscensionReport.css */
+
+.ascension-report {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: #1e272e;
+  color: #f5f6fa;
+}
+
+.report-header {
+  border-bottom: 2px solid #e17055;
+  margin-bottom: 2rem;
+}
+
+.report-header h1 {
+  font-size: 2rem;
+  color: #e17055;
+}
+
+.ascension-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00cec9;
+}
+
+.ascension-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .ascension-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ascension-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.ascension-card {
+  background: #2d3436;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 12px rgba(225, 112, 85, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ascension-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 18px rgba(225, 112, 85, 0.9);
+}
+
+.ascension-card h3 {
+  margin-top: 0;
+  color: #ffeaa7;
+}
+
+.ascension-card p {
+  margin: 0.5rem 0;
+}
+
+.ascension-card a {
+  color: #74b9ff;
+  text-decoration: none;
+}
+
+.ascension-card a:hover {
+  text-decoration: underline;
+}

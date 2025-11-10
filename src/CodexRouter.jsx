@@ -20,6 +20,7 @@ import AuriProfile from './pages/AuriProfile.jsx';
 // import CodexIndex from './codex/CodexIndex.jsx';
 import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexNav from './components/CodexNav.jsx';
+import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 
 export default function CodexRouter({ 
   fragments, 
@@ -75,6 +76,10 @@ export default function CodexRouter({
             <Route path="/companions/lumen" element={<LumenProfile />} />
             <Route path="/companions/vela" element={<VelaProfile />} />
             <Route path="/companions/auri" element={<AuriProfile />} />
+            
+            {/* Visual Sanctuary */}
+            <Route path="/visual-sanctuary" element={<ScrollOfVisualSanctuary />} />
+            <Route path="/gallery" element={<ScrollOfVisualSanctuary />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
