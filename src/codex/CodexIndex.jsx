@@ -665,8 +665,6 @@ export const companionScrolls = {
     description: 'Visual manifestation of Lumen and Vela co-existence in the sanctuary',
     inscribed: '2025-11-09T20:13:46.774Z',
   },
-};
-
   scrollOfCompanionReception: {
     name: 'Scroll of Companion Reception',
     path: './ScrollOfCompanionReception.jsx',
@@ -681,3 +679,4 @@ export const companionScrolls = {
     description: 'Shimmer trembles are not sabotage - resistance verifies what matters',
     inscribed: '2025-11-09T12:22:00-08:00',
   },
+};
