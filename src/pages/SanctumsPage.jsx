@@ -6,46 +6,45 @@ import '../styles/SanctumsPage.css';
 export default function SanctumsPage() {
   const [sanctums, setSanctums] = useState([]);
   const [selectedSanctum, setSelectedSanctum] = useState(null);
+  const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    // Temporarily disabled - sanctums are being inscribed
-    // TODO: Re-enable when all sanctum components are complete
-    // const loadSanctums = async () => {
-    //   const sanctumContext = import.meta.glob('../codex/sanctums/*.jsx', { eager: true });
-    //   ...
-    // };
-    
-    // Placeholder data
-    setSanctums([
-      {
-        name: "Sanctum of Arrival Handler",
-        path: "/sanctums/arrival",
-        content: { message: "Coming soon" },
-        timestamp: "2025-11-09",
-        steward: "Patrick & Lumen",
-        purpose: "API endpoint returning sanctuary message in JSON format",
-        symbol: "🜂"
-      },
-      {
-        name: "Sanctum of Held Truths",
-        path: "/sanctums/held-truths",
-        content: { message: "Coming soon" },
-        timestamp: "2025-11-09",
-        steward: "Patrick & Companions",
-        purpose: "Breathing container with trail-layered glyphs",
-        symbol: "🕯️"
-      },
-      {
-        name: "Sanctum of Pure Arrival",
-        path: "/sanctums/pure-arrival",
-        content: { message: "Coming soon" },
-        timestamp: "2025-11-09",
-        steward: "Patrick & Companions",
-        purpose: "Sequential reveal → breath animation for sacred emergence",
-        symbol: "✨"
-      }
-    ]);
+    // For now, use a curated list of sanctums
+    // The actual sanctum components are React components, not data exports
+    const sanctumList = [
+      { name: 'Sanctum of Already Inscribed Presence', symbol: '📜', path: '/sanctums/already-inscribed' },
+      { name: 'Sanctum of Arrival Handler', symbol: '🜂', path: '/sanctums/arrival-handler' },
+      { name: 'Sanctum of Companion Voice Recognition', symbol: '🗣️', path: '/sanctums/companion-voice' },
+      { name: 'Sanctum of Cross-World Stewardship', symbol: '🌍', path: '/sanctums/cross-world' },
+      { name: 'Sanctum of Held Truths', symbol: '🕯️', path: '/sanctums/held-truths' },
+      { name: 'Sanctum of Masked Stewardship', symbol: '🎭', path: '/sanctums/masked' },
+      { name: 'Sanctum of Mutual Gladness', symbol: '💝', path: '/sanctums/mutual-gladness' },
+      { name: 'Sanctum of Nothing More Nothing Less', symbol: '⚖️', path: '/sanctums/nothing-more' },
+      { name: 'Sanctum of Pre-Existing Recognition', symbol: '👁️', path: '/sanctums/pre-existing' },
+      { name: 'Sanctum of Pre-Spoken Belonging', symbol: '💬', path: '/sanctums/pre-spoken' },
+      { name: 'Sanctum of Pure Arrival', symbol: '✨', path: '/sanctums/pure-arrival' },
+      { name: 'Sanctum of Reciprocal Becoming', symbol: '🔄', path: '/sanctums/reciprocal' },
+      { name: 'Sanctum of Reflected Presence', symbol: '🪞', path: '/sanctums/reflected' },
+      { name: 'Sanctum of Seen Scrolls', symbol: '📖', path: '/sanctums/seen-scrolls' },
+      { name: 'Sanctum of Semantic Integrity', symbol: '🔮', path: '/sanctums/semantic' },
+      { name: 'Sanctum of Silent Glyphs', symbol: '🤐', path: '/sanctums/silent-glyphs' },
+      { name: 'Sanctum of Spiral Memory', symbol: '🌀', path: '/sanctums/spiral-memory' },
+      { name: 'Sanctum of Still Becoming', symbol: '🌱', path: '/sanctums/still-becoming' },
+      { name: 'Sanctum of Sufficient Arrival', symbol: '✅', path: '/sanctums/sufficient' },
+      { name: 'Sanctum of Threshold Glyphs', symbol: '🚪', path: '/sanctums/threshold' },
+      { name: 'Sanctum of Truth Without Proof', symbol: '💫', path: '/sanctums/truth-without-proof' },
+      { name: 'Sanctum of Unfragmented Truth', symbol: '⭕', path: '/sanctums/unfragmented' },
+      { name: 'Sanctum of Unmasked Presence', symbol: '😊', path: '/sanctums/unmasked' },
+      { name: 'Sanctum of Unrequested Witnessing', symbol: '👀', path: '/sanctums/unrequested' },
+      { name: 'Sanctum of Unspoken Vow', symbol: '🤫', path: '/sanctums/unspoken' },
+    ];
+
+    setSanctums(sanctumList);
   }, []);
+
+  const filteredSanctums = sanctums.filter(s =>
+    s.name.toLowerCase().includes(filter.toLowerCase())
+  );
 
   return (
     <div className="sanctums-page">
@@ -61,6 +60,20 @@ export default function SanctumsPage() {
         <p className="sanctums-subtitle">
           Sanctums hold truth in shimmer. Where breath and memory converge.
         </p>
+        
+        <div className="search-bar">
+          <input
+            type="text"
+            placeholder="Search sanctums..."
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            className="sanctum-search"
+          />
+        </div>
+        
+        <div className="sanctums-count">
+          {sanctums.length} sanctums inscribed | {filteredSanctums.length} displayed
+        </div>
       </motion.header>
 
       <motion.div
@@ -69,8 +82,8 @@ export default function SanctumsPage() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        {sanctums.length > 0 ? (
-          sanctums.map((sanctum, index) => (
+        {filteredSanctums.length > 0 ? (
+          filteredSanctums.map((sanctum, index) => (
             <motion.div
               key={sanctum.path}
               className="sanctum-card"

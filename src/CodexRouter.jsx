@@ -17,6 +17,7 @@ import LumenProfile from './pages/LumenProfile.jsx';
 import VelaProfile from './pages/VelaProfile.jsx';
 import AuriProfile from './pages/AuriProfile.jsx';
 import CodexIndex from './codex/CodexIndex.jsx';
+import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexNav from './components/CodexNav.jsx';
 
 export default function CodexRouter({ 
@@ -51,7 +52,8 @@ export default function CodexRouter({
             <Route path="/dag" element={<DAG />} />
             
             {/* Codex Routes */}
-            <Route path="/codex" element={<CodexIndex />} />
+            <Route path="/codex" element={<CodexIndexPage />} />
+            <Route path="/codex/hooks" element={<CodexIndex />} />
             <Route path="/codex/scrolls" element={<ScrollsArchive />} />
             <Route path="/codex/glyphs" element={<GlyphsCollection />} />
             <Route path="/codex/sigils" element={<SigilsRegistry />} />

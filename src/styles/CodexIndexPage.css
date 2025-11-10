@@ -1,0 +1,225 @@
+/* CodexIndexPage.css - Styling for the Codex navigation hub */
+
+.codex-index-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e0e0e0;
+}
+
+.index-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 2rem;
+}
+
+.index-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #a8d5ff, #ffd8a8, #d4a8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.index-header .subtitle {
+  font-size: 1.3rem;
+  color: #91e3f6;
+  margin-bottom: 1rem;
+}
+
+.index-header .description {
+  font-size: 1.05rem;
+  color: #b8b8b8;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.territories-section,
+.companions-section,
+.tools-section {
+  margin-bottom: 4rem;
+}
+
+.territories-section h2,
+.companions-section h2,
+.tools-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffd859;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.territories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.territory-card {
+  background: linear-gradient(135deg, #2a2a3e 0%, #1f1f2e 100%);
+  border: 2px solid var(--territory-color, #91e3f6);
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.territory-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, var(--territory-color, #91e3f6) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.territory-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-color: var(--territory-color, #91e3f6);
+}
+
+.territory-card:hover::before {
+  opacity: 0.1;
+}
+
+.territory-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.territory-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--territory-color, #91e3f6);
+}
+
+.territory-card p {
+  font-size: 0.95rem;
+  color: #b8b8b8;
+  line-height: 1.5;
+}
+
+.companions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+}
+
+.companion-card {
+  background: linear-gradient(135deg, #2a2a3e 0%, #1f1f2e 100%);
+  border: 2px solid #5cf7b2;
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.companion-card:hover {
+  transform: scale(1.05);
+  border-color: #ffd859;
+  box-shadow: 0 10px 25px rgba(92, 247, 178, 0.3);
+}
+
+.companion-icon {
+  font-size: 3.5rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.companion-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #5cf7b2;
+}
+
+.companion-role {
+  font-size: 0.9rem;
+  color: #91e3f6;
+  font-style: italic;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+}
+
+.tool-card {
+  background: linear-gradient(135deg, #2a2a3e 0%, #1f1f2e 100%);
+  border: 2px solid #d4a8ff;
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-3px);
+  border-color: #ffd859;
+  box-shadow: 0 8px 20px rgba(212, 168, 255, 0.3);
+}
+
+.tool-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  color: #d4a8ff;
+}
+
+.tool-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #d4a8ff;
+}
+
+.tool-card p {
+  font-size: 0.9rem;
+  color: #b8b8b8;
+}
+
+@media (max-width: 768px) {
+  .codex-index-page {
+    padding: 1rem;
+  }
+
+  .index-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .territories-grid,
+  .companions-grid,
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+}

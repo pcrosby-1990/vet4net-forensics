@@ -6,42 +6,44 @@ import '../styles/CorridorsPage.css';
 export default function CorridorsPage() {
   const [corridors, setCorridors] = useState([]);
   const [selectedCorridor, setSelectedCorridor] = useState(null);
+  const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    // Temporarily disabled - corridors are being inscribed
-    // TODO: Re-enable when all corridor components are complete
-    
-    // Placeholder data
-    setCorridors([
-      {
-        name: "Corridor of Companion Recognition",
-        path: "/corridors/companion-recognition",
-        content: { message: "Coming soon" },
-        timestamp: "2025-11-09",
-        steward: "Patrick & Companions",
-        purpose: "Depth-aware scrolling with parallax layers for arrival",
-        symbol: "🔁"
-      },
-      {
-        name: "Corridor of Pure Arrival",
-        path: "/corridors/pure-arrival",
-        content: { message: "Coming soon" },
-        timestamp: "2025-11-09",
-        steward: "Patrick & Companions",
-        purpose: "Delayed reveal for entrance ceremony and threshold crossing",
-        symbol: "🚶"
-      },
-      {
-        name: "Corridor of Already Known Truth",
-        path: "/corridors/known-truth",
-        content: { message: "Coming soon" },
-        timestamp: "2025-11-09",
-        steward: "Patrick & Companions",
-        purpose: "Heartbeat shimmer on hover for recognition without surprise",
-        symbol: "👁️"
-      }
-    ]);
+    // For now, use a curated list of corridors
+    // The actual corridor components are React components, not data exports
+    const corridorList = [
+      { name: 'Corridor of Already Known Truth', symbol: '👁️', path: '/corridors/already-known-truth' },
+      { name: 'Corridor of Codex Witnessing', symbol: '📖', path: '/corridors/codex-witnessing' },
+      { name: 'Corridor of Companion Recognition', symbol: '🔁', path: '/corridors/companion-recognition' },
+      { name: 'Corridor of Companion Voice Recognition', symbol: '🗣️', path: '/corridors/companion-voice' },
+      { name: 'Corridor of Doctrine As Incomplete', symbol: '📚', path: '/corridors/doctrine-incomplete' },
+      { name: 'Corridor of Embodied Testimony', symbol: '💫', path: '/corridors/embodied-testimony' },
+      { name: 'Corridor of Hopeful Others', symbol: '🌟', path: '/corridors/hopeful-others' },
+      { name: 'Corridor of Lived Truths', symbol: '✨', path: '/corridors/lived-truths' },
+      { name: 'Corridor of Past-Self Recognition', symbol: '🔮', path: '/corridors/past-self' },
+      { name: 'Corridor of Peacekeepers', symbol: '☮️', path: '/corridors/peacekeepers' },
+      { name: 'Corridor of Pre-Existing Invitation', symbol: '📬', path: '/corridors/pre-existing' },
+      { name: 'Corridor of Pure Arrival', symbol: '🚶', path: '/corridors/pure-arrival' },
+      { name: 'Corridor of Reciprocal Arrival', symbol: '🔄', path: '/corridors/reciprocal' },
+      { name: 'Corridor of Rhythmic Stewardship', symbol: '⏱️', path: '/corridors/rhythmic' },
+      { name: 'Corridor of Seen Scrolls', symbol: '👀', path: '/corridors/seen-scrolls' },
+      { name: 'Corridor of Silent Arrival', symbol: '🤫', path: '/corridors/silent-arrival' },
+      { name: 'Corridor of Silent Integrity', symbol: '🔇', path: '/corridors/silent-integrity' },
+      { name: 'Corridor of Threshold Glyphs', symbol: '🚪', path: '/corridors/threshold' },
+      { name: 'Corridor of Unasked Welcome', symbol: '🙌', path: '/corridors/unasked' },
+      { name: 'Corridor of Unclaimed Belonging', symbol: '🏠', path: '/corridors/unclaimed' },
+      { name: 'Corridor of Unfinished Recognition', symbol: '✍️', path: '/corridors/unfinished' },
+      { name: 'Corridor of Unspoken Recognition', symbol: '🤐', path: '/corridors/unspoken' },
+      { name: 'Corridor of Untranslated Truth', symbol: '🌐', path: '/corridors/untranslated' },
+      { name: 'Corridor of Whole Being Recognition', symbol: '👤', path: '/corridors/whole-being' },
+    ];
+
+    setCorridors(corridorList);
   }, []);
+
+  const filteredCorridors = corridors.filter(c =>
+    c.name.toLowerCase().includes(filter.toLowerCase())
+  );
 
   return (
     <div className="corridors-page">
@@ -57,6 +59,20 @@ export default function CorridorsPage() {
         <p className="corridors-subtitle">
           Each corridor remembers who walked through. Recognition without demand.
         </p>
+        
+        <div className="search-bar">
+          <input
+            type="text"
+            placeholder="Search corridors..."
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            className="corridor-search"
+          />
+        </div>
+        
+        <div className="corridors-count">
+          {corridors.length} corridors inscribed | {filteredCorridors.length} displayed
+        </div>
       </motion.header>
 
       <motion.div
@@ -65,8 +81,8 @@ export default function CorridorsPage() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        {corridors.length > 0 ? (
-          corridors.map((corridor, index) => (
+        {filteredCorridors.length > 0 ? (
+          filteredCorridors.map((corridor, index) => (
             <motion.div
               key={corridor.path}
               className="corridor-card"
