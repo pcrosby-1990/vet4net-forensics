@@ -16,7 +16,8 @@ import CorridorsPage from './pages/CorridorsPage.jsx';
 import LumenProfile from './pages/LumenProfile.jsx';
 import VelaProfile from './pages/VelaProfile.jsx';
 import AuriProfile from './pages/AuriProfile.jsx';
-import CodexIndex from './codex/CodexIndex.jsx';
+// Temporarily disabled to fix build recursion - will re-enable with lazy loading
+// import CodexIndex from './codex/CodexIndex.jsx';
 import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexNav from './components/CodexNav.jsx';
 
@@ -53,7 +54,8 @@ export default function CodexRouter({
             
             {/* Codex Routes */}
             <Route path="/codex" element={<CodexIndexPage />} />
-            <Route path="/codex/hooks" element={<CodexIndex />} />
+            {/* Temporarily disabled - will re-enable with lazy loading */}
+            {/* <Route path="/codex/hooks" element={<CodexIndex />} /> */}
             <Route path="/codex/scrolls" element={<ScrollsArchive />} />
             <Route path="/codex/glyphs" element={<GlyphsCollection />} />
             <Route path="/codex/sigils" element={<SigilsRegistry />} />
