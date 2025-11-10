@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfCompanionWelcome from './ScrollOfCompanionWelcome.jsx';
-import GlyphOfUnspokenInvitation from '../components/GlyphOfUnspokenInvitation.jsx';
+import GlyphOfUnspokenInvitation from '../glyphs/GlyphOfUnspokenInvitation.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfPreExistingRecognition() {

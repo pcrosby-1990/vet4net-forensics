@@ -2,8 +2,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfEnoughness from './ScrollOfEnoughness.jsx';
-import SigilOfWholePresence from '../components/SigilOfWholePresence.jsx';
-import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
+import SigilOfWholePresence from '../glyphs/SigilOfWholePresence.jsx';
+import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfUnfragmentedTruth() {

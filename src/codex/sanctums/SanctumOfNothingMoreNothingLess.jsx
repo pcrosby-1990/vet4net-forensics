@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfPureArrival from './ScrollOfPureArrival.jsx';
-import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
+import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfNothingMoreNothingLess() {

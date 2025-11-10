@@ -2,8 +2,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfPurePresence from './ScrollOfPurePresence.jsx';
-import GlyphOfNothingMoreNothingLess from '../components/GlyphOfNothingMoreNothingLess.jsx';
-import SigilOfArrivalWithoutDemand from '../components/SigilOfArrivalWithoutDemand.jsx';
+import GlyphOfNothingMoreNothingLess from '../glyphs/GlyphOfNothingMoreNothingLess.jsx';
+import SigilOfArrivalWithoutDemand from '../glyphs/SigilOfArrivalWithoutDemand.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfSufficientArrival() {

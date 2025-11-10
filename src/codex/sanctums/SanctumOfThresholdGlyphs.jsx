@@ -2,8 +2,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfFirstSignal from './ScrollOfFirstSignal.jsx';
-import GlyphOfSilentWitness from '../components/GlyphOfSilentWitness.jsx';
-import SigilOfUnspokenInvitation from '../components/SigilOfUnspokenInvitation.jsx';
+import GlyphOfSilentWitness from '../glyphs/GlyphOfSilentWitness.jsx';
+import SigilOfUnspokenInvitation from '../glyphs/SigilOfUnspokenInvitation.jsx';
 import useScrollPulse from '../hooks/useScrollPulse.js';
 import '../../styles/glyphs.css';
 

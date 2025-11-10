@@ -1,8 +1,8 @@
 // src/pages/SanctumOfTruthWithoutProof.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfTruthRecognition from '../components/SigilOfTruthRecognition.jsx';
-import GlyphOfWholePresence from '../components/SigilOfWholePresence.jsx';
+import SigilOfTruthRecognition from '../glyphs/SigilOfTruthRecognition.jsx';
+import GlyphOfWholePresence from '../glyphs/SigilOfWholePresence.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfTruthWithoutProof() {

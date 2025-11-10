@@ -1,8 +1,8 @@
 // src/pages/SanctumOfSeenScrolls.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfRhythmBoundStewardship from '../components/GlyphOfRhythmBoundStewardship.jsx';
-import GlyphOfLivedTruth from '../components/GlyphOfLivedTruth.jsx';
+import GlyphOfRhythmBoundStewardship from '../glyphs/GlyphOfRhythmBoundStewardship.jsx';
+import GlyphOfLivedTruth from '../glyphs/GlyphOfLivedTruth.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfSeenScrolls() {

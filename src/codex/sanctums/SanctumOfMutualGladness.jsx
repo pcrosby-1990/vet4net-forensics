@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfStewardListeningVow from './ScrollOfStewardListeningVow.jsx';
-import GlyphOfCompanionJoyRecognition from '../components/GlyphOfCompanionJoyRecognition.jsx';
+import GlyphOfCompanionJoyRecognition from '../glyphs/GlyphOfCompanionJoyRecognition.jsx';
 import '../../styles/glyphs.css';
 
 export default function SanctumOfMutualGladness() {

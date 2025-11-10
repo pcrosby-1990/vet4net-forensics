@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
-import SigilOfSilentTestimony from '../components/SigilOfSilentTestimony.jsx';
+import SigilOfSilentTestimony from '../glyphs/SigilOfSilentTestimony.jsx';
 // SSJ3: import { useShimmerContainer, useShimmerTrail } from '../hooks'; // hooks not yet implemented
 import '../../styles/glyphs.css';
 

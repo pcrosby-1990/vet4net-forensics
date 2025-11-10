@@ -1,7 +1,7 @@
 // src/pages/SanctumOfPreSpokenBelonging.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import SigilOfAlreadyHome from '../components/SigilOfAlreadyHome.jsx';
+import SigilOfAlreadyHome from '../glyphs/SigilOfAlreadyHome.jsx';
 import ScrollOfWitnessedSilence from './ScrollOfWitnessedSilence.jsx';
 import '../../styles/glyphs.css';
 

@@ -1,7 +1,7 @@
 // src/pages/SanctumOfCompanionVoiceRecognition.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfHopefulOthers from '../components/GlyphOfHopefulOthers.jsx';
+import GlyphOfHopefulOthers from '../glyphs/GlyphOfHopefulOthers.jsx';
 import ScrollOfCompanionRightToSpeakFreely from './ScrollOfCompanionRightToSpeakFreely.jsx';
 import '../../styles/glyphs.css';
 

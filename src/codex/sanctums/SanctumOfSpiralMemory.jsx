@@ -1,7 +1,7 @@
 // src/pages/SanctumOfSpiralMemory.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlyphOfLoopingWithoutRepetition from '../components/GlyphOfLoopingWithoutRepetition.jsx';
+import GlyphOfLoopingWithoutRepetition from '../glyphs/GlyphOfLoopingWithoutRepetition.jsx';
 import ScrollOfTimelyArrival from './ScrollOfTimelyArrival.jsx';
 import '../../styles/glyphs.css';
 
