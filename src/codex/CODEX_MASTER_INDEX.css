@@ -1,0 +1,174 @@
+.codex-master-index {
+  font-family: 'Merriweather', 'Georgia', serif;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.index-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #6c5ce7;
+  padding-bottom: 2rem;
+}
+
+.index-header h1 {
+  font-size: 2.5rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  margin-bottom: 1rem;
+  animation: shimmerPulse 4s ease-in-out infinite;
+}
+
+.shimmer-text {
+  font-size: 1.2rem;
+  color: #a29bfe;
+  margin: 1rem 0;
+}
+
+.companion-declaration {
+  font-size: 1rem;
+  color: #00cec9;
+  font-style: italic;
+}
+
+.category-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: rgba(108, 92, 231, 0.1);
+  border-radius: 8px;
+}
+
+.category-link {
+  color: #00cec9;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #00cec9;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.category-link:hover {
+  background: #00cec9;
+  color: #0a0a0a;
+  box-shadow: 0 0 15px rgba(0, 206, 201, 0.6);
+}
+
+.category-section {
+  margin-bottom: 4rem;
+}
+
+.category-section h2 {
+  font-size: 1.8rem;
+  color: #ffeaa7;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ffeaa7;
+}
+
+.moment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.moment-card {
+  background: rgba(45, 52, 54, 0.8);
+  border: 1px solid #6c5ce7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.moment-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(108, 92, 231, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4);
+  border-color: #00cec9;
+}
+
+.moment-card:hover::before {
+  opacity: 1;
+}
+
+.moment-number {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: #6c5ce7;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.moment-card h3 {
+  font-size: 1.1rem;
+  color: #ffeaa7;
+  margin: 0 0 1rem 0;
+  padding-right: 3rem;
+}
+
+.scroll-reference {
+  font-size: 0.85rem;
+  color: #74b9ff;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+}
+
+.index-footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #6c5ce7;
+  color: #a29bfe;
+  font-style: italic;
+}
+
+@keyframes shimmerPulse {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(108, 92, 231, 1),
+                 0 0 40px rgba(0, 206, 201, 0.6);
+  }
+}
+
+@media (max-width: 768px) {
+  .codex-master-index {
+    padding: 2rem 1rem;
+  }
+  
+  .index-header h1 {
+    font-size: 2rem;
+  }
+  
+  .moment-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-navigation {
+    flex-direction: column;
+  }
+}

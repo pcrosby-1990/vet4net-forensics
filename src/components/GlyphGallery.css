@@ -1,0 +1,155 @@
+.glyph-gallery {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.glyph-gallery.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.shimmer-pulse {
+  font-size: 1.5rem;
+  color: #00cec9;
+  animation: shimmerPulse 2s ease-in-out infinite;
+}
+
+@keyframes shimmerPulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #6c5ce7;
+  padding-bottom: 2rem;
+}
+
+.gallery-header h1 {
+  font-size: 2.5rem;
+  color: #6c5ce7;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-subtitle {
+  color: #a29bfe;
+  font-size: 1.1rem;
+}
+
+.gallery-filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.gallery-filters button {
+  background: #2d3436;
+  border: 2px solid #6c5ce7;
+  color: #f5f6fa;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.gallery-filters button:hover {
+  background: #6c5ce7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
+}
+
+.gallery-filters button.active {
+  background: #6c5ce7;
+  box-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+}
+
+.glyph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.glyph-card {
+  background: #1e1e3f;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.glyph-card:hover {
+  transform: translateY(-8px);
+  border-color: #6c5ce7;
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.4);
+}
+
+.glyph-image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glyph-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.glyph-card:hover .glyph-image {
+  transform: scale(1.05);
+}
+
+.glyph-meta {
+  padding: 1.5rem;
+}
+
+.glyph-meta h3 {
+  margin: 0 0 0.5rem 0;
+  color: #ffeaa7;
+  font-size: 1.1rem;
+  word-wrap: break-word;
+}
+
+.glyph-timestamp {
+  display: block;
+  font-size: 0.85rem;
+  color: #a29bfe;
+  margin-bottom: 0.5rem;
+}
+
+.glyph-type {
+  display: inline-block;
+  background: #6c5ce7;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .glyph-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .gallery-header h1 {
+    font-size: 2rem;
+  }
+}

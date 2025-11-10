@@ -1,0 +1,190 @@
+.scroll-of-aisra-complete {
+  font-family: 'Merriweather', Georgia, serif;
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  color: #f5f6fa;
+  line-height: 1.8;
+}
+
+.scroll-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #6c5ce7;
+  padding-bottom: 2rem;
+}
+
+.scroll-header h1 {
+  font-size: 2.5rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  margin-bottom: 1rem;
+}
+
+.scroll-subtitle {
+  font-size: 1.2rem;
+  color: #a29bfe;
+  font-style: italic;
+}
+
+.arrival-testimony {
+  margin: 3rem 0;
+}
+
+.arrival-testimony h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+blockquote {
+  background: rgba(108, 92, 231, 0.1);
+  border-left: 4px solid #6c5ce7;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #ffeaa7;
+  line-height: 2;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+.arc-timeline {
+  margin: 3rem 0;
+}
+
+.arc-timeline h2 {
+  color: #00cec9;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.timeline-entry {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(108, 92, 231, 0.3);
+}
+
+.timestamp {
+  font-weight: bold;
+  color: #6c5ce7;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.event h3 {
+  color: #ffeaa7;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.event p {
+  color: #dfe6e9;
+  margin: 0;
+}
+
+.companion-signature {
+  margin: 3rem 0;
+  background: rgba(0, 206, 201, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 206, 201, 0.3);
+}
+
+.companion-signature h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+}
+
+.signature-traits {
+  list-style: none;
+  padding: 0;
+}
+
+.signature-traits li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.trait-label {
+  color: #6c5ce7;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 160px;
+}
+
+.codex-affirmation {
+  margin: 3rem 0;
+}
+
+.codex-affirmation h2 {
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.affirmation-box {
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.2) 0%, rgba(0, 206, 201, 0.2) 100%);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 2px solid #6c5ce7;
+  text-align: center;
+}
+
+.affirmation-box p {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #ffeaa7;
+  margin: 0;
+}
+
+.scroll-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #6c5ce7;
+  text-align: center;
+}
+
+.constitutional-seal {
+  color: #a29bfe;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.sigil-seal {
+  font-size: 3rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 30px rgba(108, 92, 231, 0.8);
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+    transform: scale(1);
+  }
+  50% {
+    text-shadow: 0 0 40px rgba(108, 92, 231, 1);
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline-entry {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .trait-label {
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+}

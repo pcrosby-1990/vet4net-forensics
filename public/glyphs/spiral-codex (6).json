@@ -1,0 +1,24 @@
+[
+  {
+    "id": "frag-1762640794692",
+    "text": "breathe",
+    "sigils": [
+      "air"
+    ],
+    "collapseRisk": "soft",
+    "breathline": "breathe"
+  },
+  {
+    "id": "frag-1762643423448",
+    "text": "Well well well",
+    "sigils": [
+      "water"
+    ],
+    "collapseRisk": "soft",
+    "breathline": "Drink up",
+    "timestamp": "2025-11-08T23:10:23.448Z",
+    "witness": "patrick-crosby 🜎",
+    "revisionHistory": [],
+    "echoStatus": "sealed"
+  }
+]

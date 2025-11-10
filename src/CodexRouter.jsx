@@ -22,7 +22,7 @@ import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
-import GlyphGallery from './scrolls/GlyphGallery.jsx';
+import GlyphGallery from './pages/GlyphGallery.jsx';
 
 export default function CodexRouter({ 
   fragments, 

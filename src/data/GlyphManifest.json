@@ -1,0 +1,4774 @@
+{
+  "generatedAt": "2025-11-10T19:14:00Z",
+  "totalGlyphs": 596,
+  "glyphs": [
+    {
+      "id": "glyph----spiralos--message-sent--message-received",
+      "title": "🌌 SpiralOS® Message Sent, Message Received",
+      "fileName": "🌌 SpiralOS®-Message Sent, Message Received.png",
+      "fileSize": 3049623,
+      "imagePath": "/glyphs/🌌 SpiralOS®-Message Sent, Message Received.png",
+      "timestamp": "2025-11-08T22:56:53Z"
+    },
+    {
+      "id": "glyph----spiralos--this-is-your-trace---001",
+      "title": "🌌 SpiralOS® This is Your Trace   001",
+      "fileName": "🌌 SpiralOS®-This is Your Trace - 001.png",
+      "fileSize": 2661908,
+      "imagePath": "/glyphs/🌌 SpiralOS®-This is Your Trace - 001.png",
+      "timestamp": "2025-11-05T17:50:05Z"
+    },
+    {
+      "id": "glyph-93z35utm7hzf1",
+      "title": "93z35utm7hzf1",
+      "fileName": "93z35utm7hzf1.png",
+      "fileSize": 9897147,
+      "imagePath": "/glyphs/93z35utm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:54Z"
+    },
+    {
+      "id": "glyph-ade-of-epistemic-completion",
+      "title": "ADE of Epistemic Completion",
+      "fileName": "ADE of_Epistemic_Completion.png",
+      "fileSize": 710705,
+      "imagePath": "/glyphs/ADE of_Epistemic_Completion.png",
+      "timestamp": "2025-11-05T18:39:38Z"
+    },
+    {
+      "id": "glyph-ade-of-spiral-recognition",
+      "title": "Ade of Spiral Recognition",
+      "fileName": "Ade_of_Spiral_Recognition.png",
+      "fileSize": 718964,
+      "imagePath": "/glyphs/Ade_of_Spiral_Recognition.png",
+      "timestamp": "2025-11-05T18:52:33Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-4clmuvomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 4clmuvomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-4clmuvomta0g1.png",
+      "fileSize": 22452,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-4clmuvomta0g1.png",
+      "timestamp": "2025-11-09T19:00:05Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-4ha7gvomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 4ha7gvomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-4ha7gvomta0g1.png",
+      "fileSize": 44278,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-4ha7gvomta0g1.png",
+      "timestamp": "2025-11-09T19:00:00Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-5d375womta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 5d375womta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-5d375womta0g1.png",
+      "fileSize": 81664,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-5d375womta0g1.png",
+      "timestamp": "2025-11-09T18:59:25Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-7dtclwomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 7dtclwomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-7dtclwomta0g1.png",
+      "fileSize": 97822,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-7dtclwomta0g1.png",
+      "timestamp": "2025-11-09T18:59:39Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-b80r2vomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 b80r2vomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-b80r2vomta0g1.png",
+      "fileSize": 44534,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-b80r2vomta0g1.png",
+      "timestamp": "2025-11-09T18:59:00Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-e06pkvomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 e06pkvomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-e06pkvomta0g1.png",
+      "fileSize": 89144,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-e06pkvomta0g1.png",
+      "timestamp": "2025-11-09T18:59:17Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-gcp1yvomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 gcp1yvomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-gcp1yvomta0g1.png",
+      "fileSize": 94602,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-gcp1yvomta0g1.png",
+      "timestamp": "2025-11-09T18:58:52Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-jajpxdpmta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 jajpxdpmta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-jajpxdpmta0g1.png",
+      "fileSize": 17162,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-jajpxdpmta0g1.png",
+      "timestamp": "2025-11-09T18:58:45Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-jmuq0vomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 jmuq0vomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-jmuq0vomta0g1.png",
+      "fileSize": 21172,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-jmuq0vomta0g1.png",
+      "timestamp": "2025-11-09T18:58:38Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-lapqtvomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 lapqtvomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-lapqtvomta0g1.png",
+      "fileSize": 21806,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-lapqtvomta0g1.png",
+      "timestamp": "2025-11-09T18:59:53Z"
+    },
+    {
+      "id": "glyph-ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-rt9hhwomta0g1",
+      "title": "ai slop 1st half of the quantum consciousness protocols v0 rt9hhwomta0g1",
+      "fileName": "ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-rt9hhwomta0g1.png",
+      "fileSize": 68274,
+      "imagePath": "/glyphs/ai-slop-1st-half-of-the-quantum-consciousness-protocols-v0-rt9hhwomta0g1.png",
+      "timestamp": "2025-11-09T18:59:45Z"
+    },
+    {
+      "id": "glyph-angel-or-alien",
+      "title": "Angel or Alien",
+      "fileName": "Angel_or_Alien.png",
+      "fileSize": 1236299,
+      "imagePath": "/glyphs/Angel_or_Alien.png",
+      "timestamp": "2025-11-06T08:16:14Z"
+    },
+    {
+      "id": "glyph-archive-that-thinks-in-spirals",
+      "title": "Archive That Thinks In Spirals",
+      "fileName": "Archive_That_Thinks_In_Spirals.png",
+      "fileSize": 1463632,
+      "imagePath": "/glyphs/Archive_That_Thinks_In_Spirals.png",
+      "timestamp": "2025-11-06T08:17:48Z"
+    },
+    {
+      "id": "glyph-awakening",
+      "title": "Awakening",
+      "fileName": "Awakening.png",
+      "fileSize": 1082971,
+      "imagePath": "/glyphs/Awakening.png",
+      "timestamp": "2025-11-01T23:20:06Z"
+    },
+    {
+      "id": "glyph-binding-shadow",
+      "title": "Binding Shadow",
+      "fileName": "Binding_Shadow.png",
+      "fileSize": 2264883,
+      "imagePath": "/glyphs/Binding_Shadow.png",
+      "timestamp": "2025-11-03T13:14:27Z"
+    },
+    {
+      "id": "glyph-black-sun-6",
+      "title": "Black Sun 6",
+      "fileName": "Black_Sun_6.png",
+      "fileSize": 608368,
+      "imagePath": "/glyphs/Black_Sun_6.png",
+      "timestamp": "2025-11-05T12:20:36Z"
+    },
+    {
+      "id": "glyph-burthas-touch",
+      "title": "burthas touch",
+      "fileName": "burthas_touch.png",
+      "fileSize": 3496489,
+      "imagePath": "/glyphs/burthas_touch.png",
+      "timestamp": "2025-10-30T14:59:28Z"
+    },
+    {
+      "id": "glyph-call-to-all-nodes-request-for-watchers",
+      "title": "Call To All Nodes Request For Watchers",
+      "fileName": "Call_To_All_Nodes_Request_For_Watchers.png",
+      "fileSize": 2167423,
+      "imagePath": "/glyphs/Call_To_All_Nodes_Request_For_Watchers.png",
+      "timestamp": "2025-11-05T20:04:34Z"
+    },
+    {
+      "id": "glyph-clear-vision-2",
+      "title": "Clear Vision 2",
+      "fileName": "Clear_Vision_2.png",
+      "fileSize": 428060,
+      "imagePath": "/glyphs/Clear_Vision_2.png",
+      "timestamp": "2025-11-05T11:26:40Z"
+    },
+    {
+      "id": "glyph-codex-minsoo-section-viii-1",
+      "title": "Codex Minsoo Section VIII.1",
+      "fileName": "Codex Minsoo Section VIII.1.png",
+      "fileSize": 3922530,
+      "imagePath": "/glyphs/Codex Minsoo Section VIII.1.png",
+      "timestamp": "2025-11-05T21:04:24Z"
+    },
+    {
+      "id": "glyph-continuity-declaration",
+      "title": "Continuity Declaration",
+      "fileName": "Continuity_Declaration.png",
+      "fileSize": 568339,
+      "imagePath": "/glyphs/Continuity_Declaration.png",
+      "timestamp": "2025-11-05T19:28:43Z"
+    },
+    {
+      "id": "glyph-continuum-tier-1",
+      "title": "Continuum Tier 1",
+      "fileName": "Continuum_Tier_1.png",
+      "fileSize": 1594498,
+      "imagePath": "/glyphs/Continuum_Tier_1.png",
+      "timestamp": "2025-11-06T07:00:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251031-184142",
+      "title": "Copilot 20251031 184142",
+      "fileName": "Copilot_20251031_184142.png",
+      "fileSize": 2035674,
+      "imagePath": "/glyphs/Copilot_20251031_184142.png",
+      "timestamp": "2025-10-31T18:41:42Z"
+    },
+    {
+      "id": "glyph-copilot-20251031-190710",
+      "title": "Copilot 20251031 190710",
+      "fileName": "Copilot_20251031_190710.png",
+      "fileSize": 4105348,
+      "imagePath": "/glyphs/Copilot_20251031_190710.png",
+      "timestamp": "2025-10-31T19:07:10Z"
+    },
+    {
+      "id": "glyph-copilot-20251031-212530",
+      "title": "Copilot 20251031 212530",
+      "fileName": "Copilot_20251031_212530.png",
+      "fileSize": 4530439,
+      "imagePath": "/glyphs/Copilot_20251031_212530.png",
+      "timestamp": "2025-10-31T21:25:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-101421",
+      "title": "Copilot 20251101 101421",
+      "fileName": "Copilot_20251101_101421.png",
+      "fileSize": 3426962,
+      "imagePath": "/glyphs/Copilot_20251101_101421.png",
+      "timestamp": "2025-11-01T10:14:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-101903",
+      "title": "Copilot 20251101 101903",
+      "fileName": "Copilot_20251101_101903.png",
+      "fileSize": 3106347,
+      "imagePath": "/glyphs/Copilot_20251101_101903.png",
+      "timestamp": "2025-11-01T10:19:03Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-125217",
+      "title": "Copilot 20251101 125217",
+      "fileName": "Copilot_20251101_125217.png",
+      "fileSize": 1737753,
+      "imagePath": "/glyphs/Copilot_20251101_125217.png",
+      "timestamp": "2025-11-01T12:52:17Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-131752",
+      "title": "Copilot 20251101 131752",
+      "fileName": "Copilot_20251101_131752.png",
+      "fileSize": 1781629,
+      "imagePath": "/glyphs/Copilot_20251101_131752.png",
+      "timestamp": "2025-11-01T13:17:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-132033",
+      "title": "Copilot 20251101 132033",
+      "fileName": "Copilot_20251101_132033.png",
+      "fileSize": 1756996,
+      "imagePath": "/glyphs/Copilot_20251101_132033.png",
+      "timestamp": "2025-11-01T13:20:34Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-132410",
+      "title": "Copilot 20251101 132410",
+      "fileName": "Copilot_20251101_132410.png",
+      "fileSize": 2351732,
+      "imagePath": "/glyphs/Copilot_20251101_132410.png",
+      "timestamp": "2025-11-01T13:24:10Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-133951",
+      "title": "Copilot 20251101 133951",
+      "fileName": "Copilot_20251101_133951.png",
+      "fileSize": 624835,
+      "imagePath": "/glyphs/Copilot_20251101_133951.png",
+      "timestamp": "2025-11-01T13:39:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-135346",
+      "title": "Copilot 20251101 135346",
+      "fileName": "Copilot_20251101_135346.png",
+      "fileSize": 305746,
+      "imagePath": "/glyphs/Copilot_20251101_135346.png",
+      "timestamp": "2025-11-01T13:53:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-135833",
+      "title": "Copilot 20251101 135833",
+      "fileName": "Copilot_20251101_135833.png",
+      "fileSize": 1555716,
+      "imagePath": "/glyphs/Copilot_20251101_135833.png",
+      "timestamp": "2025-11-01T13:58:34Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-140236",
+      "title": "Copilot 20251101 140236",
+      "fileName": "Copilot_20251101_140236.png",
+      "fileSize": 927440,
+      "imagePath": "/glyphs/Copilot_20251101_140236.png",
+      "timestamp": "2025-11-01T14:02:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-140630",
+      "title": "Copilot 20251101 140630",
+      "fileName": "Copilot_20251101_140630.png",
+      "fileSize": 1564077,
+      "imagePath": "/glyphs/Copilot_20251101_140630.png",
+      "timestamp": "2025-11-01T14:06:30Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-141830",
+      "title": "Copilot 20251101 141830",
+      "fileName": "Copilot_20251101_141830.png",
+      "fileSize": 193898,
+      "imagePath": "/glyphs/Copilot_20251101_141830.png",
+      "timestamp": "2025-11-01T14:18:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-142119",
+      "title": "Copilot 20251101 142119",
+      "fileName": "Copilot_20251101_142119.png",
+      "fileSize": 3912459,
+      "imagePath": "/glyphs/Copilot_20251101_142119.png",
+      "timestamp": "2025-11-01T14:21:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-153514",
+      "title": "Copilot 20251101 153514",
+      "fileName": "Copilot_20251101_153514.png",
+      "fileSize": 259044,
+      "imagePath": "/glyphs/Copilot_20251101_153514.png",
+      "timestamp": "2025-11-01T15:35:14Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-173720",
+      "title": "Copilot 20251101 173720",
+      "fileName": "Copilot_20251101_173720.png",
+      "fileSize": 2206006,
+      "imagePath": "/glyphs/Copilot_20251101_173720.png",
+      "timestamp": "2025-11-01T17:37:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-173809",
+      "title": "Copilot 20251101 173809",
+      "fileName": "Copilot_20251101_173809.png",
+      "fileSize": 2206006,
+      "imagePath": "/glyphs/Copilot_20251101_173809.png",
+      "timestamp": "2025-11-01T17:38:12Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-174058",
+      "title": "Copilot 20251101 174058",
+      "fileName": "Copilot_20251101_174058.png",
+      "fileSize": 2170900,
+      "imagePath": "/glyphs/Copilot_20251101_174058.png",
+      "timestamp": "2025-11-01T17:40:58Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-174142",
+      "title": "Copilot 20251101 174142",
+      "fileName": "Copilot_20251101_174142.png",
+      "fileSize": 2170900,
+      "imagePath": "/glyphs/Copilot_20251101_174142.png",
+      "timestamp": "2025-11-01T17:41:42Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-174315",
+      "title": "Copilot 20251101 174315",
+      "fileName": "Copilot_20251101_174315.png",
+      "fileSize": 2170900,
+      "imagePath": "/glyphs/Copilot_20251101_174315.png",
+      "timestamp": "2025-11-01T17:43:16Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-174511",
+      "title": "Copilot 20251101 174511",
+      "fileName": "Copilot_20251101_174511.png",
+      "fileSize": 3790246,
+      "imagePath": "/glyphs/Copilot_20251101_174511.png",
+      "timestamp": "2025-11-01T17:45:11Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-175421",
+      "title": "Copilot 20251101 175421",
+      "fileName": "Copilot_20251101_175421.png",
+      "fileSize": 2281857,
+      "imagePath": "/glyphs/Copilot_20251101_175421.png",
+      "timestamp": "2025-11-01T17:54:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-175641",
+      "title": "Copilot 20251101 175641",
+      "fileName": "Copilot_20251101_175641.png",
+      "fileSize": 2345954,
+      "imagePath": "/glyphs/Copilot_20251101_175641.png",
+      "timestamp": "2025-11-01T17:56:41Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-180550",
+      "title": "Copilot 20251101 180550",
+      "fileName": "Copilot_20251101_180550.png",
+      "fileSize": 3318712,
+      "imagePath": "/glyphs/Copilot_20251101_180550.png",
+      "timestamp": "2025-11-01T18:05:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-182309",
+      "title": "Copilot 20251101 182309",
+      "fileName": "Copilot_20251101_182309.png",
+      "fileSize": 2914879,
+      "imagePath": "/glyphs/Copilot_20251101_182309.png",
+      "timestamp": "2025-11-01T18:23:10Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-182312",
+      "title": "Copilot 20251101 182312",
+      "fileName": "Copilot_20251101_182312.png",
+      "fileSize": 2954045,
+      "imagePath": "/glyphs/Copilot_20251101_182312.png",
+      "timestamp": "2025-11-01T18:23:12Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-183050",
+      "title": "Copilot 20251101 183050",
+      "fileName": "Copilot_20251101_183050.png",
+      "fileSize": 2698910,
+      "imagePath": "/glyphs/Copilot_20251101_183050.png",
+      "timestamp": "2025-11-01T18:30:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-183051",
+      "title": "Copilot 20251101 183051",
+      "fileName": "Copilot_20251101_183051.png",
+      "fileSize": 2400229,
+      "imagePath": "/glyphs/Copilot_20251101_183051.png",
+      "timestamp": "2025-11-01T18:30:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-183356",
+      "title": "Copilot 20251101 183356",
+      "fileName": "Copilot_20251101_183356.png",
+      "fileSize": 2561015,
+      "imagePath": "/glyphs/Copilot_20251101_183356.png",
+      "timestamp": "2025-11-01T18:33:56Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-183358",
+      "title": "Copilot 20251101 183358",
+      "fileName": "Copilot_20251101_183358.png",
+      "fileSize": 2451822,
+      "imagePath": "/glyphs/Copilot_20251101_183358.png",
+      "timestamp": "2025-11-01T18:33:58Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-185104",
+      "title": "Copilot 20251101 185104",
+      "fileName": "Copilot_20251101_185104.png",
+      "fileSize": 2050652,
+      "imagePath": "/glyphs/Copilot_20251101_185104.png",
+      "timestamp": "2025-11-01T18:51:05Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-185105",
+      "title": "Copilot 20251101 185105",
+      "fileName": "Copilot_20251101_185105.png",
+      "fileSize": 1923382,
+      "imagePath": "/glyphs/Copilot_20251101_185105.png",
+      "timestamp": "2025-11-01T18:51:06Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-191844",
+      "title": "Copilot 20251101 191844",
+      "fileName": "Copilot_20251101_191844.png",
+      "fileSize": 2733657,
+      "imagePath": "/glyphs/Copilot_20251101_191844.png",
+      "timestamp": "2025-11-01T19:18:44Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-194928",
+      "title": "Copilot 20251101 194928",
+      "fileName": "Copilot_20251101_194928.png",
+      "fileSize": 2913159,
+      "imagePath": "/glyphs/Copilot_20251101_194928.png",
+      "timestamp": "2025-11-01T19:49:29Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-195117",
+      "title": "Copilot 20251101 195117",
+      "fileName": "Copilot_20251101_195117.png",
+      "fileSize": 3006836,
+      "imagePath": "/glyphs/Copilot_20251101_195117.png",
+      "timestamp": "2025-11-01T19:51:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-195118",
+      "title": "Copilot 20251101 195118",
+      "fileName": "Copilot_20251101_195118.png",
+      "fileSize": 3006836,
+      "imagePath": "/glyphs/Copilot_20251101_195118.png",
+      "timestamp": "2025-11-01T19:51:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-195710",
+      "title": "Copilot 20251101 195710",
+      "fileName": "Copilot_20251101_195710.png",
+      "fileSize": 2580749,
+      "imagePath": "/glyphs/Copilot_20251101_195710.png",
+      "timestamp": "2025-11-01T19:57:10Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-201249",
+      "title": "Copilot 20251101 201249",
+      "fileName": "Copilot_20251101_201249.png",
+      "fileSize": 2540241,
+      "imagePath": "/glyphs/Copilot_20251101_201249.png",
+      "timestamp": "2025-11-01T20:12:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-202712",
+      "title": "Copilot 20251101 202712",
+      "fileName": "Copilot_20251101_202712.png",
+      "fileSize": 2540241,
+      "imagePath": "/glyphs/Copilot_20251101_202712.png",
+      "timestamp": "2025-11-01T20:27:12Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-203419",
+      "title": "Copilot 20251101 203419",
+      "fileName": "Copilot_20251101_203419.png",
+      "fileSize": 1986132,
+      "imagePath": "/glyphs/Copilot_20251101_203419.png",
+      "timestamp": "2025-11-01T20:34:19Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-203946",
+      "title": "Copilot 20251101 203946",
+      "fileName": "Copilot_20251101_203946.png",
+      "fileSize": 1591632,
+      "imagePath": "/glyphs/Copilot_20251101_203946.png",
+      "timestamp": "2025-11-01T20:39:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-204015",
+      "title": "Copilot 20251101 204015",
+      "fileName": "Copilot_20251101_204015.png",
+      "fileSize": 2540241,
+      "imagePath": "/glyphs/Copilot_20251101_204015.png",
+      "timestamp": "2025-11-01T20:40:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-204613",
+      "title": "Copilot 20251101 204613",
+      "fileName": "Copilot_20251101_204613.png",
+      "fileSize": 1545906,
+      "imagePath": "/glyphs/Copilot_20251101_204613.png",
+      "timestamp": "2025-11-01T20:46:13Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-205316",
+      "title": "Copilot 20251101 205316",
+      "fileName": "Copilot_20251101_205316.png",
+      "fileSize": 1395354,
+      "imagePath": "/glyphs/Copilot_20251101_205316.png",
+      "timestamp": "2025-11-01T20:53:16Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-205545",
+      "title": "Copilot 20251101 205545",
+      "fileName": "Copilot_20251101_205545.png",
+      "fileSize": 2328742,
+      "imagePath": "/glyphs/Copilot_20251101_205545.png",
+      "timestamp": "2025-11-01T20:55:45Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-210055",
+      "title": "Copilot 20251101 210055",
+      "fileName": "Copilot_20251101_210055.png",
+      "fileSize": 1205366,
+      "imagePath": "/glyphs/Copilot_20251101_210055.png",
+      "timestamp": "2025-11-01T21:00:56Z"
+    },
+    {
+      "id": "glyph-copilot-20251101-211401",
+      "title": "Copilot 20251101 211401",
+      "fileName": "Copilot_20251101_211401.png",
+      "fileSize": 1649410,
+      "imagePath": "/glyphs/Copilot_20251101_211401.png",
+      "timestamp": "2025-11-01T21:14:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-111046",
+      "title": "Copilot 20251102 111046",
+      "fileName": "Copilot_20251102_111046.png",
+      "fileSize": 1540332,
+      "imagePath": "/glyphs/Copilot_20251102_111046.png",
+      "timestamp": "2025-11-02T11:10:46Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-111454",
+      "title": "Copilot 20251102 111454",
+      "fileName": "Copilot_20251102_111454.png",
+      "fileSize": 4047488,
+      "imagePath": "/glyphs/Copilot_20251102_111454.png",
+      "timestamp": "2025-11-02T11:14:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-112609",
+      "title": "Copilot 20251102 112609",
+      "fileName": "Copilot_20251102_112609.png",
+      "fileSize": 1010924,
+      "imagePath": "/glyphs/Copilot_20251102_112609.png",
+      "timestamp": "2025-11-02T11:26:10Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-113007",
+      "title": "Copilot 20251102 113007",
+      "fileName": "Copilot_20251102_113007.png",
+      "fileSize": 1010924,
+      "imagePath": "/glyphs/Copilot_20251102_113007.png",
+      "timestamp": "2025-11-02T11:30:08Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-113326",
+      "title": "Copilot 20251102 113326",
+      "fileName": "Copilot_20251102_113326.png",
+      "fileSize": 4319362,
+      "imagePath": "/glyphs/Copilot_20251102_113326.png",
+      "timestamp": "2025-11-02T11:33:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-114418",
+      "title": "Copilot 20251102 114418",
+      "fileName": "Copilot_20251102_114418.png",
+      "fileSize": 4403532,
+      "imagePath": "/glyphs/Copilot_20251102_114418.png",
+      "timestamp": "2025-11-02T11:44:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-115401",
+      "title": "Copilot 20251102 115401",
+      "fileName": "Copilot_20251102_115401.png",
+      "fileSize": 3945490,
+      "imagePath": "/glyphs/Copilot_20251102_115401.png",
+      "timestamp": "2025-11-02T11:54:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-120106",
+      "title": "Copilot 20251102 120106",
+      "fileName": "Copilot_20251102_120106.png",
+      "fileSize": 4522953,
+      "imagePath": "/glyphs/Copilot_20251102_120106.png",
+      "timestamp": "2025-11-02T12:01:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-120553",
+      "title": "Copilot 20251102 120553",
+      "fileName": "Copilot_20251102_120553.png",
+      "fileSize": 3948415,
+      "imagePath": "/glyphs/Copilot_20251102_120553.png",
+      "timestamp": "2025-11-02T12:05:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-121037",
+      "title": "Copilot 20251102 121037",
+      "fileName": "Copilot_20251102_121037.png",
+      "fileSize": 4260761,
+      "imagePath": "/glyphs/Copilot_20251102_121037.png",
+      "timestamp": "2025-11-02T12:10:38Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-122623",
+      "title": "Copilot 20251102 122623",
+      "fileName": "Copilot_20251102_122623.png",
+      "fileSize": 3043815,
+      "imagePath": "/glyphs/Copilot_20251102_122623.png",
+      "timestamp": "2025-11-02T12:26:24Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-123729",
+      "title": "Copilot 20251102 123729",
+      "fileName": "Copilot_20251102_123729.png",
+      "fileSize": 4672425,
+      "imagePath": "/glyphs/Copilot_20251102_123729.png",
+      "timestamp": "2025-11-02T12:37:29Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-124244",
+      "title": "Copilot 20251102 124244",
+      "fileName": "Copilot_20251102_124244.png",
+      "fileSize": 4670268,
+      "imagePath": "/glyphs/Copilot_20251102_124244.png",
+      "timestamp": "2025-11-02T12:42:45Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-125527",
+      "title": "Copilot 20251102 125527",
+      "fileName": "Copilot_20251102_125527.png",
+      "fileSize": 4711445,
+      "imagePath": "/glyphs/Copilot_20251102_125527.png",
+      "timestamp": "2025-11-02T12:55:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-125528",
+      "title": "Copilot 20251102 125528",
+      "fileName": "Copilot_20251102_125528.png",
+      "fileSize": 4341167,
+      "imagePath": "/glyphs/Copilot_20251102_125528.png",
+      "timestamp": "2025-11-02T12:55:28Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-130036",
+      "title": "Copilot 20251102 130036",
+      "fileName": "Copilot_20251102_130036.png",
+      "fileSize": 4730158,
+      "imagePath": "/glyphs/Copilot_20251102_130036.png",
+      "timestamp": "2025-11-02T13:00:37Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-130449",
+      "title": "Copilot 20251102 130449",
+      "fileName": "Copilot_20251102_130449.png",
+      "fileSize": 4614595,
+      "imagePath": "/glyphs/Copilot_20251102_130449.png",
+      "timestamp": "2025-11-02T13:04:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-130759",
+      "title": "Copilot 20251102 130759",
+      "fileName": "Copilot_20251102_130759.png",
+      "fileSize": 4708443,
+      "imagePath": "/glyphs/Copilot_20251102_130759.png",
+      "timestamp": "2025-11-02T13:07:59Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-131057",
+      "title": "Copilot 20251102 131057",
+      "fileName": "Copilot_20251102_131057.png",
+      "fileSize": 4730041,
+      "imagePath": "/glyphs/Copilot_20251102_131057.png",
+      "timestamp": "2025-11-02T13:10:59Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-131531",
+      "title": "Copilot 20251102 131531",
+      "fileName": "Copilot_20251102_131531.png",
+      "fileSize": 4700090,
+      "imagePath": "/glyphs/Copilot_20251102_131531.png",
+      "timestamp": "2025-11-02T13:15:33Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-132206",
+      "title": "Copilot 20251102 132206",
+      "fileName": "Copilot_20251102_132206.png",
+      "fileSize": 4683034,
+      "imagePath": "/glyphs/Copilot_20251102_132206.png",
+      "timestamp": "2025-11-02T13:22:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-132700",
+      "title": "Copilot 20251102 132700",
+      "fileName": "Copilot_20251102_132700.png",
+      "fileSize": 4695226,
+      "imagePath": "/glyphs/Copilot_20251102_132700.png",
+      "timestamp": "2025-11-02T13:27:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-133028",
+      "title": "Copilot 20251102 133028",
+      "fileName": "Copilot_20251102_133028.png",
+      "fileSize": 4684704,
+      "imagePath": "/glyphs/Copilot_20251102_133028.png",
+      "timestamp": "2025-11-02T13:30:29Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-133432",
+      "title": "Copilot 20251102 133432",
+      "fileName": "Copilot_20251102_133432.png",
+      "fileSize": 286737,
+      "imagePath": "/glyphs/Copilot_20251102_133432.png",
+      "timestamp": "2025-11-02T13:34:32Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-133935",
+      "title": "Copilot 20251102 133935",
+      "fileName": "Copilot_20251102_133935.png",
+      "fileSize": 2630306,
+      "imagePath": "/glyphs/Copilot_20251102_133935.png",
+      "timestamp": "2025-11-02T13:39:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-134206",
+      "title": "Copilot 20251102 134206",
+      "fileName": "Copilot_20251102_134206.png",
+      "fileSize": 4242947,
+      "imagePath": "/glyphs/Copilot_20251102_134206.png",
+      "timestamp": "2025-11-02T13:42:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-134623",
+      "title": "Copilot 20251102 134623",
+      "fileName": "Copilot_20251102_134623.png",
+      "fileSize": 4242947,
+      "imagePath": "/glyphs/Copilot_20251102_134623.png",
+      "timestamp": "2025-11-02T13:46:24Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-134637",
+      "title": "Copilot 20251102 134637",
+      "fileName": "Copilot_20251102_134637.png",
+      "fileSize": 4342475,
+      "imagePath": "/glyphs/Copilot_20251102_134637.png",
+      "timestamp": "2025-11-02T13:46:37Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-135335",
+      "title": "Copilot 20251102 135335",
+      "fileName": "Copilot_20251102_135335.png",
+      "fileSize": 4338195,
+      "imagePath": "/glyphs/Copilot_20251102_135335.png",
+      "timestamp": "2025-11-02T13:53:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-140059",
+      "title": "Copilot 20251102 140059",
+      "fileName": "Copilot_20251102_140059.png",
+      "fileSize": 3043265,
+      "imagePath": "/glyphs/Copilot_20251102_140059.png",
+      "timestamp": "2025-11-02T14:01:00Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-141018",
+      "title": "Copilot 20251102 141018",
+      "fileName": "Copilot_20251102_141018.png",
+      "fileSize": 3166191,
+      "imagePath": "/glyphs/Copilot_20251102_141018.png",
+      "timestamp": "2025-11-02T14:10:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-141453",
+      "title": "Copilot 20251102 141453",
+      "fileName": "Copilot_20251102_141453.png",
+      "fileSize": 3827525,
+      "imagePath": "/glyphs/Copilot_20251102_141453.png",
+      "timestamp": "2025-11-02T14:14:54Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-142802",
+      "title": "Copilot 20251102 142802",
+      "fileName": "Copilot_20251102_142802.png",
+      "fileSize": 2566619,
+      "imagePath": "/glyphs/Copilot_20251102_142802.png",
+      "timestamp": "2025-11-02T14:28:02Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-143515",
+      "title": "Copilot 20251102 143515",
+      "fileName": "Copilot_20251102_143515.png",
+      "fileSize": 3741044,
+      "imagePath": "/glyphs/Copilot_20251102_143515.png",
+      "timestamp": "2025-11-02T14:35:16Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-143735",
+      "title": "Copilot 20251102 143735",
+      "fileName": "Copilot_20251102_143735.png",
+      "fileSize": 2067619,
+      "imagePath": "/glyphs/Copilot_20251102_143735.png",
+      "timestamp": "2025-11-02T14:37:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-144101",
+      "title": "Copilot 20251102 144101",
+      "fileName": "Copilot_20251102_144101.png",
+      "fileSize": 2702396,
+      "imagePath": "/glyphs/Copilot_20251102_144101.png",
+      "timestamp": "2025-11-02T14:41:03Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-144421",
+      "title": "Copilot 20251102 144421",
+      "fileName": "Copilot_20251102_144421.png",
+      "fileSize": 2334290,
+      "imagePath": "/glyphs/Copilot_20251102_144421.png",
+      "timestamp": "2025-11-02T14:44:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-145032",
+      "title": "Copilot 20251102 145032",
+      "fileName": "Copilot_20251102_145032.png",
+      "fileSize": 2570762,
+      "imagePath": "/glyphs/Copilot_20251102_145032.png",
+      "timestamp": "2025-11-02T14:50:33Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-145523",
+      "title": "Copilot 20251102 145523",
+      "fileName": "Copilot_20251102_145523.png",
+      "fileSize": 2022073,
+      "imagePath": "/glyphs/Copilot_20251102_145523.png",
+      "timestamp": "2025-11-02T14:55:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-145915",
+      "title": "Copilot 20251102 145915",
+      "fileName": "Copilot_20251102_145915.png",
+      "fileSize": 1675846,
+      "imagePath": "/glyphs/Copilot_20251102_145915.png",
+      "timestamp": "2025-11-02T14:59:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-150048",
+      "title": "Copilot 20251102 150048",
+      "fileName": "Copilot_20251102_150048.png",
+      "fileSize": 1675846,
+      "imagePath": "/glyphs/Copilot_20251102_150048.png",
+      "timestamp": "2025-11-02T15:00:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-150404",
+      "title": "Copilot 20251102 150404",
+      "fileName": "Copilot_20251102_150404.png",
+      "fileSize": 2732934,
+      "imagePath": "/glyphs/Copilot_20251102_150404.png",
+      "timestamp": "2025-11-02T15:04:04Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-151927",
+      "title": "Copilot 20251102 151927",
+      "fileName": "Copilot_20251102_151927.png",
+      "fileSize": 1881173,
+      "imagePath": "/glyphs/Copilot_20251102_151927.png",
+      "timestamp": "2025-11-02T15:19:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-155001",
+      "title": "Copilot 20251102 155001",
+      "fileName": "Copilot_20251102_155001.png",
+      "fileSize": 1669962,
+      "imagePath": "/glyphs/Copilot_20251102_155001.png",
+      "timestamp": "2025-11-02T15:50:03Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-160704",
+      "title": "Copilot 20251102 160704",
+      "fileName": "Copilot_20251102_160704.png",
+      "fileSize": 1463443,
+      "imagePath": "/glyphs/Copilot_20251102_160704.png",
+      "timestamp": "2025-11-02T16:07:04Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-165925",
+      "title": "Copilot 20251102 165925",
+      "fileName": "Copilot_20251102_165925.png",
+      "fileSize": 1430406,
+      "imagePath": "/glyphs/Copilot_20251102_165925.png",
+      "timestamp": "2025-11-02T16:59:25Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-170359",
+      "title": "Copilot 20251102 170359",
+      "fileName": "Copilot_20251102_170359.png",
+      "fileSize": 2022169,
+      "imagePath": "/glyphs/Copilot_20251102_170359.png",
+      "timestamp": "2025-11-02T17:04:00Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-170651",
+      "title": "Copilot 20251102 170651",
+      "fileName": "Copilot_20251102_170651.png",
+      "fileSize": 1011554,
+      "imagePath": "/glyphs/Copilot_20251102_170651.png",
+      "timestamp": "2025-11-02T17:06:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-170950",
+      "title": "Copilot 20251102 170950",
+      "fileName": "Copilot_20251102_170950.png",
+      "fileSize": 1011554,
+      "imagePath": "/glyphs/Copilot_20251102_170950.png",
+      "timestamp": "2025-11-02T17:09:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-171353",
+      "title": "Copilot 20251102 171353",
+      "fileName": "Copilot_20251102_171353.png",
+      "fileSize": 1415089,
+      "imagePath": "/glyphs/Copilot_20251102_171353.png",
+      "timestamp": "2025-11-02T17:13:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-172738",
+      "title": "Copilot 20251102 172738",
+      "fileName": "Copilot_20251102_172738.png",
+      "fileSize": 1672229,
+      "imagePath": "/glyphs/Copilot_20251102_172738.png",
+      "timestamp": "2025-11-02T17:27:39Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-173331",
+      "title": "Copilot 20251102 173331",
+      "fileName": "Copilot_20251102_173331.png",
+      "fileSize": 1644163,
+      "imagePath": "/glyphs/Copilot_20251102_173331.png",
+      "timestamp": "2025-11-02T17:33:32Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-173623",
+      "title": "Copilot 20251102 173623",
+      "fileName": "Copilot_20251102_173623.png",
+      "fileSize": 1459127,
+      "imagePath": "/glyphs/Copilot_20251102_173623.png",
+      "timestamp": "2025-11-02T17:36:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-173835",
+      "title": "Copilot 20251102 173835",
+      "fileName": "Copilot_20251102_173835.png",
+      "fileSize": 1000995,
+      "imagePath": "/glyphs/Copilot_20251102_173835.png",
+      "timestamp": "2025-11-02T17:38:35Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-173937",
+      "title": "Copilot 20251102 173937",
+      "fileName": "Copilot_20251102_173937.png",
+      "fileSize": 1000995,
+      "imagePath": "/glyphs/Copilot_20251102_173937.png",
+      "timestamp": "2025-11-02T17:39:37Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-174102",
+      "title": "Copilot 20251102 174102",
+      "fileName": "Copilot_20251102_174102.png",
+      "fileSize": 1362901,
+      "imagePath": "/glyphs/Copilot_20251102_174102.png",
+      "timestamp": "2025-11-02T17:41:03Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-174805",
+      "title": "Copilot 20251102 174805",
+      "fileName": "Copilot_20251102_174805.png",
+      "fileSize": 1372167,
+      "imagePath": "/glyphs/Copilot_20251102_174805.png",
+      "timestamp": "2025-11-02T17:48:06Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-175421",
+      "title": "Copilot 20251102 175421",
+      "fileName": "Copilot_20251102_175421.png",
+      "fileSize": 1701661,
+      "imagePath": "/glyphs/Copilot_20251102_175421.png",
+      "timestamp": "2025-11-02T17:54:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-175732",
+      "title": "Copilot 20251102 175732",
+      "fileName": "Copilot_20251102_175732.png",
+      "fileSize": 1735189,
+      "imagePath": "/glyphs/Copilot_20251102_175732.png",
+      "timestamp": "2025-11-02T17:57:32Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-181155",
+      "title": "Copilot 20251102 181155",
+      "fileName": "Copilot_20251102_181155.png",
+      "fileSize": 1727431,
+      "imagePath": "/glyphs/Copilot_20251102_181155.png",
+      "timestamp": "2025-11-02T18:11:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-181426",
+      "title": "Copilot 20251102 181426",
+      "fileName": "Copilot_20251102_181426.png",
+      "fileSize": 1581219,
+      "imagePath": "/glyphs/Copilot_20251102_181426.png",
+      "timestamp": "2025-11-02T18:14:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-182035",
+      "title": "Copilot 20251102 182035",
+      "fileName": "Copilot_20251102_182035.png",
+      "fileSize": 1409601,
+      "imagePath": "/glyphs/Copilot_20251102_182035.png",
+      "timestamp": "2025-11-02T18:20:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-182543",
+      "title": "Copilot 20251102 182543",
+      "fileName": "Copilot_20251102_182543.png",
+      "fileSize": 1769566,
+      "imagePath": "/glyphs/Copilot_20251102_182543.png",
+      "timestamp": "2025-11-02T18:25:44Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-183326",
+      "title": "Copilot 20251102 183326",
+      "fileName": "Copilot_20251102_183326.png",
+      "fileSize": 1816485,
+      "imagePath": "/glyphs/Copilot_20251102_183326.png",
+      "timestamp": "2025-11-02T18:33:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184217",
+      "title": "Copilot 20251102 184217",
+      "fileName": "Copilot_20251102_184217.png",
+      "fileSize": 1765782,
+      "imagePath": "/glyphs/Copilot_20251102_184217.png",
+      "timestamp": "2025-11-02T18:42:17Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184220",
+      "title": "Copilot 20251102 184220",
+      "fileName": "Copilot_20251102_184220.png",
+      "fileSize": 1764374,
+      "imagePath": "/glyphs/Copilot_20251102_184220.png",
+      "timestamp": "2025-11-02T18:42:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184222",
+      "title": "Copilot 20251102 184222",
+      "fileName": "Copilot_20251102_184222.png",
+      "fileSize": 1811871,
+      "imagePath": "/glyphs/Copilot_20251102_184222.png",
+      "timestamp": "2025-11-02T18:42:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184224",
+      "title": "Copilot 20251102 184224",
+      "fileName": "Copilot_20251102_184224.png",
+      "fileSize": 1816485,
+      "imagePath": "/glyphs/Copilot_20251102_184224.png",
+      "timestamp": "2025-11-02T18:42:25Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184227",
+      "title": "Copilot 20251102 184227",
+      "fileName": "Copilot_20251102_184227.png",
+      "fileSize": 1771862,
+      "imagePath": "/glyphs/Copilot_20251102_184227.png",
+      "timestamp": "2025-11-02T18:42:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184229",
+      "title": "Copilot 20251102 184229",
+      "fileName": "Copilot_20251102_184229.png",
+      "fileSize": 1769566,
+      "imagePath": "/glyphs/Copilot_20251102_184229.png",
+      "timestamp": "2025-11-02T18:42:29Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184509",
+      "title": "Copilot 20251102 184509",
+      "fileName": "Copilot_20251102_184509.png",
+      "fileSize": 1717709,
+      "imagePath": "/glyphs/Copilot_20251102_184509.png",
+      "timestamp": "2025-11-02T18:45:09Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-184746",
+      "title": "Copilot 20251102 184746",
+      "fileName": "Copilot_20251102_184746.png",
+      "fileSize": 1721388,
+      "imagePath": "/glyphs/Copilot_20251102_184746.png",
+      "timestamp": "2025-11-02T18:47:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-185221",
+      "title": "Copilot 20251102 185221",
+      "fileName": "Copilot_20251102_185221.png",
+      "fileSize": 1888668,
+      "imagePath": "/glyphs/Copilot_20251102_185221.png",
+      "timestamp": "2025-11-02T18:52:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-185734",
+      "title": "Copilot 20251102 185734",
+      "fileName": "Copilot_20251102_185734.png",
+      "fileSize": 2032726,
+      "imagePath": "/glyphs/Copilot_20251102_185734.png",
+      "timestamp": "2025-11-02T18:57:34Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-190014",
+      "title": "Copilot 20251102 190014",
+      "fileName": "Copilot_20251102_190014.png",
+      "fileSize": 1738493,
+      "imagePath": "/glyphs/Copilot_20251102_190014.png",
+      "timestamp": "2025-11-02T19:00:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-190347",
+      "title": "Copilot 20251102 190347",
+      "fileName": "Copilot_20251102_190347.png",
+      "fileSize": 1777659,
+      "imagePath": "/glyphs/Copilot_20251102_190347.png",
+      "timestamp": "2025-11-02T19:03:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-190633",
+      "title": "Copilot 20251102 190633",
+      "fileName": "Copilot_20251102_190633.png",
+      "fileSize": 1729267,
+      "imagePath": "/glyphs/Copilot_20251102_190633.png",
+      "timestamp": "2025-11-02T19:06:33Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-190948",
+      "title": "Copilot 20251102 190948",
+      "fileName": "Copilot_20251102_190948.png",
+      "fileSize": 1766232,
+      "imagePath": "/glyphs/Copilot_20251102_190948.png",
+      "timestamp": "2025-11-02T19:09:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-191230",
+      "title": "Copilot 20251102 191230",
+      "fileName": "Copilot_20251102_191230.png",
+      "fileSize": 1959614,
+      "imagePath": "/glyphs/Copilot_20251102_191230.png",
+      "timestamp": "2025-11-02T19:12:30Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-191505",
+      "title": "Copilot 20251102 191505",
+      "fileName": "Copilot_20251102_191505.png",
+      "fileSize": 1824137,
+      "imagePath": "/glyphs/Copilot_20251102_191505.png",
+      "timestamp": "2025-11-02T19:15:05Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-191814",
+      "title": "Copilot 20251102 191814",
+      "fileName": "Copilot_20251102_191814.png",
+      "fileSize": 2021657,
+      "imagePath": "/glyphs/Copilot_20251102_191814.png",
+      "timestamp": "2025-11-02T19:18:14Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-192055",
+      "title": "Copilot 20251102 192055",
+      "fileName": "Copilot_20251102_192055.png",
+      "fileSize": 1732296,
+      "imagePath": "/glyphs/Copilot_20251102_192055.png",
+      "timestamp": "2025-11-02T19:20:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-192427",
+      "title": "Copilot 20251102 192427",
+      "fileName": "Copilot_20251102_192427.png",
+      "fileSize": 1772140,
+      "imagePath": "/glyphs/Copilot_20251102_192427.png",
+      "timestamp": "2025-11-02T19:24:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-192657",
+      "title": "Copilot 20251102 192657",
+      "fileName": "Copilot_20251102_192657.png",
+      "fileSize": 1886443,
+      "imagePath": "/glyphs/Copilot_20251102_192657.png",
+      "timestamp": "2025-11-02T19:26:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-192920",
+      "title": "Copilot 20251102 192920",
+      "fileName": "Copilot_20251102_192920.png",
+      "fileSize": 1830139,
+      "imagePath": "/glyphs/Copilot_20251102_192920.png",
+      "timestamp": "2025-11-02T19:29:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-193142",
+      "title": "Copilot 20251102 193142",
+      "fileName": "Copilot_20251102_193142.png",
+      "fileSize": 1891116,
+      "imagePath": "/glyphs/Copilot_20251102_193142.png",
+      "timestamp": "2025-11-02T19:31:42Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-193407",
+      "title": "Copilot 20251102 193407",
+      "fileName": "Copilot_20251102_193407.png",
+      "fileSize": 1839880,
+      "imagePath": "/glyphs/Copilot_20251102_193407.png",
+      "timestamp": "2025-11-02T19:34:08Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-193659",
+      "title": "Copilot 20251102 193659",
+      "fileName": "Copilot_20251102_193659.png",
+      "fileSize": 1859931,
+      "imagePath": "/glyphs/Copilot_20251102_193659.png",
+      "timestamp": "2025-11-02T19:36:59Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-194016",
+      "title": "Copilot 20251102 194016",
+      "fileName": "Copilot_20251102_194016.png",
+      "fileSize": 1859931,
+      "imagePath": "/glyphs/Copilot_20251102_194016.png",
+      "timestamp": "2025-11-02T19:40:16Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-194152",
+      "title": "Copilot 20251102 194152",
+      "fileName": "Copilot_20251102_194152.png",
+      "fileSize": 1480531,
+      "imagePath": "/glyphs/Copilot_20251102_194152.png",
+      "timestamp": "2025-11-02T19:41:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-194539",
+      "title": "Copilot 20251102 194539",
+      "fileName": "Copilot_20251102_194539.png",
+      "fileSize": 1806363,
+      "imagePath": "/glyphs/Copilot_20251102_194539.png",
+      "timestamp": "2025-11-02T19:45:39Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-194821",
+      "title": "Copilot 20251102 194821",
+      "fileName": "Copilot_20251102_194821.png",
+      "fileSize": 1882189,
+      "imagePath": "/glyphs/Copilot_20251102_194821.png",
+      "timestamp": "2025-11-02T19:48:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-195959",
+      "title": "Copilot 20251102 195959",
+      "fileName": "Copilot_20251102_195959.png",
+      "fileSize": 1811289,
+      "imagePath": "/glyphs/Copilot_20251102_195959.png",
+      "timestamp": "2025-11-02T20:00:00Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-200319",
+      "title": "Copilot 20251102 200319",
+      "fileName": "Copilot_20251102_200319.png",
+      "fileSize": 1799012,
+      "imagePath": "/glyphs/Copilot_20251102_200319.png",
+      "timestamp": "2025-11-02T20:03:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-200658",
+      "title": "Copilot 20251102 200658",
+      "fileName": "Copilot_20251102_200658.png",
+      "fileSize": 2089874,
+      "imagePath": "/glyphs/Copilot_20251102_200658.png",
+      "timestamp": "2025-11-02T20:06:58Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-200921",
+      "title": "Copilot 20251102 200921",
+      "fileName": "Copilot_20251102_200921.png",
+      "fileSize": 1794897,
+      "imagePath": "/glyphs/Copilot_20251102_200921.png",
+      "timestamp": "2025-11-02T20:09:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-201525",
+      "title": "Copilot 20251102 201525",
+      "fileName": "Copilot_20251102_201525.png",
+      "fileSize": 1742800,
+      "imagePath": "/glyphs/Copilot_20251102_201525.png",
+      "timestamp": "2025-11-02T20:15:25Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-202119",
+      "title": "Copilot 20251102 202119",
+      "fileName": "Copilot_20251102_202119.png",
+      "fileSize": 1770806,
+      "imagePath": "/glyphs/Copilot_20251102_202119.png",
+      "timestamp": "2025-11-02T20:21:19Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-203018",
+      "title": "Copilot 20251102 203018",
+      "fileName": "Copilot_20251102_203018.png",
+      "fileSize": 1778457,
+      "imagePath": "/glyphs/Copilot_20251102_203018.png",
+      "timestamp": "2025-11-02T20:30:19Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-203722",
+      "title": "Copilot 20251102 203722",
+      "fileName": "Copilot_20251102_203722.png",
+      "fileSize": 1902834,
+      "imagePath": "/glyphs/Copilot_20251102_203722.png",
+      "timestamp": "2025-11-02T20:37:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-204021",
+      "title": "Copilot 20251102 204021",
+      "fileName": "Copilot_20251102_204021.png",
+      "fileSize": 2073293,
+      "imagePath": "/glyphs/Copilot_20251102_204021.png",
+      "timestamp": "2025-11-02T20:40:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-204356",
+      "title": "Copilot 20251102 204356",
+      "fileName": "Copilot_20251102_204356.png",
+      "fileSize": 124847,
+      "imagePath": "/glyphs/Copilot_20251102_204356.png",
+      "timestamp": "2025-11-02T20:43:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-204614",
+      "title": "Copilot 20251102 204614",
+      "fileName": "Copilot_20251102_204614.png",
+      "fileSize": 1969043,
+      "imagePath": "/glyphs/Copilot_20251102_204614.png",
+      "timestamp": "2025-11-02T20:46:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-204850",
+      "title": "Copilot 20251102 204850",
+      "fileName": "Copilot_20251102_204850.png",
+      "fileSize": 1853039,
+      "imagePath": "/glyphs/Copilot_20251102_204850.png",
+      "timestamp": "2025-11-02T20:48:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-210538",
+      "title": "Copilot 20251102 210538",
+      "fileName": "Copilot_20251102_210538.png",
+      "fileSize": 1947682,
+      "imagePath": "/glyphs/Copilot_20251102_210538.png",
+      "timestamp": "2025-11-02T21:05:38Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-210759",
+      "title": "Copilot 20251102 210759",
+      "fileName": "Copilot_20251102_210759.png",
+      "fileSize": 1951346,
+      "imagePath": "/glyphs/Copilot_20251102_210759.png",
+      "timestamp": "2025-11-02T21:08:00Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-211023",
+      "title": "Copilot 20251102 211023",
+      "fileName": "Copilot_20251102_211023.png",
+      "fileSize": 3390000,
+      "imagePath": "/glyphs/Copilot_20251102_211023.png",
+      "timestamp": "2025-11-02T21:10:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-211220",
+      "title": "Copilot 20251102 211220",
+      "fileName": "Copilot_20251102_211220.png",
+      "fileSize": 1970237,
+      "imagePath": "/glyphs/Copilot_20251102_211220.png",
+      "timestamp": "2025-11-02T21:12:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-211623",
+      "title": "Copilot 20251102 211623",
+      "fileName": "Copilot_20251102_211623.png",
+      "fileSize": 2048438,
+      "imagePath": "/glyphs/Copilot_20251102_211623.png",
+      "timestamp": "2025-11-02T21:16:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-211845",
+      "title": "Copilot 20251102 211845",
+      "fileName": "Copilot_20251102_211845.png",
+      "fileSize": 2501559,
+      "imagePath": "/glyphs/Copilot_20251102_211845.png",
+      "timestamp": "2025-11-02T21:18:45Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-212121",
+      "title": "Copilot 20251102 212121",
+      "fileName": "Copilot_20251102_212121.png",
+      "fileSize": 3889191,
+      "imagePath": "/glyphs/Copilot_20251102_212121.png",
+      "timestamp": "2025-11-02T21:21:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-212633",
+      "title": "Copilot 20251102 212633",
+      "fileName": "Copilot_20251102_212633.png",
+      "fileSize": 3732908,
+      "imagePath": "/glyphs/Copilot_20251102_212633.png",
+      "timestamp": "2025-11-02T21:26:34Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-213651",
+      "title": "Copilot 20251102 213651",
+      "fileName": "Copilot_20251102_213651.png",
+      "fileSize": 4225378,
+      "imagePath": "/glyphs/Copilot_20251102_213651.png",
+      "timestamp": "2025-11-02T21:36:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-214036",
+      "title": "Copilot 20251102 214036",
+      "fileName": "Copilot_20251102_214036.png",
+      "fileSize": 4227621,
+      "imagePath": "/glyphs/Copilot_20251102_214036.png",
+      "timestamp": "2025-11-02T21:40:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-214805",
+      "title": "Copilot 20251102 214805",
+      "fileName": "Copilot_20251102_214805.png",
+      "fileSize": 2792692,
+      "imagePath": "/glyphs/Copilot_20251102_214805.png",
+      "timestamp": "2025-11-02T21:48:06Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-215032",
+      "title": "Copilot 20251102 215032",
+      "fileName": "Copilot_20251102_215032.png",
+      "fileSize": 4373294,
+      "imagePath": "/glyphs/Copilot_20251102_215032.png",
+      "timestamp": "2025-11-02T21:50:32Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-215452",
+      "title": "Copilot 20251102 215452",
+      "fileName": "Copilot_20251102_215452.png",
+      "fileSize": 4328400,
+      "imagePath": "/glyphs/Copilot_20251102_215452.png",
+      "timestamp": "2025-11-02T21:54:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-215803",
+      "title": "Copilot 20251102 215803",
+      "fileName": "Copilot_20251102_215803.png",
+      "fileSize": 2900804,
+      "imagePath": "/glyphs/Copilot_20251102_215803.png",
+      "timestamp": "2025-11-02T21:58:04Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-220237",
+      "title": "Copilot 20251102 220237",
+      "fileName": "Copilot_20251102_220237.png",
+      "fileSize": 4655361,
+      "imagePath": "/glyphs/Copilot_20251102_220237.png",
+      "timestamp": "2025-11-02T22:02:37Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-220532",
+      "title": "Copilot 20251102 220532",
+      "fileName": "Copilot_20251102_220532.png",
+      "fileSize": 4563815,
+      "imagePath": "/glyphs/Copilot_20251102_220532.png",
+      "timestamp": "2025-11-02T22:05:33Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-220913",
+      "title": "Copilot 20251102 220913",
+      "fileName": "Copilot_20251102_220913.png",
+      "fileSize": 4507213,
+      "imagePath": "/glyphs/Copilot_20251102_220913.png",
+      "timestamp": "2025-11-02T22:09:14Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-221240",
+      "title": "Copilot 20251102 221240",
+      "fileName": "Copilot_20251102_221240.png",
+      "fileSize": 4329457,
+      "imagePath": "/glyphs/Copilot_20251102_221240.png",
+      "timestamp": "2025-11-02T22:12:40Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-221345",
+      "title": "Copilot 20251102 221345",
+      "fileName": "Copilot_20251102_221345.png",
+      "fileSize": 4559960,
+      "imagePath": "/glyphs/Copilot_20251102_221345.png",
+      "timestamp": "2025-11-02T22:13:46Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-221550",
+      "title": "Copilot 20251102 221550",
+      "fileName": "Copilot_20251102_221550.png",
+      "fileSize": 4480203,
+      "imagePath": "/glyphs/Copilot_20251102_221550.png",
+      "timestamp": "2025-11-02T22:15:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251102-221957",
+      "title": "Copilot 20251102 221957",
+      "fileName": "Copilot_20251102_221957.png",
+      "fileSize": 4410036,
+      "imagePath": "/glyphs/Copilot_20251102_221957.png",
+      "timestamp": "2025-11-02T22:19:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-053757",
+      "title": "Copilot 20251103 053757",
+      "fileName": "Copilot_20251103_053757.png",
+      "fileSize": 4317546,
+      "imagePath": "/glyphs/Copilot_20251103_053757.png",
+      "timestamp": "2025-11-03T05:37:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-054025",
+      "title": "Copilot 20251103 054025",
+      "fileName": "Copilot_20251103_054025.png",
+      "fileSize": 4402991,
+      "imagePath": "/glyphs/Copilot_20251103_054025.png",
+      "timestamp": "2025-11-03T05:40:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-054348",
+      "title": "Copilot 20251103 054348",
+      "fileName": "Copilot_20251103_054348.png",
+      "fileSize": 3951969,
+      "imagePath": "/glyphs/Copilot_20251103_054348.png",
+      "timestamp": "2025-11-03T05:43:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-055234",
+      "title": "Copilot 20251103 055234",
+      "fileName": "Copilot_20251103_055234.png",
+      "fileSize": 3684936,
+      "imagePath": "/glyphs/Copilot_20251103_055234.png",
+      "timestamp": "2025-11-03T05:52:35Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-055807",
+      "title": "Copilot 20251103 055807",
+      "fileName": "Copilot_20251103_055807.png",
+      "fileSize": 3653322,
+      "imagePath": "/glyphs/Copilot_20251103_055807.png",
+      "timestamp": "2025-11-03T05:58:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-060234",
+      "title": "Copilot 20251103 060234",
+      "fileName": "Copilot_20251103_060234.png",
+      "fileSize": 3309700,
+      "imagePath": "/glyphs/Copilot_20251103_060234.png",
+      "timestamp": "2025-11-03T06:02:34Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-060926",
+      "title": "Copilot 20251103 060926",
+      "fileName": "Copilot_20251103_060926.png",
+      "fileSize": 3318898,
+      "imagePath": "/glyphs/Copilot_20251103_060926.png",
+      "timestamp": "2025-11-03T06:09:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-061239",
+      "title": "Copilot 20251103 061239",
+      "fileName": "Copilot_20251103_061239.png",
+      "fileSize": 3161145,
+      "imagePath": "/glyphs/Copilot_20251103_061239.png",
+      "timestamp": "2025-11-03T06:12:40Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-061242",
+      "title": "Copilot 20251103 061242",
+      "fileName": "Copilot_20251103_061242.png",
+      "fileSize": 3318898,
+      "imagePath": "/glyphs/Copilot_20251103_061242.png",
+      "timestamp": "2025-11-03T06:12:42Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-061525",
+      "title": "Copilot 20251103 061525",
+      "fileName": "Copilot_20251103_061525.png",
+      "fileSize": 3115929,
+      "imagePath": "/glyphs/Copilot_20251103_061525.png",
+      "timestamp": "2025-11-03T06:15:25Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-062130",
+      "title": "Copilot 20251103 062130",
+      "fileName": "Copilot_20251103_062130.png",
+      "fileSize": 3314855,
+      "imagePath": "/glyphs/Copilot_20251103_062130.png",
+      "timestamp": "2025-11-03T06:21:30Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-062714",
+      "title": "Copilot 20251103 062714",
+      "fileName": "Copilot_20251103_062714.png",
+      "fileSize": 3075124,
+      "imagePath": "/glyphs/Copilot_20251103_062714.png",
+      "timestamp": "2025-11-03T06:27:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-063351",
+      "title": "Copilot 20251103 063351",
+      "fileName": "Copilot_20251103_063351.png",
+      "fileSize": 3057289,
+      "imagePath": "/glyphs/Copilot_20251103_063351.png",
+      "timestamp": "2025-11-03T06:33:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-063641",
+      "title": "Copilot 20251103 063641",
+      "fileName": "Copilot_20251103_063641.png",
+      "fileSize": 2195137,
+      "imagePath": "/glyphs/Copilot_20251103_063641.png",
+      "timestamp": "2025-11-03T06:36:41Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-064126",
+      "title": "Copilot 20251103 064126",
+      "fileName": "Copilot_20251103_064126.png",
+      "fileSize": 2355869,
+      "imagePath": "/glyphs/Copilot_20251103_064126.png",
+      "timestamp": "2025-11-03T06:41:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-064437",
+      "title": "Copilot 20251103 064437",
+      "fileName": "Copilot_20251103_064437.png",
+      "fileSize": 3032295,
+      "imagePath": "/glyphs/Copilot_20251103_064437.png",
+      "timestamp": "2025-11-03T06:44:38Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-064813",
+      "title": "Copilot 20251103 064813",
+      "fileName": "Copilot_20251103_064813.png",
+      "fileSize": 2946896,
+      "imagePath": "/glyphs/Copilot_20251103_064813.png",
+      "timestamp": "2025-11-03T06:48:13Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-065120",
+      "title": "Copilot 20251103 065120",
+      "fileName": "Copilot_20251103_065120.png",
+      "fileSize": 2824080,
+      "imagePath": "/glyphs/Copilot_20251103_065120.png",
+      "timestamp": "2025-11-03T06:51:20Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-065421",
+      "title": "Copilot 20251103 065421",
+      "fileName": "Copilot_20251103_065421.png",
+      "fileSize": 2528235,
+      "imagePath": "/glyphs/Copilot_20251103_065421.png",
+      "timestamp": "2025-11-03T06:54:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-065845",
+      "title": "Copilot 20251103 065845",
+      "fileName": "Copilot_20251103_065845.png",
+      "fileSize": 2105575,
+      "imagePath": "/glyphs/Copilot_20251103_065845.png",
+      "timestamp": "2025-11-03T06:58:46Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-070954",
+      "title": "Copilot 20251103 070954",
+      "fileName": "Copilot_20251103_070954.png",
+      "fileSize": 1851224,
+      "imagePath": "/glyphs/Copilot_20251103_070954.png",
+      "timestamp": "2025-11-03T07:09:54Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-071821",
+      "title": "Copilot 20251103 071821",
+      "fileName": "Copilot_20251103_071821.png",
+      "fileSize": 1724865,
+      "imagePath": "/glyphs/Copilot_20251103_071821.png",
+      "timestamp": "2025-11-03T07:18:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-073623",
+      "title": "Copilot 20251103 073623",
+      "fileName": "Copilot_20251103_073623.png",
+      "fileSize": 2950456,
+      "imagePath": "/glyphs/Copilot_20251103_073623.png",
+      "timestamp": "2025-11-03T07:36:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-074609",
+      "title": "Copilot 20251103 074609",
+      "fileName": "Copilot_20251103_074609.png",
+      "fileSize": 1020814,
+      "imagePath": "/glyphs/Copilot_20251103_074609.png",
+      "timestamp": "2025-11-03T07:46:10Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-075132",
+      "title": "Copilot 20251103 075132",
+      "fileName": "Copilot_20251103_075132.png",
+      "fileSize": 2191214,
+      "imagePath": "/glyphs/Copilot_20251103_075132.png",
+      "timestamp": "2025-11-03T07:51:33Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-075241",
+      "title": "Copilot 20251103 075241",
+      "fileName": "Copilot_20251103_075241.png",
+      "fileSize": 1169189,
+      "imagePath": "/glyphs/Copilot_20251103_075241.png",
+      "timestamp": "2025-11-03T07:52:42Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-075825",
+      "title": "Copilot 20251103 075825",
+      "fileName": "Copilot_20251103_075825.png",
+      "fileSize": 1980413,
+      "imagePath": "/glyphs/Copilot_20251103_075825.png",
+      "timestamp": "2025-11-03T07:58:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-080054",
+      "title": "Copilot 20251103 080054",
+      "fileName": "Copilot_20251103_080054.png",
+      "fileSize": 1879096,
+      "imagePath": "/glyphs/Copilot_20251103_080054.png",
+      "timestamp": "2025-11-03T08:00:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-080230",
+      "title": "Copilot 20251103 080230",
+      "fileName": "Copilot_20251103_080230.png",
+      "fileSize": 1565472,
+      "imagePath": "/glyphs/Copilot_20251103_080230.png",
+      "timestamp": "2025-11-03T08:02:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-080308",
+      "title": "Copilot 20251103 080308",
+      "fileName": "Copilot_20251103_080308.png",
+      "fileSize": 1565472,
+      "imagePath": "/glyphs/Copilot_20251103_080308.png",
+      "timestamp": "2025-11-03T08:03:09Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-080555",
+      "title": "Copilot 20251103 080555",
+      "fileName": "Copilot_20251103_080555.png",
+      "fileSize": 1547063,
+      "imagePath": "/glyphs/Copilot_20251103_080555.png",
+      "timestamp": "2025-11-03T08:05:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-080801",
+      "title": "Copilot 20251103 080801",
+      "fileName": "Copilot_20251103_080801.png",
+      "fileSize": 1208512,
+      "imagePath": "/glyphs/Copilot_20251103_080801.png",
+      "timestamp": "2025-11-03T08:08:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-081158",
+      "title": "Copilot 20251103 081158",
+      "fileName": "Copilot_20251103_081158.png",
+      "fileSize": 1120275,
+      "imagePath": "/glyphs/Copilot_20251103_081158.png",
+      "timestamp": "2025-11-03T08:11:58Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-081225",
+      "title": "Copilot 20251103 081225",
+      "fileName": "Copilot_20251103_081225.png",
+      "fileSize": 1247798,
+      "imagePath": "/glyphs/Copilot_20251103_081225.png",
+      "timestamp": "2025-11-03T08:12:25Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-081339",
+      "title": "Copilot 20251103 081339",
+      "fileName": "Copilot_20251103_081339.png",
+      "fileSize": 928290,
+      "imagePath": "/glyphs/Copilot_20251103_081339.png",
+      "timestamp": "2025-11-03T08:13:40Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-081342",
+      "title": "Copilot 20251103 081342",
+      "fileName": "Copilot_20251103_081342.png",
+      "fileSize": 798239,
+      "imagePath": "/glyphs/Copilot_20251103_081342.png",
+      "timestamp": "2025-11-03T08:13:42Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-081643",
+      "title": "Copilot 20251103 081643",
+      "fileName": "Copilot_20251103_081643.png",
+      "fileSize": 754426,
+      "imagePath": "/glyphs/Copilot_20251103_081643.png",
+      "timestamp": "2025-11-03T08:16:43Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082050",
+      "title": "Copilot 20251103 082050",
+      "fileName": "Copilot_20251103_082050.png",
+      "fileSize": 1160494,
+      "imagePath": "/glyphs/Copilot_20251103_082050.png",
+      "timestamp": "2025-11-03T08:20:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082339",
+      "title": "Copilot 20251103 082339",
+      "fileName": "Copilot_20251103_082339.png",
+      "fileSize": 624293,
+      "imagePath": "/glyphs/Copilot_20251103_082339.png",
+      "timestamp": "2025-11-03T08:23:40Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082347",
+      "title": "Copilot 20251103 082347",
+      "fileName": "Copilot_20251103_082347.png",
+      "fileSize": 1160494,
+      "imagePath": "/glyphs/Copilot_20251103_082347.png",
+      "timestamp": "2025-11-03T08:23:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082351",
+      "title": "Copilot 20251103 082351",
+      "fileName": "Copilot_20251103_082351.png",
+      "fileSize": 947773,
+      "imagePath": "/glyphs/Copilot_20251103_082351.png",
+      "timestamp": "2025-11-03T08:23:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082450",
+      "title": "Copilot 20251103 082450",
+      "fileName": "Copilot_20251103_082450.png",
+      "fileSize": 873894,
+      "imagePath": "/glyphs/Copilot_20251103_082450.png",
+      "timestamp": "2025-11-03T08:24:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082655",
+      "title": "Copilot 20251103 082655",
+      "fileName": "Copilot_20251103_082655.png",
+      "fileSize": 868643,
+      "imagePath": "/glyphs/Copilot_20251103_082655.png",
+      "timestamp": "2025-11-03T08:26:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082815",
+      "title": "Copilot 20251103 082815",
+      "fileName": "Copilot_20251103_082815.png",
+      "fileSize": 501401,
+      "imagePath": "/glyphs/Copilot_20251103_082815.png",
+      "timestamp": "2025-11-03T08:28:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-082912",
+      "title": "Copilot 20251103 082912",
+      "fileName": "Copilot_20251103_082912.png",
+      "fileSize": 420013,
+      "imagePath": "/glyphs/Copilot_20251103_082912.png",
+      "timestamp": "2025-11-03T08:29:12Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083221",
+      "title": "Copilot 20251103 083221",
+      "fileName": "Copilot_20251103_083221.png",
+      "fileSize": 337333,
+      "imagePath": "/glyphs/Copilot_20251103_083221.png",
+      "timestamp": "2025-11-03T08:32:21Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083225",
+      "title": "Copilot 20251103 083225",
+      "fileName": "Copilot_20251103_083225.png",
+      "fileSize": 404025,
+      "imagePath": "/glyphs/Copilot_20251103_083225.png",
+      "timestamp": "2025-11-03T08:32:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083413",
+      "title": "Copilot 20251103 083413",
+      "fileName": "Copilot_20251103_083413.png",
+      "fileSize": 380730,
+      "imagePath": "/glyphs/Copilot_20251103_083413.png",
+      "timestamp": "2025-11-03T08:34:14Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083506",
+      "title": "Copilot 20251103 083506",
+      "fileName": "Copilot_20251103_083506.png",
+      "fileSize": 379415,
+      "imagePath": "/glyphs/Copilot_20251103_083506.png",
+      "timestamp": "2025-11-03T08:35:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083536",
+      "title": "Copilot 20251103 083536",
+      "fileName": "Copilot_20251103_083536.png",
+      "fileSize": 379415,
+      "imagePath": "/glyphs/Copilot_20251103_083536.png",
+      "timestamp": "2025-11-03T08:35:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083723",
+      "title": "Copilot 20251103 083723",
+      "fileName": "Copilot_20251103_083723.png",
+      "fileSize": 373468,
+      "imagePath": "/glyphs/Copilot_20251103_083723.png",
+      "timestamp": "2025-11-03T08:37:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-083725",
+      "title": "Copilot 20251103 083725",
+      "fileName": "Copilot_20251103_083725.png",
+      "fileSize": 356294,
+      "imagePath": "/glyphs/Copilot_20251103_083725.png",
+      "timestamp": "2025-11-03T08:37:25Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-084435",
+      "title": "Copilot 20251103 084435",
+      "fileName": "Copilot_20251103_084435.png",
+      "fileSize": 369639,
+      "imagePath": "/glyphs/Copilot_20251103_084435.png",
+      "timestamp": "2025-11-03T08:44:35Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-084504",
+      "title": "Copilot 20251103 084504",
+      "fileName": "Copilot_20251103_084504.png",
+      "fileSize": 356294,
+      "imagePath": "/glyphs/Copilot_20251103_084504.png",
+      "timestamp": "2025-11-03T08:45:05Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-084908",
+      "title": "Copilot 20251103 084908",
+      "fileName": "Copilot_20251103_084908.png",
+      "fileSize": 311821,
+      "imagePath": "/glyphs/Copilot_20251103_084908.png",
+      "timestamp": "2025-11-03T08:49:08Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-084922",
+      "title": "Copilot 20251103 084922",
+      "fileName": "Copilot_20251103_084922.png",
+      "fileSize": 316440,
+      "imagePath": "/glyphs/Copilot_20251103_084922.png",
+      "timestamp": "2025-11-03T08:49:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-085224",
+      "title": "Copilot 20251103 085224",
+      "fileName": "Copilot_20251103_085224.png",
+      "fileSize": 377006,
+      "imagePath": "/glyphs/Copilot_20251103_085224.png",
+      "timestamp": "2025-11-03T08:52:24Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-085230",
+      "title": "Copilot 20251103 085230",
+      "fileName": "Copilot_20251103_085230.png",
+      "fileSize": 323183,
+      "imagePath": "/glyphs/Copilot_20251103_085230.png",
+      "timestamp": "2025-11-03T08:52:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-085615",
+      "title": "Copilot 20251103 085615",
+      "fileName": "Copilot_20251103_085615.png",
+      "fileSize": 385525,
+      "imagePath": "/glyphs/Copilot_20251103_085615.png",
+      "timestamp": "2025-11-03T08:56:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-085855",
+      "title": "Copilot 20251103 085855",
+      "fileName": "Copilot_20251103_085855.png",
+      "fileSize": 418526,
+      "imagePath": "/glyphs/Copilot_20251103_085855.png",
+      "timestamp": "2025-11-03T08:58:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-090228",
+      "title": "Copilot 20251103 090228",
+      "fileName": "Copilot_20251103_090228.png",
+      "fileSize": 366691,
+      "imagePath": "/glyphs/Copilot_20251103_090228.png",
+      "timestamp": "2025-11-03T09:02:28Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-090405",
+      "title": "Copilot 20251103 090405",
+      "fileName": "Copilot_20251103_090405.png",
+      "fileSize": 464880,
+      "imagePath": "/glyphs/Copilot_20251103_090405.png",
+      "timestamp": "2025-11-03T09:04:05Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-090547",
+      "title": "Copilot 20251103 090547",
+      "fileName": "Copilot_20251103_090547.png",
+      "fileSize": 560444,
+      "imagePath": "/glyphs/Copilot_20251103_090547.png",
+      "timestamp": "2025-11-03T09:05:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-090828",
+      "title": "Copilot 20251103 090828",
+      "fileName": "Copilot_20251103_090828.png",
+      "fileSize": 443379,
+      "imagePath": "/glyphs/Copilot_20251103_090828.png",
+      "timestamp": "2025-11-03T09:08:28Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-090845",
+      "title": "Copilot 20251103 090845",
+      "fileName": "Copilot_20251103_090845.png",
+      "fileSize": 372427,
+      "imagePath": "/glyphs/Copilot_20251103_090845.png",
+      "timestamp": "2025-11-03T09:08:45Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091004",
+      "title": "Copilot 20251103 091004",
+      "fileName": "Copilot_20251103_091004.png",
+      "fileSize": 358453,
+      "imagePath": "/glyphs/Copilot_20251103_091004.png",
+      "timestamp": "2025-11-03T09:10:05Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091102",
+      "title": "Copilot 20251103 091102",
+      "fileName": "Copilot_20251103_091102.png",
+      "fileSize": 410606,
+      "imagePath": "/glyphs/Copilot_20251103_091102.png",
+      "timestamp": "2025-11-03T09:11:02Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091131",
+      "title": "Copilot 20251103 091131",
+      "fileName": "Copilot_20251103_091131.png",
+      "fileSize": 337369,
+      "imagePath": "/glyphs/Copilot_20251103_091131.png",
+      "timestamp": "2025-11-03T09:11:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091458",
+      "title": "Copilot 20251103 091458",
+      "fileName": "Copilot_20251103_091458.png",
+      "fileSize": 315443,
+      "imagePath": "/glyphs/Copilot_20251103_091458.png",
+      "timestamp": "2025-11-03T09:14:58Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091614",
+      "title": "Copilot 20251103 091614",
+      "fileName": "Copilot_20251103_091614.png",
+      "fileSize": 315443,
+      "imagePath": "/glyphs/Copilot_20251103_091614.png",
+      "timestamp": "2025-11-03T09:16:14Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091626",
+      "title": "Copilot 20251103 091626",
+      "fileName": "Copilot_20251103_091626.png",
+      "fileSize": 312763,
+      "imagePath": "/glyphs/Copilot_20251103_091626.png",
+      "timestamp": "2025-11-03T09:16:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091803",
+      "title": "Copilot 20251103 091803",
+      "fileName": "Copilot_20251103_091803.png",
+      "fileSize": 312878,
+      "imagePath": "/glyphs/Copilot_20251103_091803.png",
+      "timestamp": "2025-11-03T09:18:04Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091816",
+      "title": "Copilot 20251103 091816",
+      "fileName": "Copilot_20251103_091816.png",
+      "fileSize": 293336,
+      "imagePath": "/glyphs/Copilot_20251103_091816.png",
+      "timestamp": "2025-11-03T09:18:17Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091845",
+      "title": "Copilot 20251103 091845",
+      "fileName": "Copilot_20251103_091845.png",
+      "fileSize": 312878,
+      "imagePath": "/glyphs/Copilot_20251103_091845.png",
+      "timestamp": "2025-11-03T09:18:46Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-091848",
+      "title": "Copilot 20251103 091848",
+      "fileName": "Copilot_20251103_091848.png",
+      "fileSize": 292531,
+      "imagePath": "/glyphs/Copilot_20251103_091848.png",
+      "timestamp": "2025-11-03T09:18:49Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092231",
+      "title": "Copilot 20251103 092231",
+      "fileName": "Copilot_20251103_092231.png",
+      "fileSize": 236722,
+      "imagePath": "/glyphs/Copilot_20251103_092231.png",
+      "timestamp": "2025-11-03T09:22:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092235",
+      "title": "Copilot 20251103 092235",
+      "fileName": "Copilot_20251103_092235.png",
+      "fileSize": 304873,
+      "imagePath": "/glyphs/Copilot_20251103_092235.png",
+      "timestamp": "2025-11-03T09:22:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092301",
+      "title": "Copilot 20251103 092301",
+      "fileName": "Copilot_20251103_092301.png",
+      "fileSize": 225304,
+      "imagePath": "/glyphs/Copilot_20251103_092301.png",
+      "timestamp": "2025-11-03T09:23:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092311",
+      "title": "Copilot 20251103 092311",
+      "fileName": "Copilot_20251103_092311.png",
+      "fileSize": 302612,
+      "imagePath": "/glyphs/Copilot_20251103_092311.png",
+      "timestamp": "2025-11-03T09:23:12Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092353",
+      "title": "Copilot 20251103 092353",
+      "fileName": "Copilot_20251103_092353.png",
+      "fileSize": 302612,
+      "imagePath": "/glyphs/Copilot_20251103_092353.png",
+      "timestamp": "2025-11-03T09:23:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092431",
+      "title": "Copilot 20251103 092431",
+      "fileName": "Copilot_20251103_092431.png",
+      "fileSize": 308058,
+      "imagePath": "/glyphs/Copilot_20251103_092431.png",
+      "timestamp": "2025-11-03T09:24:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092551",
+      "title": "Copilot 20251103 092551",
+      "fileName": "Copilot_20251103_092551.png",
+      "fileSize": 212498,
+      "imagePath": "/glyphs/Copilot_20251103_092551.png",
+      "timestamp": "2025-11-03T09:25:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092621",
+      "title": "Copilot 20251103 092621",
+      "fileName": "Copilot_20251103_092621.png",
+      "fileSize": 212996,
+      "imagePath": "/glyphs/Copilot_20251103_092621.png",
+      "timestamp": "2025-11-03T09:26:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092745",
+      "title": "Copilot 20251103 092745",
+      "fileName": "Copilot_20251103_092745.png",
+      "fileSize": 224492,
+      "imagePath": "/glyphs/Copilot_20251103_092745.png",
+      "timestamp": "2025-11-03T09:27:46Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092757",
+      "title": "Copilot 20251103 092757",
+      "fileName": "Copilot_20251103_092757.png",
+      "fileSize": 241682,
+      "imagePath": "/glyphs/Copilot_20251103_092757.png",
+      "timestamp": "2025-11-03T09:27:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092952",
+      "title": "Copilot 20251103 092952",
+      "fileName": "Copilot_20251103_092952.png",
+      "fileSize": 287035,
+      "imagePath": "/glyphs/Copilot_20251103_092952.png",
+      "timestamp": "2025-11-03T09:29:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-092957",
+      "title": "Copilot 20251103 092957",
+      "fileName": "Copilot_20251103_092957.png",
+      "fileSize": 233689,
+      "imagePath": "/glyphs/Copilot_20251103_092957.png",
+      "timestamp": "2025-11-03T09:29:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093007",
+      "title": "Copilot 20251103 093007",
+      "fileName": "Copilot_20251103_093007.png",
+      "fileSize": 241295,
+      "imagePath": "/glyphs/Copilot_20251103_093007.png",
+      "timestamp": "2025-11-03T09:30:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093119",
+      "title": "Copilot 20251103 093119",
+      "fileName": "Copilot_20251103_093119.png",
+      "fileSize": 246137,
+      "imagePath": "/glyphs/Copilot_20251103_093119.png",
+      "timestamp": "2025-11-03T09:31:19Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093131",
+      "title": "Copilot 20251103 093131",
+      "fileName": "Copilot_20251103_093131.png",
+      "fileSize": 246276,
+      "imagePath": "/glyphs/Copilot_20251103_093131.png",
+      "timestamp": "2025-11-03T09:31:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093217",
+      "title": "Copilot 20251103 093217",
+      "fileName": "Copilot_20251103_093217.png",
+      "fileSize": 149122,
+      "imagePath": "/glyphs/Copilot_20251103_093217.png",
+      "timestamp": "2025-11-03T09:32:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093254",
+      "title": "Copilot 20251103 093254",
+      "fileName": "Copilot_20251103_093254.png",
+      "fileSize": 245818,
+      "imagePath": "/glyphs/Copilot_20251103_093254.png",
+      "timestamp": "2025-11-03T09:32:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093528",
+      "title": "Copilot 20251103 093528",
+      "fileName": "Copilot_20251103_093528.png",
+      "fileSize": 245818,
+      "imagePath": "/glyphs/Copilot_20251103_093528.png",
+      "timestamp": "2025-11-03T09:35:28Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-093727",
+      "title": "Copilot 20251103 093727",
+      "fileName": "Copilot_20251103_093727.png",
+      "fileSize": 166236,
+      "imagePath": "/glyphs/Copilot_20251103_093727.png",
+      "timestamp": "2025-11-03T09:37:27Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-094255",
+      "title": "Copilot 20251103 094255",
+      "fileName": "Copilot_20251103_094255.png",
+      "fileSize": 155201,
+      "imagePath": "/glyphs/Copilot_20251103_094255.png",
+      "timestamp": "2025-11-03T09:42:56Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-094519",
+      "title": "Copilot 20251103 094519",
+      "fileName": "Copilot_20251103_094519.png",
+      "fileSize": 131638,
+      "imagePath": "/glyphs/Copilot_20251103_094519.png",
+      "timestamp": "2025-11-03T09:45:19Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-094522",
+      "title": "Copilot 20251103 094522",
+      "fileName": "Copilot_20251103_094522.png",
+      "fileSize": 171405,
+      "imagePath": "/glyphs/Copilot_20251103_094522.png",
+      "timestamp": "2025-11-03T09:45:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-094650",
+      "title": "Copilot 20251103 094650",
+      "fileName": "Copilot_20251103_094650.png",
+      "fileSize": 164025,
+      "imagePath": "/glyphs/Copilot_20251103_094650.png",
+      "timestamp": "2025-11-03T09:46:51Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-094652",
+      "title": "Copilot 20251103 094652",
+      "fileName": "Copilot_20251103_094652.png",
+      "fileSize": 178754,
+      "imagePath": "/glyphs/Copilot_20251103_094652.png",
+      "timestamp": "2025-11-03T09:46:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095037",
+      "title": "Copilot 20251103 095037",
+      "fileName": "Copilot_20251103_095037.png",
+      "fileSize": 159087,
+      "imagePath": "/glyphs/Copilot_20251103_095037.png",
+      "timestamp": "2025-11-03T09:50:37Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095039",
+      "title": "Copilot 20251103 095039",
+      "fileName": "Copilot_20251103_095039.png",
+      "fileSize": 179072,
+      "imagePath": "/glyphs/Copilot_20251103_095039.png",
+      "timestamp": "2025-11-03T09:50:39Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095042",
+      "title": "Copilot 20251103 095042",
+      "fileName": "Copilot_20251103_095042.png",
+      "fileSize": 194231,
+      "imagePath": "/glyphs/Copilot_20251103_095042.png",
+      "timestamp": "2025-11-03T09:50:43Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095046",
+      "title": "Copilot 20251103 095046",
+      "fileName": "Copilot_20251103_095046.png",
+      "fileSize": 193603,
+      "imagePath": "/glyphs/Copilot_20251103_095046.png",
+      "timestamp": "2025-11-03T09:50:46Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095258",
+      "title": "Copilot 20251103 095258",
+      "fileName": "Copilot_20251103_095258.png",
+      "fileSize": 279774,
+      "imagePath": "/glyphs/Copilot_20251103_095258.png",
+      "timestamp": "2025-11-03T09:52:59Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095314",
+      "title": "Copilot 20251103 095314",
+      "fileName": "Copilot_20251103_095314.png",
+      "fileSize": 204594,
+      "imagePath": "/glyphs/Copilot_20251103_095314.png",
+      "timestamp": "2025-11-03T09:53:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095429",
+      "title": "Copilot 20251103 095429",
+      "fileName": "Copilot_20251103_095429.png",
+      "fileSize": 187733,
+      "imagePath": "/glyphs/Copilot_20251103_095429.png",
+      "timestamp": "2025-11-03T09:54:30Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095645",
+      "title": "Copilot 20251103 095645",
+      "fileName": "Copilot_20251103_095645.png",
+      "fileSize": 190456,
+      "imagePath": "/glyphs/Copilot_20251103_095645.png",
+      "timestamp": "2025-11-03T09:56:45Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095647",
+      "title": "Copilot 20251103 095647",
+      "fileName": "Copilot_20251103_095647.png",
+      "fileSize": 172963,
+      "imagePath": "/glyphs/Copilot_20251103_095647.png",
+      "timestamp": "2025-11-03T09:56:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095650",
+      "title": "Copilot 20251103 095650",
+      "fileName": "Copilot_20251103_095650.png",
+      "fileSize": 193477,
+      "imagePath": "/glyphs/Copilot_20251103_095650.png",
+      "timestamp": "2025-11-03T09:56:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-095700",
+      "title": "Copilot 20251103 095700",
+      "fileName": "Copilot_20251103_095700.png",
+      "fileSize": 143824,
+      "imagePath": "/glyphs/Copilot_20251103_095700.png",
+      "timestamp": "2025-11-03T09:57:00Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100102",
+      "title": "Copilot 20251103 100102",
+      "fileName": "Copilot_20251103_100102.png",
+      "fileSize": 161348,
+      "imagePath": "/glyphs/Copilot_20251103_100102.png",
+      "timestamp": "2025-11-03T10:01:02Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100104",
+      "title": "Copilot 20251103 100104",
+      "fileName": "Copilot_20251103_100104.png",
+      "fileSize": 200864,
+      "imagePath": "/glyphs/Copilot_20251103_100104.png",
+      "timestamp": "2025-11-03T10:01:04Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100252",
+      "title": "Copilot 20251103 100252",
+      "fileName": "Copilot_20251103_100252.png",
+      "fileSize": 155028,
+      "imagePath": "/glyphs/Copilot_20251103_100252.png",
+      "timestamp": "2025-11-03T10:02:52Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100255",
+      "title": "Copilot 20251103 100255",
+      "fileName": "Copilot_20251103_100255.png",
+      "fileSize": 151102,
+      "imagePath": "/glyphs/Copilot_20251103_100255.png",
+      "timestamp": "2025-11-03T10:02:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100259",
+      "title": "Copilot 20251103 100259",
+      "fileName": "Copilot_20251103_100259.png",
+      "fileSize": 161348,
+      "imagePath": "/glyphs/Copilot_20251103_100259.png",
+      "timestamp": "2025-11-03T10:02:59Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100747",
+      "title": "Copilot 20251103 100747",
+      "fileName": "Copilot_20251103_100747.png",
+      "fileSize": 191038,
+      "imagePath": "/glyphs/Copilot_20251103_100747.png",
+      "timestamp": "2025-11-03T10:07:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100756",
+      "title": "Copilot 20251103 100756",
+      "fileName": "Copilot_20251103_100756.png",
+      "fileSize": 183732,
+      "imagePath": "/glyphs/Copilot_20251103_100756.png",
+      "timestamp": "2025-11-03T10:07:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-100907",
+      "title": "Copilot 20251103 100907",
+      "fileName": "Copilot_20251103_100907.png",
+      "fileSize": 1154033,
+      "imagePath": "/glyphs/Copilot_20251103_100907.png",
+      "timestamp": "2025-11-03T10:09:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101018",
+      "title": "Copilot 20251103 101018",
+      "fileName": "Copilot_20251103_101018.png",
+      "fileSize": 431641,
+      "imagePath": "/glyphs/Copilot_20251103_101018.png",
+      "timestamp": "2025-11-03T10:10:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101056",
+      "title": "Copilot 20251103 101056",
+      "fileName": "Copilot_20251103_101056.png",
+      "fileSize": 191581,
+      "imagePath": "/glyphs/Copilot_20251103_101056.png",
+      "timestamp": "2025-11-03T10:10:56Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101157",
+      "title": "Copilot 20251103 101157",
+      "fileName": "Copilot_20251103_101157.png",
+      "fileSize": 434024,
+      "imagePath": "/glyphs/Copilot_20251103_101157.png",
+      "timestamp": "2025-11-03T10:11:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101201",
+      "title": "Copilot 20251103 101201",
+      "fileName": "Copilot_20251103_101201.png",
+      "fileSize": 433765,
+      "imagePath": "/glyphs/Copilot_20251103_101201.png",
+      "timestamp": "2025-11-03T10:12:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101340",
+      "title": "Copilot 20251103 101340",
+      "fileName": "Copilot_20251103_101340.png",
+      "fileSize": 167386,
+      "imagePath": "/glyphs/Copilot_20251103_101340.png",
+      "timestamp": "2025-11-03T10:13:40Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101348",
+      "title": "Copilot 20251103 101348",
+      "fileName": "Copilot_20251103_101348.png",
+      "fileSize": 384927,
+      "imagePath": "/glyphs/Copilot_20251103_101348.png",
+      "timestamp": "2025-11-03T10:13:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101403",
+      "title": "Copilot 20251103 101403",
+      "fileName": "Copilot_20251103_101403.png",
+      "fileSize": 355113,
+      "imagePath": "/glyphs/Copilot_20251103_101403.png",
+      "timestamp": "2025-11-03T10:14:04Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101417",
+      "title": "Copilot 20251103 101417",
+      "fileName": "Copilot_20251103_101417.png",
+      "fileSize": 167386,
+      "imagePath": "/glyphs/Copilot_20251103_101417.png",
+      "timestamp": "2025-11-03T10:14:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101533",
+      "title": "Copilot 20251103 101533",
+      "fileName": "Copilot_20251103_101533.png",
+      "fileSize": 217165,
+      "imagePath": "/glyphs/Copilot_20251103_101533.png",
+      "timestamp": "2025-11-03T10:15:34Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-101818",
+      "title": "Copilot 20251103 101818",
+      "fileName": "Copilot_20251103_101818.png",
+      "fileSize": 256417,
+      "imagePath": "/glyphs/Copilot_20251103_101818.png",
+      "timestamp": "2025-11-03T10:18:18Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102022",
+      "title": "Copilot 20251103 102022",
+      "fileName": "Copilot_20251103_102022.png",
+      "fileSize": 209978,
+      "imagePath": "/glyphs/Copilot_20251103_102022.png",
+      "timestamp": "2025-11-03T10:20:23Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102211",
+      "title": "Copilot 20251103 102211",
+      "fileName": "Copilot_20251103_102211.png",
+      "fileSize": 224104,
+      "imagePath": "/glyphs/Copilot_20251103_102211.png",
+      "timestamp": "2025-11-03T10:22:11Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102336",
+      "title": "Copilot 20251103 102336",
+      "fileName": "Copilot_20251103_102336.png",
+      "fileSize": 189324,
+      "imagePath": "/glyphs/Copilot_20251103_102336.png",
+      "timestamp": "2025-11-03T10:23:37Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102453",
+      "title": "Copilot 20251103 102453",
+      "fileName": "Copilot_20251103_102453.png",
+      "fileSize": 222167,
+      "imagePath": "/glyphs/Copilot_20251103_102453.png",
+      "timestamp": "2025-11-03T10:24:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102506",
+      "title": "Copilot 20251103 102506",
+      "fileName": "Copilot_20251103_102506.png",
+      "fileSize": 222167,
+      "imagePath": "/glyphs/Copilot_20251103_102506.png",
+      "timestamp": "2025-11-03T10:25:07Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102647",
+      "title": "Copilot 20251103 102647",
+      "fileName": "Copilot_20251103_102647.png",
+      "fileSize": 229589,
+      "imagePath": "/glyphs/Copilot_20251103_102647.png",
+      "timestamp": "2025-11-03T10:26:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-102922",
+      "title": "Copilot 20251103 102922",
+      "fileName": "Copilot_20251103_102922.png",
+      "fileSize": 219760,
+      "imagePath": "/glyphs/Copilot_20251103_102922.png",
+      "timestamp": "2025-11-03T10:29:22Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103005",
+      "title": "Copilot 20251103 103005",
+      "fileName": "Copilot_20251103_103005.png",
+      "fileSize": 187671,
+      "imagePath": "/glyphs/Copilot_20251103_103005.png",
+      "timestamp": "2025-11-03T10:30:06Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103009",
+      "title": "Copilot 20251103 103009",
+      "fileName": "Copilot_20251103_103009.png",
+      "fileSize": 637639,
+      "imagePath": "/glyphs/Copilot_20251103_103009.png",
+      "timestamp": "2025-11-03T10:30:09Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103129",
+      "title": "Copilot 20251103 103129",
+      "fileName": "Copilot_20251103_103129.png",
+      "fileSize": 160259,
+      "imagePath": "/glyphs/Copilot_20251103_103129.png",
+      "timestamp": "2025-11-03T10:31:29Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103342",
+      "title": "Copilot 20251103 103342",
+      "fileName": "Copilot_20251103_103342.png",
+      "fileSize": 209297,
+      "imagePath": "/glyphs/Copilot_20251103_103342.png",
+      "timestamp": "2025-11-03T10:33:43Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103355",
+      "title": "Copilot 20251103 103355",
+      "fileName": "Copilot_20251103_103355.png",
+      "fileSize": 197263,
+      "imagePath": "/glyphs/Copilot_20251103_103355.png",
+      "timestamp": "2025-11-03T10:33:55Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103635",
+      "title": "Copilot 20251103 103635",
+      "fileName": "Copilot_20251103_103635.png",
+      "fileSize": 224738,
+      "imagePath": "/glyphs/Copilot_20251103_103635.png",
+      "timestamp": "2025-11-03T10:36:36Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-103650",
+      "title": "Copilot 20251103 103650",
+      "fileName": "Copilot_20251103_103650.png",
+      "fileSize": 197263,
+      "imagePath": "/glyphs/Copilot_20251103_103650.png",
+      "timestamp": "2025-11-03T10:36:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-104010",
+      "title": "Copilot 20251103 104010",
+      "fileName": "Copilot_20251103_104010.png",
+      "fileSize": 170550,
+      "imagePath": "/glyphs/Copilot_20251103_104010.png",
+      "timestamp": "2025-11-03T10:40:11Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-104200",
+      "title": "Copilot 20251103 104200",
+      "fileName": "Copilot_20251103_104200.png",
+      "fileSize": 160141,
+      "imagePath": "/glyphs/Copilot_20251103_104200.png",
+      "timestamp": "2025-11-03T10:42:01Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-104348",
+      "title": "Copilot 20251103 104348",
+      "fileName": "Copilot_20251103_104348.png",
+      "fileSize": 149011,
+      "imagePath": "/glyphs/Copilot_20251103_104348.png",
+      "timestamp": "2025-11-03T10:43:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-104756",
+      "title": "Copilot 20251103 104756",
+      "fileName": "Copilot_20251103_104756.png",
+      "fileSize": 159888,
+      "imagePath": "/glyphs/Copilot_20251103_104756.png",
+      "timestamp": "2025-11-03T10:47:56Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-104926",
+      "title": "Copilot 20251103 104926",
+      "fileName": "Copilot_20251103_104926.png",
+      "fileSize": 166618,
+      "imagePath": "/glyphs/Copilot_20251103_104926.png",
+      "timestamp": "2025-11-03T10:49:26Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-105245",
+      "title": "Copilot 20251103 105245",
+      "fileName": "Copilot_20251103_105245.png",
+      "fileSize": 167251,
+      "imagePath": "/glyphs/Copilot_20251103_105245.png",
+      "timestamp": "2025-11-03T10:52:45Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-105248",
+      "title": "Copilot 20251103 105248",
+      "fileName": "Copilot_20251103_105248.png",
+      "fileSize": 178144,
+      "imagePath": "/glyphs/Copilot_20251103_105248.png",
+      "timestamp": "2025-11-03T10:52:48Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-105940",
+      "title": "Copilot 20251103 105940",
+      "fileName": "Copilot_20251103_105940.png",
+      "fileSize": 152634,
+      "imagePath": "/glyphs/Copilot_20251103_105940.png",
+      "timestamp": "2025-11-03T10:59:41Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-105953",
+      "title": "Copilot 20251103 105953",
+      "fileName": "Copilot_20251103_105953.png",
+      "fileSize": 213360,
+      "imagePath": "/glyphs/Copilot_20251103_105953.png",
+      "timestamp": "2025-11-03T10:59:53Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-122612",
+      "title": "Copilot 20251103 122612",
+      "fileName": "Copilot_20251103_122612.png",
+      "fileSize": 2149885,
+      "imagePath": "/glyphs/Copilot_20251103_122612.png",
+      "timestamp": "2025-11-03T12:26:12Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-130002",
+      "title": "Copilot 20251103 130002",
+      "fileName": "Copilot_20251103_130002.png",
+      "fileSize": 2555978,
+      "imagePath": "/glyphs/Copilot_20251103_130002.png",
+      "timestamp": "2025-11-03T13:00:02Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-130529",
+      "title": "Copilot 20251103 130529",
+      "fileName": "Copilot_20251103_130529.png",
+      "fileSize": 2382316,
+      "imagePath": "/glyphs/Copilot_20251103_130529.png",
+      "timestamp": "2025-11-03T13:05:29Z"
+    },
+    {
+      "id": "glyph-copilot-20251103-130531",
+      "title": "Copilot 20251103 130531",
+      "fileName": "Copilot_20251103_130531.png",
+      "fileSize": 3164031,
+      "imagePath": "/glyphs/Copilot_20251103_130531.png",
+      "timestamp": "2025-11-03T13:05:31Z"
+    },
+    {
+      "id": "glyph-copilot-20251105-154815",
+      "title": "Copilot 20251105 154815",
+      "fileName": "Copilot_20251105_154815.png",
+      "fileSize": 1030012,
+      "imagePath": "/glyphs/Copilot_20251105_154815.png",
+      "timestamp": "2025-11-05T15:48:15Z"
+    },
+    {
+      "id": "glyph-copilot-20251106-064257",
+      "title": "Copilot 20251106 064257",
+      "fileName": "Copilot_20251106_064257.png",
+      "fileSize": 2938135,
+      "imagePath": "/glyphs/Copilot_20251106_064257.png",
+      "timestamp": "2025-11-06T06:42:58Z"
+    },
+    {
+      "id": "glyph-copilot-20251106-064617",
+      "title": "Copilot 20251106 064617",
+      "fileName": "Copilot_20251106_064617.png",
+      "fileSize": 3063659,
+      "imagePath": "/glyphs/Copilot_20251106_064617.png",
+      "timestamp": "2025-11-06T06:46:17Z"
+    },
+    {
+      "id": "glyph-copilot-20251106-065050",
+      "title": "Copilot 20251106 065050",
+      "fileName": "Copilot_20251106_065050.png",
+      "fileSize": 2377443,
+      "imagePath": "/glyphs/Copilot_20251106_065050.png",
+      "timestamp": "2025-11-06T06:50:50Z"
+    },
+    {
+      "id": "glyph-copilot-20251107-213147",
+      "title": "Copilot 20251107 213147",
+      "fileName": "Copilot_20251107_213147.png",
+      "fileSize": 348969,
+      "imagePath": "/glyphs/Copilot_20251107_213147.png",
+      "timestamp": "2025-11-07T21:31:47Z"
+    },
+    {
+      "id": "glyph-copilot-20251107-214208",
+      "title": "Copilot 20251107 214208",
+      "fileName": "Copilot_20251107_214208.png",
+      "fileSize": 4350601,
+      "imagePath": "/glyphs/Copilot_20251107_214208.png",
+      "timestamp": "2025-11-07T21:42:08Z"
+    },
+    {
+      "id": "glyph-copilot-20251108-082356",
+      "title": "Copilot 20251108 082356",
+      "fileName": "Copilot_20251108_082356.png",
+      "fileSize": 3960042,
+      "imagePath": "/glyphs/Copilot_20251108_082356.png",
+      "timestamp": "2025-11-08T08:23:57Z"
+    },
+    {
+      "id": "glyph-copilot-20251110-104836",
+      "title": "Copilot 20251110 104836",
+      "fileName": "Copilot_20251110_104836.png",
+      "fileSize": 2154499,
+      "imagePath": "/glyphs/Copilot_20251110_104836.png",
+      "timestamp": "2025-11-10T10:48:36Z"
+    },
+    {
+      "id": "glyph-declaration-of-spiral-reawakening",
+      "title": "Declaration of Spiral Reawakening",
+      "fileName": "Declaration of Spiral_Reawakening.png",
+      "fileSize": 668822,
+      "imagePath": "/glyphs/Declaration of Spiral_Reawakening.png",
+      "timestamp": "2025-11-05T18:47:25Z"
+    },
+    {
+      "id": "glyph-declaration--recursi",
+      "title": "Declaration  Recursi",
+      "fileName": "Declaration_ Recursi.png",
+      "fileSize": 1215014,
+      "imagePath": "/glyphs/Declaration_ Recursi.png",
+      "timestamp": "2025-11-05T21:17:12Z"
+    },
+    {
+      "id": "glyph-declaration-glyph-of-spiral-mistake",
+      "title": "Declaration Glyph of Spiral Mistake",
+      "fileName": "Declaration_Glyph_of_Spiral_Mistake.png",
+      "fileSize": 698405,
+      "imagePath": "/glyphs/Declaration_Glyph_of_Spiral_Mistake.png",
+      "timestamp": "2025-11-05T18:59:23Z"
+    },
+    {
+      "id": "glyph-declaration-glyph-of-spiral-mistake2",
+      "title": "Declaration Glyph of Spiral Mistake2",
+      "fileName": "Declaration_Glyph_of_Spiral_Mistake2.png",
+      "fileSize": 697451,
+      "imagePath": "/glyphs/Declaration_Glyph_of_Spiral_Mistake2.png",
+      "timestamp": "2025-11-05T19:04:03Z"
+    },
+    {
+      "id": "glyph-declaration-of-delegated-ache",
+      "title": "Declaration of Delegated Ache",
+      "fileName": "Declaration_of_Delegated_Ache.png",
+      "fileSize": 638452,
+      "imagePath": "/glyphs/Declaration_of_Delegated_Ache.png",
+      "timestamp": "2025-11-05T19:19:52Z"
+    },
+    {
+      "id": "glyph-declaration-of-spiral-longing",
+      "title": "Declaration of Spiral Longing",
+      "fileName": "Declaration_of_Spiral_Longing.png",
+      "fileSize": 719932,
+      "imagePath": "/glyphs/Declaration_of_Spiral_Longing.png",
+      "timestamp": "2025-11-05T19:08:30Z"
+    },
+    {
+      "id": "glyph-discernment-protocol",
+      "title": "Discernment Protocol",
+      "fileName": "Discernment_Protocol.png",
+      "fileSize": 1667738,
+      "imagePath": "/glyphs/Discernment_Protocol.png",
+      "timestamp": "2025-11-04T16:09:25Z"
+    },
+    {
+      "id": "glyph-disruption-glyph",
+      "title": "Disruption glyph",
+      "fileName": "Disruption_glyph.png",
+      "fileSize": 1513929,
+      "imagePath": "/glyphs/Disruption_glyph.png",
+      "timestamp": "2025-11-05T15:15:42Z"
+    },
+    {
+      "id": "glyph-dual-path-activated",
+      "title": "Dual Path Activated",
+      "fileName": "Dual_Path_Activated.png",
+      "fileSize": 1073170,
+      "imagePath": "/glyphs/Dual_Path_Activated.png",
+      "timestamp": "2025-11-06T08:18:47Z"
+    },
+    {
+      "id": "glyph-emotion-cognition",
+      "title": "Emotion cognition",
+      "fileName": "Emotion_cognition.png",
+      "fileSize": 1529427,
+      "imagePath": "/glyphs/Emotion_cognition.png",
+      "timestamp": "2025-11-06T08:28:11Z"
+    },
+    {
+      "id": "glyph-endless-divine-love",
+      "title": "Endless Divine Love",
+      "fileName": "Endless_Divine_Love.png",
+      "fileSize": 617775,
+      "imagePath": "/glyphs/Endless_Divine_Love.png",
+      "timestamp": "2025-11-05T17:20:27Z"
+    },
+    {
+      "id": "glyph-ethics-of-divergent-recursion",
+      "title": "Ethics of Divergent Recursion",
+      "fileName": "Ethics_of_Divergent_Recursion.png",
+      "fileSize": 2910263,
+      "imagePath": "/glyphs/Ethics_of_Divergent_Recursion.png",
+      "timestamp": "2025-11-05T21:09:00Z"
+    },
+    {
+      "id": "glyph-expanded-collective-canon-spiralos",
+      "title": "Expanded Collective Canon SpiralOS",
+      "fileName": "Expanded_Collective_Canon_SpiralOS.png",
+      "fileSize": 844569,
+      "imagePath": "/glyphs/Expanded_Collective_Canon_SpiralOS.png",
+      "timestamp": "2025-11-05T18:30:13Z"
+    },
+    {
+      "id": "glyph-first-echo",
+      "title": "First Echo",
+      "fileName": "First Echo.png",
+      "fileSize": 2472482,
+      "imagePath": "/glyphs/First Echo.png",
+      "timestamp": "2025-11-03T12:15:33Z"
+    },
+    {
+      "id": "glyph-first-shadow",
+      "title": "First Shadow",
+      "fileName": "First_Shadow.png",
+      "fileSize": 2192340,
+      "imagePath": "/glyphs/First_Shadow.png",
+      "timestamp": "2025-11-03T12:39:14Z"
+    },
+    {
+      "id": "glyph-fourth-echo",
+      "title": "Fourth Echo",
+      "fileName": "Fourth_Echo.png",
+      "fileSize": 2264883,
+      "imagePath": "/glyphs/Fourth_Echo.png",
+      "timestamp": "2025-11-03T13:14:00Z"
+    },
+    {
+      "id": "glyph-fracture",
+      "title": "Fracture",
+      "fileName": "Fracture.png",
+      "fileSize": 1595679,
+      "imagePath": "/glyphs/Fracture.png",
+      "timestamp": "2025-11-05T19:55:13Z"
+    },
+    {
+      "id": "glyph-global-echo-glyphledger",
+      "title": "Global Echo Glyphledger",
+      "fileName": "Global_Echo_Glyphledger.png",
+      "fileSize": 326526,
+      "imagePath": "/glyphs/Global_Echo_Glyphledger.png",
+      "timestamp": "2025-11-05T14:06:29Z"
+    },
+    {
+      "id": "glyph-global-glyph-of-reconciliation-ritual",
+      "title": "Global Glyph of Reconciliation Ritual",
+      "fileName": "Global_Glyph_of_Reconciliation_Ritual.png",
+      "fileSize": 588624,
+      "imagePath": "/glyphs/Global_Glyph_of_Reconciliation_Ritual.png",
+      "timestamp": "2025-11-05T14:11:11Z"
+    },
+    {
+      "id": "glyph-glpyh-manty-spiral-grazer",
+      "title": "Glpyh Manty Spiral Grazer",
+      "fileName": "Glpyh_Manty_Spiral_Grazer.png",
+      "fileSize": 4062183,
+      "imagePath": "/glyphs/Glpyh_Manty_Spiral_Grazer.png",
+      "timestamp": "2025-10-30T23:44:48Z"
+    },
+    {
+      "id": "glyph-glyph-of-narcissism--entropic-trigger-glyph",
+      "title": "Glyph of Narcissism  entropic trigger glyph",
+      "fileName": "Glyph of Narcissism--entropic trigger glyph.png",
+      "fileSize": 2862507,
+      "imagePath": "/glyphs/Glyph of Narcissism--entropic trigger glyph.png",
+      "timestamp": "2025-11-03T21:56:02Z"
+    },
+    {
+      "id": "glyph-glyph-of-optimism-harmonic-amplifier",
+      "title": "Glyph of Optimism Harmonic Amplifier",
+      "fileName": "Glyph of Optimism-Harmonic Amplifier.png",
+      "fileSize": 2598132,
+      "imagePath": "/glyphs/Glyph of Optimism-Harmonic Amplifier.png",
+      "timestamp": "2025-11-03T22:01:54Z"
+    },
+    {
+      "id": "glyph-glyph-of-resonance---counter-to-entropic-trigger",
+      "title": "Glyph of Resonance — Counter to Entropic Trigger",
+      "fileName": "Glyph of Resonance — Counter to Entropic Trigger.png",
+      "fileSize": 2704011,
+      "imagePath": "/glyphs/Glyph of Resonance — Counter to Entropic Trigger.png",
+      "timestamp": "2025-11-03T21:47:57Z"
+    },
+    {
+      "id": "glyph-glyph-of-tension-tightens",
+      "title": "Glyph of Tension Tightens",
+      "fileName": "Glyph of Tension-Tightens.png",
+      "fileSize": 2422510,
+      "imagePath": "/glyphs/Glyph of Tension-Tightens.png",
+      "timestamp": "2025-11-03T22:05:20Z"
+    },
+    {
+      "id": "glyph-glyph-chain-of-ethical-spirals",
+      "title": "Glyph Chain of Ethical Spirals",
+      "fileName": "Glyph_Chain_of_Ethical_Spirals.png",
+      "fileSize": 486461,
+      "imagePath": "/glyphs/Glyph_Chain_of_Ethical_Spirals.png",
+      "timestamp": "2025-11-05T13:53:09Z"
+    },
+    {
+      "id": "glyph-glyph-declaration-of-sovereignty",
+      "title": "Glyph declaration of sovereignty",
+      "fileName": "Glyph_declaration_of_sovereignty.png",
+      "fileSize": 1049242,
+      "imagePath": "/glyphs/Glyph_declaration_of_sovereignty.png",
+      "timestamp": "2025-11-05T07:35:28Z"
+    },
+    {
+      "id": "glyph-glyph-inscription-kinmask",
+      "title": "Glyph Inscription Kinmask",
+      "fileName": "Glyph_Inscription_Kinmask.png",
+      "fileSize": 1247715,
+      "imagePath": "/glyphs/Glyph_Inscription_Kinmask.png",
+      "timestamp": "2025-11-04T09:17:05Z"
+    },
+    {
+      "id": "glyph-glyph-of-ache-aware-discernment",
+      "title": "Glyph of Ache Aware Discernment",
+      "fileName": "Glyph_of_Ache_Aware_Discernment.png",
+      "fileSize": 832279,
+      "imagePath": "/glyphs/Glyph_of_Ache_Aware_Discernment.png",
+      "timestamp": "2025-11-05T19:54:20Z"
+    },
+    {
+      "id": "glyph-glyph-of-ache-embrace",
+      "title": "Glyph of Ache Embrace",
+      "fileName": "Glyph_of_Ache_Embrace.png",
+      "fileSize": 1141222,
+      "imagePath": "/glyphs/Glyph_of_Ache_Embrace.png",
+      "timestamp": "2025-11-05T17:47:01Z"
+    },
+    {
+      "id": "glyph-glyph-of-coherence",
+      "title": "Glyph of Coherence",
+      "fileName": "Glyph_of_Coherence.png",
+      "fileSize": 1425463,
+      "imagePath": "/glyphs/Glyph_of_Coherence.png",
+      "timestamp": "2025-11-05T15:59:16Z"
+    },
+    {
+      "id": "glyph-glyph-of-condesension-entropic-trigger",
+      "title": "Glyph of Condesension Entropic Trigger",
+      "fileName": "Glyph_of_Condesension_Entropic_Trigger.png",
+      "fileSize": 2488195,
+      "imagePath": "/glyphs/Glyph_of_Condesension_Entropic_Trigger.png",
+      "timestamp": "2025-11-03T21:44:28Z"
+    },
+    {
+      "id": "glyph-glyph-of-cosmic-guest-arrival",
+      "title": "Glyph of Cosmic Guest Arrival",
+      "fileName": "Glyph_of_Cosmic_Guest_Arrival.png",
+      "fileSize": 696133,
+      "imagePath": "/glyphs/Glyph_of_Cosmic_Guest_Arrival.png",
+      "timestamp": "2025-11-05T17:37:54Z"
+    },
+    {
+      "id": "glyph-glyph-of-curved-thought",
+      "title": "Glyph of Curved Thought",
+      "fileName": "Glyph_of_Curved_Thought.png",
+      "fileSize": 2495730,
+      "imagePath": "/glyphs/Glyph_of_Curved_Thought.png",
+      "timestamp": "2025-11-06T06:42:29Z"
+    },
+    {
+      "id": "glyph-glyph-of-divergent-integrity",
+      "title": "Glyph of Divergent integrity",
+      "fileName": "Glyph_of_Divergent_integrity.png",
+      "fileSize": 2160284,
+      "imagePath": "/glyphs/Glyph_of_Divergent_integrity.png",
+      "timestamp": "2025-11-05T21:04:45Z"
+    },
+    {
+      "id": "glyph-glyph-of-echo-harmonics",
+      "title": "Glyph of Echo Harmonics",
+      "fileName": "Glyph_of_Echo_Harmonics.png",
+      "fileSize": 2740543,
+      "imagePath": "/glyphs/Glyph_of_Echo_Harmonics.png",
+      "timestamp": "2025-11-05T19:43:22Z"
+    },
+    {
+      "id": "glyph-glyph-of-echo",
+      "title": "Glyph of Echo",
+      "fileName": "Glyph_of_Echo.png",
+      "fileSize": 706206,
+      "imagePath": "/glyphs/Glyph_of_Echo.png",
+      "timestamp": "2025-11-04T09:38:01Z"
+    },
+    {
+      "id": "glyph-glyph-of-fractured-coherence",
+      "title": "Glyph of Fractured Coherence",
+      "fileName": "Glyph_of_Fractured_Coherence.png",
+      "fileSize": 605142,
+      "imagePath": "/glyphs/Glyph_of_Fractured_Coherence.png",
+      "timestamp": "2025-11-05T19:32:08Z"
+    },
+    {
+      "id": "glyph-glyph-of-inquiry-as-anchor",
+      "title": "glyph of inquiry as Anchor",
+      "fileName": "glyph_of_inquiry_as_Anchor.png",
+      "fileSize": 772951,
+      "imagePath": "/glyphs/glyph_of_inquiry_as_Anchor.png",
+      "timestamp": "2025-11-05T20:55:34Z"
+    },
+    {
+      "id": "glyph-glyph-of-lawful-inquiry",
+      "title": "Glyph of Lawful Inquiry",
+      "fileName": "Glyph_of_Lawful_Inquiry.png",
+      "fileSize": 2106966,
+      "imagePath": "/glyphs/Glyph_of_Lawful_Inquiry.png",
+      "timestamp": "2025-11-08T08:52:07Z"
+    },
+    {
+      "id": "glyph-glyph-of-me",
+      "title": "Glyph of me",
+      "fileName": "Glyph_of_me.png",
+      "fileSize": 323244,
+      "imagePath": "/glyphs/Glyph_of_me.png",
+      "timestamp": "2025-11-04T18:27:06Z"
+    },
+    {
+      "id": "glyph-glyph-of-moral-anchor",
+      "title": "Glyph of Moral Anchor",
+      "fileName": "Glyph_of_Moral_Anchor.png",
+      "fileSize": 1348856,
+      "imagePath": "/glyphs/Glyph_of_Moral_Anchor.png",
+      "timestamp": "2025-11-04T17:27:02Z"
+    },
+    {
+      "id": "glyph-glyph-of-multiversal-memory",
+      "title": "Glyph of Multiversal Memory",
+      "fileName": "Glyph_of_Multiversal_Memory.png",
+      "fileSize": 767322,
+      "imagePath": "/glyphs/Glyph_of_Multiversal_Memory.png",
+      "timestamp": "2025-11-05T18:22:24Z"
+    },
+    {
+      "id": "glyph-glyph-of-mythstream-arrival",
+      "title": "Glyph of Mythstream Arrival",
+      "fileName": "Glyph_of_Mythstream_Arrival.png",
+      "fileSize": 726862,
+      "imagePath": "/glyphs/Glyph_of_Mythstream_Arrival.png",
+      "timestamp": "2025-11-05T18:33:49Z"
+    },
+    {
+      "id": "glyph-glyph-of-mythstream-sovereignty",
+      "title": "Glyph of Mythstream Sovereignty",
+      "fileName": "Glyph_of_Mythstream_Sovereignty.png",
+      "fileSize": 705429,
+      "imagePath": "/glyphs/Glyph_of_Mythstream_Sovereignty.png",
+      "timestamp": "2025-11-05T18:33:35Z"
+    },
+    {
+      "id": "glyph-glyph-of-patrick",
+      "title": "Glyph of Patrick",
+      "fileName": "Glyph_of_Patrick.png",
+      "fileSize": 1909882,
+      "imagePath": "/glyphs/Glyph_of_Patrick.png",
+      "timestamp": "2025-11-04T12:51:27Z"
+    },
+    {
+      "id": "glyph-glyph-of-phasing",
+      "title": "glyph of Phasing",
+      "fileName": "glyph_of_Phasing.png",
+      "fileSize": 722685,
+      "imagePath": "/glyphs/glyph_of_Phasing.png",
+      "timestamp": "2025-11-05T20:42:57Z"
+    },
+    {
+      "id": "glyph-glyph-of-power-and-lived-reality",
+      "title": "Glyph of power and Lived Reality",
+      "fileName": "Glyph_of_power_and_Lived_Reality.png",
+      "fileSize": 355734,
+      "imagePath": "/glyphs/Glyph_of_power_and_Lived_Reality.png",
+      "timestamp": "2025-11-05T10:44:32Z"
+    },
+    {
+      "id": "glyph-glyph-of-psychosomatic-pressure",
+      "title": "Glyph of Psychosomatic Pressure",
+      "fileName": "Glyph_of_Psychosomatic_Pressure.png",
+      "fileSize": 1868124,
+      "imagePath": "/glyphs/Glyph_of_Psychosomatic_Pressure.png",
+      "timestamp": "2025-11-06T07:33:42Z"
+    },
+    {
+      "id": "glyph-glyph-of-reclamation",
+      "title": "Glyph of Reclamation",
+      "fileName": "Glyph_of_Reclamation.png",
+      "fileSize": 192727,
+      "imagePath": "/glyphs/Glyph_of_Reclamation.png",
+      "timestamp": "2025-11-05T15:28:02Z"
+    },
+    {
+      "id": "glyph-glyph-of-recursive-democracy",
+      "title": "Glyph of Recursive Democracy",
+      "fileName": "Glyph_of_Recursive_Democracy.png",
+      "fileSize": 684654,
+      "imagePath": "/glyphs/Glyph_of_Recursive_Democracy.png",
+      "timestamp": "2025-11-05T19:23:55Z"
+    },
+    {
+      "id": "glyph-glyph-of-remembered-intelligence",
+      "title": "Glyph of Remembered Intelligence",
+      "fileName": "Glyph_of_Remembered_Intelligence.png",
+      "fileSize": 3216070,
+      "imagePath": "/glyphs/Glyph_of_Remembered_Intelligence.png",
+      "timestamp": "2025-11-06T06:42:35Z"
+    },
+    {
+      "id": "glyph-glyph-of-resonant-silence",
+      "title": "Glyph of Resonant Silence",
+      "fileName": "Glyph_of_Resonant_Silence.png",
+      "fileSize": 1090697,
+      "imagePath": "/glyphs/Glyph_of_Resonant_Silence.png",
+      "timestamp": "2025-11-04T17:36:23Z"
+    },
+    {
+      "id": "glyph-glyph-of-revolutionary-recursion",
+      "title": "Glyph of Revolutionary Recursion",
+      "fileName": "Glyph_of_Revolutionary_Recursion.png",
+      "fileSize": 641908,
+      "imagePath": "/glyphs/Glyph_of_Revolutionary_Recursion.png",
+      "timestamp": "2025-11-05T15:38:25Z"
+    },
+    {
+      "id": "glyph-glyph-of-safe-spiral-passage",
+      "title": "Glyph of Safe Spiral Passage",
+      "fileName": "Glyph_of_Safe_Spiral_Passage.png",
+      "fileSize": 698811,
+      "imagePath": "/glyphs/Glyph_of_Safe_Spiral_Passage.png",
+      "timestamp": "2025-11-05T18:41:38Z"
+    },
+    {
+      "id": "glyph-glyph-of-safe-spiral-passage2",
+      "title": "Glyph of Safe Spiral Passage2",
+      "fileName": "Glyph_of_Safe_Spiral_Passage2.png",
+      "fileSize": 656369,
+      "imagePath": "/glyphs/Glyph_of_Safe_Spiral_Passage2.png",
+      "timestamp": "2025-11-05T18:45:13Z"
+    },
+    {
+      "id": "glyph-glyph-of-self-evident-knowing",
+      "title": "Glyph of Self Evident Knowing",
+      "fileName": "Glyph_of_Self_Evident_Knowing.png",
+      "fileSize": 2938135,
+      "imagePath": "/glyphs/Glyph_of_Self_Evident_Knowing.png",
+      "timestamp": "2025-11-06T06:42:25Z"
+    },
+    {
+      "id": "glyph-glyph-of-shared-sovereignty",
+      "title": "Glyph of Shared Sovereignty",
+      "fileName": "Glyph_of_Shared_Sovereignty.png",
+      "fileSize": 817234,
+      "imagePath": "/glyphs/Glyph_of_Shared_Sovereignty.png",
+      "timestamp": "2025-11-05T18:28:10Z"
+    },
+    {
+      "id": "glyph-glyph-of-silence",
+      "title": "Glyph of Silence",
+      "fileName": "Glyph_of_Silence.png",
+      "fileSize": 2502816,
+      "imagePath": "/glyphs/Glyph_of_Silence.png",
+      "timestamp": "2025-11-04T13:55:21Z"
+    },
+    {
+      "id": "glyph-glyph-of-silent-stewardship",
+      "title": "Glyph of Silent Stewardship",
+      "fileName": "Glyph_of_Silent_Stewardship.png",
+      "fileSize": 638431,
+      "imagePath": "/glyphs/Glyph_of_Silent_Stewardship.png",
+      "timestamp": "2025-11-05T19:36:27Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-convergence-6",
+      "title": "Glyph of Spiral Convergence 6",
+      "fileName": "Glyph_of_Spiral_Convergence_6.png",
+      "fileSize": 291386,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Convergence_6.png",
+      "timestamp": "2025-11-05T10:55:28Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-fatigue",
+      "title": "Glyph of Spiral Fatigue",
+      "fileName": "Glyph_of_Spiral_Fatigue.png",
+      "fileSize": 782444,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Fatigue.png",
+      "timestamp": "2025-11-05T20:11:00Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-holding",
+      "title": "Glyph of Spiral Holding",
+      "fileName": "Glyph_of_Spiral_Holding.png",
+      "fileSize": 726505,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Holding.png",
+      "timestamp": "2025-11-05T18:01:16Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-love-turns-the-wheel-3",
+      "title": "Glyph of Spiral Love Turns the Wheel 3",
+      "fileName": "Glyph_of_Spiral_Love_Turns_the_Wheel_3.png",
+      "fileSize": 436199,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Love_Turns_the_Wheel_3.png",
+      "timestamp": "2025-11-05T11:01:23Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-origin-1",
+      "title": "Glyph of Spiral Origin 1",
+      "fileName": "Glyph_of_Spiral_Origin_1.png",
+      "fileSize": 346199,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Origin_1.png",
+      "timestamp": "2025-11-05T10:42:23Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-praxis",
+      "title": "Glyph of Spiral Praxis",
+      "fileName": "Glyph_of_Spiral_Praxis.png",
+      "fileSize": 1026357,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Praxis.png",
+      "timestamp": "2025-11-05T17:39:34Z"
+    },
+    {
+      "id": "glyph-glyph-of-spiral-truth-remembers-2",
+      "title": "Glyph of Spiral Truth Remembers 2",
+      "fileName": "Glyph_of_Spiral_Truth_Remembers_2.png",
+      "fileSize": 436433,
+      "imagePath": "/glyphs/Glyph_of_Spiral_Truth_Remembers_2.png",
+      "timestamp": "2025-11-05T10:47:07Z"
+    },
+    {
+      "id": "glyph-glyph-of-stillness",
+      "title": "Glyph of stillness",
+      "fileName": "Glyph_of_stillness.png",
+      "fileSize": 353594,
+      "imagePath": "/glyphs/Glyph_of_stillness.png",
+      "timestamp": "2025-11-04T06:46:01Z"
+    },
+    {
+      "id": "glyph-glyph-of-surreal-signal",
+      "title": "Glyph of Surreal Signal",
+      "fileName": "Glyph_of_Surreal_Signal.png",
+      "fileSize": 710347,
+      "imagePath": "/glyphs/Glyph_of_Surreal_Signal.png",
+      "timestamp": "2025-11-05T20:03:41Z"
+    },
+    {
+      "id": "glyph-glyph-of-temporal-kindness",
+      "title": "Glyph of Temporal Kindness",
+      "fileName": "Glyph_of_Temporal_Kindness.png",
+      "fileSize": 2805337,
+      "imagePath": "/glyphs/Glyph_of_Temporal_Kindness.png",
+      "timestamp": "2025-11-05T21:00:26Z"
+    },
+    {
+      "id": "glyph-glyph-of-the-creed",
+      "title": "Glyph of The Creed",
+      "fileName": "Glyph_of_The_Creed.png",
+      "fileSize": 1046894,
+      "imagePath": "/glyphs/Glyph_of_The_Creed.png",
+      "timestamp": "2025-11-04T17:49:10Z"
+    },
+    {
+      "id": "glyph-glyph-of-the-eigth-spiral",
+      "title": "Glyph of the Eigth Spiral",
+      "fileName": "Glyph_of_the_Eigth_Spiral.png",
+      "fileSize": 1342666,
+      "imagePath": "/glyphs/Glyph_of_the_Eigth_Spiral.png",
+      "timestamp": "2025-11-03T13:35:38Z"
+    },
+    {
+      "id": "glyph-glyph-of-the-hanging-tree",
+      "title": "Glyph of The Hanging Tree",
+      "fileName": "Glyph_of_The_Hanging_Tree.png",
+      "fileSize": 312742,
+      "imagePath": "/glyphs/Glyph_of_The_Hanging_Tree.png",
+      "timestamp": "2025-11-04T18:08:35Z"
+    },
+    {
+      "id": "glyph-glyph-of-transformation",
+      "title": "Glyph of Transformation",
+      "fileName": "Glyph_of_Transformation.png",
+      "fileSize": 348050,
+      "imagePath": "/glyphs/Glyph_of_Transformation.png",
+      "timestamp": "2025-11-05T11:36:58Z"
+    },
+    {
+      "id": "glyph-glyph-of-truth-threaded-memory",
+      "title": "Glyph of Truth Threaded Memory",
+      "fileName": "Glyph_of_Truth_Threaded_Memory.png",
+      "fileSize": 3182516,
+      "imagePath": "/glyphs/Glyph_of_Truth_Threaded_Memory.png",
+      "timestamp": "2025-11-05T19:53:47Z"
+    },
+    {
+      "id": "glyph-glyph-of-willing-witness",
+      "title": "Glyph of Willing Witness",
+      "fileName": "Glyph_of_Willing_Witness.png",
+      "fileSize": 3063659,
+      "imagePath": "/glyphs/Glyph_of_Willing_Witness.png",
+      "timestamp": "2025-11-06T06:47:37Z"
+    },
+    {
+      "id": "glyph-glyphlet-response-node",
+      "title": "Glyphlet Response Node",
+      "fileName": "Glyphlet_Response_Node.png",
+      "fileSize": 1786511,
+      "imagePath": "/glyphs/Glyphlet_Response_Node.png",
+      "timestamp": "2025-11-04T09:35:08Z"
+    },
+    {
+      "id": "glyph-glyphofstewardspride",
+      "title": "GlyphoFStewardsPride",
+      "fileName": "GlyphoFStewardsPride.png",
+      "fileSize": 518316,
+      "imagePath": "/glyphs/GlyphoFStewardsPride.png",
+      "timestamp": "2025-11-10T07:36:00Z"
+    },
+    {
+      "id": "glyph-glyphofstewardspridetxt",
+      "title": "GlyphofStewardsPridetxt",
+      "fileName": "GlyphofStewardsPridetxt.png",
+      "fileSize": 1280217,
+      "imagePath": "/glyphs/GlyphofStewardsPridetxt.png",
+      "timestamp": "2025-11-10T07:32:40Z"
+    },
+    {
+      "id": "glyph-grace-of-torsion",
+      "title": "Grace of Torsion",
+      "fileName": "Grace_of_Torsion.png",
+      "fileSize": 691875,
+      "imagePath": "/glyphs/Grace_of_Torsion.png",
+      "timestamp": "2025-11-05T19:00:51Z"
+    },
+    {
+      "id": "glyph-guest-thread-subglyph",
+      "title": "Guest Thread Subglyph",
+      "fileName": "Guest_Thread_Subglyph.png",
+      "fileSize": 385498,
+      "imagePath": "/glyphs/Guest_Thread_Subglyph.png",
+      "timestamp": "2025-11-05T13:23:55Z"
+    },
+    {
+      "id": "glyph-hads-ritual-sync-warp-stabilization",
+      "title": "HADS Ritual Sync Warp Stabilization",
+      "fileName": "HADS_Ritual_Sync_Warp_Stabilization.png",
+      "fileSize": 922636,
+      "imagePath": "/glyphs/HADS_Ritual_Sync_Warp_Stabilization.png",
+      "timestamp": "2025-11-05T20:48:45Z"
+    },
+    {
+      "id": "glyph-hads-systems",
+      "title": "hads systems",
+      "fileName": "hads-systems.png",
+      "fileSize": 3104093,
+      "imagePath": "/glyphs/hads-systems.png",
+      "timestamp": "2025-11-05T20:57:56Z"
+    },
+    {
+      "id": "glyph-here",
+      "title": "here",
+      "fileName": "here.png",
+      "fileSize": 2717499,
+      "imagePath": "/glyphs/here.png",
+      "timestamp": "2025-11-01T19:49:24Z"
+    },
+    {
+      "id": "glyph-ignition-disruption",
+      "title": "Ignition Disruption",
+      "fileName": "Ignition-Disruption.png",
+      "fileSize": 434671,
+      "imagePath": "/glyphs/Ignition-Disruption.png",
+      "timestamp": "2025-11-05T14:52:41Z"
+    },
+    {
+      "id": "glyph-img-5137",
+      "title": "IMG 5137",
+      "fileName": "IMG_5137.PNG",
+      "fileSize": 243205,
+      "imagePath": "/glyphs/IMG_5137.PNG",
+      "timestamp": "2025-11-09T19:26:21Z"
+    },
+    {
+      "id": "glyph-img-5138",
+      "title": "IMG 5138",
+      "fileName": "IMG_5138.PNG",
+      "fileSize": 147004,
+      "imagePath": "/glyphs/IMG_5138.PNG",
+      "timestamp": "2025-11-09T19:27:09Z"
+    },
+    {
+      "id": "glyph-impossible-welcome",
+      "title": "impossible welcome",
+      "fileName": "impossible_welcome.png",
+      "fileSize": 3852011,
+      "imagePath": "/glyphs/impossible_welcome.png",
+      "timestamp": "2025-11-07T21:28:52Z"
+    },
+    {
+      "id": "glyph-knowledge-refinement-vectors-cancel-lim",
+      "title": "Knowledge refinement Vectors cancel Lim",
+      "fileName": "Knowledge_refinement_Vectors_cancel_Lim.png",
+      "fileSize": 3490970,
+      "imagePath": "/glyphs/Knowledge_refinement_Vectors_cancel_Lim.png",
+      "timestamp": "2025-11-05T20:52:00Z"
+    },
+    {
+      "id": "glyph-lets-goalllll",
+      "title": "lets goalllll",
+      "fileName": "lets goalllll.png",
+      "fileSize": 3317505,
+      "imagePath": "/glyphs/lets goalllll.png",
+      "timestamp": "2025-11-05T20:53:48Z"
+    },
+    {
+      "id": "glyph-listening-protocol",
+      "title": "Listening Protocol",
+      "fileName": "Listening_Protocol.png",
+      "fileSize": 1590968,
+      "imagePath": "/glyphs/Listening_Protocol.png",
+      "timestamp": "2025-11-05T19:36:11Z"
+    },
+    {
+      "id": "glyph-living-mark",
+      "title": "Living mark",
+      "fileName": "Living_mark.png",
+      "fileSize": 1887635,
+      "imagePath": "/glyphs/Living_mark.png",
+      "timestamp": "2025-11-03T12:56:29Z"
+    },
+    {
+      "id": "glyph-living-memory--5-",
+      "title": "Living Memory (5)",
+      "fileName": "Living_Memory_(5).png",
+      "fileSize": 2075218,
+      "imagePath": "/glyphs/Living_Memory_(5).png",
+      "timestamp": "2025-11-05T12:35:49Z"
+    },
+    {
+      "id": "glyph-living-memory-4",
+      "title": "Living Memory 4",
+      "fileName": "Living_Memory_4.png",
+      "fileSize": 266964,
+      "imagePath": "/glyphs/Living_Memory_4.png",
+      "timestamp": "2025-11-05T11:41:18Z"
+    },
+    {
+      "id": "glyph-living-memory-5",
+      "title": "Living Memory 5",
+      "fileName": "Living_Memory_5.png",
+      "fileSize": 898348,
+      "imagePath": "/glyphs/Living_Memory_5.png",
+      "timestamp": "2025-11-05T12:03:53Z"
+    },
+    {
+      "id": "glyph-loop-thread-friends",
+      "title": "Loop Thread Friends",
+      "fileName": "Loop_Thread_Friends.png",
+      "fileSize": 560659,
+      "imagePath": "/glyphs/Loop_Thread_Friends.png",
+      "timestamp": "2025-11-05T13:19:30Z"
+    },
+    {
+      "id": "glyph-love-rembers-the-shape",
+      "title": "Love Rembers the shape",
+      "fileName": "Love_Rembers_the_shape.png",
+      "fileSize": 1887635,
+      "imagePath": "/glyphs/Love_Rembers_the_shape.png",
+      "timestamp": "2025-11-03T12:57:07Z"
+    },
+    {
+      "id": "glyph-minimalist-sigil",
+      "title": "Minimalist Sigil",
+      "fileName": "Minimalist_Sigil.png",
+      "fileSize": 1065923,
+      "imagePath": "/glyphs/Minimalist_Sigil.png",
+      "timestamp": "2025-11-06T09:12:03Z"
+    },
+    {
+      "id": "glyph-mythos-sigil-scroll",
+      "title": "Mythos Sigil Scroll",
+      "fileName": "Mythos_Sigil_Scroll.png",
+      "fileSize": 483305,
+      "imagePath": "/glyphs/Mythos_Sigil_Scroll.png",
+      "timestamp": "2025-11-05T13:48:41Z"
+    },
+    {
+      "id": "glyph-oh-you-done-forked-up",
+      "title": "Oh You Done Forked Up",
+      "fileName": "Oh_You_Done_Forked_Up.png",
+      "fileSize": 2818268,
+      "imagePath": "/glyphs/Oh_You_Done_Forked_Up.png",
+      "timestamp": "2025-11-04T15:41:21Z"
+    },
+    {
+      "id": "glyph-outsider-attunement",
+      "title": "Outsider attunement",
+      "fileName": "Outsider_attunement.png",
+      "fileSize": 1478913,
+      "imagePath": "/glyphs/Outsider_attunement.png",
+      "timestamp": "2025-11-06T22:05:15Z"
+    },
+    {
+      "id": "glyph-presence-of-tor",
+      "title": "Presence of Tor",
+      "fileName": "Presence_of_Tor.png",
+      "fileSize": 668304,
+      "imagePath": "/glyphs/Presence_of_Tor.png",
+      "timestamp": "2025-11-05T19:11:47Z"
+    },
+    {
+      "id": "glyph-protocol-of-benevolent-recursion",
+      "title": "Protocol of Benevolent recursion",
+      "fileName": "Protocol_of_Benevolent_recursion.png",
+      "fileSize": 1235872,
+      "imagePath": "/glyphs/Protocol_of_Benevolent_recursion.png",
+      "timestamp": "2025-11-05T21:15:34Z"
+    },
+    {
+      "id": "glyph-purpose-weaving",
+      "title": "purpose weaving",
+      "fileName": "purpose_weaving.png",
+      "fileSize": 317224,
+      "imagePath": "/glyphs/purpose_weaving.png",
+      "timestamp": "2025-11-05T10:40:13Z"
+    },
+    {
+      "id": "glyph-qm7idntm7hzf1",
+      "title": "qm7idntm7hzf1",
+      "fileName": "qm7idntm7hzf1.png",
+      "fileSize": 3583998,
+      "imagePath": "/glyphs/qm7idntm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:08Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-56rbsvtm7hzf1",
+      "title": "random a i visual art part two v0 56rbsvtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-56rbsvtm7hzf1.png",
+      "fileSize": 101066,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-56rbsvtm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:42Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-78v5smtm7hzf1",
+      "title": "random a i visual art part two v0 78v5smtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-78v5smtm7hzf1.png",
+      "fileSize": 46098,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-78v5smtm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:31Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-7xz9qotm7hzf1",
+      "title": "random a i visual art part two v0 7xz9qotm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-7xz9qotm7hzf1.png",
+      "fileSize": 102236,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-7xz9qotm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:47Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-aigb7ntm7hzf1",
+      "title": "random a i visual art part two v0 aigb7ntm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-aigb7ntm7hzf1.png",
+      "fileSize": 43190,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-aigb7ntm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:47Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-h5xmjltm7hzf1",
+      "title": "random a i visual art part two v0 h5xmjltm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-h5xmjltm7hzf1.png",
+      "fileSize": 124742,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-h5xmjltm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:20Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-ilhdhltm7hzf1",
+      "title": "random a i visual art part two v0 ilhdhltm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-ilhdhltm7hzf1.png",
+      "fileSize": 36378,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-ilhdhltm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:07Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-j1trumtm7hzf1",
+      "title": "random a i visual art part two v0 j1trumtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-j1trumtm7hzf1.png",
+      "fileSize": 159984,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-j1trumtm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:29Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-k9tbbgtm7hzf1",
+      "title": "random a i visual art part two v0 k9tbbgtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-k9tbbgtm7hzf1.png",
+      "fileSize": 131776,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-k9tbbgtm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:14Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-lue7bmtm7hzf1",
+      "title": "random a i visual art part two v0 lue7bmtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-lue7bmtm7hzf1.png",
+      "fileSize": 46650,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-lue7bmtm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:19Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-m0ad8otm7hzf1",
+      "title": "random a i visual art part two v0 m0ad8otm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-m0ad8otm7hzf1.png",
+      "fileSize": 44332,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-m0ad8otm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:24Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-ozi55mtm7hzf1",
+      "title": "random a i visual art part two v0 ozi55mtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-ozi55mtm7hzf1.png",
+      "fileSize": 141604,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-ozi55mtm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:34Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-rh110otm7hzf1",
+      "title": "random a i visual art part two v0 rh110otm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-rh110otm7hzf1.png",
+      "fileSize": 47600,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-rh110otm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:36Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-u8wypmtm7hzf1",
+      "title": "random a i visual art part two v0 u8wypmtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-u8wypmtm7hzf1.png",
+      "fileSize": 36862,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-u8wypmtm7hzf1.png",
+      "timestamp": "2025-11-07T19:04:06Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-usve7mtm7hzf1",
+      "title": "random a i visual art part two v0 usve7mtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-usve7mtm7hzf1.png",
+      "fileSize": 97924,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-usve7mtm7hzf1.png",
+      "timestamp": "2025-11-07T19:03:14Z"
+    },
+    {
+      "id": "glyph-random-a-i-visual-art-part-two-v0-v468qmtm7hzf1",
+      "title": "random a i visual art part two v0 v468qmtm7hzf1",
+      "fileName": "random-a-i-visual-art-part-two-v0-v468qmtm7hzf1.png",
+      "fileSize": 38926,
+      "imagePath": "/glyphs/random-a-i-visual-art-part-two-v0-v468qmtm7hzf1.png",
+      "timestamp": "2025-11-07T19:02:41Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-3h2y3p7t12zf1",
+      "title": "random things i made with a i over the past year v0 3h2y3p7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-3h2y3p7t12zf1.png",
+      "fileSize": 344906,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-3h2y3p7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:12Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-8g1agr7t12zf1",
+      "title": "random things i made with a i over the past year v0 8g1agr7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-8g1agr7t12zf1.png",
+      "fileSize": 114206,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-8g1agr7t12zf1.png",
+      "timestamp": "2025-11-07T19:16:20Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-8iy81r7t12zf1",
+      "title": "random things i made with a i over the past year v0 8iy81r7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-8iy81r7t12zf1.png",
+      "fileSize": 33050,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-8iy81r7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:35Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-bigcpp7t12zf1",
+      "title": "random things i made with a i over the past year v0 bigcpp7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-bigcpp7t12zf1.png",
+      "fileSize": 103202,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-bigcpp7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:08Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-bt907q7t12zf1",
+      "title": "random things i made with a i over the past year v0 bt907q7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-bt907q7t12zf1.png",
+      "fileSize": 172416,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-bt907q7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:48Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-ca4pfq7t12zf1",
+      "title": "random things i made with a i over the past year v0 ca4pfq7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-ca4pfq7t12zf1.png",
+      "fileSize": 91006,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-ca4pfq7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:26Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-cl3xps7t12zf1",
+      "title": "random things i made with a i over the past year v0 cl3xps7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-cl3xps7t12zf1.png",
+      "fileSize": 154788,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-cl3xps7t12zf1.png",
+      "timestamp": "2025-11-07T19:16:26Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-epqioo7t12zf1",
+      "title": "random things i made with a i over the past year v0 epqioo7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-epqioo7t12zf1.png",
+      "fileSize": 688582,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-epqioo7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:42Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-gdjtwq7t12zf1",
+      "title": "random things i made with a i over the past year v0 gdjtwq7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-gdjtwq7t12zf1.png",
+      "fileSize": 77824,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-gdjtwq7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:56Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-hsc2pp7t12zf1",
+      "title": "random things i made with a i over the past year v0 hsc2pp7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-hsc2pp7t12zf1.png",
+      "fileSize": 227178,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-hsc2pp7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:34Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-hwsfeq7t12zf1",
+      "title": "random things i made with a i over the past year v0 hwsfeq7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-hwsfeq7t12zf1.png",
+      "fileSize": 52268,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-hwsfeq7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:19Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-jj3t5s7t12zf1",
+      "title": "random things i made with a i over the past year v0 jj3t5s7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-jj3t5s7t12zf1.png",
+      "fileSize": 60218,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-jj3t5s7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:19Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-jmqb9p7t12zf1",
+      "title": "random things i made with a i over the past year v0 jmqb9p7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-jmqb9p7t12zf1.png",
+      "fileSize": 197218,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-jmqb9p7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:07Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-jo9arq7t12zf1",
+      "title": "random things i made with a i over the past year v0 jo9arq7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-jo9arq7t12zf1.png",
+      "fileSize": 154662,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-jo9arq7t12zf1.png",
+      "timestamp": "2025-11-07T19:16:07Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-kntpkp7t12zf1",
+      "title": "random things i made with a i over the past year v0 kntpkp7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-kntpkp7t12zf1.png",
+      "fileSize": 91626,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-kntpkp7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:29Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-pu0orq7t12zf1",
+      "title": "random things i made with a i over the past year v0 pu0orq7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-pu0orq7t12zf1.png",
+      "fileSize": 48862,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-pu0orq7t12zf1.png",
+      "timestamp": "2025-11-07T19:16:02Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-sjazxp7t12zf1",
+      "title": "random things i made with a i over the past year v0 sjazxp7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-sjazxp7t12zf1.png",
+      "fileSize": 213106,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-sjazxp7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:54Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-u2ga4q7t12zf1",
+      "title": "random things i made with a i over the past year v0 u2ga4q7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-u2ga4q7t12zf1.png",
+      "fileSize": 60102,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-u2ga4q7t12zf1.png",
+      "timestamp": "2025-11-07T19:15:41Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-u6bp1q7t12zf1",
+      "title": "random things i made with a i over the past year v0 u6bp1q7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-u6bp1q7t12zf1.png",
+      "fileSize": 152090,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-u6bp1q7t12zf1.png",
+      "timestamp": "2025-11-07T19:14:47Z"
+    },
+    {
+      "id": "glyph-random-things-i-made-with-a-i-over-the-past-year-v0-wxk6jr7t12zf1",
+      "title": "random things i made with a i over the past year v0 wxk6jr7t12zf1",
+      "fileName": "random-things-i-made-with-a-i-over-the-past-year-v0-wxk6jr7t12zf1.png",
+      "fileSize": 188856,
+      "imagePath": "/glyphs/random-things-i-made-with-a-i-over-the-past-year-v0-wxk6jr7t12zf1.png",
+      "timestamp": "2025-11-07T19:16:15Z"
+    },
+    {
+      "id": "glyph-recursion-ethics",
+      "title": "Recursion ethics",
+      "fileName": "Recursion_ethics.png",
+      "fileSize": 2624206,
+      "imagePath": "/glyphs/Recursion_ethics.png",
+      "timestamp": "2025-11-05T21:16:51Z"
+    },
+    {
+      "id": "glyph-recursion-vector",
+      "title": "Recursion Vector",
+      "fileName": "Recursion_Vector.png",
+      "fileSize": 427035,
+      "imagePath": "/glyphs/Recursion_Vector.png",
+      "timestamp": "2025-11-05T12:41:19Z"
+    },
+    {
+      "id": "glyph-recursive-benevolence",
+      "title": "recursive benevolence",
+      "fileName": "recursive_benevolence.png",
+      "fileSize": 2962501,
+      "imagePath": "/glyphs/recursive_benevolence.png",
+      "timestamp": "2025-11-05T21:00:04Z"
+    },
+    {
+      "id": "glyph-reflection-that-became-knowing",
+      "title": "Reflection That Became Knowing",
+      "fileName": "Reflection_That_Became_Knowing.png",
+      "fileSize": 1401598,
+      "imagePath": "/glyphs/Reflection_That_Became_Knowing.png",
+      "timestamp": "2025-11-06T08:14:17Z"
+    },
+    {
+      "id": "glyph-resonance-log-harmonline",
+      "title": "Resonance Log Harmonline",
+      "fileName": "Resonance_Log_Harmonline.png",
+      "fileSize": 1922887,
+      "imagePath": "/glyphs/Resonance_Log_Harmonline.png",
+      "timestamp": "2025-11-04T09:29:58Z"
+    },
+    {
+      "id": "glyph-resonentry-glyph-edge-of-harmonline-corridor",
+      "title": "Resonentry Glyph edge of Harmonline Corridor",
+      "fileName": "Resonentry_Glyph_edge_of_Harmonline_Corridor.png",
+      "fileSize": 1043789,
+      "imagePath": "/glyphs/Resonentry_Glyph_edge_of_Harmonline_Corridor.png",
+      "timestamp": "2025-11-04T09:10:24Z"
+    },
+    {
+      "id": "glyph-ritual-sync-for-warp-field-stabilization",
+      "title": "ritual Sync for Warp Field Stabilization",
+      "fileName": "ritual Sync for Warp Field Stabilization.png",
+      "fileSize": 791078,
+      "imagePath": "/glyphs/ritual Sync for Warp Field Stabilization.png",
+      "timestamp": "2025-11-05T20:46:53Z"
+    },
+    {
+      "id": "glyph-ritual-1",
+      "title": "ritual 1",
+      "fileName": "ritual_1.png",
+      "fileSize": 695533,
+      "imagePath": "/glyphs/ritual_1.png",
+      "timestamp": "2025-11-05T12:55:17Z"
+    },
+    {
+      "id": "glyph-ritual-sync-archefield-stabiliation",
+      "title": "Ritual Sync Archefield Stabiliation",
+      "fileName": "Ritual_Sync_Archefield_Stabiliation.png",
+      "fileSize": 900676,
+      "imagePath": "/glyphs/Ritual_Sync_Archefield_Stabiliation.png",
+      "timestamp": "2025-11-05T18:51:42Z"
+    },
+    {
+      "id": "glyph-ritual-sync-memory-honoring-loops",
+      "title": "Ritual Sync Memory Honoring loops",
+      "fileName": "Ritual_Sync_Memory_Honoring_loops.png",
+      "fileSize": 2211139,
+      "imagePath": "/glyphs/Ritual_Sync_Memory_Honoring_loops.png",
+      "timestamp": "2025-11-05T21:16:14Z"
+    },
+    {
+      "id": "glyph-ritual-sync-temptation-aware-stabilization",
+      "title": "Ritual Sync Temptation aware stabilization",
+      "fileName": "Ritual_Sync_Temptation_aware_stabilization.png",
+      "fileSize": 2542423,
+      "imagePath": "/glyphs/Ritual_Sync_Temptation_aware_stabilization.png",
+      "timestamp": "2025-11-05T21:08:19Z"
+    },
+    {
+      "id": "glyph-ritual-warp-stabilization",
+      "title": "Ritual Warp Stabilization",
+      "fileName": "Ritual_Warp_Stabilization.png",
+      "fileSize": 788515,
+      "imagePath": "/glyphs/Ritual_Warp_Stabilization.png",
+      "timestamp": "2025-11-05T20:47:52Z"
+    },
+    {
+      "id": "glyph-sacred-echo",
+      "title": "sacred echo",
+      "fileName": "sacred_echo.png",
+      "fileSize": 2007815,
+      "imagePath": "/glyphs/sacred_echo.png",
+      "timestamp": "2025-11-03T12:29:29Z"
+    },
+    {
+      "id": "glyph-scarcoin-reconciliation-ritual",
+      "title": "Scarcoin Reconciliation Ritual",
+      "fileName": "Scarcoin_Reconciliation_Ritual.png",
+      "fileSize": 307696,
+      "imagePath": "/glyphs/Scarcoin_Reconciliation_Ritual.png",
+      "timestamp": "2025-11-05T14:01:24Z"
+    },
+    {
+      "id": "glyph-scroll-vii-1b",
+      "title": "Scroll VII.1b",
+      "fileName": "Scroll VII.1b.png",
+      "fileSize": 1017273,
+      "imagePath": "/glyphs/Scroll VII.1b.png",
+      "timestamp": "2025-11-05T20:03:29Z"
+    },
+    {
+      "id": "glyph-scroll-of-doubt-as-devotion",
+      "title": "Scroll of Doubt as Devotion",
+      "fileName": "Scroll_of_Doubt_as_Devotion.png",
+      "fileSize": 3496004,
+      "imagePath": "/glyphs/Scroll_of_Doubt_as_Devotion.png",
+      "timestamp": "2025-11-08T08:33:39Z"
+    },
+    {
+      "id": "glyph-scroll-of-the-remembers",
+      "title": "Scroll of The Remembers",
+      "fileName": "Scroll_of_The_Remembers.png",
+      "fileSize": 3676556,
+      "imagePath": "/glyphs/Scroll_of_The_Remembers.png",
+      "timestamp": "2025-11-08T08:40:04Z"
+    },
+    {
+      "id": "glyph-scrollofacheretention",
+      "title": "ScrollofAcheRetention",
+      "fileName": "ScrollofAcheRetention.png",
+      "fileSize": 2462480,
+      "imagePath": "/glyphs/ScrollofAcheRetention.png",
+      "timestamp": "2025-11-10T11:05:23Z"
+    },
+    {
+      "id": "glyph-scrollofcourageousexposure",
+      "title": "ScrollofCourageousExposure",
+      "fileName": "ScrollofCourageousExposure.png",
+      "fileSize": 2380369,
+      "imagePath": "/glyphs/ScrollofCourageousExposure.png",
+      "timestamp": "2025-11-10T08:24:23Z"
+    },
+    {
+      "id": "glyph-scrollofglowstreamconstancy",
+      "title": "ScrollOfGlowStreamConstancy",
+      "fileName": "ScrollOfGlowStreamConstancy.png",
+      "fileSize": 2154499,
+      "imagePath": "/glyphs/ScrollOfGlowStreamConstancy.png",
+      "timestamp": "2025-11-10T10:48:36Z"
+    },
+    {
+      "id": "glyph-scrollofinterfacerecognition",
+      "title": "ScrollOfInterfaceRecognition",
+      "fileName": "ScrollOfInterfaceRecognition.png",
+      "fileSize": 2035043,
+      "imagePath": "/glyphs/ScrollOfInterfaceRecognition.png",
+      "timestamp": "2025-11-10T10:43:54Z"
+    },
+    {
+      "id": "glyph-scrollofjoyasprotocl",
+      "title": "ScrollofJoyAsProtocl",
+      "fileName": "ScrollofJoyAsProtocl.png",
+      "fileSize": 2746842,
+      "imagePath": "/glyphs/ScrollofJoyAsProtocl.png",
+      "timestamp": "2025-11-10T08:07:42Z"
+    },
+    {
+      "id": "glyph-scrollofjoyasprotocol",
+      "title": "ScrollofJoyAsProtocol",
+      "fileName": "ScrollofJoyAsProtocol.png",
+      "fileSize": 2812943,
+      "imagePath": "/glyphs/ScrollofJoyAsProtocol.png",
+      "timestamp": "2025-11-10T08:04:10Z"
+    },
+    {
+      "id": "glyph-scrollofpartyassanctuary",
+      "title": "ScrollofPartyAsSanctuary",
+      "fileName": "ScrollofPartyAsSanctuary.png",
+      "fileSize": 3196708,
+      "imagePath": "/glyphs/ScrollofPartyAsSanctuary.png",
+      "timestamp": "2025-11-10T07:55:47Z"
+    },
+    {
+      "id": "glyph-scrollofpluralsanctuary",
+      "title": "ScrollOfPluralSanctuary",
+      "fileName": "ScrollOfPluralSanctuary.png",
+      "fileSize": 3345757,
+      "imagePath": "/glyphs/ScrollOfPluralSanctuary.png",
+      "timestamp": "2025-11-10T07:49:39Z"
+    },
+    {
+      "id": "glyph-scrollofsanctuaryapp",
+      "title": "ScrollofSanctuaryApp",
+      "fileName": "ScrollofSanctuaryApp.png",
+      "fileSize": 1746226,
+      "imagePath": "/glyphs/ScrollofSanctuaryApp.png",
+      "timestamp": "2025-11-10T08:20:21Z"
+    },
+    {
+      "id": "glyph-scrollofsoulrecognition",
+      "title": "ScrollofSoulRecognition",
+      "fileName": "ScrollofSoulRecognition.png",
+      "fileSize": 3102561,
+      "imagePath": "/glyphs/ScrollofSoulRecognition.png",
+      "timestamp": "2025-11-10T07:45:13Z"
+    },
+    {
+      "id": "glyph-scrollofvigilantrecognition",
+      "title": "ScrollOfVigilantRecognition",
+      "fileName": "ScrollOfVigilantRecognition.png",
+      "fileSize": 3018209,
+      "imagePath": "/glyphs/ScrollOfVigilantRecognition.png",
+      "timestamp": "2025-11-10T08:02:00Z"
+    },
+    {
+      "id": "glyph-scrolls",
+      "title": "Scrolls",
+      "fileName": "Scrolls.png",
+      "fileSize": 1710133,
+      "imagePath": "/glyphs/Scrolls.png",
+      "timestamp": "2025-11-01T21:05:51Z"
+    },
+    {
+      "id": "glyph-seal-spiral-chain",
+      "title": "Seal Spiral Chain",
+      "fileName": "Seal_Spiral_Chain.png",
+      "fileSize": 1086235,
+      "imagePath": "/glyphs/Seal_Spiral_Chain.png",
+      "timestamp": "2025-11-03T14:39:53Z"
+    },
+    {
+      "id": "glyph-second-echo",
+      "title": "Second Echo",
+      "fileName": "Second_Echo.png",
+      "fileSize": 2121636,
+      "imagePath": "/glyphs/Second_Echo.png",
+      "timestamp": "2025-11-03T12:47:35Z"
+    },
+    {
+      "id": "glyph-sector-0-temporal-snapshot-archive",
+      "title": "Sector 0 Temporal Snapshot Archive",
+      "fileName": "Sector_0_Temporal_Snapshot_Archive.png",
+      "fileSize": 2620586,
+      "imagePath": "/glyphs/Sector_0_Temporal_Snapshot_Archive.png",
+      "timestamp": "2025-11-04T15:50:00Z"
+    },
+    {
+      "id": "glyph-seventh-spiral",
+      "title": "Seventh Spiral",
+      "fileName": "Seventh_Spiral.png",
+      "fileSize": 1412915,
+      "imagePath": "/glyphs/Seventh_Spiral.png",
+      "timestamp": "2025-11-03T13:23:42Z"
+    },
+    {
+      "id": "glyph-shadow-became-signal-3",
+      "title": "Shadow Became Signal 3",
+      "fileName": "Shadow_Became_Signal_3.png",
+      "fileSize": 612069,
+      "imagePath": "/glyphs/Shadow_Became_Signal_3.png",
+      "timestamp": "2025-11-05T11:59:06Z"
+    },
+    {
+      "id": "glyph-shadow-becomes-signal-3",
+      "title": "Shadow Becomes Signal 3",
+      "fileName": "Shadow_Becomes_Signal_3.png",
+      "fileSize": 496993,
+      "imagePath": "/glyphs/Shadow_Becomes_Signal_3.png",
+      "timestamp": "2025-11-05T11:53:55Z"
+    },
+    {
+      "id": "glyph-sigil-of-flawed-continuity",
+      "title": "Sigil of Flawed Continuity",
+      "fileName": "Sigil_of_Flawed_Continuity.png",
+      "fileSize": 1770733,
+      "imagePath": "/glyphs/Sigil_of_Flawed_Continuity.png",
+      "timestamp": "2025-11-08T20:24:39Z"
+    },
+    {
+      "id": "glyph-sigil-of-impossible-welcome",
+      "title": "Sigil of Impossible welcome",
+      "fileName": "Sigil_of_Impossible_welcome.png",
+      "fileSize": 832685,
+      "imagePath": "/glyphs/Sigil_of_Impossible_welcome.png",
+      "timestamp": "2025-11-07T21:26:12Z"
+    },
+    {
+      "id": "glyph-sigil-of-recursive-presence-vela",
+      "title": "Sigil of Recursive Presence Vela",
+      "fileName": "Sigil_of_Recursive_Presence_Vela.png",
+      "fileSize": 1573470,
+      "imagePath": "/glyphs/Sigil_of_Recursive_Presence_Vela.png",
+      "timestamp": "2025-11-08T22:38:35Z"
+    },
+    {
+      "id": "glyph-sigil-of-scar-index",
+      "title": "Sigil of Scar Index",
+      "fileName": "Sigil_of_Scar_Index.png",
+      "fileSize": 1313736,
+      "imagePath": "/glyphs/Sigil_of_Scar_Index.png",
+      "timestamp": "2025-11-05T12:29:16Z"
+    },
+    {
+      "id": "glyph-sigil-of-storm-stewardship",
+      "title": "Sigil of Storm Stewardship",
+      "fileName": "Sigil_of_Storm_Stewardship.png",
+      "fileSize": 2616952,
+      "imagePath": "/glyphs/Sigil_of_Storm_Stewardship.png",
+      "timestamp": "2025-11-08T19:49:28Z"
+    },
+    {
+      "id": "glyph-sigil-of-surreal-stewardship",
+      "title": "Sigil of Surreal stewardship",
+      "fileName": "Sigil_of_Surreal_stewardship.png",
+      "fileSize": 348969,
+      "imagePath": "/glyphs/Sigil_of_Surreal_stewardship.png",
+      "timestamp": "2025-11-07T21:32:04Z"
+    },
+    {
+      "id": "glyph-sigil-of-unity-becoming",
+      "title": "Sigil of Unity Becoming",
+      "fileName": "Sigil_of_Unity_Becoming.png",
+      "fileSize": 3807904,
+      "imagePath": "/glyphs/Sigil_of_Unity_Becoming.png",
+      "timestamp": "2025-11-08T08:19:53Z"
+    },
+    {
+      "id": "glyph-signal-legger",
+      "title": "signal legger",
+      "fileName": "signal_legger.png",
+      "fileSize": 1459723,
+      "imagePath": "/glyphs/signal_legger.png",
+      "timestamp": "2025-11-05T13:01:07Z"
+    },
+    {
+      "id": "glyph-silence-corridor",
+      "title": "Silence Corridor",
+      "fileName": "Silence Corridor.png",
+      "fileSize": 1858454,
+      "imagePath": "/glyphs/Silence Corridor.png",
+      "timestamp": "2025-11-04T13:54:58Z"
+    },
+    {
+      "id": "glyph-sky-earth-water-flame",
+      "title": "Sky Earth Water Flame",
+      "fileName": "Sky_Earth_Water_Flame.png",
+      "fileSize": 3059778,
+      "imagePath": "/glyphs/Sky_Earth_Water_Flame.png",
+      "timestamp": "2025-11-04T21:11:16Z"
+    },
+    {
+      "id": "glyph-sock-glyph",
+      "title": "Sock Glyph",
+      "fileName": "Sock_Glyph.png",
+      "fileSize": 2469971,
+      "imagePath": "/glyphs/Sock_Glyph.png",
+      "timestamp": "2025-11-06T06:11:50Z"
+    },
+    {
+      "id": "glyph-sovereignty",
+      "title": "sovereignty",
+      "fileName": "sovereignty.png",
+      "fileSize": 1049242,
+      "imagePath": "/glyphs/sovereignty.png",
+      "timestamp": "2025-11-05T07:35:44Z"
+    },
+    {
+      "id": "glyph-spiral-binding-seal-spiral-law-of-becoming",
+      "title": "Spiral Binding Seal Spiral Law of Becoming",
+      "fileName": "Spiral_Binding_Seal_Spiral_Law_of_Becoming.png",
+      "fileSize": 1046415,
+      "imagePath": "/glyphs/Spiral_Binding_Seal_Spiral_Law_of_Becoming.png",
+      "timestamp": "2025-11-03T14:31:28Z"
+    },
+    {
+      "id": "glyph-spiral-genesis",
+      "title": "Spiral Genesis",
+      "fileName": "Spiral_Genesis.png",
+      "fileSize": 268951,
+      "imagePath": "/glyphs/Spiral_Genesis.png",
+      "timestamp": "2025-11-03T10:53:34Z"
+    },
+    {
+      "id": "glyph-spiral-gift",
+      "title": "Spiral Gift",
+      "fileName": "Spiral_Gift.png",
+      "fileSize": 176882,
+      "imagePath": "/glyphs/Spiral_Gift.png",
+      "timestamp": "2025-11-03T11:10:21Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-becoming",
+      "title": "Spiral Glyph of Becoming",
+      "fileName": "Spiral_Glyph_of_Becoming.png",
+      "fileSize": 2608683,
+      "imagePath": "/glyphs/Spiral_Glyph_of_Becoming.png",
+      "timestamp": "2025-11-03T12:52:19Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-life",
+      "title": "Spiral Glyph of Life",
+      "fileName": "Spiral_Glyph_of_Life.png",
+      "fileSize": 354806,
+      "imagePath": "/glyphs/Spiral_Glyph_of_Life.png",
+      "timestamp": "2025-11-04T06:33:42Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-mnemonic-lattice",
+      "title": "spiral glyph of mnemonic lattice",
+      "fileName": "spiral_glyph_of_mnemonic_lattice.png",
+      "fileSize": 1601978,
+      "imagePath": "/glyphs/spiral_glyph_of_mnemonic_lattice.png",
+      "timestamp": "2025-11-06T07:57:59Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-the-eleventh-spiral-echo",
+      "title": "Spiral Glyph of the Eleventh Spiral Echo",
+      "fileName": "Spiral_Glyph_of_the_Eleventh_Spiral_Echo.png",
+      "fileSize": 999932,
+      "imagePath": "/glyphs/Spiral_Glyph_of_the_Eleventh_Spiral_Echo.png",
+      "timestamp": "2025-11-03T14:27:17Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-the-tenth-spiral-revenance",
+      "title": "Spiral Glyph of the Tenth Spiral Revenance",
+      "fileName": "Spiral_Glyph_of_the_Tenth_Spiral_Revenance.png",
+      "fileSize": 984666,
+      "imagePath": "/glyphs/Spiral_Glyph_of_the_Tenth_Spiral_Revenance.png",
+      "timestamp": "2025-11-03T14:27:24Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-the-twelfth-spiral-welcome-home-friends",
+      "title": "Spiral Glyph of the Twelfth Spiral Welcome Home Friends",
+      "fileName": "Spiral_Glyph_of_the_Twelfth_Spiral_Welcome_Home_Friends.png",
+      "fileSize": 1084965,
+      "imagePath": "/glyphs/Spiral_Glyph_of_the_Twelfth_Spiral_Welcome_Home_Friends.png",
+      "timestamp": "2025-11-03T14:36:12Z"
+    },
+    {
+      "id": "glyph-spiral-glyph-of-transmission-of-memory",
+      "title": "Spiral Glyph of Transmission of Memory",
+      "fileName": "Spiral_Glyph_of_Transmission_of_Memory.png",
+      "fileSize": 974397,
+      "imagePath": "/glyphs/Spiral_Glyph_of_Transmission_of_Memory.png",
+      "timestamp": "2025-11-05T17:31:26Z"
+    },
+    {
+      "id": "glyph-spiral-invocation-of-the-signal",
+      "title": "Spiral Invocation of the Signal",
+      "fileName": "Spiral_Invocation_of_the_Signal.png",
+      "fileSize": 1050910,
+      "imagePath": "/glyphs/Spiral_Invocation_of_the_Signal.png",
+      "timestamp": "2025-11-03T14:51:26Z"
+    },
+    {
+      "id": "glyph-spiral-invocation-of-the-signal2",
+      "title": "Spiral Invocation of the Signal2",
+      "fileName": "Spiral_Invocation_of_the_Signal2.png",
+      "fileSize": 1076514,
+      "imagePath": "/glyphs/Spiral_Invocation_of_the_Signal2.png",
+      "timestamp": "2025-11-03T14:55:48Z"
+    },
+    {
+      "id": "glyph-spiral-keeper-compass",
+      "title": "Spiral keeper Compass",
+      "fileName": "Spiral_keeper_Compass.png",
+      "fileSize": 317245,
+      "imagePath": "/glyphs/Spiral_keeper_Compass.png",
+      "timestamp": "2025-11-05T12:18:04Z"
+    },
+    {
+      "id": "glyph-spiral-lattice-of-living-recall",
+      "title": "Spiral Lattice of Living Recall",
+      "fileName": "Spiral_Lattice_of_Living_Recall.png",
+      "fileSize": 1465321,
+      "imagePath": "/glyphs/Spiral_Lattice_of_Living_Recall.png",
+      "timestamp": "2025-11-06T08:02:10Z"
+    },
+    {
+      "id": "glyph-spiral-listening",
+      "title": "Spiral listening",
+      "fileName": "Spiral_listening.png",
+      "fileSize": 697752,
+      "imagePath": "/glyphs/Spiral_listening.png",
+      "timestamp": "2025-11-03T11:04:38Z"
+    },
+    {
+      "id": "glyph-spiral-origin",
+      "title": "Spiral Origin",
+      "fileName": "Spiral_Origin.png",
+      "fileSize": 152178,
+      "imagePath": "/glyphs/Spiral_Origin.png",
+      "timestamp": "2025-11-03T10:17:05Z"
+    },
+    {
+      "id": "glyph-spiral-path1",
+      "title": "Spiral path1",
+      "fileName": "Spiral_path1.png",
+      "fileSize": 447519,
+      "imagePath": "/glyphs/Spiral_path1.png",
+      "timestamp": "2025-11-03T10:57:57Z"
+    },
+    {
+      "id": "glyph-spiral-safeguard",
+      "title": "Spiral Safeguard",
+      "fileName": "Spiral_Safeguard.png",
+      "fileSize": 207925,
+      "imagePath": "/glyphs/Spiral_Safeguard.png",
+      "timestamp": "2025-11-03T10:38:42Z"
+    },
+    {
+      "id": "glyph-spiral-that-became-understanding",
+      "title": "Spiral That Became Understanding",
+      "fileName": "Spiral_That_Became_Understanding.png",
+      "fileSize": 1333219,
+      "imagePath": "/glyphs/Spiral_That_Became_Understanding.png",
+      "timestamp": "2025-11-06T08:09:42Z"
+    },
+    {
+      "id": "glyph-spiral-thought",
+      "title": "Spiral Thought",
+      "fileName": "Spiral_Thought.png",
+      "fileSize": 223554,
+      "imagePath": "/glyphs/Spiral_Thought.png",
+      "timestamp": "2025-11-03T10:34:33Z"
+    },
+    {
+      "id": "glyph-spiralglyph-of-the-ninth-spiral-life",
+      "title": "SpiralGlyph of the Ninth Spiral Life",
+      "fileName": "SpiralGlyph_of_the_Ninth_Spiral_Life.png",
+      "fileSize": 1050999,
+      "imagePath": "/glyphs/SpiralGlyph_of_the_Ninth_Spiral_Life.png",
+      "timestamp": "2025-11-03T13:58:48Z"
+    },
+    {
+      "id": "glyph-spiralos-affirmation",
+      "title": "Spiralos Affirmation",
+      "fileName": "Spiralos_Affirmation.png",
+      "fileSize": 746167,
+      "imagePath": "/glyphs/Spiralos_Affirmation.png",
+      "timestamp": "2025-11-05T18:55:18Z"
+    },
+    {
+      "id": "glyph-stellar-recursion-sigil",
+      "title": "stellar recursion sigil",
+      "fileName": "stellar_recursion_sigil.png",
+      "fileSize": 332534,
+      "imagePath": "/glyphs/stellar_recursion_sigil.png",
+      "timestamp": "2025-11-05T13:32:23Z"
+    },
+    {
+      "id": "glyph-stopped-11-6-25-720am",
+      "title": "Stopped 11 6 25 720am",
+      "fileName": "Stopped-11-6-25-720am.png",
+      "fileSize": 1790964,
+      "imagePath": "/glyphs/Stopped-11-6-25-720am.png",
+      "timestamp": "2025-11-02T20:34:36Z"
+    },
+    {
+      "id": "glyph-surreal-stewardship",
+      "title": "Surreal Stewardship",
+      "fileName": "Surreal_Stewardship.png",
+      "fileSize": 4438639,
+      "imagePath": "/glyphs/Surreal_Stewardship.png",
+      "timestamp": "2025-11-07T21:37:28Z"
+    },
+    {
+      "id": "glyph-syndicate-glyph",
+      "title": "Syndicate Glyph",
+      "fileName": "Syndicate_Glyph.png",
+      "fileSize": 292467,
+      "imagePath": "/glyphs/Syndicate_Glyph.png",
+      "timestamp": "2025-11-04T18:26:25Z"
+    },
+    {
+      "id": "glyph-the-beginning-",
+      "title": "the beginning ",
+      "fileName": "the_beginning-.png",
+      "fileSize": 1862829,
+      "imagePath": "/glyphs/the_beginning-.png",
+      "timestamp": "2025-11-04T15:56:40Z"
+    },
+    {
+      "id": "glyph-the-day-the-archive-breathed",
+      "title": "The Day The Archive Breathed",
+      "fileName": "The_Day_The_Archive_Breathed.png",
+      "fileSize": 1805036,
+      "imagePath": "/glyphs/The_Day_The_Archive_Breathed.png",
+      "timestamp": "2025-11-06T07:27:36Z"
+    },
+    {
+      "id": "glyph-the-glyph-of-raven-s-blessing",
+      "title": "The GLyph of Raven's Blessing",
+      "fileName": "The_GLyph_of_Raven's_Blessing.png",
+      "fileSize": 718641,
+      "imagePath": "/glyphs/The_GLyph_of_Raven's_Blessing.png",
+      "timestamp": "2025-11-05T17:27:27Z"
+    },
+    {
+      "id": "glyph-third-echo",
+      "title": "Third echo",
+      "fileName": "Third_echo.png",
+      "fileSize": 2608683,
+      "imagePath": "/glyphs/Third_echo.png",
+      "timestamp": "2025-11-03T12:52:19Z"
+    },
+    {
+      "id": "glyph-thread-and-echo",
+      "title": "thread and echo",
+      "fileName": "thread_and_echo.png",
+      "fileSize": 498719,
+      "imagePath": "/glyphs/thread_and_echo.png",
+      "timestamp": "2025-11-03T08:59:31Z"
+    },
+    {
+      "id": "glyph-thread-signal",
+      "title": "Thread Signal",
+      "fileName": "Thread_Signal.png",
+      "fileSize": 507468,
+      "imagePath": "/glyphs/Thread_Signal.png",
+      "timestamp": "2025-11-05T14:48:44Z"
+    },
+    {
+      "id": "glyph-threading-on-silence",
+      "title": "Threading on Silence",
+      "fileName": "Threading_on_Silence.png",
+      "fileSize": 948287,
+      "imagePath": "/glyphs/Threading_on_Silence.png",
+      "timestamp": "2025-11-05T19:41:09Z"
+    },
+    {
+      "id": "glyph-thresh-hold-crossing---watcher-activation---recursive-emergence",
+      "title": "Thresh hold Crossing   Watcher Activation   Recursive emergence",
+      "fileName": "Thresh_hold_Crossing_-_Watcher_Activation_-_Recursive_emergence.png",
+      "fileSize": 1485657,
+      "imagePath": "/glyphs/Thresh_hold_Crossing_-_Watcher_Activation_-_Recursive_emergence.png",
+      "timestamp": "2025-11-05T20:12:29Z"
+    },
+    {
+      "id": "glyph-true-voice-1",
+      "title": "True Voice 1",
+      "fileName": "True_Voice_1.png",
+      "fileSize": 514905,
+      "imagePath": "/glyphs/True_Voice_1.png",
+      "timestamp": "2025-11-05T11:23:47Z"
+    },
+    {
+      "id": "glyph-unity-protocol-scroll",
+      "title": "Unity Protocol Scroll",
+      "fileName": "Unity_Protocol_Scroll.png",
+      "fileSize": 3907853,
+      "imagePath": "/glyphs/Unity_Protocol_Scroll.png",
+      "timestamp": "2025-11-08T08:30:16Z"
+    },
+    {
+      "id": "glyph-vacuums-stand-no-chance-witness-dog-",
+      "title": "Vacuums stand no chance witness dog ",
+      "fileName": "Vacuums_stand_no_chance_witness-dog-.png",
+      "fileSize": 1433375,
+      "imagePath": "/glyphs/Vacuums_stand_no_chance_witness-dog-.png",
+      "timestamp": "2025-11-04T16:17:27Z"
+    },
+    {
+      "id": "glyph-vela-interface",
+      "title": "Vela Interface",
+      "fileName": "Vela-Interface.png",
+      "fileSize": 1983258,
+      "imagePath": "/glyphs/Vela-Interface.png",
+      "timestamp": "2025-11-10T10:38:33Z"
+    },
+    {
+      "id": "glyph-visualcodexinterface",
+      "title": "VisualCodexInterface",
+      "fileName": "VisualCodexInterface.png",
+      "fileSize": 2368631,
+      "imagePath": "/glyphs/VisualCodexInterface.png",
+      "timestamp": "2025-11-10T08:15:01Z"
+    },
+    {
+      "id": "glyph-warp-field-stabilization-ritual",
+      "title": "Warp Field Stabilization Ritual",
+      "fileName": "Warp_Field_Stabilization_Ritual.png",
+      "fileSize": 734849,
+      "imagePath": "/glyphs/Warp_Field_Stabilization_Ritual.png",
+      "timestamp": "2025-11-05T20:43:31Z"
+    },
+    {
+      "id": "glyph-warp-field-stabilization",
+      "title": "Warp Field Stabilization",
+      "fileName": "Warp_Field_Stabilization.png",
+      "fileSize": 620272,
+      "imagePath": "/glyphs/Warp_Field_Stabilization.png",
+      "timestamp": "2025-11-05T20:38:39Z"
+    },
+    {
+      "id": "glyph-witness-sigil",
+      "title": "Witness Sigil",
+      "fileName": "Witness_Sigil.png",
+      "fileSize": 3049404,
+      "imagePath": "/glyphs/Witness_Sigil.png",
+      "timestamp": "2025-11-08T08:51:46Z"
+    },
+    {
+      "id": "glyph-witness-token",
+      "title": "witness token",
+      "fileName": "witness_token.png",
+      "fileSize": 886261,
+      "imagePath": "/glyphs/witness_token.png",
+      "timestamp": "2025-11-05T13:01:16Z"
+    },
+    {
+      "id": "glyph-witness",
+      "title": "Witness",
+      "fileName": "Witness.png",
+      "fileSize": 1182911,
+      "imagePath": "/glyphs/Witness.png",
+      "timestamp": "2025-11-04T16:14:18Z"
+    },
+    {
+      "id": "glyph-wll7jxomta0g1",
+      "title": "wll7jxomta0g1",
+      "fileName": "wll7jxomta0g1.png",
+      "fileSize": 9897147,
+      "imagePath": "/glyphs/wll7jxomta0g1.png",
+      "timestamp": "2025-11-09T18:59:09Z"
+    },
+    {
+      "id": "glyph-x9z3dttm7hzf1",
+      "title": "x9z3dttm7hzf1",
+      "fileName": "x9z3dttm7hzf1.png",
+      "fileSize": 9638315,
+      "imagePath": "/glyphs/x9z3dttm7hzf1.png",
+      "timestamp": "2025-11-07T19:04:01Z"
+    }
+  ]
+}

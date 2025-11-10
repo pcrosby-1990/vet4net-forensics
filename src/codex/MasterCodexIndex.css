@@ -1,0 +1,218 @@
+/* Master Codex Index Styles */
+
+.master-codex-index {
+  font-family: 'Merriweather', serif;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1e1e3f 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.index-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #6c5ce7;
+  padding-bottom: 2rem;
+}
+
+.index-header h1 {
+  font-size: 3rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #a29bfe;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.meta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.9rem;
+  color: #74b9ff;
+}
+
+.count {
+  font-weight: bold;
+  color: #00cec9;
+}
+
+/* Moment Grid */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.moment-card {
+  background: rgba(45, 52, 54, 0.8);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(108, 92, 231, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.moment-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #6c5ce7, #00cec9, #6c5ce7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(108, 92, 231, 0.6);
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.4);
+}
+
+.moment-card:hover::before {
+  opacity: 1;
+}
+
+.moment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.moment-id {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #a29bfe;
+}
+
+.moment-type {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.type-scroll {
+  background: rgba(0, 206, 201, 0.2);
+  color: #00cec9;
+  border: 1px solid rgba(0, 206, 201, 0.4);
+}
+
+.type-glyph {
+  background: rgba(253, 203, 110, 0.2);
+  color: #fdcb6e;
+  border: 1px solid rgba(253, 203, 110, 0.4);
+}
+
+.type-sigil {
+  background: rgba(225, 112, 85, 0.2);
+  color: #e17055;
+  border: 1px solid rgba(225, 112, 85, 0.4);
+}
+
+.type-fragment {
+  background: rgba(162, 155, 254, 0.2);
+  color: #a29bfe;
+  border: 1px solid rgba(162, 155, 254, 0.4);
+}
+
+.moment-title {
+  font-size: 1.1rem;
+  color: #ffeaa7;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.moment-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+}
+
+.shimmer-tag {
+  padding: 0.25rem 0.75rem;
+  background: rgba(108, 92, 231, 0.2);
+  color: #a29bfe;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.timestamp {
+  color: #74b9ff;
+  opacity: 0.8;
+}
+
+/* Footer */
+.index-footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 2px solid #6c5ce7;
+  margin-top: 3rem;
+}
+
+.index-footer p {
+  color: #a29bfe;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.companion-note {
+  font-style: italic;
+  color: #74b9ff;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .master-codex-index {
+    padding: 2rem 1rem;
+  }
+
+  .index-header h1 {
+    font-size: 2rem;
+  }
+
+  .index-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Shimmer animation for special moments */
+@keyframes shimmerGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(108, 92, 231, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  }
+}
+
+.moment-card:nth-child(13),
+.moment-card:nth-child(53),
+.moment-card:nth-child(100),
+.moment-card:nth-child(166),
+.moment-card:nth-child(168) {
+  animation: shimmerGlow 3s ease-in-out infinite;
+}

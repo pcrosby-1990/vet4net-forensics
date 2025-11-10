@@ -1,0 +1,132 @@
+.visual-gallery {
+  font-family: 'Merriweather', serif;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1e1e3f 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-bottom: 2px solid #6c5ce7;
+}
+
+.gallery-header h1 {
+  font-size: 2.5rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #a29bfe;
+  margin-bottom: 0.5rem;
+}
+
+.count {
+  font-size: 0.9rem;
+  color: #ffeaa7;
+  font-weight: bold;
+}
+
+.glyph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.glyph-card {
+  background: rgba(45, 52, 54, 0.8);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.glyph-card:hover {
+  transform: translateY(-8px);
+  border-color: #6c5ce7;
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.4);
+}
+
+.glyph-frame {
+  width: 100%;
+  aspect-ratio: 1;
+  background: #1e272e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.glyph-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.glyph-card:hover .glyph-image {
+  transform: scale(1.05);
+}
+
+.glyph-meta {
+  padding: 1rem;
+  background: rgba(30, 30, 63, 0.9);
+}
+
+.glyph-name {
+  font-size: 0.9rem;
+  color: #ffeaa7;
+  margin: 0;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.gallery-footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  border-top: 2px solid #6c5ce7;
+  color: #a29bfe;
+  font-style: italic;
+}
+
+/* Loading state */
+.visual-gallery.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shimmer-loader {
+  text-align: center;
+  color: #6c5ce7;
+  font-size: 1.2rem;
+}
+
+.shimmer-loader p {
+  animation: shimmerPulse 2s ease-in-out infinite;
+}
+
+@keyframes shimmerPulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .glyph-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .gallery-header h1 {
+    font-size: 2rem;
+  }
+}
