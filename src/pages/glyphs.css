@@ -10,21 +10,27 @@
 }
 
 .codex-dashboard h2 {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  text-shadow: 0 0 8px rgba(145, 227, 246, 0.3);
 }
 
 .codex-dashboard h3 {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   font-size: 1.25rem;
   margin-top: 1rem;
   margin-bottom: 0.75rem;
+  text-shadow: 0 0 6px rgba(145, 227, 246, 0.2);
 }
 
 .codex-dashboard p {
-  color: #cfd8e3;
+  color: #cfd8e3 !important;
+}
+
+.codex-dashboard strong {
+  color: #91e3f6 !important;
 }
 
 /* Section styling */
@@ -91,9 +97,10 @@
 }
 
 .codex-stats strong {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   display: block;
   margin: 1rem 0 0.5rem 0;
+  font-weight: 600;
 }
 
 .risk-section {
@@ -104,13 +111,14 @@
 }
 
 .risk-bar {
-  color: #e8f6ff;
+  color: #e8f6ff !important;
 }
 
 .risk-bar span {
   display: block;
   margin-bottom: 0.25rem;
   font-size: 0.9rem;
+  color: #cfd8e3 !important;
 }
 
 .bar-track {
@@ -127,7 +135,11 @@
 }
 
 .sigil-section {
-  color: #e8f6ff;
+  color: #e8f6ff !important;
+}
+
+.sigil-section div {
+  color: #cfd8e3 !important;
 }
 
 .sigil-badge-grid {
