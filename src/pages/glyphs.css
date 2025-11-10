@@ -7,3 +7,40 @@
   color: #6c3483;
   margin-bottom: 1rem;
 }
+
+/* 🕯️ EditorPanel Text Visibility */
+.editor-panel label {
+  color: #2c2c2c;
+  font-weight: 600;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.editor-panel textarea,
+.editor-panel input,
+.editor-panel select {
+  color: #2c2c2c !important;
+  background-color: #ffffff !important;
+  border: 1px solid #c9c9c9;
+  padding: 0.75rem;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.editor-panel textarea::placeholder,
+.editor-panel input::placeholder {
+  color: #888888 !important;
+}
+
+.editor-panel .error {
+  color: #cf4646;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.editor-panel .meta-preview {
+  color: #6c3483;
+  font-weight: 600;
+}
