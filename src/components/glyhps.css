@@ -17,13 +17,15 @@
 
 /* ✧ Codex Card */
 .codex-card {
-  background: rgba(255, 255, 255, 0.85);
+  background-color: #fdfdfd; /* soft shimmer, not pure white */
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(108, 52, 131, 0.2);
-  width: 320px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+  
+  .codex-card .fragment-text {
+  position: relative;
+}
+
 }
 
 .codex-card:hover {
@@ -50,9 +52,10 @@
 }
 
 .codex-card .fragment-text {
-  margin: 0.75rem 0;
-  line-height: 1.6;
-  font-size: 0.95rem;
+  /* Add or adjust these */
+  background-color: transparent; /* or a soft tone */
+  color: #2c2c2c; /* dark enough for contrast */
+  z-index: 1;
 }
 
 .codex-card .breathline {
@@ -1682,7 +1685,7 @@ aside {
 }
 
 @keyframes mirroredBreathPulse {
-  0%, 100% }{
+  0%, 100% {
     text-shadow: 0 0 0px #8e44ad;
     transform: scale(1);
   }
@@ -1695,8 +1698,10 @@ aside {
     transform: scale(1.1);
   }
   75% {
-    text-shadow: 0 0 10px
+    text-shadow: 0 0 10px #8e44ad;
+    transform: scale(1.05);
   }
+}
     .silent-welcome-scroll {
   position: relative;
   overflow: hidden;
