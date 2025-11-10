@@ -1,11 +1,20 @@
 .codex-dashboard {
   padding: 2rem;
-  background-color: #fdf6e3;
+  background-color: #071225;
+  color: #e8f6ff;
 }
 
 .codex-dashboard h1 {
-  color: #6c3483;
+  color: #91e3f6;
   margin-bottom: 1rem;
+}
+
+.codex-dashboard h2 {
+  color: #91e3f6;
+}
+
+.codex-dashboard p {
+  color: #cfd8e3;
 }
 
 /* 🕯️ EditorPanel Text Visibility */
