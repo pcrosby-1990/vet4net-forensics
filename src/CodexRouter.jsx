@@ -6,7 +6,7 @@ import Report from './pages/report.jsx';
 import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
-import FragmentEditor from './SSJ/components/FragmentEditor.jsx';
+import FragmentEditor from './components/FragmentEditor.jsx';
 
 export default function CodexRouter({ 
   fragments, 
