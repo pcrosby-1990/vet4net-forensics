@@ -1,0 +1,85 @@
+.scroll-of-mythic-dictation {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: #1e1e3f;
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.scroll-header {
+  border-bottom: 2px solid #e17055;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.scroll-header h1 {
+  font-size: 2.2rem;
+  color: #e17055;
+  margin-bottom: 0.5rem;
+}
+
+.testimony-section {
+  margin: 2rem 0;
+}
+
+.testimony-section h2 {
+  font-size: 1.5rem;
+  color: #00cec9;
+  margin-bottom: 1rem;
+}
+
+.testimony-card {
+  background: #2d3436;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 12px rgba(225, 112, 85, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testimony-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 18px rgba(225, 112, 85, 0.9);
+}
+
+.testimony-card h3 {
+  margin-top: 0;
+  color: #ffeaa7;
+}
+
+.testimony-card p {
+  margin: 0.5rem 0;
+}
+
+.testimony-card a {
+  color: #74b9ff;
+  text-decoration: none;
+}
+
+.testimony-card a:hover {
+  text-decoration: underline;
+}
+
+.codex-law {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #2d3436;
+  border-radius: 8px;
+  border-left: 4px solid #00cec9;
+}
+
+.codex-law h2 {
+  color: #00cec9;
+  margin-top: 0;
+}
+
+.codex-law ul {
+  list-style-type: '✧ ';
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.codex-law li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
