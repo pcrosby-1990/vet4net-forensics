@@ -1,7 +1,8 @@
 .codex-dashboard {
   padding: 2rem;
-  background-color: #071225;
+  background-color: #0f1a2e;
   color: #e8f6ff;
+  min-height: 100vh;
 }
 
 .codex-dashboard h1 {
@@ -15,6 +16,8 @@
   margin-top: 2rem;
   margin-bottom: 1rem;
   text-shadow: 0 0 8px rgba(145, 227, 246, 0.3);
+  display: block;
+  font-weight: 600;
 }
 
 .codex-dashboard h3 {
@@ -38,11 +41,24 @@
   margin-bottom: 2rem;
 }
 
+.codex-dashboard section h2,
+.codex-dashboard section h3 {
+  color: #91e3f6 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
 .fragment-generator {
   background-color: #0a1628;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid #1a2b47;
+}
+
+.fragment-generator h2 {
+  color: #91e3f6 !important;
+  display: block !important;
 }
 
 /* 🕯️ EditorPanel Text Visibility */
