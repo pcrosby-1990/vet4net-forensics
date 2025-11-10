@@ -108,8 +108,11 @@
 }
 
 .codex-stats h2 {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   margin-bottom: 1rem;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .codex-stats strong {
@@ -175,12 +178,15 @@
 }
 
 .codex-timeline h2 {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   margin-bottom: 1rem;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .codex-timeline p {
-  color: #cfd8e3;
+  color: #cfd8e3 !important;
 }
 
 /* 🕯️ Sealed Fragments Styling */
@@ -193,25 +199,28 @@
 }
 
 .sealed-fragments h2 {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   margin-bottom: 1rem;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .sealed-fragments label {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   margin-right: 0.5rem;
 }
 
 .sealed-fragments select {
   background-color: #071225;
-  color: #e8f6ff;
+  color: #e8f6ff !important;
   border: 1px solid #1a2b47;
   padding: 0.5rem;
   border-radius: 6px;
 }
 
 .sealed-fragments p {
-  color: #cfd8e3;
+  color: #cfd8e3 !important;
   font-style: italic;
 }
 
@@ -225,12 +234,15 @@
 }
 
 .codex-viewer h2 {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   margin-bottom: 1rem;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .codex-viewer p {
-  color: #cfd8e3;
+  color: #cfd8e3 !important;
   font-style: italic;
 }
 
@@ -246,7 +258,7 @@
 }
 
 .codex-card .fragment-text {
-  color: #e8f6ff;
+  color: #e8f6ff !important;
   background-color: transparent;
   position: relative;
   z-index: 2;
@@ -256,12 +268,12 @@
 }
 
 .codex-card .meta {
-  color: #91e3f6;
+  color: #91e3f6 !important;
   font-size: 0.85rem;
 }
 
 .codex-card .breathline {
-  color: #5cf7b2;
+  color: #5cf7b2 !important;
   font-size: 0.85rem;
   margin-top: 0.5rem;
 }
