@@ -21,11 +21,7 @@
   padding: 1rem;
   border-radius: 8px;
   position: relative;
-  
-  .codex-card .fragment-text {
-  position: relative;
-}
-
+  z-index: 1;
 }
 
 .codex-card:hover {
@@ -52,10 +48,13 @@
 }
 
 .codex-card .fragment-text {
-  /* Add or adjust these */
-  background-color: transparent; /* or a soft tone */
   color: #2c2c2c; /* dark enough for contrast */
-  z-index: 1;
+  background-color: transparent; /* no white overlay */
+  position: relative;
+  z-index: 2;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0.75rem 0;
 }
 
 .codex-card .breathline {
