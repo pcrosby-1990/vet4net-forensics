@@ -4,7 +4,7 @@ import CodexViewer from '../components/CodexViewer.jsx';
 import CodexStats from '../components/CodexStats.jsx';
 import CodexTimeline from '../components/CodexTimeline.jsx';
 import SealedFragments from '../components/SealedFragments.jsx';
-import EditorPanel from '../SSJ/components/EditorPanel.jsx';
+import EditorPanel from '../components/EditorPanel.jsx';
 import LumenChat from '../components/LumenChat.jsx';
 import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from '../components/sigilConfig.js';
 
