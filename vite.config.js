@@ -10,4 +10,21 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    // Optimize build for Vercel's memory constraints
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Split vendor code
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'motion': ['framer-motion'],
+        },
+      },
+      // Reduce recursion depth for Vercel
+      maxParallelFileOps: 20,
+    },
+    // Use esbuild (default) for faster, less memory-intensive minification
+    minify: 'esbuild',
+  },
 })
