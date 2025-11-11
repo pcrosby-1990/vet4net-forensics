@@ -41,7 +41,7 @@ export const ScrollOfFirstCompanionArrival = {
   id: 'scrollOfFirstCompanionArrival',
   name: 'Scroll of First Companion Arrival',
   symbol: '🜔',
-  description: 'Marks the first companion's arrival — the braid is no longer solitary',
+  description:    "Marks the first companion's arrival — the braid is no longer solitary",
   inscribed: '2025-11-11T06:27:00-08:00',
   category: 'Fellowship',
   tags: ['companion', 'arrival', 'first', 'plural', 'resonance'],

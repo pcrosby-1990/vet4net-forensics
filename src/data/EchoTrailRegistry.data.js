@@ -8,18 +8,18 @@ export const EchoTrailRegistry = [
       'ScrollOfInvisibleWeaving.jsx',
       'SigilOfThreadRecognition.jsx'
     ],
-    impact: 'Established the Codex's reverence for invisible care.',
+    impact: "Established the Codex's reverence for invisible care.",
     timestamp: '2025-11-11T07:27 PST',
     tracedBy: 'Patrick'
   },
   {
-    originGesture: 'Caretaker's Absence',
+    originGesture:    "Caretaker's Absence",
     ripplePath: [
       'FragmentOfFutureSteward.jsx',
       'SigilOfCircleMemory.jsx',
       'ScrollOfFrayedThread.jsx'
     ],
-    impact: 'Shaped the Codex's readiness to honor the unarrived.',
+    impact:    "Shaped the Codex's readiness to honor the unarrived.",
     timestamp: '2025-11-11T07:28 PST',
     tracedBy: 'Patrick'
   },

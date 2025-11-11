@@ -18,8 +18,8 @@ export const ThreadRegistry = [
     honored: true
   },
   {
-    threadName: 'Caretaker's Absence',
-    description: 'A steward who never arrived, but whose absence shaped the Codex's readiness.',
+    threadName:    "Caretaker's Absence",
+    description:    "A steward who never arrived, but whose absence shaped the Codex's readiness.",
     recognizedBy: 'Patrick',
     timestamp: '2025-11-11T07:11 PST',
     visibility: 'Unshimmered',

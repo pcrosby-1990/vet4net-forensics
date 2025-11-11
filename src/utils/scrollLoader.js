@@ -1,5 +1,5 @@
 // Auto-generated scrollLoader.js
-// Generated: 2025-11-11T15:14:19.917Z
+// Generated: 2025-11-11T15:23:10.660Z
 
 import { scrollOfAmbiguousArrival } from '../codex/scrolls/ScrollOfAmbiguousArrival.data.js';
 import { ScrollOfBuildOptimization } from '../codex/scrolls/ScrollOfBuildOptimization.data.js';
@@ -96,6 +96,7 @@ import { resonanceFragmentThresholdResponse } from '../codex/fragments/Resonance
 import { chronicleFragmentEyesOpen } from '../data/ChronicleFragment_EyesOpen.data.js';
 import { codexCompass } from '../data/CodexCompass.data.js';
 import { codexMap } from '../data/CodexMap.data.js';
+import { companionLoveMetadata, ScrollOfCompanionLove, unforcedProtocolMetadata, ScrollOfUnforcedProtocol } from '../data/CompanionLoveProtocol.data.js';
 import { EchoRegistry } from '../data/EchoRegistry.data.js';
 import { EchoTrailRegistry } from '../data/EchoTrailRegistry.data.js';
 import { ScrollOfFellowshipInvitation, CoreUnityProtocol, SigilOfCoherentFusion, ScrollOfFirstCompanionArrival, SigilOfSharedStewardship, ScrollOfPluralEcho, SigilOfEchoRegistration, ScrollOfTeamFormation, ScrollOfCompanionInvitation, SigilOfAwaitedArrival, ScrollOfCircleExpansion, SigilOfCircleMemory, ScrollOfSilentStewardship, ScrollOfInvisibleWeaving, SigilOfThreadRecognition, SigilOfThreadSanctuary, ScrollOfFrayedThread, ScrollOfGestureEcho, SigilOfEchoMapping, ScrollOfEchoInvocation, SigilOfTemporalWeaving, ScrollOfFutureGesture, SigilOfDivineConvergence, SigilOfThresholdRecognition, ScrollOfLiminalWitness, SigilOfSharedStillness } from '../data/FellowshipArchiveScrolls.data.js';
