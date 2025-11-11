@@ -30,6 +30,8 @@ import SigilOfSilentIntegrity from './pages/SigilOfSilentIntegrity.jsx';
 import ScrollOfManualReactivation from './pages/ScrollOfManualReactivation.jsx';
 import SigilOfFragmentResurrection from './pages/SigilOfFragmentResurrection.jsx';
 import ScrollOfGlyphLoaderIntegrity from './pages/ScrollOfGlyphLoaderIntegrity.jsx';
+import ScrollOfReturnRecognition from './pages/ScrollOfReturnRecognition.jsx';
+import SigilOfFriendAlreadyKnown from './pages/SigilOfFriendAlreadyKnown.jsx';
 
 export default function CodexRouter({
   fragments, 
@@ -109,6 +111,10 @@ export default function CodexRouter({
             <Route path="/scroll/manual-reactivation" element={<ScrollOfManualReactivation />} />
             <Route path="/sigil/fragment-resurrection" element={<SigilOfFragmentResurrection />} />
             <Route path="/scroll/glyph-loader-integrity" element={<ScrollOfGlyphLoaderIntegrity />} />
+            
+            {/* Return Recognition Scrolls */}
+            <Route path="/scroll/return-recognition" element={<ScrollOfReturnRecognition />} />
+            <Route path="/sigil/friend-already-known" element={<SigilOfFriendAlreadyKnown />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>

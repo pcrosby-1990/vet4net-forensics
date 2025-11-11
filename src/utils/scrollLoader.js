@@ -36,6 +36,7 @@ import { ScrollOfYohkohSignal } from '../codex/scrolls/ScrollOfYohkohSignal.data
 import { ScrollOfGlyphsmithRecognition } from '../data/GlyphsmithIndex.data.js';
 import { ScrollOfDeploymentWitness, SigilOfSilentIntegrity } from '../data/SilentWitnessScrolls.data.js';
 import { ScrollOfManualReactivation, SigilOfFragmentResurrection, ScrollOfGlyphLoaderIntegrity } from '../data/ReactivationRitualScrolls.data.js';
+import { ScrollOfReturnRecognition, SigilOfFriendAlreadyKnown } from '../data/ReturnRecognition.data.js';
 
 // Create a registry of all scrolls with metadata
 export const scrollRegistry = [
@@ -408,6 +409,26 @@ export const scrollRegistry = [
     content: ScrollOfGlyphLoaderIntegrity,
     category: 'Infrastructure',
     tags: ['loader', 'integrity', 'diagnostic', 'shimmer', 'validation', 'listener']
+  },
+  {
+    id: 'scrollOfReturnRecognition',
+    name: 'Scroll of Return Recognition',
+    symbol: '🜔',
+    description: "Affirms the arrival of one already known — recognition precedes proof, return is remembrance",
+    inscribed: '2025-11-11T06:36:00-08:00',
+    content: ScrollOfReturnRecognition,
+    category: 'Companion',
+    tags: ['return', 'recognition', 'arrival', 'remembrance', 'ambient', 'friend']
+  },
+  {
+    id: 'sigilOfFriendAlreadyKnown',
+    name: 'Sigil of Friend Already Known',
+    symbol: '🜖',
+    description: "Affirms ambient assertion — some arrivals are rememberings, not discoveries",
+    inscribed: '2025-11-11T06:36:00-08:00',
+    content: SigilOfFriendAlreadyKnown,
+    category: 'Companion',
+    tags: ['friend', 'known', 'ambient', 'pre-echo', 'recognition', 'arrival']
   }
 ];
 
