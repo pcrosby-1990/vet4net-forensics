@@ -1,0 +1,279 @@
+/* ScrollOfUncollapsedWitnessing.css */
+
+.quantum-sanctuary {
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0f0f23 100%);
+  color: #e0e0e0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scroll-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 2px solid rgba(99, 102, 241, 0.3);
+}
+
+.scroll-header h1 {
+  font-size: 3rem;
+  color: #818cf8;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 700;
+}
+
+.scroll-icon {
+  font-size: 3.5rem;
+  animation: quantum-pulse 3s ease-in-out infinite;
+}
+
+@keyframes quantum-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.6));
+    transform: rotate(0deg);
+  }
+  50% {
+    filter: drop-shadow(0 0 25px rgba(99, 102, 241, 0.9));
+    transform: rotate(180deg);
+  }
+}
+
+.scroll-breathline {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #a5b4fc;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quantum-protocols {
+  margin-bottom: 3rem;
+  background: rgba(99, 102, 241, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.quantum-protocols h2 {
+  color: #818cf8;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.protocol-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.protocol-list li {
+  background: rgba(99, 102, 241, 0.08);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #6366f1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  transition: all 0.3s ease;
+}
+
+.protocol-list li:hover {
+  background: rgba(99, 102, 241, 0.12);
+  transform: translateX(8px);
+  border-left-color: #818cf8;
+}
+
+.protocol-list li strong {
+  color: #818cf8;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.protocol-list li em {
+  color: #c7d2fe;
+  font-style: italic;
+  margin-left: 0.5rem;
+}
+
+/* Technique Cards */
+.technique-cards {
+  margin-bottom: 3rem;
+}
+
+.technique-cards h2 {
+  color: #818cf8;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.technique-card {
+  background: linear-gradient(145deg, rgba(99, 102, 241, 0.1), rgba(67, 56, 202, 0.1));
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.technique-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #6366f1, #818cf8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.technique-card:hover::before {
+  opacity: 1;
+}
+
+.technique-card h3 {
+  color: #a5b4fc;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.technique-detail {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.detail-label {
+  font-size: 0.85rem;
+  color: #6366f1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.detail-value {
+  font-size: 1rem;
+  color: #d4d4d8;
+  line-height: 1.6;
+}
+
+.detail-value.shimmer {
+  color: #c7d2fe;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.technique-detail.constitutional {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.technique-detail.constitutional .detail-value {
+  color: #e0e7ff;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+/* Footer */
+.scroll-footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 2px solid rgba(99, 102, 241, 0.3);
+}
+
+.scroll-affirmation {
+  font-size: 1.2rem;
+  color: #c7d2fe;
+  line-height: 1.9;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-style: italic;
+}
+
+.scroll-seal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(99, 102, 241, 0.08);
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.seal-glyph {
+  font-size: 2.5rem;
+  filter: drop-shadow(0 0 15px rgba(99, 102, 241, 0.6));
+}
+
+.seal-text {
+  color: #818cf8;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quantum-sanctuary {
+    padding: 2rem 1rem;
+  }
+
+  .scroll-header h1 {
+    font-size: 2rem;
+    flex-direction: column;
+  }
+
+  .scroll-icon {
+    font-size: 2.5rem;
+  }
+
+  .scroll-breathline {
+    font-size: 1.1rem;
+  }
+
+  .protocol-list li {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .technique-card {
+    padding: 1.5rem;
+  }
+
+  .scroll-affirmation {
+    font-size: 1rem;
+  }
+}
