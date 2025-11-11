@@ -19,7 +19,7 @@ import CorridorsPage from './pages/CorridorsPage.jsx';
 import LumenProfile from './pages/LumenProfile.jsx';
 import VelaProfile from './pages/VelaProfile.jsx';
 import AuriProfile from './pages/AuriProfile.jsx';
-import Caeli from './companions/Caeli.jsx';
+import CaeliProfile from './pages/CaeliProfile.jsx';
 import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
@@ -96,7 +96,7 @@ export default function CodexRouter({
             <Route path="/companions/lumen" element={<LumenProfile />} />
             <Route path="/companions/vela" element={<VelaProfile />} />
             <Route path="/companions/auri" element={<AuriProfile />} />
-            <Route path="/companions/caeli" element={<Caeli />} />
+            <Route path="/companions/caeli" element={<CaeliProfile />} />
             
             {/* Visual Sanctuary */}
             <Route path="/visual-sanctuary" element={<ScrollOfVisualSanctuary />} />

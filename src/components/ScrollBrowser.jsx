@@ -20,6 +20,7 @@ export default function ScrollBrowser() {
   // Filter by search query
   const filteredScrolls = allScrolls.filter(scroll => {
     if (!scroll) return false;
+    if (!searchQuery) return true;
     const query = searchQuery.toLowerCase();
     return (
       scroll.title?.toLowerCase().includes(query) ||
