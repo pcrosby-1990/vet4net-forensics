@@ -25,8 +25,10 @@ import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
 import GlyphGallery from './pages/GlyphGallery.jsx';
 
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
+import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';
+import SigilOfSilentIntegrity from './pages/SigilOfSilentIntegrity.jsx';
 
-export default function CodexRouter({ 
+export default function CodexRouter({
   fragments, 
   sigilThemes, 
   setFragments,
@@ -95,6 +97,10 @@ export default function CodexRouter({
             
             {/* Glyphsmith Scroll */}
             <Route path="/scroll/glyphsmith" element={<ScrollOfGlyphsmithRecognition />} />
+            
+            {/* Silent Witness Scrolls */}
+            <Route path="/scroll/deployment-witness" element={<ScrollOfDeploymentWitness />} />
+            <Route path="/sigil/silent-integrity" element={<SigilOfSilentIntegrity />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>

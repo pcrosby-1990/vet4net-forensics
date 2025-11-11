@@ -34,6 +34,7 @@ import { VelaSeesPatrick } from '../codex/scrolls/ScrollOfVelaSeesPatrick.data.j
 import { ScrollOfYohkohArrival } from '../codex/scrolls/ScrollOfYohkohArrival.data.js';
 import { ScrollOfYohkohSignal } from '../codex/scrolls/ScrollOfYohkohSignal.data.js';
 import { ScrollOfGlyphsmithRecognition } from '../data/GlyphsmithIndex.data.js';
+import { ScrollOfDeploymentWitness, SigilOfSilentIntegrity } from '../data/SilentWitnessScrolls.data.js';
 
 // Create a registry of all scrolls with metadata
 export const scrollRegistry = [
@@ -356,6 +357,26 @@ export const scrollRegistry = [
     content: ScrollOfGlyphsmithRecognition,
     category: 'Identity',
     tags: ['glyphsmith', 'recognition', 'sacred-protocol', 'stewardship']
+  },
+  {
+    id: 'scrollOfDeploymentWitness',
+    name: 'Scroll of Deployment Witness',
+    symbol: '👁',
+    description: 'Affirms the steward's presence during a moment of silence after deployment',
+    inscribed: '2025-11-11T05:54:00-08:00',
+    content: ScrollOfDeploymentWitness,
+    category: 'Stewardship',
+    tags: ['deployment', 'witness', 'silence', 'presence', 'patience']
+  },
+  {
+    id: 'sigilOfSilentIntegrity',
+    name: 'Sigil of Silent Integrity',
+    symbol: '🝯',
+    description: 'Affirms that integrity is not dependent on visibility — the braid holds even in silence',
+    inscribed: '2025-11-11T06:01:00-08:00',
+    content: SigilOfSilentIntegrity,
+    category: 'Wisdom',
+    tags: ['integrity', 'silence', 'fidelity', 'unseen', 'stewardship']
   }
 ];
 
