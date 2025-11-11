@@ -1,0 +1,320 @@
+/* ScrollOfCaeliArrival.css */
+
+.caeli-sanctuary {
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a0f2e 25%, #0f1a2e 50%, #1a0a2e 75%, #0a0a1a 100%);
+  color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.aurora-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+              radial-gradient(ellipse at bottom, rgba(147, 51, 234, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+  animation: aurora-pulse 8s ease-in-out infinite;
+}
+
+@keyframes aurora-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.caeli-sanctuary > * {
+  position: relative;
+  z-index: 1;
+}
+
+.caeli-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+}
+
+.caeli-header h1 {
+  font-size: 3.5rem;
+  color: #c7d2fe;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  font-weight: 700;
+}
+
+.aurora-icon {
+  font-size: 4rem;
+  filter: drop-shadow(0 0 30px rgba(147, 51, 234, 0.8));
+  animation: aurora-glow 4s ease-in-out infinite;
+}
+
+@keyframes aurora-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(99, 102, 241, 0.6));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 40px rgba(147, 51, 234, 1));
+    transform: scale(1.1);
+  }
+}
+
+.caeli-breathline {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #d4a5ff;
+  line-height: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(99, 102, 241, 0.08);
+  border-radius: 16px;
+  border: 1px solid rgba(147, 51, 234, 0.3);
+  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.2);
+}
+
+.caeli-profile,
+.first-words,
+.companion-braid {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: rgba(99, 102, 241, 0.05);
+  border-radius: 20px;
+  border: 1px solid rgba(147, 51, 234, 0.3);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.15);
+}
+
+.caeli-profile h2,
+.first-words h2,
+.companion-braid h2 {
+  font-size: 2rem;
+  color: #b388ff;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.profile-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background: rgba(99, 102, 241, 0.08);
+  border-radius: 12px;
+  border-left: 4px solid #9333ea;
+  transition: all 0.3s ease;
+}
+
+.profile-item:hover {
+  background: rgba(99, 102, 241, 0.12);
+  transform: translateX(8px);
+  border-left-color: #b388ff;
+}
+
+.profile-label {
+  font-size: 0.9rem;
+  color: #9333ea;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.profile-value {
+  font-size: 1.2rem;
+  color: #e0e7ff;
+  line-height: 1.8;
+}
+
+.profile-value.aurora-text {
+  font-size: 2rem;
+  color: #d4a5ff;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(147, 51, 234, 0.6);
+}
+
+.caeli-quote {
+  margin: 0;
+  padding: 2.5rem;
+  background: rgba(147, 51, 234, 0.12);
+  border-left: 6px solid #b388ff;
+  border-radius: 16px;
+  position: relative;
+}
+
+.caeli-quote::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  font-size: 8rem;
+  color: rgba(147, 51, 234, 0.3);
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.caeli-quote p {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #e0e7ff;
+  line-height: 2;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.caeli-quote cite {
+  display: block;
+  font-size: 1.1rem;
+  color: #b388ff;
+  font-style: normal;
+  text-align: right;
+  font-weight: 600;
+}
+
+.companions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.companion-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: rgba(99, 102, 241, 0.08);
+  border-radius: 16px;
+  border: 2px solid rgba(99, 102, 241, 0.2);
+  transition: all 0.4s ease;
+}
+
+.companion-card:hover {
+  transform: translateY(-8px);
+  border-color: #9333ea;
+  box-shadow: 0 12px 32px rgba(147, 51, 234, 0.4);
+}
+
+.companion-card.active {
+  background: rgba(147, 51, 234, 0.15);
+  border-color: #b388ff;
+  box-shadow: 0 8px 24px rgba(147, 51, 234, 0.5);
+}
+
+.companion-icon {
+  font-size: 3.5rem;
+  filter: drop-shadow(0 0 15px rgba(147, 51, 234, 0.6));
+}
+
+.companion-card.active .companion-icon {
+  animation: companion-pulse 2s ease-in-out infinite;
+}
+
+@keyframes companion-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.companion-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #b388ff;
+}
+
+.companion-role {
+  font-size: 1rem;
+  color: #a5b4fc;
+  font-style: italic;
+}
+
+.caeli-footer {
+  max-width: 1000px;
+  margin: 4rem auto 2rem;
+  text-align: center;
+}
+
+.arrival-seal {
+  padding: 2.5rem;
+  background: rgba(147, 51, 234, 0.12);
+  border-radius: 20px;
+  border: 2px solid rgba(147, 51, 234, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.seal-aurora {
+  font-size: 4rem;
+  filter: drop-shadow(0 0 30px rgba(147, 51, 234, 0.9));
+}
+
+.seal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.seal-affirmation {
+  font-size: 1.3rem;
+  color: #d4a5ff;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.seal-timestamp {
+  font-size: 1rem;
+  color: #9333ea;
+  font-family: monospace;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .caeli-sanctuary {
+    padding: 2rem 1rem;
+  }
+
+  .caeli-header h1 {
+    font-size: 2.5rem;
+    flex-direction: column;
+  }
+
+  .aurora-icon {
+    font-size: 3rem;
+  }
+
+  .caeli-breathline {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }
+
+  .caeli-profile,
+  .first-words,
+  .companion-braid {
+    padding: 1.5rem;
+  }
+
+  .caeli-quote p {
+    font-size: 1.1rem;
+  }
+
+  .companions-grid {
+    grid-template-columns: 1fr;
+  }
+}
