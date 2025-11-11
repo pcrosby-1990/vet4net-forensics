@@ -21,17 +21,29 @@ export default function ScrollBrowser() {
   const filteredScrolls = allScrolls.filter(scroll => {
     if (!scroll) return false;
     if (!searchQuery || searchQuery.trim() === '') return true;
-    const query = (searchQuery || '').toLowerCase();
+    
+    const query = searchQuery.toLowerCase();
     
     // Helper to safely check string fields
-    const matchesField = (field) => field && typeof field === 'string' && field.toLowerCase().includes(query);
+    const matchesField = (field) => {
+      if (!field) return false;
+      if (typeof field !== 'string') return false;
+      return field.toLowerCase().includes(query);
+    };
+    
+    // Safely check array fields
+    const matchesArray = (arr) => {
+      if (!arr || !Array.isArray(arr)) return false;
+      return arr.some(item => matchesField(item));
+    };
     
     return (
       matchesField(scroll.title) ||
       matchesField(scroll.name) ||
       matchesField(scroll.description) ||
       matchesField(scroll.breathline) ||
-      (scroll.tags && Array.isArray(scroll.tags) && scroll.tags.some(tag => matchesField(tag)))
+      matchesField(scroll.meaning) ||
+      matchesArray(scroll.tags)
     );
   });
 

@@ -16,10 +16,16 @@ function buildRegistry(context) {
     const module = context[path];
     // Handle both default exports and named exports
     const data = module.default || module[Object.keys(module)[0]];
-    if (data) {
+    if (data && typeof data === 'object') {
       // Generate ID from path if missing
       const filename = path.split('/').pop().replace('.data.js', '');
       const generatedId = filename.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      
+      // Extract a readable name from filename for fallback
+      const readableName = filename
+        .replace(/([A-Z])/g, ' $1') // Add space before capitals
+        .replace(/^Scroll Of |^Sigil Of |^Glyph Of /i, '') // Remove common prefixes
+        .trim() || 'Untitled';
       
       // Normalize field names for consistent access
       const normalized = {
@@ -27,19 +33,25 @@ function buildRegistry(context) {
         _sourcePath: path,
         // Ensure id exists
         id: data.id || generatedId,
-        // Map common field variations - ensure strings
-        name: String(data.name || data.title || filename || 'Untitled'),
-        title: String(data.title || data.name || filename || 'Untitled'),
-        description: String(data.description || data.vow || data.meaning || data.shimmer || 'No description available'),
+        // Map common field variations - ensure strings only if value exists
+        // Handle legacy scrolls with ache/truth/vow structure
+        name: data.name || data.title || readableName,
+        title: data.title || data.name || readableName,
+        description: data.description || data.vow || data.meaning || data.shimmer || data.truth || data.ache || 'No description available',
         inscribed: data.inscribed || data.timestamp || new Date().toISOString(),
-        tags: Array.isArray(data.tags) ? data.tags : (data.functions || []),
-        category: String(data.category || 'Uncategorized'),
+        tags: Array.isArray(data.tags) ? data.tags : (Array.isArray(data.functions) ? data.functions : []),
+        category: data.category || 'Uncategorized',
         symbol: data.symbol || '✧',
         // Keep original fields accessible
         meaning: data.meaning || '',
         shimmer: data.shimmer || '',
         timestamp: data.timestamp || new Date().toISOString(),
-        breathline: data.breathline || ''
+        breathline: data.breathline || '',
+        // Preserve legacy fields
+        ache: data.ache || '',
+        truth: data.truth || '',
+        vow: data.vow || '',
+        echo: data.echo || ''
       };
       registry.push(normalized);
     }
@@ -68,13 +80,22 @@ export function getScrollsByCategory(category) {
 }
 
 export function searchScrolls(query) {
+  if (!query || typeof query !== 'string') return scrollRegistry;
   const lowerQuery = query.toLowerCase();
-  return scrollRegistry.filter(s => 
-    s.name?.toLowerCase().includes(lowerQuery) ||
-    s.title?.toLowerCase().includes(lowerQuery) ||
-    s.description?.toLowerCase().includes(lowerQuery) ||
-    s.tags?.some(tag => tag.toLowerCase().includes(lowerQuery))
-  );
+  return scrollRegistry.filter(s => {
+    if (!s || typeof s !== 'object') return false;
+    const matchField = (field) => field && typeof field === 'string' && field.toLowerCase().includes(lowerQuery);
+    const matchTags = Array.isArray(s.tags) && s.tags.some(tag => typeof tag === 'string' && tag.toLowerCase().includes(lowerQuery));
+    return (
+      matchField(s.name) ||
+      matchField(s.title) ||
+      matchField(s.description) ||
+      matchField(s.breathline) ||
+      matchField(s.vow) ||
+      matchField(s.ache) ||
+      matchTags
+    );
+  });
 }
 
 // Get all unique categories
