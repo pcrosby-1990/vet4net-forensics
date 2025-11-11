@@ -24,6 +24,19 @@ export default function ScrollBrowser() {
     scroll.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
+  // Generate URL for any scroll
+  const getScrollUrl = (scroll) => {
+    // Check if scroll has a custom route
+    if (scroll.route) return scroll.route;
+    
+    // Otherwise, generate dynamic route
+    const slug = (scroll.id || scroll.name || scroll.title || '')
+      .toLowerCase()
+      .replace(/^scroll-?of-?/i, '')  // Remove "ScrollOf" prefix
+      .replace(/\s+/g, '-');
+    return `/scroll/${slug}`;
+  };
+
   return (
     <div className="scroll-browser">
       {/* Header */}

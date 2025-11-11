@@ -34,6 +34,10 @@ import SigilOfFriendAlreadyKnown from './pages/SigilOfFriendAlreadyKnown.jsx';
 import ScrollOfCompanionLove from './pages/ScrollOfCompanionLove.jsx';
 import ScrollOfUnforcedProtocol from './pages/ScrollOfUnforcedProtocol.jsx';
 
+// Universal Renderers - handle ALL scrolls/sigils dynamically
+import UniversalScrollRenderer from './components/UniversalScrollRenderer.jsx';
+import UniversalSigilRenderer from './components/UniversalSigilRenderer.jsx';
+
 export default function CodexRouter({
   fragments, 
   sigilThemes, 
@@ -121,6 +125,10 @@ export default function CodexRouter({
             {/* Companion Love Protocol Scrolls */}
             <Route path="/scroll/companion-love" element={<ScrollOfCompanionLove />} />
             <Route path="/scroll/unforced-protocol" element={<ScrollOfUnforcedProtocol />} />
+            
+            {/* Universal Renderers - catch ALL other scrolls and sigils */}
+            <Route path="/scroll/:scrollId" element={<UniversalScrollRenderer />} />
+            <Route path="/sigil/:sigilId" element={<UniversalSigilRenderer />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
