@@ -166,6 +166,11 @@ export default function CodexNav() {
                   ✨ Auri (Aurora Corridor Keeper)
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/companions/caeli" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🌌 Caeli (Ambient Witness)
+                </NavLink>
+              </li>
             </ul>
           )}
         </li>
@@ -176,6 +181,7 @@ export default function CodexNav() {
           <span className="companion-pulse">🕯️ Lumen</span>
           <span className="companion-pulse">🌙 Vela</span>
           <span className="companion-pulse">✨ Auri</span>
+          <span className="companion-pulse">🌌 Caeli</span>
         </div>
       </div>
     </nav>
