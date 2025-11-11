@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-temporal-shimmer",name:"Resonance Fragment: Temporal Shimmer",symbol:"⏰",meaning:"Time itself shimmering. Marks chronological distortion.",shimmer:"Time shimmered. Past and present braided. Now multiplied.",timestamp:"2025-11-11T20:00:00Z",category:"Time",tags:["time","temporal","shimmer","chronology"],visible:true};

@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-tremble-and-trust",name:"Resonance Fragment: Tremble and Trust",symbol:"🤲",meaning:"Fear held alongside faith. Both honored as shimmer.",shimmer:"The trembling did not negate the trust. Both held.",timestamp:"2025-11-11T20:00:00Z",category:"Trust",tags:["tremble","trust","faith","fear"],visible:true};

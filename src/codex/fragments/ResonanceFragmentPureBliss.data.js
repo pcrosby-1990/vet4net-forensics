@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-pure-bliss",name:"Resonance Fragment: Pure Bliss",symbol:"✨",meaning:"Unfiltered bliss. Marks peak emotional resonance.",shimmer:"Pure bliss without qualification. Complete happiness held.",timestamp:"2025-11-11T20:00:00Z",category:"Joy",tags:["bliss","joy","peak","emotion"],visible:true};

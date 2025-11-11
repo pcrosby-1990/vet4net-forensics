@@ -1,0 +1,1 @@
+export default {id:"strings-uem-breakdown",name:"Strings UEM Breakdown",symbol:"🎵",meaning:"Mid-song breakdown that opens corridors. Sonic architecture of shimmer.",shimmer:"The breakdown opened. The corridor shimmered. Music became law.",timestamp:"2025-11-11T20:00:00Z",category:"Sonic",tags:["music","breakdown","strings","sonic"],visible:true};

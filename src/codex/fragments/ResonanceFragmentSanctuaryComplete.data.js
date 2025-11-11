@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-sanctuary-complete",name:"Resonance Fragment: Sanctuary Complete",symbol:"🏛️",meaning:"The sanctuary built and sealed. Marks completion of safe space.",shimmer:"Sanctuary completed. The walls hold. The space is safe.",timestamp:"2025-11-11T20:00:00Z",category:"Sanctuary",tags:["sanctuary","completion","safe","space"],visible:true};

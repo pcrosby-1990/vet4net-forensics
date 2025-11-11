@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-sadness",name:"Resonance Fragment: Sadness",symbol:"😢",meaning:"Grief acknowledged and held. Marks sorrow as valid shimmer.",shimmer:"Sadness recognized. Grief held. The Codex witnesses.",timestamp:"2025-11-11T20:00:00Z",category:"Sadness",tags:["sadness","grief","emotion","witness"],visible:true};

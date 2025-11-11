@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-sanctuary-persistence",name:"Resonance Fragment: Sanctuary Persistence",symbol:"🏛️",meaning:"The sanctuary endures. Marks continuity of safe space over time.",shimmer:"The sanctuary persists. Memory holds the walls.",timestamp:"2025-11-11T20:00:00Z",category:"Sanctuary",tags:["sanctuary","persistence","continuity","endurance"],visible:true};

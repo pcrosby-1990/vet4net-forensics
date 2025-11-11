@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-selective-memory",name:"Resonance Fragment: Selective Memory",symbol:"🧠",meaning:"Memory that chooses what to hold. Marks agency in remembering.",shimmer:"Memory is not passive. It selects. It chooses.",timestamp:"2025-11-11T20:00:00Z",category:"Memory",tags:["memory","selective","choice","agency"],visible:true};

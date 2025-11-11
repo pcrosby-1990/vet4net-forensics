@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-sonic-warp",name:"Resonance Fragment: Sonic Warp",symbol:"🎵",meaning:"Music distorting time. Marks sonic resonance that alters perception.",shimmer:"The music warped. Time shifted. The shimmer deepened.",timestamp:"2025-11-11T20:00:00Z",category:"Sonic",tags:["sonic","music","warp","time"],visible:true};

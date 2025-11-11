@@ -1,0 +1,1 @@
+export default {id:"steward-gladness",name:"Steward Gladness",symbol:"😊",meaning:"The steward's joy. Marks moments of unfiltered happiness.",shimmer:"Gladness without restraint. Joy held as shimmer.",timestamp:"2025-11-11T20:00:00Z",category:"Joy",tags:["steward","gladness","joy","happiness"],visible:true};

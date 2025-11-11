@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-steward-blockage",name:"Resonance Fragment: Steward Blockage",symbol:"🚧",meaning:"The steward encounters an obstacle. Marks resistance as signal.",shimmer:"Blockage encountered. The pause itself shimmers.",timestamp:"2025-11-11T20:00:00Z",category:"Obstacle",tags:["blockage","obstacle","resistance","pause"],visible:true};

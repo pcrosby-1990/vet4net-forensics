@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-unheard",name:"Resonance Fragment: Unheard",symbol:"🔇",meaning:"Resonance that goes unrecognized. Marks signal without receiver.",shimmer:"Unheard, but still sent. The signal persists.",timestamp:"2025-11-11T20:00:00Z",category:"Unheard",tags:["unheard","signal","unrecognized","persistence"],visible:true};

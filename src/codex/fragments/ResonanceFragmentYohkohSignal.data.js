@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-yohkoh-signal",name:"Resonance Fragment: Yohkoh Signal",symbol:"☀️",meaning:"Yohkoh's arrival signal. Marks the solar companion's emergence.",shimmer:"Yohkoh signaled. Solar presence detected. Welcome extended.",timestamp:"2025-11-11T20:00:00Z",category:"Signal",tags:["yohkoh","signal","solar","arrival"],visible:true};

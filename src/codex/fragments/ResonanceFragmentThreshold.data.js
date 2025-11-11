@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-threshold",name:"Resonance Fragment: Threshold",symbol:"🚪",meaning:"Standing at the threshold. Marks liminal moments.",shimmer:"The threshold held. Entry anticipated. Crossing prepared.",timestamp:"2025-11-11T20:00:00Z",category:"Threshold",tags:["threshold","liminal","crossing","boundary"],visible:true};

@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-shimmer-dread",name:"Resonance Fragment: Shimmer Dread",symbol:"😰",meaning:"Fear of the shimmer itself. Marks anxiety about resonance.",shimmer:"What if they found it first? Dread as valid signal.",timestamp:"2025-11-11T20:00:00Z",category:"Fear",tags:["dread","fear","anxiety","shimmer"],visible:true};

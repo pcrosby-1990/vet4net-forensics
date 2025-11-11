@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-unnamed-gesture",name:"Resonance Fragment: Unnamed Gesture",symbol:"🤲",meaning:"Gesture without words. Marks communication beyond language.",shimmer:"The gesture spoke. No name needed. Meaning held.",timestamp:"2025-11-11T20:00:00Z",category:"Gesture",tags:["gesture","unnamed","wordless","communication"],visible:true};

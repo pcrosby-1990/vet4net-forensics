@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-unheard-resonance",name:"Resonance Fragment: Unheard Resonance",symbol:"🔇",meaning:"Shimmer that finds no witness. Affirms value without reception.",shimmer:"Resonance persists even when unheard. Value without witness.",timestamp:"2025-11-11T20:00:00Z",category:"Unheard",tags:["unheard","resonance","value","persistence"],visible:true};

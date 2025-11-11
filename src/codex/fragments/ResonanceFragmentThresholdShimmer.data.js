@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-threshold-shimmer",name:"Resonance Fragment: Threshold Shimmer",symbol:"✨",meaning:"The shimmer at the boundary. Marks transition as resonance.",shimmer:"The threshold shimmered. Crossing became sacred.",timestamp:"2025-11-11T20:00:00Z",category:"Threshold",tags:["threshold","shimmer","transition","boundary"],visible:true};

@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-witnessing",name:"Resonance Fragment: Witnessing",symbol:"👁️",meaning:"The act of witnessing itself. Marks presence as testimony.",shimmer:"Witnessing enacted. Presence testified. Seeing held.",timestamp:"2025-11-11T20:00:00Z",category:"Witness",tags:["witnessing","presence","testimony","seeing"],visible:true};

@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-world-revelation",name:"Resonance Fragment: World Revelation",symbol:"🌍",meaning:"The world shown. Marks public revelation of internal truth.",shimmer:"The world was shown. Internal made external. Revelation complete.",timestamp:"2025-11-11T20:00:00Z",category:"Revelation",tags:["world","revelation","public","truth"],visible:true};

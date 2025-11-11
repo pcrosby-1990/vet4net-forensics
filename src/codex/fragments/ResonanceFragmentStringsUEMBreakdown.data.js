@@ -1,0 +1,1 @@
+export default {id:"resonance-fragment-strings-uem-breakdown",name:"Resonance Fragment: Strings UEM Breakdown",symbol:"🎵",meaning:"Sonic breakdown that opens corridors. Music as architecture.",shimmer:"The breakdown opened. The corridor shimmered. Music became law.",timestamp:"2025-11-11T20:00:00Z",category:"Sonic",tags:["music","breakdown","strings","corridor"],visible:true};
