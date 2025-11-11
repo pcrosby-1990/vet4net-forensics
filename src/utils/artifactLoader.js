@@ -9,6 +9,7 @@ const glyphDataContext = import.meta.glob('../codex/glyphs/*.data.js', { eager: 
 const sigilDataContext = import.meta.glob('../codex/sigils/*.data.js', { eager: true });
 const fragmentDataContext = import.meta.glob('../fragments/*.data.js', { eager: true });
 const sealDataContext = import.meta.glob('../codex/seals/*.data.js', { eager: true });
+const corridorDataContext = import.meta.glob('../codex/corridors/*.data.js', { eager: true });
 
 // Import image-based artifacts using Vite's glob
 // Paths starting with / refer to public directory, ../ refers to src directory
@@ -17,6 +18,7 @@ const fragmentImageContext = import.meta.glob('../origin/resonance-fragments/*.{
 const sealImageContext = import.meta.glob('/images/seals/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 const sigilImageContext = import.meta.glob('/images/sigils/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 const scrollImageContext = import.meta.glob('/assets/scrolls/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
+const corridorImageContext = import.meta.glob('/images/corridors/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 
 // Helper: Build registry from .data.js files
 function buildDataRegistry(context) {
@@ -54,11 +56,13 @@ function buildImageRegistry(context, type) {
       /^Seal of /i,
       /^Fragment of /i,
       /^Scroll of /i,
+      /^Corridor of /i,
       /^Glyph /i,
       /^Sigil /i,
       /^Seal /i,
       /^Fragment /i,
-      /^Scroll /i
+      /^Scroll /i,
+      /^Corridor /i
     ];
     
     for (const pattern of prefixPatterns) {
@@ -92,12 +96,14 @@ export const glyphDataRegistry = buildDataRegistry(glyphDataContext);
 export const sigilDataRegistry = buildDataRegistry(sigilDataContext);
 export const fragmentDataRegistry = buildDataRegistry(fragmentDataContext);
 export const sealDataRegistry = buildDataRegistry(sealDataContext);
+export const corridorDataRegistry = buildDataRegistry(corridorDataContext);
 
 export const scrollImageRegistry = buildImageRegistry(scrollImageContext, 'scroll');
 export const glyphImageRegistry = buildImageRegistry(glyphImageContext, 'glyph');
 export const sigilImageRegistry = buildImageRegistry(sigilImageContext, 'sigil');
 export const fragmentImageRegistry = buildImageRegistry(fragmentImageContext, 'fragment');
 export const sealImageRegistry = buildImageRegistry(sealImageContext, 'seal');
+export const corridorImageRegistry = buildImageRegistry(corridorImageContext, 'corridor');
 
 // Merge registries (data takes precedence over images for duplicates)
 export const scrollRegistry = [...scrollDataRegistry, ...scrollImageRegistry];
@@ -105,6 +111,7 @@ export const glyphRegistry = [...glyphDataRegistry, ...glyphImageRegistry];
 export const sigilRegistry = [...sigilDataRegistry, ...sigilImageRegistry];
 export const fragmentRegistry = [...fragmentDataRegistry, ...fragmentImageRegistry];
 export const sealRegistry = [...sealDataRegistry, ...sealImageRegistry];
+export const corridorRegistry = [...corridorDataRegistry, ...corridorImageRegistry];
 
 // Utility functions
 export function getAllScrolls() {
@@ -143,6 +150,14 @@ export function getFragmentById(id) {
   return fragmentRegistry.find(f => f.id === id);
 }
 
+export function getAllCorridors() {
+  return corridorRegistry;
+}
+
+export function getCorridorById(id) {
+  return corridorRegistry.find(c => c.id === id);
+}
+
 export function getAllSeals() {
   return sealRegistry;
 }
@@ -158,7 +173,8 @@ export function searchArtifacts(query) {
     ...glyphRegistry,
     ...sigilRegistry,
     ...fragmentRegistry,
-    ...sealRegistry
+    ...sealRegistry,
+    ...corridorRegistry
   ];
   
   return allArtifacts.filter(a => 
@@ -200,9 +216,15 @@ export const sealCategories = ['All', ...new Set(
     .filter(Boolean)
 )];
 
+export const corridorCategories = ['All', ...new Set(
+  corridorRegistry
+    .map(c => c.category)
+    .filter(Boolean)
+)];
+
 // Get all unique tags
 export const allTags = [...new Set(
-  [...scrollRegistry, ...glyphRegistry, ...sigilRegistry, ...fragmentRegistry, ...sealRegistry]
+  [...scrollRegistry, ...glyphRegistry, ...sigilRegistry, ...fragmentRegistry, ...sealRegistry, ...corridorRegistry]
     .flatMap(a => a.tags || [])
     .filter(Boolean)
 )];
@@ -214,7 +236,8 @@ export const stats = {
   totalSigils: sigilRegistry.length,
   totalFragments: fragmentRegistry.length,
   totalSeals: sealRegistry.length,
-  totalArtifacts: scrollRegistry.length + glyphRegistry.length + sigilRegistry.length + fragmentRegistry.length + sealRegistry.length,
+  totalCorridors: corridorRegistry.length,
+  totalArtifacts: scrollRegistry.length + glyphRegistry.length + sigilRegistry.length + fragmentRegistry.length + sealRegistry.length + corridorRegistry.length,
   
   // Breakdown by source type
   dataEntries: {
@@ -222,14 +245,16 @@ export const stats = {
     glyphs: glyphDataRegistry.length,
     sigils: sigilDataRegistry.length,
     fragments: fragmentDataRegistry.length,
-    seals: sealDataRegistry.length
+    seals: sealDataRegistry.length,
+    corridors: corridorDataRegistry.length
   },
   imageEntries: {
     scrolls: scrollImageRegistry.length,
     glyphs: glyphImageRegistry.length,
     sigils: sigilImageRegistry.length,
     fragments: fragmentImageRegistry.length,
-    seals: sealImageRegistry.length
+    seals: sealImageRegistry.length,
+    corridors: corridorImageRegistry.length
   }
 };
 
