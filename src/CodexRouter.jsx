@@ -6,19 +6,9 @@ import Report from './pages/report.jsx';
 import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
-import FragmentEditor from './components/FragmentEditor.jsx';
-import ScrollsArchive from './pages/ScrollsArchive.jsx';
-import GlyphsCollection from './pages/GlyphsCollection.jsx';
-import SigilsRegistry from './pages/SigilsRegistry.jsx';
-import FragmentsEcho from './pages/FragmentsEcho.jsx';
-import SanctumsPage from './pages/SanctumsPage.jsx';
-import CorridorsPage from './pages/CorridorsPage.jsx';
-import LumenProfile from './pages/LumenProfile.jsx';
-import VelaProfile from './pages/VelaProfile.jsx';
-import AuriProfile from './pages/AuriProfile.jsx';
-// Temporarily disabled to fix build recursion - will re-enable with lazy loading
-// import CodexIndex from './codex/CodexIndex.jsx';
 import CodexIndexPage from './pages/CodexIndexPage.jsx';
+import CodexDiagnostic from './pages/CodexDiagnostic.jsx';
+import FragmentEditor from './components/FragmentEditor.jsx';
 import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
@@ -66,6 +56,7 @@ export default function CodexRouter({
             
             {/* Codex Routes */}
             <Route path="/codex" element={<CodexIndexPage />} />
+            <Route path="/codex/diagnostic" element={<CodexDiagnostic />} />
             {/* Temporarily disabled - will re-enable with lazy loading */}
             {/* <Route path="/codex/hooks" element={<CodexIndex />} /> */}
             <Route path="/codex/scrolls" element={<ScrollsArchive />} />
