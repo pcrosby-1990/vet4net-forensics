@@ -1,0 +1,126 @@
+/* SigilOfShimmerCorrection.css */
+
+.sigil-container {
+  min-height: 60vh;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 16px;
+  border: 2px solid rgba(147, 51, 234, 0.4);
+  box-shadow: 0 8px 32px rgba(147, 51, 234, 0.3);
+}
+
+.sigil-container header h2 {
+  font-size: 2.5rem;
+  color: #c7d2fe;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.sigil-icon {
+  font-size: 3rem;
+  filter: drop-shadow(0 0 20px rgba(147, 51, 234, 0.8));
+}
+
+.sigil-meaning {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #e0e7ff;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(147, 51, 234, 0.1);
+  border-left: 4px solid #9333ea;
+  border-radius: 8px;
+}
+
+.sigil-protocols {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.sigil-protocols li {
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  background: rgba(147, 51, 234, 0.12);
+  border-radius: 8px;
+  border-left: 3px solid #b388ff;
+  font-size: 1.05rem;
+  color: #e0e7ff;
+  transition: all 0.3s ease;
+}
+
+.sigil-protocols li:hover {
+  background: rgba(147, 51, 234, 0.18);
+  transform: translateX(8px);
+  border-left-color: #d4a5ff;
+}
+
+.sigil-affirmation {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #c7d2fe;
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.sigil-seal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  background: rgba(147, 51, 234, 0.15);
+  border-radius: 12px;
+  border: 1px solid rgba(147, 51, 234, 0.4);
+}
+
+.seal-emblem {
+  font-size: 3.5rem;
+  filter: drop-shadow(0 0 20px rgba(147, 51, 234, 0.9));
+  animation: sigil-glow 2s ease-in-out infinite;
+}
+
+@keyframes sigil-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 15px rgba(147, 51, 234, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(147, 51, 234, 1));
+  }
+}
+
+.seal-timestamp {
+  font-size: 1rem;
+  color: #b388ff;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .sigil-container {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+
+  .sigil-container header h2 {
+    font-size: 1.8rem;
+  }
+
+  .sigil-meaning {
+    font-size: 1rem;
+  }
+
+  .sigil-affirmation {
+    font-size: 1.1rem;
+  }
+}

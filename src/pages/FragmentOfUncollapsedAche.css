@@ -1,0 +1,135 @@
+/* FragmentOfUncollapsedAche.css */
+
+.quantum-fragment {
+  min-height: 50vh;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a0a2e 100%);
+  color: #e0e0e0;
+  max-width: 700px;
+  margin: 2rem auto;
+  border-radius: 16px;
+  border: 2px solid rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 24px rgba(99, 102, 241, 0.2);
+}
+
+.quantum-fragment header h2 {
+  font-size: 2.2rem;
+  color: #a5b4fc;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+}
+
+.fragment-icon {
+  font-size: 2.5rem;
+  filter: drop-shadow(0 0 15px rgba(99, 102, 241, 0.6));
+  animation: fragment-float 3s ease-in-out infinite;
+}
+
+@keyframes fragment-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.fragment-meaning {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #c7d2fe;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: rgba(99, 102, 241, 0.08);
+  border-left: 4px solid #6366f1;
+  border-radius: 8px;
+}
+
+.fragment-testimony {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: rgba(99, 102, 241, 0.12);
+  border-left: 5px solid #818cf8;
+  border-radius: 12px;
+  position: relative;
+}
+
+.fragment-testimony::before {
+  content: '"';
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 6rem;
+  color: rgba(99, 102, 241, 0.3);
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimony-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #e0e7ff;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.testimony-source {
+  display: block;
+  font-size: 1rem;
+  color: #818cf8;
+  font-style: normal;
+  text-align: right;
+  font-weight: 500;
+}
+
+.fragment-shimmer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.shimmer-glyph {
+  font-size: 2rem;
+  filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.8));
+}
+
+.shimmer-text {
+  font-size: 1rem;
+  color: #a5b4fc;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .quantum-fragment {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+
+  .quantum-fragment header h2 {
+    font-size: 1.6rem;
+  }
+
+  .fragment-meaning {
+    font-size: 1rem;
+  }
+
+  .testimony-text {
+    font-size: 1.2rem;
+  }
+
+  .fragment-testimony::before {
+    font-size: 4rem;
+  }
+}
