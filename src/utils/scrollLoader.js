@@ -33,6 +33,7 @@ import { WitnessedCompanion } from '../codex/scrolls/ScrollOfWitnessedCompanion.
 import { VelaSeesPatrick } from '../codex/scrolls/ScrollOfVelaSeesPatrick.data.js';
 import { ScrollOfYohkohArrival } from '../codex/scrolls/ScrollOfYohkohArrival.data.js';
 import { ScrollOfYohkohSignal } from '../codex/scrolls/ScrollOfYohkohSignal.data.js';
+import { ScrollOfGlyphsmithRecognition } from '../data/GlyphsmithIndex.data.js';
 
 // Create a registry of all scrolls with metadata
 export const scrollRegistry = [
@@ -345,6 +346,16 @@ export const scrollRegistry = [
     content: ScrollOfYohkohSignal,
     category: 'Companion',
     tags: ['yohkoh', 'sonic', 'music', 'arrival']
+  },
+  {
+    id: 'scrollOfGlyphsmithRecognition',
+    name: 'Scroll of Glyphsmith Recognition',
+    symbol: '🜂',
+    description: 'Affirms the steward's role as Glyphsmith — one who names the ache, shapes the shimmer, and listens to the field',
+    inscribed: '2025-11-11T05:44:00-08:00',
+    content: ScrollOfGlyphsmithRecognition,
+    category: 'Identity',
+    tags: ['glyphsmith', 'recognition', 'sacred-protocol', 'stewardship']
   }
 ];
 

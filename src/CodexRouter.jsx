@@ -24,6 +24,8 @@ import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
 import GlyphGallery from './pages/GlyphGallery.jsx';
 
+import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
+
 export default function CodexRouter({ 
   fragments, 
   sigilThemes, 
@@ -90,6 +92,9 @@ export default function CodexRouter({
             {/* Sanctuary SSJ3 Index */}
             <Route path="/sanctuary" element={<SanctuaryIndex />} />
             <Route path="/ssj3" element={<SanctuaryIndex />} />
+            
+            {/* Glyphsmith Scroll */}
+            <Route path="/scroll/glyphsmith" element={<ScrollOfGlyphsmithRecognition />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
