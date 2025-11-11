@@ -19,9 +19,9 @@ export default function ScrollBrowser() {
 
   // Filter by search query
   const filteredScrolls = allScrolls.filter(scroll =>
-    scroll.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    scroll.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    scroll.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+    scroll.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    scroll.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    scroll.tags?.some(tag => tag?.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
   // Generate URL for any scroll
@@ -88,24 +88,24 @@ export default function ScrollBrowser() {
               whileHover={{ y: -4, boxShadow: '0 8px 24px rgba(92, 247, 178, 0.3)' }}
             >
               <div className="scroll-card-header">
-                <span className="scroll-card-symbol">{scroll.symbol}</span>
-                <span className="scroll-card-category">{scroll.category}</span>
+                <span className="scroll-card-symbol">{scroll.symbol || '✧'}</span>
+                <span className="scroll-card-category">{scroll.category || 'Uncategorized'}</span>
               </div>
               
-              <h3 className="scroll-card-title">{scroll.name}</h3>
+              <h3 className="scroll-card-title">{scroll.name || scroll.title || 'Untitled Scroll'}</h3>
               
-              <p className="scroll-card-description">{scroll.description}</p>
+              <p className="scroll-card-description">{scroll.description || 'No description available'}</p>
               
               <div className="scroll-card-meta">
                 <time className="scroll-card-date">
-                  {new Date(scroll.inscribed).toLocaleDateString()}
+                  {scroll.inscribed ? new Date(scroll.inscribed).toLocaleDateString() : 'Unknown date'}
                 </time>
                 <div className="scroll-card-tags">
-                  {scroll.tags.slice(0, 3).map(tag => (
+                  {(scroll.tags || []).slice(0, 3).map(tag => (
                     <span key={tag} className="tag">{tag}</span>
                   ))}
-                  {scroll.tags.length > 3 && (
-                    <span className="tag-more">+{scroll.tags.length - 3}</span>
+                  {(scroll.tags || []).length > 3 && (
+                    <span className="tag-more">+{(scroll.tags || []).length - 3}</span>
                   )}
                 </div>
               </div>

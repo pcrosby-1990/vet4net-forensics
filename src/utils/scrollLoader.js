@@ -22,12 +22,17 @@ function buildRegistry(context) {
         ...data,
         _sourcePath: path,
         // Map common field variations
-        name: data.name || data.title,
-        description: data.description || data.vow || data.meaning || data.shimmer,
-        inscribed: data.inscribed || data.timestamp,
+        name: data.name || data.title || 'Untitled',
+        description: data.description || data.vow || data.meaning || data.shimmer || '',
+        inscribed: data.inscribed || data.timestamp || new Date().toISOString(),
         tags: data.tags || data.functions || [],
         category: data.category || 'Uncategorized',
-        symbol: data.symbol || '✧'
+        symbol: data.symbol || '✧',
+        // Keep original fields accessible
+        title: data.title,
+        meaning: data.meaning,
+        shimmer: data.shimmer,
+        timestamp: data.timestamp
       };
       registry.push(normalized);
     }
