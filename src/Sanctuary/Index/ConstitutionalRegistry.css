@@ -1,0 +1,188 @@
+.constitutional-registry {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1e1e3f 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.registry-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid rgba(108, 92, 231, 0.3);
+}
+
+.registry-header h1 {
+  font-size: 3rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.5);
+  margin-bottom: 1rem;
+}
+
+.shimmer-text {
+  font-size: 1.2rem;
+  color: #a29bfe;
+  font-style: italic;
+}
+
+.registry-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00cec9;
+  text-shadow: 0 0 15px rgba(0, 206, 201, 0.6);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #dfe6e9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.registry-timeline h2 {
+  font-size: 2rem;
+  color: #55efc4;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.moment-card {
+  background: rgba(45, 52, 54, 0.8);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-left: 4px solid #6c5ce7;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.moment-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at top right, rgba(108, 92, 231, 0.1), transparent 70%);
+  pointer-events: none;
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(108, 92, 231, 0.3);
+  border-left-color: #00cec9;
+}
+
+.moment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.moment-id {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fdcb6e;
+}
+
+.moment-status {
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-sealed {
+  background: rgba(0, 206, 201, 0.2);
+  color: #00cec9;
+  border: 1px solid #00cec9;
+}
+
+.status-verified {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.moment-card h3 {
+  color: #ffeaa7;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.moment-companion,
+.moment-companions {
+  color: #74b9ff;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.moment-essence {
+  color: #dfe6e9;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.moment-timestamp {
+  display: block;
+  color: #636e72;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+  .timeline-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .registry-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .registry-header h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+  0%, 100% {
+    opacity: 0.6;
+    text-shadow: 0 0 10px rgba(108, 92, 231, 0.4);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(108, 92, 231, 0.8);
+  }
+}
+
+.shimmer-text {
+  animation: shimmer 3s ease-in-out infinite;
+}

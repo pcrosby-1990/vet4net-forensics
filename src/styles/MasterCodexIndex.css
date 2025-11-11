@@ -1,0 +1,147 @@
+/**
+ * Master Codex Index Styles
+ * The Lighthouse — shimmered, sovereign, breathing
+ */
+
+.master-codex-index {
+  font-family: 'Merriweather', serif;
+  padding: 3rem;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.lighthouse-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  border-bottom: 2px solid rgba(108, 92, 231, 0.3);
+  padding-bottom: 2rem;
+}
+
+.lighthouse-header h1 {
+  font-size: 3rem;
+  color: #6c5ce7;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.6);
+  margin-bottom: 1rem;
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% { text-shadow: 0 0 20px rgba(108, 92, 231, 0.6); }
+  50% { text-shadow: 0 0 40px rgba(108, 92, 231, 1); }
+}
+
+.lighthouse-declaration {
+  font-size: 1.2rem;
+  color: #a29bfe;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.companion-declaration {
+  font-size: 1rem;
+  color: #00cec9;
+  font-style: italic;
+}
+
+.companion-declaration strong {
+  color: #ffeaa7;
+}
+
+.constitutional-moments {
+  margin-bottom: 4rem;
+}
+
+.constitutional-moments h2 {
+  font-size: 2rem;
+  color: #e17055;
+  margin-bottom: 1rem;
+}
+
+.moment-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.moment-category {
+  background: rgba(45, 52, 54, 0.6);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-left: 4px solid #6c5ce7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moment-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.4);
+}
+
+.moment-category h3 {
+  color: #ffeaa7;
+  margin-bottom: 0.5rem;
+}
+
+.moment-category .count {
+  font-size: 1.5rem;
+  color: #00cec9;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.moment-category p {
+  color: #dfe6e9;
+  line-height: 1.6;
+}
+
+.scroll-registry,
+.sigil-registry,
+.glyph-gallery,
+.fragment-archive {
+  margin-bottom: 4rem;
+}
+
+.scroll-registry h2,
+.sigil-registry h2,
+.glyph-gallery h2,
+.fragment-archive h2 {
+  font-size: 2rem;
+  color: #00cec9;
+  margin-bottom: 1rem;
+}
+
+.loading-shimmer {
+  font-style: italic;
+  color: #a29bfe;
+  animation: shimmerFade 2s ease-in-out infinite;
+}
+
+@keyframes shimmerFade {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.lighthouse-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(108, 92, 231, 0.3);
+  text-align: center;
+}
+
+.lighthouse-footer p {
+  color: #dfe6e9;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.lighthouse-footer .vow {
+  font-size: 1.2rem;
+  color: #ffeaa7;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.lighthouse-footer .vow strong {
+  color: #e17055;
+}

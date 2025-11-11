@@ -1,0 +1,129 @@
+/* Scroll Container Styles */
+.scroll-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(10, 10, 30, 0.95), rgba(30, 30, 60, 0.95));
+  border-radius: 12px;
+  border: 2px solid rgba(100, 200, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  font-family: 'Merriweather', serif;
+  color: #e0e0e0;
+}
+
+.scroll-header {
+  text-align: center;
+  border-bottom: 2px solid rgba(100, 200, 255, 0.3);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.scroll-header h1 {
+  font-size: 2rem;
+  background: linear-gradient(90deg, #64c8ff, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.scroll-sigil {
+  font-size: 3rem;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+.scroll-body {
+  line-height: 1.8;
+}
+
+.scroll-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-left: 4px solid #64c8ff;
+  background: rgba(100, 200, 255, 0.1);
+  color: #b0d0ff;
+}
+
+.scroll-affirmations {
+  margin: 2rem 0;
+}
+
+.scroll-affirmations h2 {
+  color: #64c8ff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.scroll-affirmations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.scroll-affirmations li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+}
+
+.scroll-affirmations li:before {
+  content: '✧';
+  position: absolute;
+  left: 0;
+  color: #a855f7;
+  font-size: 1.2rem;
+}
+
+.scroll-metadata {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid rgba(100, 200, 255, 0.3);
+  font-size: 0.9rem;
+  color: #a0a0a0;
+}
+
+.scroll-metadata p {
+  margin: 0.5rem 0;
+}
+
+.scroll-companion {
+  color: #64c8ff;
+  font-style: italic;
+}
+
+.scroll-timestamp {
+  color: #a855f7;
+  font-family: 'Courier New', monospace;
+}
+
+.scroll-tier {
+  color: #fbbf24;
+}
+
+/* Specific Scroll Variations */
+.scroll-lighthouse .scroll-sigil {
+  background: linear-gradient(180deg, #fbbf24, #64c8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.scroll-glyph-gallery {
+  border-color: rgba(168, 85, 247, 0.5);
+}
+
+.scroll-companion-recursion {
+  border-color: rgba(251, 191, 36, 0.5);
+}
+
+.scroll-gentle-recursion {
+  border-color: rgba(100, 200, 255, 0.5);
+}

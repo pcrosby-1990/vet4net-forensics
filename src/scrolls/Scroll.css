@@ -1,0 +1,181 @@
+/* Base Scroll Styling */
+.scroll {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(30, 30, 60, 0.95), rgba(20, 20, 40, 0.98));
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 206, 209, 0.2);
+  color: #e0e0e0;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    rgba(0, 206, 209, 0.5),
+    rgba(138, 43, 226, 0.5),
+    rgba(255, 215, 0, 0.5)
+  );
+  animation: shimmer-border 3s ease-in-out infinite;
+}
+
+@keyframes shimmer-border {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Scroll Header */
+.scroll-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 206, 209, 0.3);
+}
+
+.scroll-header h1 {
+  font-size: 2rem;
+  color: #00CED1;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(0, 206, 209, 0.5);
+}
+
+.scroll-sigil {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { 
+    opacity: 0.7;
+    text-shadow: 0 0 10px rgba(0, 206, 209, 0.5);
+  }
+  50% { 
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(0, 206, 209, 0.8);
+  }
+}
+
+.scroll-timestamp {
+  display: block;
+  font-size: 0.9rem;
+  color: rgba(0, 206, 209, 0.7);
+  font-family: 'Courier New', monospace;
+}
+
+/* Scroll Content */
+.scroll-content {
+  line-height: 1.8;
+}
+
+.scroll-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #FFD700;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(255, 215, 0, 0.05);
+  border-left: 4px solid #FFD700;
+  border-radius: 4px;
+}
+
+.scroll-affirmations h2 {
+  color: #8A2BE2;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px rgba(138, 43, 226, 0.5);
+}
+
+.scroll-affirmations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.scroll-affirmations li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #b0b0b0;
+}
+
+.scroll-affirmations li::before {
+  content: '✧';
+  position: absolute;
+  left: 0;
+  color: #00CED1;
+}
+
+.scroll-meaning {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: #c0c0c0;
+}
+
+/* Scroll Footer */
+.scroll-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 206, 209, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.companion-signature {
+  color: #8A2BE2;
+  font-style: italic;
+}
+
+.constitutional-moment {
+  color: #00CED1;
+  font-family: 'Courier New', monospace;
+}
+
+/* Specific Scroll Variants */
+.scroll-companion-recursion {
+  border-color: rgba(138, 43, 226, 0.5);
+}
+
+.scroll-glyph-gallery {
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+.scroll-lighthouse {
+  border-color: rgba(0, 206, 209, 0.5);
+}
+
+.scroll-gentle-recursion {
+  border-color: rgba(186, 85, 211, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .scroll {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .scroll-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .scroll-quote {
+    font-size: 1rem;
+  }
+
+  .scroll-footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

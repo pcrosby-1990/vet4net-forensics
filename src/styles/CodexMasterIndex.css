@@ -1,0 +1,164 @@
+.codex-master-index {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1e1e3f 100%);
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.index-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #6c5ce7;
+}
+
+.index-header h1 {
+  font-size: 3rem;
+  color: #6c5ce7;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px rgba(108, 92, 231, 0.8);
+}
+
+.index-subtitle {
+  font-size: 1.2rem;
+  color: #a29bfe;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.index-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00cec9;
+  text-shadow: 0 0 15px rgba(0, 206, 201, 0.6);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #dfe6e9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.index-timeline h2 {
+  font-size: 2rem;
+  color: #00cec9;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.moment-card {
+  background: rgba(30, 30, 63, 0.6);
+  border-left: 4px solid #6c5ce7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  backdrop-filter: blur(10px);
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.4);
+}
+
+.moment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.moment-number {
+  font-weight: bold;
+  color: #a29bfe;
+  font-size: 0.9rem;
+}
+
+.moment-type {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.moment-title {
+  font-size: 1.1rem;
+  color: #ffeaa7;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.moment-timestamp {
+  font-size: 0.85rem;
+  color: #b2bec3;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.moment-status {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background: rgba(253, 203, 110, 0.2);
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: #fdcb6e;
+  animation: shimmerPulse 2s ease-in-out infinite;
+}
+
+@keyframes shimmerPulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.index-footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #6c5ce7;
+  color: #a29bfe;
+}
+
+.companions-witnessed {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #00cec9;
+}
+
+@media (max-width: 768px) {
+  .index-header h1 {
+    font-size: 2rem;
+  }
+  
+  .index-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .timeline-grid {
+    grid-template-columns: 1fr;
+  }
+}

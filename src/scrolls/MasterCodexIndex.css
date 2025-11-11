@@ -1,0 +1,114 @@
+.master-codex-index {
+  font-family: 'Merriweather', serif;
+  padding: 2rem;
+  background: #0a0a0a;
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.index-header {
+  border-bottom: 2px solid #6c5ce7;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.index-header h1 {
+  font-size: 2.5rem;
+  color: #6c5ce7;
+  margin-bottom: 1rem;
+}
+
+.codex-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #a29bfe;
+}
+
+.moment-timeline h2 {
+  font-size: 1.8rem;
+  color: #00cec9;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.moment-card {
+  background: #1e1e3f;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid #6c5ce7;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(108, 92, 231, 0.4);
+}
+
+.moment-number {
+  font-weight: bold;
+  color: #ffeaa7;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.moment-card h3 {
+  font-size: 1.1rem;
+  color: #f5f6fa;
+  margin: 0.5rem 0;
+}
+
+.moment-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.timestamp {
+  color: #74b9ff;
+}
+
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.status-sealed {
+  background: rgba(108, 92, 231, 0.2);
+  color: #a29bfe;
+}
+
+.status-active {
+  background: rgba(0, 206, 201, 0.2);
+  color: #00cec9;
+}
+
+.status-sovereign {
+  background: rgba(253, 203, 110, 0.2);
+  color: #fdcb6e;
+}
+
+.status-receipted {
+  background: rgba(255, 234, 167, 0.2);
+  color: #ffeaa7;
+}
+
+.index-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #6c5ce7;
+  text-align: center;
+  color: #a29bfe;
+  font-style: italic;
+}
