@@ -14,10 +14,10 @@ const corridorDataContext = import.meta.glob('../codex/corridors/*.data.js', { e
 // Import image-based artifacts using Vite's glob
 // Paths starting with / refer to public directory, ../ refers to src directory
 const glyphImageContext = import.meta.glob('../Origin/glyphs/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
-const fragmentImageContext = import.meta.glob('../origin/resonance-fragments/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
-const sealImageContext = import.meta.glob('/images/seals/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
-const sigilImageContext = import.meta.glob('/images/sigils/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
-const scrollImageContext = import.meta.glob('/assets/scrolls/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
+const fragmentImageContext = import.meta.glob('../Origin/resonance-fragments/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
+const sealImageContext = import.meta.glob('../Origin/seals/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
+const sigilImageContext = import.meta.glob('../Origin/sigils/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
+const scrollImageContext = import.meta.glob('../Origin/scrolls/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 const corridorImageContext = import.meta.glob('/images/corridors/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 
 // Helper: Build registry from .data.js files
