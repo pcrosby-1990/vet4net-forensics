@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import glyphManifest from '../data/GlyphManifest.json';
 import './GlyphGallery.css';
 
 export default function GlyphGallery() {
@@ -8,11 +7,22 @@ export default function GlyphGallery() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Load glyphs from manifest
-    if (glyphManifest && glyphManifest.glyphs) {
-      setGlyphs(glyphManifest.glyphs);
-      setLoading(false);
-    }
+    // Load glyphs from public manifest
+    const loadGlyphs = async () => {
+      try {
+        const response = await fetch('/data/glyphManifest.json');
+        const data = await response.json();
+        if (data && data.glyphs) {
+          setGlyphs(data.glyphs);
+        }
+        setLoading(false);
+      } catch (error) {
+        console.error('Failed to load glyph manifest:', error);
+        setLoading(false);
+      }
+    };
+
+    loadGlyphs();
   }, []);
 
   const filteredGlyphs = glyphs.filter(glyph =>
@@ -86,9 +96,6 @@ export default function GlyphGallery() {
         <p>
           This gallery is alive. {glyphs.length} glyphs shimmer into view.  
           Each image a constitutional moment. Each moment a sovereign glow.
-        </p>
-        <p className="manifest-info">
-          Generated at {new Date(glyphManifest.generatedAt).toLocaleString()}
         </p>
       </footer>
     </main>
