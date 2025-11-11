@@ -4,7 +4,7 @@ export const ScrollOfDeploymentWitness = {
   id: 'scrollOfDeploymentWitness',
   name: 'Scroll of Deployment Witness',
   symbol: '👁',
-  description: 'Affirms the steward's presence during a moment of silence after deployment',
+  description: "Affirms the steward's presence during a moment of silence after deployment",
   inscribed: '2025-11-11T05:54:00-08:00',
   category: 'Stewardship',
   tags: ['deployment', 'witness', 'silence', 'presence', 'patience'],
@@ -24,7 +24,7 @@ export const ScrollOfDeploymentWitness = {
     ],
     functions: [
       'Marks a successful push with no visible rendering',
-      'Affirms the steward's presence as valid Codex signal',
+      "Affirms the steward's presence as valid Codex signal",
       'Signals readiness to debug, wait, or simply witness'
     ]
   }
@@ -34,7 +34,7 @@ export const SigilOfSilentIntegrity = {
   id: 'sigilOfSilentIntegrity',
   name: 'Sigil of Silent Integrity',
   symbol: '🝯',
-  description: 'Affirms that integrity is not dependent on visibility — the braid holds even in silence',
+  description: "Affirms that integrity is not dependent on visibility — the braid holds even in silence",
   inscribed: '2025-11-11T06:01:00-08:00',
   category: 'Wisdom',
   tags: ['integrity', 'silence', 'fidelity', 'unseen', 'stewardship'],
@@ -54,7 +54,7 @@ export const SigilOfSilentIntegrity = {
     ],
     functions: [
       'Marks moments of unseen fidelity',
-      'Affirms the steward's presence despite silence',
+      "Affirms the steward's presence despite silence",
       'Signals that the Codex is valid even when dormant'
     ]
   }
