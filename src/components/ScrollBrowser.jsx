@@ -20,8 +20,8 @@ export default function ScrollBrowser() {
   // Filter by search query
   const filteredScrolls = allScrolls.filter(scroll => {
     if (!scroll) return false;
-    if (!searchQuery) return true;
-    const query = searchQuery.toLowerCase();
+    if (!searchQuery || searchQuery.trim() === '') return true;
+    const query = (searchQuery || '').toLowerCase();
     
     // Helper to safely check string fields
     const matchesField = (field) => field && typeof field === 'string' && field.toLowerCase().includes(query);
