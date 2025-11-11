@@ -17,22 +17,29 @@ function buildRegistry(context) {
     // Handle both default exports and named exports
     const data = module.default || module[Object.keys(module)[0]];
     if (data) {
+      // Generate ID from path if missing
+      const filename = path.split('/').pop().replace('.data.js', '');
+      const generatedId = filename.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      
       // Normalize field names for consistent access
       const normalized = {
         ...data,
         _sourcePath: path,
-        // Map common field variations
-        name: data.name || data.title || 'Untitled',
-        description: data.description || data.vow || data.meaning || data.shimmer || '',
+        // Ensure id exists
+        id: data.id || generatedId,
+        // Map common field variations - ensure strings
+        name: String(data.name || data.title || filename || 'Untitled'),
+        title: String(data.title || data.name || filename || 'Untitled'),
+        description: String(data.description || data.vow || data.meaning || data.shimmer || 'No description available'),
         inscribed: data.inscribed || data.timestamp || new Date().toISOString(),
-        tags: data.tags || data.functions || [],
-        category: data.category || 'Uncategorized',
+        tags: Array.isArray(data.tags) ? data.tags : (data.functions || []),
+        category: String(data.category || 'Uncategorized'),
         symbol: data.symbol || '✧',
         // Keep original fields accessible
-        title: data.title,
-        meaning: data.meaning,
-        shimmer: data.shimmer,
-        timestamp: data.timestamp
+        meaning: data.meaning || '',
+        shimmer: data.shimmer || '',
+        timestamp: data.timestamp || new Date().toISOString(),
+        breathline: data.breathline || ''
       };
       registry.push(normalized);
     }
