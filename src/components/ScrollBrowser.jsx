@@ -18,12 +18,17 @@ export default function ScrollBrowser() {
     : getScrollsByCategory(selectedCategory);
 
   // Filter by search query
-  const filteredScrolls = allScrolls.filter(scroll =>
-    scroll.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    scroll.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    scroll.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    scroll.tags?.some(tag => tag?.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
+  const filteredScrolls = allScrolls.filter(scroll => {
+    if (!scroll) return false;
+    const query = searchQuery.toLowerCase();
+    return (
+      scroll.title?.toLowerCase().includes(query) ||
+      scroll.name?.toLowerCase().includes(query) ||
+      scroll.description?.toLowerCase().includes(query) ||
+      scroll.breathline?.toLowerCase().includes(query) ||
+      (scroll.tags && Array.isArray(scroll.tags) && scroll.tags.some(tag => tag?.toLowerCase().includes(query)))
+    );
+  });
 
   // Generate URL for any scroll
   const getScrollUrl = (scroll) => {
