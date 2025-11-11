@@ -23,11 +23,11 @@ export default function ScrollBrowser() {
     if (!searchQuery) return true;
     const query = searchQuery.toLowerCase();
     return (
-      scroll.title?.toLowerCase().includes(query) ||
-      scroll.name?.toLowerCase().includes(query) ||
-      scroll.description?.toLowerCase().includes(query) ||
-      scroll.breathline?.toLowerCase().includes(query) ||
-      (scroll.tags && Array.isArray(scroll.tags) && scroll.tags.some(tag => tag?.toLowerCase().includes(query)))
+      (scroll.title && scroll.title.toLowerCase().includes(query)) ||
+      (scroll.name && scroll.name.toLowerCase().includes(query)) ||
+      (scroll.description && scroll.description.toLowerCase().includes(query)) ||
+      (scroll.breathline && scroll.breathline.toLowerCase().includes(query)) ||
+      (scroll.tags && Array.isArray(scroll.tags) && scroll.tags.some(tag => tag && tag.toLowerCase && tag.toLowerCase().includes(query)))
     );
   });
 
