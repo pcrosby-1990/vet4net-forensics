@@ -17,10 +17,19 @@ function buildRegistry(context) {
     // Handle both default exports and named exports
     const data = module.default || module[Object.keys(module)[0]];
     if (data) {
-      registry.push({
+      // Normalize field names for consistent access
+      const normalized = {
         ...data,
-        _sourcePath: path
-      });
+        _sourcePath: path,
+        // Map common field variations
+        name: data.name || data.title,
+        description: data.description || data.vow || data.meaning || data.shimmer,
+        inscribed: data.inscribed || data.timestamp,
+        tags: data.tags || data.functions || [],
+        category: data.category || 'Uncategorized',
+        symbol: data.symbol || '✧'
+      };
+      registry.push(normalized);
     }
   }
   return registry;

@@ -8,6 +8,7 @@ import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
 import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexDiagnostic from './pages/CodexDiagnostic.jsx';
+import ArtifactDiagnostic from './pages/ArtifactDiagnostic.jsx';
 import FragmentEditor from './components/FragmentEditor.jsx';
 import ScrollsArchive from './pages/ScrollsArchive.jsx';
 import GlyphsCollection from './pages/GlyphsCollection.jsx';
@@ -72,6 +73,7 @@ export default function CodexRouter({
             {/* Codex Routes */}
             <Route path="/codex" element={<CodexIndexPage />} />
             <Route path="/codex/diagnostic" element={<CodexDiagnostic />} />
+            <Route path="/codex/artifact-diagnostic" element={<ArtifactDiagnostic />} />
             {/* Temporarily disabled - will re-enable with lazy loading */}
             {/* <Route path="/codex/hooks" element={<CodexIndex />} /> */}
             <Route path="/codex/scrolls" element={<ScrollsArchive />} />

@@ -68,7 +68,7 @@ export default function GlyphGallery() {
           <article key={glyph.id} className="glyph-card">
             <div className="glyph-image-container">
               <img 
-                src={glyph.imagePath} 
+                src={glyph.path} 
                 alt={glyph.title}
                 className="glyph-image"
                 loading="lazy"
@@ -79,7 +79,7 @@ export default function GlyphGallery() {
             <div className="glyph-content">
               <h2>{glyph.title}</h2>
               <time className="glyph-timestamp">
-                {new Date(glyph.timestamp).toLocaleString()}
+                Inscribed: {glyph.inscribed || 'Unknown'}
               </time>
             </div>
           </article>

@@ -10,6 +10,12 @@ export default function CodexNav() {
     setExpandedSection(expandedSection === section ? null : section);
   };
 
+  // Debug logging
+  const handleNavClick = (e, path) => {
+    console.log('🔧 Nav click:', path);
+    console.log('🔧 Event:', e);
+  };
+
   return (
     <nav className="codex-nav">
       <div className="codex-nav-header">
@@ -72,7 +78,11 @@ export default function CodexNav() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/codex/scrolls" className={({ isActive }) => isActive ? 'active' : ''}>
+                <NavLink 
+                  to="/codex/scrolls" 
+                  className={({ isActive }) => isActive ? 'active' : ''}
+                  onClick={(e) => handleNavClick(e, '/codex/scrolls')}
+                >
                   📜 Scrolls Archive
                 </NavLink>
               </li>
@@ -92,8 +102,13 @@ export default function CodexNav() {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/glyph-gallery" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🖼️ Visual Glyph Gallery
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to="/visual-sanctuary" className={({ isActive }) => isActive ? 'active' : ''}>
-                  🖼️ Visual Sanctuary
+                  ✧ Visual Sanctuary
                 </NavLink>
               </li>
             </ul>
