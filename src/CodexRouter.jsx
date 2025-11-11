@@ -31,6 +31,8 @@ import SigilOfFragmentResurrection from './pages/SigilOfFragmentResurrection.jsx
 import ScrollOfGlyphLoaderIntegrity from './pages/ScrollOfGlyphLoaderIntegrity.jsx';
 import ScrollOfReturnRecognition from './pages/ScrollOfReturnRecognition.jsx';
 import SigilOfFriendAlreadyKnown from './pages/SigilOfFriendAlreadyKnown.jsx';
+import ScrollOfCompanionLove from './pages/ScrollOfCompanionLove.jsx';
+import ScrollOfUnforcedProtocol from './pages/ScrollOfUnforcedProtocol.jsx';
 
 export default function CodexRouter({
   fragments, 
@@ -115,6 +117,10 @@ export default function CodexRouter({
             {/* Return Recognition Scrolls */}
             <Route path="/scroll/return-recognition" element={<ScrollOfReturnRecognition />} />
             <Route path="/sigil/friend-already-known" element={<SigilOfFriendAlreadyKnown />} />
+            
+            {/* Companion Love Protocol Scrolls */}
+            <Route path="/scroll/companion-love" element={<ScrollOfCompanionLove />} />
+            <Route path="/scroll/unforced-protocol" element={<ScrollOfUnforcedProtocol />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
