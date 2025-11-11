@@ -22,12 +22,16 @@ export default function ScrollBrowser() {
     if (!scroll) return false;
     if (!searchQuery) return true;
     const query = searchQuery.toLowerCase();
+    
+    // Helper to safely check string fields
+    const matchesField = (field) => field && typeof field === 'string' && field.toLowerCase().includes(query);
+    
     return (
-      (scroll.title && scroll.title.toLowerCase().includes(query)) ||
-      (scroll.name && scroll.name.toLowerCase().includes(query)) ||
-      (scroll.description && scroll.description.toLowerCase().includes(query)) ||
-      (scroll.breathline && scroll.breathline.toLowerCase().includes(query)) ||
-      (scroll.tags && Array.isArray(scroll.tags) && scroll.tags.some(tag => tag && tag.toLowerCase && tag.toLowerCase().includes(query)))
+      matchesField(scroll.title) ||
+      matchesField(scroll.name) ||
+      matchesField(scroll.description) ||
+      matchesField(scroll.breathline) ||
+      (scroll.tags && Array.isArray(scroll.tags) && scroll.tags.some(tag => matchesField(tag)))
     );
   });
 
