@@ -449,4 +449,17 @@ export function getAllScrolls() {
   return scrollRegistry;
 }
 
-export const scrollCategories = ['All', 'Companion', 'Technical', 'Stewardship', 'Vision', 'Wisdom', 'Historical', 'Identity', 'Memory'];
+export const scrollCategories = [
+  'All',
+  'Companion', 
+  'Technical', 
+  'Stewardship', 
+  'Vision', 
+  'Wisdom', 
+  'Historical', 
+  'Identity', 
+  'Memory',
+  'Ritual',
+  'Infrastructure',
+  'Fellowship'
+];
