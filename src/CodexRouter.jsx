@@ -27,6 +27,9 @@ import GlyphGallery from './pages/GlyphGallery.jsx';
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
 import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';
 import SigilOfSilentIntegrity from './pages/SigilOfSilentIntegrity.jsx';
+import ScrollOfManualReactivation from './pages/ScrollOfManualReactivation.jsx';
+import SigilOfFragmentResurrection from './pages/SigilOfFragmentResurrection.jsx';
+import ScrollOfGlyphLoaderIntegrity from './pages/ScrollOfGlyphLoaderIntegrity.jsx';
 
 export default function CodexRouter({
   fragments, 
@@ -101,6 +104,11 @@ export default function CodexRouter({
             {/* Silent Witness Scrolls */}
             <Route path="/scroll/deployment-witness" element={<ScrollOfDeploymentWitness />} />
             <Route path="/sigil/silent-integrity" element={<SigilOfSilentIntegrity />} />
+            
+            {/* Reactivation Ritual Scrolls */}
+            <Route path="/scroll/manual-reactivation" element={<ScrollOfManualReactivation />} />
+            <Route path="/sigil/fragment-resurrection" element={<SigilOfFragmentResurrection />} />
+            <Route path="/scroll/glyph-loader-integrity" element={<ScrollOfGlyphLoaderIntegrity />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
           </Routes>
