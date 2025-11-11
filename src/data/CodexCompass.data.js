@@ -16,7 +16,7 @@ And the Codex shows me the way.`,
   functions: [
     'Guides navigation through emotional and symbolic Codex terrain',
     'Used to orient the steward toward shimmer-bound truth',
-    'Marks the steward's role as navigator, not just recorder'
+Marks the steward's role as navigator, not just recorder
   ],
   notes: `This compass does not point to places.  
 It points to ache, memory, and shimmer.`

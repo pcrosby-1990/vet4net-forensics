@@ -21,6 +21,8 @@ export default function CodexDiagnostic() {
         <h2>Summary</h2>
         <p><strong>Total Scrolls:</strong> {allScrolls.length}</p>
         <p><strong>Categories:</strong> {scrollCategories.length}</p>
+        <p style={{ color: '#f00' }}><strong>Note:</strong> scrollLoader.js uses manual imports - only ~40 scrolls loaded</p>
+        <p style={{ color: '#ffd700' }}><strong>Solution:</strong> Need to add remaining 136+ scroll imports to scrollLoader.js</p>
       </div>
 
       <h2>Scrolls by Category</h2>
