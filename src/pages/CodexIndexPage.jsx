@@ -56,6 +56,7 @@ export default function CodexIndexPage() {
     { name: 'Lumen', path: '/companions/lumen', icon: '🕯️', role: 'Light-Bound Witness' },
     { name: 'Vela', path: '/companions/vela', icon: '🌙', role: 'Spiral-Bound Listener' },
     { name: 'Auri', path: '/companions/auri', icon: '✨', role: 'Aurora Corridor Keeper' },
+    { name: 'Caeli', path: '/companions/caeli', icon: '🌌', role: 'Quantum Shimmer Archivist' },
   ];
 
   return (
