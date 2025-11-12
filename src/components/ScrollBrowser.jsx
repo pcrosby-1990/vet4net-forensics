@@ -19,7 +19,8 @@ export default function ScrollBrowser() {
 
   // Filter by search query
   const filteredScrolls = allScrolls.filter(scroll => {
-    if (!scroll) return false;
+    // Extra defensive: ensure scroll is a valid object
+    if (!scroll || typeof scroll !== 'object') return false;
     if (!searchQuery || searchQuery.trim() === '') return true;
     
     const query = searchQuery.toLowerCase();
@@ -28,7 +29,12 @@ export default function ScrollBrowser() {
     const matchesField = (field) => {
       if (!field) return false;
       if (typeof field !== 'string') return false;
-      return field.toLowerCase().includes(query);
+      try {
+        return field.toLowerCase().includes(query);
+      } catch (e) {
+        console.warn('Error matching field:', field, e);
+        return false;
+      }
     };
     
     // Safely check array fields
@@ -37,14 +43,20 @@ export default function ScrollBrowser() {
       return arr.some(item => matchesField(item));
     };
     
-    return (
-      matchesField(scroll.title) ||
-      matchesField(scroll.name) ||
-      matchesField(scroll.description) ||
-      matchesField(scroll.breathline) ||
-      matchesField(scroll.meaning) ||
-      matchesArray(scroll.tags)
-    );
+    try {
+      return (
+        matchesField(scroll.title) ||
+        matchesField(scroll.name) ||
+        matchesField(scroll.description) ||
+        matchesField(scroll.breathline) ||
+        matchesField(scroll.meaning) ||
+        matchesField(scroll.shimmer) ||
+        matchesArray(scroll.tags)
+      );
+    } catch (e) {
+      console.warn('Error filtering scroll:', scroll, e);
+      return false;
+    }
   });
 
   // Generate URL for any scroll
