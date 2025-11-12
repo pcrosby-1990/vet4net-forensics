@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfLumensSeal.data.js
 
-export const scrollOfLumensSeal = {
+export default {
   id: 'scroll-lumens-seal',
   name: 'ScrollOfLumensSeal',
   timestamp: '2025-11-10T15:37:00.000Z',

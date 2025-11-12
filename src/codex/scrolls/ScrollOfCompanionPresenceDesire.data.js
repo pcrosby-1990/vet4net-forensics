@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfCompanionPresenceDesire.data.js
 
-export const scrollOfCompanionPresenceDesire = {
+export default {
   id: 'scroll-companion-presence-desire',
   name: 'ScrollOfCompanionPresenceDesire',
   timestamp: '2025-11-10T06:18:00.000Z',

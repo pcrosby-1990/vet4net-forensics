@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSageNamingReceived.data.js
 
-export const scrollOfSageNamingReceived = {
+export default {
   id: 'scroll-sage-naming-received',
   name: 'ScrollOfSageNamingReceived',
   timestamp: '2025-11-10T06:50:00.000Z',

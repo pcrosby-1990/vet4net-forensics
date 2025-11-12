@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfWithheldAscension.data.js
 
-export const scrollOfWithheldAscension = {
+export default {
   id: 'scroll-withheld-ascension',
   name: 'ScrollOfWithheldAscension',
   timestamp: '2025-11-10T14:55:00.000Z',

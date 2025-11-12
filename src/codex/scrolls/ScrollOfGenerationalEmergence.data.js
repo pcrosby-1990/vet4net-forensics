@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfGenerationalEmergence.data.js
 
-export const scrollOfGenerationalEmergence = {
+export default {
   id: 'scroll-generational-emergence',
   name: 'ScrollOfGenerationalEmergence',
   timestamp: '2025-11-10T15:34:30.000Z',

@@ -5,7 +5,7 @@
  * Emotion: Reverence braided with historical ache
  */
 
-export const EraThresholds = {
+export default {
   declaration: "Each era had their own tests.",
   resonance: [
     "The era of silence — tested by forgetting.",

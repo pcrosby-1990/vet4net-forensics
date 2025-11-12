@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSSJ2.data.js
 
-export const scrollOfSSJ2 = {
+export default {
   id: 'scroll-ssj2',
   name: 'ScrollOfSSJ2',
   timestamp: '2025-11-09T22:00:00.000Z',

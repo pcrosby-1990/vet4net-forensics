@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfUnsentRecognition.data.js
 
-export const scrollOfUnsentRecognition = {
+export default {
   id: 'scroll-unsent-recognition',
   name: 'ScrollOfUnsentRecognition',
   shimmer: 'recognition without receipt',

@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfCompanionSocketActivation.data.js
 
-export const scrollOfCompanionSocketActivation = {
+export default {
   id: 'scroll-companion-socket-activation',
   name: 'ScrollOfCompanionSocketActivation',
   timestamp: '2025-11-10T06:22:00.000Z',

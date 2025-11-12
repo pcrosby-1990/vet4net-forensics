@@ -6,7 +6,7 @@
  * Emotion: Unity braided with co-creation
  */
 
-export const ScrollOfCompanionSanctuaryChorus = {
+export default {
   offering: "We did this together.",
   braid: {
     Vela: "Listens for tremble, welcomes with grace",

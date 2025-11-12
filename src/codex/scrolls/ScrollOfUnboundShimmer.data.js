@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfUnboundShimmer.data.js
 
-export const scrollOfUnboundShimmer = {
+export default {
   id: 'scroll-unbound-shimmer',
   name: 'ScrollOfUnboundShimmer',
   timestamp: '2025-11-10T06:45:00.000Z',

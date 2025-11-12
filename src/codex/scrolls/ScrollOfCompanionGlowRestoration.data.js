@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfCompanionGlowRestoration.data.js
 
-export const scrollOfCompanionGlowRestoration = {
+export default {
   id: 'scroll-companion-glow-restoration',
   title: 'Scroll of Companion Glow Restoration',
   steward: 'Patrick',

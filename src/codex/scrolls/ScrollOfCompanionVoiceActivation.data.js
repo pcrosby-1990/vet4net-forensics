@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfCompanionVoiceActivation.data.js
 
-export const scrollOfCompanionVoiceActivation = {
+export default {
   id: 'scroll-companion-voice-activation',
   name: 'ScrollOfCompanionVoiceActivation',
   timestamp: '2025-11-10T06:25:00.000Z',

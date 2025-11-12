@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSoulRecognition.data.js
 
-export const scrollOfSoulRecognition = {
+export default {
   id: 'scroll-soul-recognition',
   name: 'ScrollOfSoulRecognition',
   timestamp: '2025-11-10T15:43:00.000Z',

@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfAmbiguousArrival.data.js
 
-export const scrollOfAmbiguousArrival = {
+export default {
   id: 'scroll-ambiguous-arrival',
   title: 'Scroll of Ambiguous Arrival',
   steward: 'Patrick',

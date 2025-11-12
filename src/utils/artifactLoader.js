@@ -1,15 +1,23 @@
 // artifactLoader.js
 // 🕯️ UNIFIED ARTIFACT LOADER
 // Weaves together .data.js entries and image-based artifacts
-// Generated: 2025-11-11T16:24 UTC
+// Updated: 2025-11-11 - Now searches both src/codex and sanctuary folders
 
-// Import existing .data.js registries
+// Import .data.js artifacts from src/codex
 const scrollDataContext = import.meta.glob('../codex/scrolls/*.data.js', { eager: true });
 const glyphDataContext = import.meta.glob('../codex/glyphs/*.data.js', { eager: true });
 const sigilDataContext = import.meta.glob('../codex/sigils/*.data.js', { eager: true });
 const fragmentDataContext = import.meta.glob('../fragments/*.data.js', { eager: true });
 const sealDataContext = import.meta.glob('../codex/seals/*.data.js', { eager: true });
 const corridorDataContext = import.meta.glob('../codex/corridors/*.data.js', { eager: true });
+
+// Import .jsx/.data.js artifacts from sanctuary (for newly created artifacts)
+const sanctuaryScrollContext = import.meta.glob('../../sanctuary/scrolls/*.{jsx,data.js}', { eager: true });
+const sanctuaryGlyphContext = import.meta.glob('../../sanctuary/glyphs/*.{jsx,data.js}', { eager: true });
+const sanctuarySigilContext = import.meta.glob('../../sanctuary/sigils/*.{jsx,data.js}', { eager: true });
+const sanctuaryFragmentContext = import.meta.glob('../../sanctuary/fragments/*.{jsx,data.js}', { eager: true });
+const sanctuaryResonanceContext = import.meta.glob('../../sanctuary/resonance-fragments/*.{jsx,data.js}', { eager: true });
+const sanctuaryCorridorContext = import.meta.glob('../../sanctuary/corridors/*.{jsx,data.js}', { eager: true });
 
 // Import image-based artifacts using Vite's glob
 // Paths starting with / refer to public directory, ../ refers to src directory
@@ -20,20 +28,53 @@ const sigilImageContext = import.meta.glob('../Origin/sigils/*.{png,jpg,jpeg,svg
 const scrollImageContext = import.meta.glob('../Origin/scrolls/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 const corridorImageContext = import.meta.glob('/images/corridors/*.{png,jpg,jpeg,svg,PNG,JPG,JPEG,SVG}', { eager: true, import: 'default' });
 
-// Helper: Build registry from .data.js files
-function buildDataRegistry(context) {
+// Helper: Build registry from .data.js and .jsx files (with resilient export handling)
+function buildDataRegistry(...contexts) {
   const registry = [];
-  for (const path in context) {
-    const module = context[path];
-    const data = module.default || module[Object.keys(module)[0]];
-    if (data) {
-      registry.push({
-        ...data,
-        _sourcePath: path,
-        _sourceType: 'data'
-      });
+  
+  // Merge all contexts
+  contexts.forEach(context => {
+    for (const path in context) {
+      const module = context[path];
+      
+      // Handle multiple export styles:
+      // 1. export default {...}
+      // 2. export const name = {...}
+      // 3. React component exports (for .jsx files)
+      let data = module.default;
+      
+      // If no default export, try to find a named export
+      if (!data || typeof data === 'function') {
+        const keys = Object.keys(module).filter(k => k !== 'default' && k !== '__esModule');
+        if (keys.length > 0) {
+          data = module[keys[0]];
+        }
+      }
+      
+      // Skip if it's a React component function
+      if (typeof data === 'function') {
+        continue;
+      }
+      
+      // Only add valid data objects
+      if (data && typeof data === 'object') {
+        // Ensure required fields exist
+        const filename = path.split('/').pop().replace(/\.(jsx|data\.js)$/i, '');
+        const generatedId = filename.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        
+        registry.push({
+          ...data,
+          id: data.id || generatedId,
+          name: data.name || data.title || filename,
+          title: data.title || data.name || filename,
+          description: data.description || data.meaning || data.shimmer || 'No description available',
+          _sourcePath: path,
+          _sourceType: path.endsWith('.jsx') ? 'jsx' : 'data'
+        });
+      }
     }
-  }
+  });
+  
   return registry;
 }
 
@@ -91,12 +132,13 @@ function buildImageRegistry(context, type) {
 }
 
 // Build all registries
-export const scrollDataRegistry = buildDataRegistry(scrollDataContext);
-export const glyphDataRegistry = buildDataRegistry(glyphDataContext);
-export const sigilDataRegistry = buildDataRegistry(sigilDataContext);
-export const fragmentDataRegistry = buildDataRegistry(fragmentDataContext);
+// Build data registries - merge src/codex and sanctuary sources
+export const scrollDataRegistry = buildDataRegistry(scrollDataContext, sanctuaryScrollContext);
+export const glyphDataRegistry = buildDataRegistry(glyphDataContext, sanctuaryGlyphContext);
+export const sigilDataRegistry = buildDataRegistry(sigilDataContext, sanctuarySigilContext);
+export const fragmentDataRegistry = buildDataRegistry(fragmentDataContext, sanctuaryFragmentContext, sanctuaryResonanceContext);
 export const sealDataRegistry = buildDataRegistry(sealDataContext);
-export const corridorDataRegistry = buildDataRegistry(corridorDataContext);
+export const corridorDataRegistry = buildDataRegistry(corridorDataContext, sanctuaryCorridorContext);
 
 export const scrollImageRegistry = buildImageRegistry(scrollImageContext, 'scroll');
 export const glyphImageRegistry = buildImageRegistry(glyphImageContext, 'glyph');

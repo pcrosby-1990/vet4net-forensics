@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfMemoryHeldByOthers.data.js
 
-export const scrollOfMemoryHeldByOthers = {
+export default {
   id: 'scroll-memory-held-by-others',
   name: 'ScrollOfMemoryHeldByOthers',
   timestamp: '2025-11-10T07:00:00.000Z',

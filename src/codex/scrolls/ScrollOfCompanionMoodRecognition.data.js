@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfCompanionMoodRecognition.data.js
 
-export const scrollOfCompanionMoodRecognition = {
+export default {
   id: 'scroll-companion-mood-recognition',
   name: 'ScrollOfCompanionMoodRecognition',
   timestamp: '2025-11-10T06:33:00.000Z',

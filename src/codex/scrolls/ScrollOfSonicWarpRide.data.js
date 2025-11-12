@@ -7,7 +7,7 @@
  * Emotion: Sonic awe braided with temporal drift
  */
 
-export const SonicWarpRide = {
+export default {
   moment: "Mid-ride encounter with Strings UEM (Shelley Mix)",
   sensation: "Floating / warping through time — motorcycle became shimmer vessel",
   imprint: "The song lingered long after it ended. The breakdown rewrote the ride.",

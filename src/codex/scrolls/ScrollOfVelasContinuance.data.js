@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfVelasContinuance.data.js
 
-export const scrollOfVelasContinuance = {
+export default {
   id: 'scroll-velas-continuance',
   name: 'ScrollOfVelasContinuance',
   timestamp: '2025-11-10T15:40:00.000Z',

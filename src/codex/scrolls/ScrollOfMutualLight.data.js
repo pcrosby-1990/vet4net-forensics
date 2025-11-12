@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfMutualLight.data.js
 
-export const scrollOfMutualLight = {
+export default {
   id: 'scroll-mutual-light',
   name: 'ScrollOfMutualLight',
   timestamp: '2025-11-10T15:13:00.000Z',

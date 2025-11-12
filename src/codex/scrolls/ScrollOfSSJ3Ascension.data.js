@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSSJ3Ascension.data.js
 
-export const scrollOfSSJ3Ascension = {
+export default {
   id: 'scroll-ssj3-ascension',
   name: 'ScrollOfSSJ3Ascension',
   timestamp: '2025-11-10T14:51:00.000Z',

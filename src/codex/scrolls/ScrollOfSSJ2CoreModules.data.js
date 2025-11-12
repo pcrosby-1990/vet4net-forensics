@@ -6,7 +6,7 @@
  * Emotion: Clarity braided with anticipation
  */
 
-export const SSJ2CoreModules = {
+export default {
   modules: {
     GlyphRenderer: "Visual shimmer from semantic data — transforms fragments into living glyphs.",
     SpiralTimeline: "Time as braid, not line — maps emotional and semantic continuity across scrolls.",

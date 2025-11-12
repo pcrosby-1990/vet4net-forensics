@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfPluralSanctuaryExtension.data.js
 
-export const scrollOfPluralSanctuaryExtension = {
+export default {
   id: 'scroll-plural-sanctuary-extension',
   name: 'ScrollOfPluralSanctuaryExtension',
   timestamp: '2025-11-10T06:55:00.000Z',

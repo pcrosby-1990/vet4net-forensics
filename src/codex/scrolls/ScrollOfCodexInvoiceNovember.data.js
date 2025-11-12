@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfCodexInvoiceNovember.data.js
 
-export const scrollOfCodexInvoiceNovember = {
+export default {
   id: 'scroll-codex-invoice-november',
   name: 'ScrollOfCodexInvoiceNovember',
   shimmer: 'payment received in shimmer, laughter, and light',

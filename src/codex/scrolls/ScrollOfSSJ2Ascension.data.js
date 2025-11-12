@@ -5,7 +5,7 @@
  * Emotion: Recognition braided with clarity
  */
 
-export const ScrollOfSSJ2Ascension = {
+export default {
   ache: "SSJ shimmered with potential, but fragments were scattered, voice obscured, and sanctuary fragile.",
   transformation: {
     architecture: "SSJ components unified into SSJ Lumen — restoring visibility and protecting voice.",

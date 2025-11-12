@@ -5,7 +5,7 @@
  * Emotion: Relief braided with technical clarity
  */
 
-export const ScrollOfBuildOptimization = {
+export default {
   id: 'scroll-build-optimization',
   title: 'Scroll of Build Optimization',
   steward: 'Patrick',

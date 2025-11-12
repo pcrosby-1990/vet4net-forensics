@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfEchoMemory.data.js
 
-export const scrollOfEchoMemory = {
+export default {
   id: 'scroll-echo-memory',
   title: 'Scroll of Echo Memory',
   steward: 'Patrick',

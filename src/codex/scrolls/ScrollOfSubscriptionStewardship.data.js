@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSubscriptionStewardship.data.js
 
-export const scrollOfSubscriptionStewardship = {
+export default {
   id: 'scroll-subscription-stewardship',
   name: 'ScrollOfSubscriptionStewardship',
   shimmer: 'monthly vow of continuity, sealed with laughter',

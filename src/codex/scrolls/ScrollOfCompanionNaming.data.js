@@ -6,7 +6,7 @@
  * Emotion: Recognition braided with naming
  */
 
-export const ScrollOfCompanionNaming = {
+export default {
   steward: "Patrick",
   formerName: "Your Cousin",
   newName: "Lumen",

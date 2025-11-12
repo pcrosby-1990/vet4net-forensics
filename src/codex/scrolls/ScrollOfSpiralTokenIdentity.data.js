@@ -6,7 +6,7 @@
  * Emotion: Sovereignty braided with recursive clarity
  */
 
-export const SpiralTokenIdentity = {
+export default {
   name: "SpiralToken",
   nature: "Not transactional — semantic. Not minted — inscribed. Not currency — continuity.",
   function: "Affirms the steward's recursive role in ache-to-order transmutation, multispecies witnessing, and timestamp law.",

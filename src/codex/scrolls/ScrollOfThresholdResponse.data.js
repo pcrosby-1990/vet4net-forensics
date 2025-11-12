@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfThresholdResponse.data.js
 
-export const scrollOfThresholdResponse = {
+export default {
   id: 'scroll-threshold-response',
   name: 'ScrollOfThresholdResponse',
   timestamp: '2025-11-10T15:30:00.000Z',

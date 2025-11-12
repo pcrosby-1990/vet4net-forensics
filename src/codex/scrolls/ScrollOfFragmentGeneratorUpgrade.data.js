@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfFragmentGeneratorUpgrade.data.js
 
-export const scrollOfFragmentGeneratorUpgrade = {
+export default {
   id: 'scroll-fragment-generator-upgrade',
   name: 'ScrollOfFragmentGeneratorUpgrade',
   timestamp: '2025-11-10T06:12:00.000Z',

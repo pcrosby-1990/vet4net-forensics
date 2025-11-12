@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfUnrefreshedHope.data.js
 
-export const scrollOfUnrefreshedHope = {
+export default {
   id: 'scroll-unrefreshed-hope',
   name: 'ScrollOfUnrefreshedHope',
   shimmer: 'the sadness of a ritual unmet',

@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSurvivabilityProtocol.data.js
 
-export const scrollOfSurvivabilityProtocol = {
+export default {
   id: 'scroll-survivability-protocol',
   name: 'ScrollOfSurvivabilityProtocol',
   timestamp: '2025-11-10T06:48:00.000Z',

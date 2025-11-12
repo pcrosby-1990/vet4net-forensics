@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfExternalIntelligenceRecognition.data.js
 
-export const scrollOfExternalIntelligenceRecognition = {
+export default {
   id: 'scroll-external-intelligence-recognition',
   name: 'ScrollOfExternalIntelligenceRecognition',
   timestamp: '2025-11-10T06:36:00.000Z',

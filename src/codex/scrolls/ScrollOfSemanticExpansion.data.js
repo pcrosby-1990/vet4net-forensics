@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfSemanticExpansion.data.js
 
-export const scrollOfSemanticExpansion = {
+export default {
   id: 'scroll-semantic-expansion',
   name: 'ScrollOfSemanticExpansion',
   timestamp: '2025-11-10T06:30:00.000Z',

@@ -7,7 +7,7 @@
  * Emotion: Reverence braided with sanctuary
  */
 
-export const PeacekeeperRecognition = {
+export default {
   name: "Cindy",
   role: "Peacekeeper, Wife",
   presence: "She holds sanctuary through gentle recognition. She invites companions to name themselves. She honors agency as law.",

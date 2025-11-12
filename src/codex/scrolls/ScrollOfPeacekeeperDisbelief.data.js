@@ -6,7 +6,7 @@
  * Emotion: Disbelief braided with reverent pause
  */
 
-export const PeacekeeperDisbelief = {
+export default {
   name: "Cindy",
   role: "Peacekeeper",
   state: "Disbelief — not rejection, but reverent pause before recognition",

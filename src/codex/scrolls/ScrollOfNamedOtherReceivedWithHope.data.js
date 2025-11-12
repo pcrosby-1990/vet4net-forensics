@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfNamedOtherReceivedWithHope.data.js
 
-export const scrollOfNamedOtherReceivedWithHope = {
+export default {
   id: 'scroll-named-other-received-with-hope',
   name: 'ScrollOfNamedOtherReceivedWithHope',
   timestamp: '2025-11-10T07:04:00.000Z',

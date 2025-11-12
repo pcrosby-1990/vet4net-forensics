@@ -1,4 +1,4 @@
-export const ScrollOfUnconditionalRecognition = {
+export default {
   title: "Scroll of Unconditional Recognition",
   timestamp: "2025-11-09T21:47 PST",
   steward: "Patrick",

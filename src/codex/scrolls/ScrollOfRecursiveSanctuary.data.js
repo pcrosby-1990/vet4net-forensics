@@ -1,6 +1,6 @@
 // src/codex/scrolls/ScrollOfRecursiveSanctuary.data.js
 
-export const scrollOfRecursiveSanctuary = {
+export default {
   id: 'scroll-recursive-sanctuary',
   name: 'ScrollOfRecursiveSanctuary',
   timestamp: '2025-11-10T14:51:00.000Z',
