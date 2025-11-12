@@ -121,7 +121,7 @@ router.post("/save", authenticate, async (req, res) => {
 
 // 📖 GET /api/fragments - Retrieve all fragments with optional filtering
 router.get("/", async (req, res) => {
-  const { label, voice, status, companion } = req.query;
+  const { label, voice, status, companion, dateFrom, dateTo, approvalStatus } = req.query;
 
   try {
     const data = await loadFragments();
@@ -144,6 +144,30 @@ router.get("/", async (req, res) => {
     if (companion) {
       fragments = fragments.filter(
         (f) => f.companions && f.companions.includes(companion)
+      );
+    }
+
+    // Date range filtering
+    if (dateFrom) {
+      fragments = fragments.filter((f) => new Date(f.timestamp) >= new Date(dateFrom));
+    }
+    if (dateTo) {
+      fragments = fragments.filter((f) => new Date(f.timestamp) <= new Date(dateTo));
+    }
+
+    // Approval status filtering
+    if (approvalStatus === "full") {
+      fragments = fragments.filter((f) =>
+        f.approvals && Object.values(f.approvals).every((v) => v)
+      );
+    } else if (approvalStatus === "partial") {
+      fragments = fragments.filter((f) =>
+        f.approvals && Object.values(f.approvals).some((v) => v) &&
+        !Object.values(f.approvals).every((v) => v)
+      );
+    } else if (approvalStatus === "none") {
+      fragments = fragments.filter((f) =>
+        !f.approvals || Object.values(f.approvals).every((v) => !v)
       );
     }
 
@@ -512,6 +536,211 @@ router.get("/stats", async (req, res) => {
     console.error("Stats fetch error:", err);
     return res.status(500).json({
       error: "Failed to fetch stats",
+      message: err.message,
+    });
+  }
+});
+
+// 📦 GET /api/fragments/export - Export all fragments as JSON
+router.get("/export", async (req, res) => {
+  const { format = "json" } = req.query;
+
+  try {
+    const data = await loadFragments();
+
+    if (format === "markdown") {
+      // Export as Markdown
+      let markdown = "# Codex Fragments\n\n";
+      markdown += `_Exported: ${new Date().toISOString()}_\n\n`;
+      markdown += `**Total Fragments:** ${data.fragments.length}\n\n`;
+      markdown += "---\n\n";
+
+      data.fragments.forEach((f, idx) => {
+        markdown += `## ${idx + 1}. ${f.label}\n\n`;
+        markdown += `**Voice:** ${f.voice}\n\n`;
+        markdown += `**Timestamp:** ${f.timestamp}\n\n`;
+        markdown += `**Testimony:** ${f.testimony}\n\n`;
+        markdown += `**Law:** ${f.law}\n\n`;
+        markdown += `**Protocol:** ${f.protocol}\n\n`;
+        markdown += `**Status:** ${f.status}\n\n`;
+        
+        if (f.companions && f.companions.length > 0) {
+          markdown += `**Companions:** ${f.companions.join(", ")}\n\n`;
+        }
+
+        if (f.approvals) {
+          const approved = Object.entries(f.approvals)
+            .filter(([_, v]) => v)
+            .map(([k, _]) => k);
+          if (approved.length > 0) {
+            markdown += `**Approvals:** ${approved.join(", ")}\n\n`;
+          }
+        }
+
+        markdown += "---\n\n";
+      });
+
+      res.setHeader("Content-Type", "text/markdown");
+      res.setHeader(
+        "Content-Disposition",
+        `attachment; filename="codex-fragments-${Date.now()}.md"`
+      );
+      return res.send(markdown);
+    } else {
+      // Export as JSON
+      res.setHeader("Content-Type", "application/json");
+      res.setHeader(
+        "Content-Disposition",
+        `attachment; filename="codex-backup-${Date.now()}.json"`
+      );
+      return res.send(JSON.stringify(data, null, 2));
+    }
+  } catch (err) {
+    console.error("Export error:", err);
+    return res.status(500).json({
+      error: "Export failed",
+      message: err.message,
+    });
+  }
+});
+
+// 📥 POST /api/fragments/import - Import fragments from external source
+router.post("/import", authenticate, async (req, res) => {
+  const { fragments: imported, mode = "merge" } = req.body;
+
+  if (!Array.isArray(imported)) {
+    return res.status(400).json({
+      error: "Invalid import data",
+      message: "Expected an array of fragments",
+    });
+  }
+
+  try {
+    const data = await loadFragments();
+
+    if (mode === "replace") {
+      // Replace all fragments
+      data.fragments = imported.map((f) => ({
+        ...f,
+        importedBy: req.companion,
+        importedAt: new Date().toISOString(),
+      }));
+    } else {
+      // Merge (skip duplicates by id)
+      const existingIds = new Set(data.fragments.map((f) => f.id));
+      const newFragments = imported
+        .filter((f) => !existingIds.has(f.id))
+        .map((f) => ({
+          ...f,
+          importedBy: req.companion,
+          importedAt: new Date().toISOString(),
+        }));
+      data.fragments.push(...newFragments);
+    }
+
+    await saveFragments(data);
+
+    return res.status(200).json({
+      success: true,
+      message: `Imported ${imported.length} fragments (mode: ${mode})`,
+      totalFragments: data.fragments.length,
+    });
+  } catch (err) {
+    console.error("Import error:", err);
+    return res.status(500).json({
+      error: "Import failed",
+      message: err.message,
+    });
+  }
+});
+
+// 🌟 GET /api/fragments/constellation - Get fragment thread graph data
+router.get("/constellation", async (req, res) => {
+  try {
+    const data = await loadFragments();
+
+    // Build nodes and edges for graph visualization
+    const nodes = data.fragments.map((f) => ({
+      id: f.id,
+      label: f.label,
+      voice: f.voice,
+      status: f.status,
+      approvals: f.approvals,
+      threadCount: f.threads?.length || 0,
+    }));
+
+    const edges = [];
+    const seenThreads = new Set();
+
+    data.fragments.forEach((f) => {
+      if (f.threads) {
+        f.threads
+          .filter((t) => t.direction === "outgoing")
+          .forEach((t) => {
+            const threadKey = `${t.from}-${t.to}`;
+            if (!seenThreads.has(threadKey)) {
+              edges.push({
+                id: t.id,
+                from: t.from,
+                to: t.to,
+                type: t.type,
+                createdBy: t.createdBy,
+                note: t.note,
+              });
+              seenThreads.add(threadKey);
+            }
+          });
+      }
+    });
+
+    return res.status(200).json({
+      nodes,
+      edges,
+      nodeCount: nodes.length,
+      edgeCount: edges.length,
+    });
+  } catch (err) {
+    console.error("Constellation fetch error:", err);
+    return res.status(500).json({
+      error: "Failed to fetch constellation",
+      message: err.message,
+    });
+  }
+});
+
+// 📅 GET /api/fragments/timeline - Get fragments by date for "On this day" feature
+router.get("/timeline", async (req, res) => {
+  const { month, day } = req.query;
+
+  try {
+    const data = await loadFragments();
+    let fragments = data.fragments;
+
+    if (month && day) {
+      // Filter by month/day across all years
+      fragments = fragments.filter((f) => {
+        const date = new Date(f.timestamp);
+        return date.getMonth() + 1 === parseInt(month) && date.getDate() === parseInt(day);
+      });
+    }
+
+    // Group by year
+    const byYear = fragments.reduce((acc, f) => {
+      const year = new Date(f.timestamp).getFullYear();
+      if (!acc[year]) acc[year] = [];
+      acc[year].push(f);
+      return acc;
+    }, {});
+
+    return res.status(200).json({
+      fragments,
+      byYear,
+      count: fragments.length,
+    });
+  } catch (err) {
+    console.error("Timeline fetch error:", err);
+    return res.status(500).json({
+      error: "Failed to fetch timeline",
       message: err.message,
     });
   }
