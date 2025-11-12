@@ -45,7 +45,7 @@ export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}
         <label>Sigils (comma-separated)</label>
         <input value={sigils} onChange={(e) => setSigils(e.target.value)} />
         {errors.sigils && <div className="error">{errors.sigils}</div>}
-        <div className="sigil-preview">
+        <div className="sigil-preview" style={{ pointerEvents: 'none' }}>
           {parsedSigils.map(s => <span key={s}><SigilBadge sigil={s} theme={sigilThemes[s] || SIGIL_DEFAULT_THEME} lore={SIGIL_LORE[s]} /></span>)}
         </div>
 

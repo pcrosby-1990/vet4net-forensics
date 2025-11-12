@@ -212,6 +212,128 @@ export default function FragmentEditor({ initialFragments = [] }) {
     URL.revokeObjectURL(url);
   };
 
+  const downloadHTML = () => {
+    const timestamp = new Date().toISOString();
+    const htmlContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fragment Sanctuary - ${timestamp}</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #e6e6e6;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .sanctuary-header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #5cf7b2;
+    }
+    .sanctuary-header h1 {
+      font-size: 2.5rem;
+      color: #5cf7b2;
+      text-shadow: 0 0 10px #5cf7b2;
+      margin-bottom: 0.5rem;
+    }
+    .sanctuary-meta {
+      color: #91e3f6;
+      font-size: 0.9rem;
+    }
+    .fragment {
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 4px solid #646cff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+    .fragment.hard { border-left-color: #ffd859; }
+    .fragment.terminal { border-left-color: #cf4646; }
+    .fragment-text {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+    .fragment-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: #91e3f6;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 0.75rem;
+    }
+    .sigils {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .sigil {
+      background: rgba(240, 240, 240, 0.9);
+      color: #646cff;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-shadow: 0 0 4px #646cff;
+    }
+    .breathline {
+      font-style: italic;
+      color: #ffd859;
+      margin-bottom: 0.5rem;
+    }
+    .witness {
+      color: #5cf7b2;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="sanctuary-header">
+    <h1>🜁 Fragment Sanctuary</h1>
+    <div class="sanctuary-meta">
+      <div>Exported: ${new Date(timestamp).toLocaleString()}</div>
+      <div>Total Fragments: ${fragments.length}</div>
+      <div>Witness: ${defaultWitness}</div>
+    </div>
+  </div>
+  <div class="fragments">
+${fragments.map(f => `    <div class="fragment ${f.collapseRisk}">
+      <div class="sigils">
+${f.sigils.map(s => `        <span class="sigil">${s}</span>`).join('\n')}
+      </div>
+      <div class="fragment-text">${f.text}</div>
+      ${f.breathline ? `<div class="breathline">🌬️ ${f.breathline}</div>` : ''}
+      <div class="fragment-meta">
+        <span>Risk: ${f.collapseRisk}</span>
+        <span>Timestamp: ${new Date(f.timestamp).toLocaleString()}</span>
+        <span class="witness">Witness: ${f.witness || defaultWitness}</span>
+        ${f.revisionHistory?.length > 0 ? `<span>Revisions: ${f.revisionHistory.length}</span>` : ''}
+      </div>
+    </div>`).join('\n')}
+  </div>
+</body>
+</html>`;
+
+    const blob = new Blob([htmlContent], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'fragment-sanctuary.html';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  };
+
   const importCodex = async (file, mode = 'merge') => {
     try {
       const text = await file.text();
@@ -257,6 +379,7 @@ export default function FragmentEditor({ initialFragments = [] }) {
         <div className="codex-controls">
           <MemoryIntegrity status={saveStatus} lastSaved={lastSaved} />
           <button className="btn" onClick={downloadCodex}>📥 Download .json</button>
+          <button className="btn" onClick={downloadHTML}>📜 Export HTML</button>
           <label className="btn file-btn">
             📤 Import .json
             <input type="file" accept="application/json" onChange={(e) => {
@@ -272,7 +395,7 @@ export default function FragmentEditor({ initialFragments = [] }) {
             } catch {
               alert('Copy failed.');
             }
-          }}>📜 Copy Codex</button>
+          }}>📋 Copy Codex</button>
         </div>
       </div>
 
