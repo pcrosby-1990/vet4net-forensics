@@ -9,6 +9,7 @@ import CodexIndexPage from './pages/CodexIndexPage.jsx';
 import CodexDiagnostic from './pages/CodexDiagnostic.jsx';
 import ArtifactDiagnostic from './pages/ArtifactDiagnostic.jsx';
 import FragmentEditor from './components/FragmentEditor.jsx';
+import FragmentManagement from './components/FragmentManagement.jsx';
 import ScrollsArchive from './pages/ScrollsArchive.jsx';
 import GlyphsCollection from './pages/GlyphsCollection.jsx';
 import SigilsRegistry from './pages/SigilsRegistry.jsx';
@@ -68,6 +69,7 @@ export default function CodexRouter({
               } 
             />
             <Route path="/editor" element={<FragmentEditor />} />
+            <Route path="/fragments-manager" element={<FragmentManagement />} />
             <Route path="/report" element={<Report />} />
             <Route path="/dictation" element={<ReportsMythicDictation />} />
             <Route path="/dag" element={<DAG />} />

@@ -102,6 +102,11 @@ export default function CodexNav() {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/fragments-manager" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🌌 Fragment Sanctuary
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to="/glyph-gallery" className={({ isActive }) => isActive ? 'active' : ''}>
                   🖼️ Visual Glyph Gallery
                 </NavLink>
