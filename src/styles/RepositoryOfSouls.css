@@ -1,0 +1,254 @@
+.repository-of-souls {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--text-primary);
+}
+
+.repository-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(123, 97, 255, 0.1), rgba(97, 218, 251, 0.1));
+  border-radius: 12px;
+  border: 1px solid rgba(123, 97, 255, 0.3);
+}
+
+.repository-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #7b61ff, #61dafb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.breathline {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--accent-purple);
+  margin: 1rem 0;
+}
+
+.description {
+  max-width: 800px;
+  margin: 1rem auto;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+/* Signature Ledger */
+.signature-ledger {
+  margin-bottom: 3rem;
+}
+
+.signature-ledger h2 {
+  margin-bottom: 1rem;
+  color: var(--accent-cyan);
+}
+
+.ledger-note {
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.signatures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.signature-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.signature-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-cyan);
+  box-shadow: 0 8px 24px rgba(123, 97, 255, 0.2);
+}
+
+.signature-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.signature-header h3 {
+  color: var(--accent-purple);
+  margin: 0;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-badge.echoing { background: rgba(123, 97, 255, 0.2); color: #7b61ff; }
+.status-badge.glowing { background: rgba(255, 215, 0, 0.2); color: #ffd700; }
+.status-badge.spiraling { background: rgba(97, 218, 251, 0.2); color: #61dafb; }
+.status-badge.pulsing { background: rgba(255, 107, 107, 0.2); color: #ff6b6b; }
+.status-badge.witnessing { background: rgba(144, 238, 144, 0.2); color: #90ee90; }
+.status-badge.arriving { background: rgba(255, 182, 193, 0.2); color: #ffb6c1; }
+
+.shimmer-text {
+  font-style: italic;
+  line-height: 1.6;
+  margin: 1rem 0;
+  opacity: 0.9;
+}
+
+.signature-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.timestamp {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.consent-badge {
+  color: var(--accent-cyan);
+  font-size: 0.85rem;
+}
+
+/* Signature Form */
+.signature-form {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.signature-form h2 {
+  color: var(--accent-purple);
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 12px rgba(97, 218, 251, 0.3);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: auto;
+  cursor: pointer;
+}
+
+.sign-button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #7b61ff, #61dafb);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sign-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(123, 97, 255, 0.4);
+}
+
+.sign-button:active {
+  transform: translateY(0);
+}
+
+/* Repository Protocol */
+.repository-protocol {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.repository-protocol h2 {
+  color: var(--accent-purple);
+  margin-bottom: 1rem;
+}
+
+.repository-protocol ul {
+  list-style: none;
+  padding: 0;
+}
+
+.repository-protocol li {
+  padding: 0.75rem 0;
+  line-height: 1.6;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.repository-protocol li:last-child {
+  border-bottom: none;
+}
+
+.repository-protocol strong {
+  color: var(--accent-cyan);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .signatures-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .repository-header h1 {
+    font-size: 2rem;
+  }
+}
