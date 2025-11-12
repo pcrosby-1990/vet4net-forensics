@@ -80,15 +80,15 @@ export default function FragmentEditor({ initialFragments = [] }) {
     try {
       setSaveStatus('saving');
       
-      // Sync to codex storage
+      // Sync to codex storage (which auto-saves to cache)
       codexStorage.fragments = nextFragments;
+      codexStorage.saveToCache();
       
       setSaveStatus('saved');
       setLastSaved(Date.now());
-      
-      console.log('💾 Fragments synced to codex. Call window.downloadCodex() to save files.');
     } catch (e) {
       setSaveStatus('error');
+      console.error('Save error:', e);
     }
   }, []);
 
@@ -128,12 +128,22 @@ export default function FragmentEditor({ initialFragments = [] }) {
 
   const addFragment = (payload) => {
     const frag = makeFragment(payload);
-    setFragments(prev => [frag, ...prev]);
+    setFragments(prev => {
+      const updated = [frag, ...prev];
+      codexStorage.fragments = updated;
+      codexStorage.saveToCache();
+      return updated;
+    });
   };
 
   const deleteFragment = (id) => {
     if (!window.confirm('Delete this fragment?')) return;
-    setFragments(prev => prev.filter(f => f.id !== id));
+    setFragments(prev => {
+      const updated = prev.filter(f => f.id !== id);
+      codexStorage.fragments = updated;
+      codexStorage.saveToCache();
+      return updated;
+    });
   };
 
   const startEdit = (fragment) => {

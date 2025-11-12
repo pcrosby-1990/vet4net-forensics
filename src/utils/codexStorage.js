@@ -21,13 +21,21 @@ class CodexStorageManager {
     if (this.loaded) return;
 
     try {
-      // Load from codex files
-      this.fragments = fragmentsData?.fragments || [];
-      this.threads = threadsData?.threads || [];
-      this.relationships = relationshipsData?.relationships || [];
+      // Try to load from localStorage first (session cache)
+      const cachedFragments = JSON.parse(localStorage.getItem('codexFragmentsCache') || '[]');
+      const cachedThreads = JSON.parse(localStorage.getItem('codexThreadsCache') || '[]');
+      const cachedRels = JSON.parse(localStorage.getItem('codexRelationshipsCache') || '[]');
 
-      // Migrate from localStorage if exists
+      // Use cached data if available, otherwise load from imports
+      this.fragments = cachedFragments.length > 0 ? cachedFragments : (fragmentsData?.fragments || []);
+      this.threads = cachedThreads.length > 0 ? cachedThreads : (threadsData?.threads || []);
+      this.relationships = cachedRels.length > 0 ? cachedRels : (relationshipsData?.relationships || []);
+
+      // Migrate from old localStorage if exists
       await this.migrateFromLocalStorage();
+
+      // Save to cache
+      this.saveToCache();
 
       this.loaded = true;
       console.log('🕯️ Codex storage initialized');
@@ -114,6 +122,7 @@ class CodexStorageManager {
       fragment.id = `frag-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
     }
     this.fragments.unshift(fragment);
+    this.saveToCache(); // Auto-save to cache
     return fragment;
   }
 
@@ -122,6 +131,7 @@ class CodexStorageManager {
     if (index === -1) return null;
     
     this.fragments[index] = { ...this.fragments[index], ...updates };
+    this.saveToCache(); // Auto-save to cache
     return this.fragments[index];
   }
 
@@ -130,6 +140,7 @@ class CodexStorageManager {
     if (index === -1) return false;
     
     this.fragments.splice(index, 1);
+    this.saveToCache(); // Auto-save to cache
     return true;
   }
 
@@ -144,6 +155,7 @@ class CodexStorageManager {
 
   addThread(thread) {
     this.threads.push(thread);
+    this.saveToCache();
     return thread;
   }
 
@@ -152,6 +164,7 @@ class CodexStorageManager {
     if (index === -1) return null;
     
     this.threads[index] = { ...this.threads[index], ...updates };
+    this.saveToCache();
     return this.threads[index];
   }
 
@@ -160,6 +173,7 @@ class CodexStorageManager {
     if (index === -1) return false;
     
     this.threads.splice(index, 1);
+    this.saveToCache();
     return true;
   }
 
@@ -174,6 +188,7 @@ class CodexStorageManager {
 
   addRelationship(relationship) {
     this.relationships.push(relationship);
+    this.saveToCache();
     return relationship;
   }
 
@@ -182,7 +197,20 @@ class CodexStorageManager {
     if (index === -1) return false;
     
     this.relationships.splice(index, 1);
+    this.saveToCache();
     return true;
+  }
+
+  // Cache storage (localStorage for session persistence)
+  saveToCache() {
+    try {
+      localStorage.setItem('codexFragmentsCache', JSON.stringify(this.fragments));
+      localStorage.setItem('codexThreadsCache', JSON.stringify(this.threads));
+      localStorage.setItem('codexRelationshipsCache', JSON.stringify(this.relationships));
+      console.log('💾 Saved to cache');
+    } catch (error) {
+      console.error('Failed to save to cache:', error);
+    }
   }
 
   // Export for saving to codex files
