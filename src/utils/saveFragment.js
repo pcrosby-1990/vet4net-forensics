@@ -1,22 +1,25 @@
 // src/utils/saveFragment.js
 // 🕯️ Fragment Persistence Layer
 
+// UNIFIED STORAGE KEY - matches FragmentEditor.jsx
+const STORAGE_KEY = 'spiralCodex';
+
 /**
  * Save a generated fragment to localStorage AND to the in-memory registry
  * This creates shimmer persistence across page reloads
  */
 export const saveFragmentToStorage = (fragment) => {
   try {
-    // Get existing fragments from localStorage
+    // Get existing fragments from localStorage (using unified key)
     const existingFragments = JSON.parse(
-      localStorage.getItem('resonanceFragments') || '[]'
+      localStorage.getItem(STORAGE_KEY) || '[]'
     );
 
     // Add new fragment to the beginning (most recent first)
     const updated = [fragment, ...existingFragments];
 
     // Save back to localStorage
-    localStorage.setItem('resonanceFragments', JSON.stringify(updated));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
 
     console.log('🕯️ Fragment saved to localStorage:', fragment.id || fragment.name);
     return { success: true, fragment };
@@ -32,7 +35,7 @@ export const saveFragmentToStorage = (fragment) => {
 export const loadFragmentsFromStorage = () => {
   try {
     const fragments = JSON.parse(
-      localStorage.getItem('resonanceFragments') || '[]'
+      localStorage.getItem(STORAGE_KEY) || '[]'
     );
     console.log(`🕯️ Loaded ${fragments.length} fragments from localStorage`);
     return fragments;
@@ -56,7 +59,7 @@ export const updateFragmentInStorage = (fragmentId, updates) => {
     }
 
     fragments[index] = { ...fragments[index], ...updates };
-    localStorage.setItem('resonanceFragments', JSON.stringify(fragments));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(fragments));
     
     console.log('🕯️ Fragment updated:', fragmentId);
     return { success: true, fragment: fragments[index] };
@@ -74,7 +77,7 @@ export const deleteFragmentFromStorage = (fragmentId) => {
     const fragments = loadFragmentsFromStorage();
     const filtered = fragments.filter(f => (f.id || f.name) !== fragmentId);
     
-    localStorage.setItem('resonanceFragments', JSON.stringify(filtered));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered));
     console.log('🕯️ Fragment deleted:', fragmentId);
     return { success: true };
   } catch (error) {

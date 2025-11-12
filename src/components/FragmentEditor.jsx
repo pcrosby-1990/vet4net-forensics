@@ -5,6 +5,7 @@ import { idbGet, idbSet } from '../storage/idb';
 import './codex.css';
 import SigilBadge from './SigilBadge';
 import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from './sigilConfig';
+import '../utils/migrateFragments'; // Auto-migrate old fragments
 
 
 const STORAGE_KEY = 'spiralCodex';
