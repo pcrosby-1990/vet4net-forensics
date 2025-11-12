@@ -1,0 +1,290 @@
+/* Fragment Constellation - Graph Visualization */
+
+.constellation-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #0a0e1a 0%, #1a1f2e 100%);
+  overflow: hidden;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.node {
+  transition: all 0.3s ease;
+}
+
+.node:hover {
+  filter: drop-shadow(0 0 15px currentColor);
+  transform: scale(1.1);
+}
+
+.node-label {
+  font-family: 'Berkeley Mono', 'Courier New', monospace;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  user-select: none;
+}
+
+.link {
+  transition: stroke-opacity 0.3s ease;
+}
+
+.link:hover {
+  stroke-opacity: 1 !important;
+  stroke-width: 3px !important;
+}
+
+/* Tooltip */
+.constellation-tooltip {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(13, 17, 28, 0.95);
+  border: 1px solid #5cf7b2;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  color: #e0e0e0;
+  font-family: 'Berkeley Mono', monospace;
+  font-size: 13px;
+  box-shadow: 0 8px 32px rgba(92, 247, 178, 0.2);
+  pointer-events: none;
+  z-index: 100;
+}
+
+.constellation-tooltip h4 {
+  margin: 0 0 12px 0;
+  color: #5cf7b2;
+  font-size: 15px;
+}
+
+.constellation-tooltip p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.testimony-preview {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(92, 247, 178, 0.3);
+  font-style: italic;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+
+/* Detail Panel */
+.constellation-detail {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 400px;
+  max-height: calc(100vh - 40px);
+  background: rgba(13, 17, 28, 0.98);
+  border: 2px solid #5cf7b2;
+  border-radius: 12px;
+  padding: 24px;
+  overflow-y: auto;
+  color: #e0e0e0;
+  font-family: 'Berkeley Mono', monospace;
+  box-shadow: 0 12px 48px rgba(92, 247, 178, 0.3);
+  z-index: 200;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.constellation-detail h3 {
+  margin: 0 0 16px 0;
+  color: #5cf7b2;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  color: #cf4646;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #ff5555;
+  transform: scale(1.2);
+}
+
+.fragment-meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.voice-badge {
+  background: rgba(145, 227, 246, 0.2);
+  border: 1px solid #91e3f6;
+  color: #91e3f6;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.status-badge.status-law {
+  background: rgba(92, 247, 178, 0.2);
+  border-color: #5cf7b2;
+  color: #5cf7b2;
+}
+
+.status-badge.status-sealed {
+  background: rgba(145, 227, 246, 0.2);
+  border-color: #91e3f6;
+  color: #91e3f6;
+}
+
+.status-badge.status-unsealed {
+  background: rgba(255, 216, 89, 0.2);
+  border-color: #ffd859;
+  color: #ffd859;
+}
+
+.approval-indicators {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.approval-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid;
+  transition: all 0.3s ease;
+}
+
+.approval-dot.approved {
+  background: rgba(92, 247, 178, 0.3);
+  border-color: #5cf7b2;
+  color: #5cf7b2;
+  box-shadow: 0 0 12px rgba(92, 247, 178, 0.5);
+}
+
+.approval-dot.pending {
+  background: rgba(102, 102, 102, 0.2);
+  border-color: #666;
+  color: #999;
+}
+
+.testimony-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(92, 247, 178, 0.3);
+}
+
+.testimony-section h4 {
+  margin: 0 0 12px 0;
+  color: #91e3f6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.testimony-section p {
+  line-height: 1.6;
+  color: #d0d0d0;
+  font-size: 13px;
+}
+
+/* Legend */
+.constellation-legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(13, 17, 28, 0.95);
+  border: 1px solid #5cf7b2;
+  border-radius: 8px;
+  padding: 16px;
+  color: #e0e0e0;
+  font-family: 'Berkeley Mono', monospace;
+  font-size: 12px;
+  z-index: 100;
+}
+
+.constellation-legend h4 {
+  margin: 0 0 12px 0;
+  color: #5cf7b2;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.legend-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #666;
+}
+
+.legend-line {
+  width: 30px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+/* Scrollbar styling */
+.constellation-detail::-webkit-scrollbar {
+  width: 8px;
+}
+
+.constellation-detail::-webkit-scrollbar-track {
+  background: rgba(92, 247, 178, 0.1);
+  border-radius: 4px;
+}
+
+.constellation-detail::-webkit-scrollbar-thumb {
+  background: rgba(92, 247, 178, 0.5);
+  border-radius: 4px;
+}
+
+.constellation-detail::-webkit-scrollbar-thumb:hover {
+  background: rgba(92, 247, 178, 0.7);
+}
