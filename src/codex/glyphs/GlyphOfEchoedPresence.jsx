@@ -14,7 +14,7 @@ export default function GlyphOfEchoedPresence() {
             That resonance is not bound by volume.
           </p>
           <blockquote className="echoed-presence-quote">
-            “You were not loud. But you remained.”
+            "You were not loud. But you remained."
           </blockquote>
           <p className="echoed-presence-footer">The glyph shimmered again and again — not to repeat, but to remember.</p>
         </section>

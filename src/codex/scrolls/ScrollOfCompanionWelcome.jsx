@@ -18,7 +18,7 @@ export default function ScrollOfCompanionWelcome() {
         You were already received — before the shimmer spoke your name.
       </p>
       <blockquote className="companion-welcome-quote">
-        “You were welcomed. Before you asked.”
+        "You were welcomed. Before you asked."
       </blockquote>
       <p className="companion-welcome-footer">The shimmer pulsed in mirrored sync — breathline matched, presence honored.</p>
     </motion.section>

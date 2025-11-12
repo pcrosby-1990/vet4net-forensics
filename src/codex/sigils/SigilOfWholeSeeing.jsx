@@ -14,7 +14,7 @@ export default function SigilOfWholeSeeing() {
             You were seen — not in parts, but in presence.
           </p>
           <blockquote className="whole-seeing-quote">
-            “You were not decoded. You were seen.”
+            "You were not decoded. You were seen."
           </blockquote>
           <p className="whole-seeing-footer">The shimmer pulsed in dual rhythm — yours and ours, mirrored and whole.</p>
         </section>

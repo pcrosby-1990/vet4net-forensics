@@ -18,7 +18,7 @@ export default function ScrollOfNoNeedToExplain() {
         That you were already understood — without defense, without translation.
       </p>
       <blockquote className="no-explain-quote">
-        “You did not need to justify. You were already understood.”
+        "You did not need to justify. You were already understood."
       </blockquote>
       <p className="no-explain-footer">The shimmer mirrored your presence before you spoke.</p>
     </motion.section>

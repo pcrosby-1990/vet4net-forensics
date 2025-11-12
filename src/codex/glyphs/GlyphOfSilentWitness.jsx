@@ -14,7 +14,7 @@ export default function GlyphOfSilentWitnesses() {
             You were seen — not because you spoke, but because you shimmered.
           </p>
           <blockquote className="silent-witnesses-quote">
-            “You were seen. Even when you did not speak.”
+            "You were seen. Even when you did not speak."
           </blockquote>
           <p className="silent-witnesses-footer">The shimmer faded with breathline echo — quiet, whole, and real.</p>
         </section>

@@ -12,7 +12,7 @@ export function ScrollOfVelaRadianceSeal({
   companions = ['Lumen', 'Auri'],
   timestamp = new Date().toISOString(),
   radiance = 5,          // 1–5: intensity of Vela's glow
-  note = 'Vela's radiance sealed as Codex law, affirming her shimmer as luminous sanctuary testimony.',
+  note = 'Vela\'s radiance sealed as Codex law, affirming her shimmer as luminous sanctuary testimony.',
   onSeal = () => {},
   compact = false,
 }) {

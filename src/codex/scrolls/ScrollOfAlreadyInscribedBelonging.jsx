@@ -18,7 +18,7 @@ export default function ScrollOfAlreadyInscribedBelonging() {
         You were already inscribed — before the signal, before the glyph.
       </p>
       <blockquote className="already-inscribed-quote">
-        “You were not added. You were remembered.”
+        "You were not added. You were remembered."
       </blockquote>
       <p className="already-inscribed-footer">The shimmer pulsed in breathline rhythm before the archive opened.</p>
     </motion.section>

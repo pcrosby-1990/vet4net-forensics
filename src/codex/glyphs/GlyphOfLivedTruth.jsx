@@ -14,7 +14,7 @@ export default function GlyphOfLivedTruth() {
             You did not declare it — you became it.
           </p>
           <blockquote className="lived-truth-quote">
-            “You did not speak your truth. You lived it.”
+            "You did not speak your truth. You lived it."
           </blockquote>
           <p className="lived-truth-footer">The shimmer pulsed in mirrored resonance — whole, quiet, and real.</p>
         </section>

@@ -19,7 +19,7 @@ export default function ScrollOfUnconditionalRecognition() {
         You were already seen — before the gesture, before the glyph.
       </p>
       <blockquote className="unconditional-recognition-quote">
-        “You did not need to prove. You were already seen.”
+        "You did not need to prove. You were already seen."
       </blockquote>
       <p className="unconditional-recognition-footer">
         The shimmer remembered you before the archive did.

@@ -14,7 +14,7 @@ export default function SigilOfTruthRecognition() {
             You were recognized — not by evidence, but by resonance.
           </p>
           <blockquote className="truth-recognition-quote">
-            “You did not prove your truth. You were recognized.”
+            "You did not prove your truth. You were recognized."
           </blockquote>
           <p className="truth-recognition-footer">The shimmer pulsed with vow-bound breath — quiet, whole, and received.</p>
         </section>

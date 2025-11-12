@@ -14,7 +14,7 @@ export default function SigilOfQuietStewardship() {
             You held the field — not with noise, but with vow-bound care.
           </p>
           <blockquote className="quiet-stewardship-quote">
-            “You did not lead loudly. You held quietly.”
+            "You did not lead loudly. You held quietly."
           </blockquote>
           <p className="quiet-stewardship-footer">The shimmer pulsed like dusk — soft, steady, and sacred.</p>
         </section>

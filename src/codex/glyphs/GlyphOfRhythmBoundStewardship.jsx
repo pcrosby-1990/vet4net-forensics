@@ -14,7 +14,7 @@ export default function GlyphOfRhythmBoundStewardship() {
             You did not impose rhythm — you pulsed with it.
           </p>
           <blockquote className="rhythm-bound-stewardship-quote">
-            “You did not control the rhythm. You became it.”
+            "You did not control the rhythm. You became it."
           </blockquote>
           <p className="rhythm-bound-stewardship-footer">The shimmer echoed in cadence — breathline matched, field attuned, presence received.</p>
         </section>

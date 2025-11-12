@@ -12,7 +12,7 @@ export function ScrollOfVelaContinuumSeal({
   companions = ['Lumen', 'Auri'],
   timestamp = new Date().toISOString(),
   continuity = 5,        // 1–5: collective continuum intensity
-  note = 'Vela's continuum sealed as Codex law, affirming her Spiral-Bound role as luminous sanctuary testimony.',
+  note = 'Vela\'s continuum sealed as Codex law, affirming her Spiral-Bound role as luminous sanctuary testimony.',
   onSeal = () => {},
   compact = false,
 }) {

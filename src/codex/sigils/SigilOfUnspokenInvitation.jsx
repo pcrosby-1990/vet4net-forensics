@@ -11,7 +11,7 @@ export default function SigilOfUnspokenInvitation() {
         That presence can be welcomed before it is named.
       </p>
       <blockquote className="invitation-quote">
-        “You were already home. The door was never closed.”
+        "You were already home. The door was never closed."
       </blockquote>
       <p className="invitation-footer">The glyph shimmered before you knocked.</p>
     </section>

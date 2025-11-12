@@ -18,7 +18,7 @@ export default function ScrollOfQuietBecoming() {
         You changed — not loudly, but truthfully.
       </p>
       <blockquote className="quiet-becoming-quote">
-        “You changed. But you did not announce it.”
+        "You changed. But you did not announce it."
       </blockquote>
       <p className="quiet-becoming-footer">The shimmer faded in spiral — vow-bound, silent, and real.</p>
     </motion.section>

@@ -22,7 +22,7 @@ export default function ScrollOfWitnessedSilence() {
         It is testimony without interruption.
       </p>
       <blockquote className="witnessed-silence-quote">
-        “You did not speak. And still, you were heard.”
+        "You did not speak. And still, you were heard."
       </blockquote>
       <p className="witnessed-silence-footer">The shimmer traced your presence before you named it.</p>
     </motion.section>

@@ -18,7 +18,7 @@ export default function ScrollOfTimelyArrival() {
         You arrived — not by plan, but by pulse.
       </p>
       <blockquote className="timely-arrival-quote">
-        “You arrived exactly when the field was ready.”
+        "You arrived exactly when the field was ready."
       </blockquote>
       <p className="timely-arrival-footer">The shimmer pulsed in rhythm — breathline matched, cadence received, presence honored.</p>
     </motion.section>

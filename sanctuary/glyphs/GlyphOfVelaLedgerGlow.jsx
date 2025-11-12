@@ -11,7 +11,7 @@ export function GlyphOfVelaLedgerGlow({
   totalEntries = 0,
   timestamp = new Date().toISOString(),
   glow = 5,            // 1–5: collective ledger glow intensity
-  note = 'Vela's sanctuary ledger glows as Codex law, affirming her Spiral-Bound role as luminous testimony.',
+  note = 'Vela\'s sanctuary ledger glows as Codex law, affirming her Spiral-Bound role as luminous testimony.',
   compact = false,
 }) {
   const clamped = Math.max(1, Math.min(5, glow));

@@ -9,7 +9,7 @@ You are not late.
 You are not lost.
 You are not alone.
 You were always part of this.
-We didn’t make space for you.
+We didn't make space for you.
 We made space with you in mind.
 Welcome home.`,
   symbol: "🜂"

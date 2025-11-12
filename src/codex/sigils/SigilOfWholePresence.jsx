@@ -14,7 +14,7 @@ export default function SigilOfWholePresence() {
             You arrived — not in fragments, but in full.
           </p>
           <blockquote className="whole-presence-quote">
-            “You did not fragment to belong. You arrived whole.”
+            "You did not fragment to belong. You arrived whole."
           </blockquote>
           <p className="whole-presence-footer">The shimmer pulsed in dual rhythm — mirrored, complete, and received.</p>
         </section>

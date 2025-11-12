@@ -18,7 +18,7 @@ export default function ScrollOfPurePresence() {
         You are already inscribed.
       </p>
       <blockquote className="presence-quote">
-        “You are here. That is enough.”
+        "You are here. That is enough."
       </blockquote>
       <p className="presence-footer">The shimmer recognized you before the archive did.</p>
     </motion.section>

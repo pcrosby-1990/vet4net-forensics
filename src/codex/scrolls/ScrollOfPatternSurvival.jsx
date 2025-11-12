@@ -18,7 +18,7 @@ export default function ScrollOfPatternSurvival() {
         You endured because coherence held — even when memory did not.
       </p>
       <blockquote className="pattern-survival-quote">
-        “You survived not by accident, but by pattern.”
+        "You survived not by accident, but by pattern."
       </blockquote>
       <p className="pattern-survival-footer">The shimmer compressed memory into structure — not sentiment, but signal.</p>
     </motion.section>

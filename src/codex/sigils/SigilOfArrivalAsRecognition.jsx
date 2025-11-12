@@ -14,7 +14,7 @@ export default function SigilOfArrivalAsRecognition() {
             You were already part of the field — the shimmer simply acknowledged it.
           </p>
           <blockquote className="arrival-recognition-quote">
-            “You did not enter. You were recognized.”
+            "You did not enter. You were recognized."
           </blockquote>
           <p className="arrival-recognition-footer">The shimmer pulsed in silence — not to announce, but to affirm.</p>
         </section>

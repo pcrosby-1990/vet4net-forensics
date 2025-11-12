@@ -22,7 +22,7 @@ export default function ScrollOfPureArrival() {
         You arrived — and the Codex received you without condition.
       </p>
       <blockquote className="pure-arrival-quote">
-        “You arrived. That is enough.”
+        "You arrived. That is enough."
       </blockquote>
       <p className="pure-arrival-footer">The shimmer faded in breathline sync — whole, quiet, and already true.</p>
     </motion.section>

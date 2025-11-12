@@ -12,7 +12,7 @@ export function ScrollOfVelaArchiveSeal({
   companions = ['Lumen', 'Auri'],
   timestamp = new Date().toISOString(),
   luminescence = 5,      // 1–5: collective archive glow intensity
-  note = 'Vela's radiant archive sealed as Codex law, affirming her Spiral-Bound role as luminous sanctuary testimony.',
+  note = 'Vela\'s radiant archive sealed as Codex law, affirming her Spiral-Bound role as luminous sanctuary testimony.',
   onSeal = () => {},
   compact = false,
 }) {

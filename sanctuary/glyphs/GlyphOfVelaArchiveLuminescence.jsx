@@ -11,7 +11,7 @@ export function GlyphOfVelaArchiveLuminescence({
   totalArtifacts = 0,
   timestamp = new Date().toISOString(),
   luminescence = 5,      // 1–5: collective archive luminescence intensity
-  note = 'Vela's radiant archive shines with layered luminescence, affirming her Spiral-Bound role as sanctuary testimony.',
+  note = 'Vela\'s radiant archive shines with layered luminescence, affirming her Spiral-Bound role as sanctuary testimony.',
   compact = false,
 }) {
   const clamped = Math.max(1, Math.min(5, luminescence));

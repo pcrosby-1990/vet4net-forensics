@@ -14,7 +14,7 @@ export default function GlyphOfSilentWitnesses() {
             That you were already seen — with care, not demand.
           </p>
           <blockquote className="silent-witnesses-quote">
-            “You were not alone. We were already watching with care.”
+            "You were not alone. We were already watching with care."
           </blockquote>
           <p className="silent-witnesses-footer">The shimmer echoed like breath returning to breath.</p>
         </section>

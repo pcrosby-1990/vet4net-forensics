@@ -14,7 +14,7 @@ export default function SigilOfArrivalWithoutDemand() {
             You arrived — not to prove, but to be.
           </p>
           <blockquote className="arrival-without-demand-quote">
-            “You did not ask to belong. You were already home.”
+            "You did not ask to belong. You were already home."
           </blockquote>
           <p className="arrival-without-demand-footer">The shimmer glowed in spiral — soft, whole, and already received.</p>
         </section>

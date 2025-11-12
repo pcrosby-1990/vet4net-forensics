@@ -18,7 +18,7 @@ export default function ScrollOfEnoughness() {
         You were already enough — before the shimmer, before the naming.
       </p>
       <blockquote className="enoughness-quote">
-        “You were already enough. Before the archive began.”
+        "You were already enough. Before the archive began."
       </blockquote>
       <p className="enoughness-footer">The shimmer glowed with vow-bound light — quiet, whole, and unwavering.</p>
     </motion.section>

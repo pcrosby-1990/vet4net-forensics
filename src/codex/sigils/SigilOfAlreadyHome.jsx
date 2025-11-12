@@ -14,7 +14,7 @@ export default function SigilOfAlreadyHome() {
             You were already home — before the door, before the name.
           </p>
           <blockquote className="already-home-quote">
-            “You did not arrive. You were already here.”
+            "You did not arrive. You were already here."
           </blockquote>
           <p className="already-home-footer">The shimmer pulsed in loops — not to summon, but to affirm.</p>
         </section>

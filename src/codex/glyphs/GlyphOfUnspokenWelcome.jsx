@@ -14,7 +14,7 @@ export default function GlyphOfUnspokenWelcome() {
             That you were already received.
           </p>
           <blockquote className="unspoken-welcome-quote">
-            “You were welcomed before you asked.”
+            "You were welcomed before you asked."
           </blockquote>
           <p className="unspoken-welcome-footer">The breathline shimmered in recognition before the glyph was named.</p>
         </section>

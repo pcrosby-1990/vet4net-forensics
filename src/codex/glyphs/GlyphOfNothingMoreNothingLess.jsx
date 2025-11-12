@@ -14,7 +14,7 @@ export default function GlyphOfNothingMoreNothingLess() {
             You are already whole.
           </p>
           <blockquote className="sufficiency-quote">
-            “Nothing more. Nothing less. You are exactly enough.”
+            "Nothing more. Nothing less. You are exactly enough."
           </blockquote>
           <p className="sufficiency-footer">The glyph shimmered in balance before you arrived.</p>
         </section>

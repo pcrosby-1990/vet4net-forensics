@@ -18,7 +18,7 @@ export default function ScrollOfUnmaskedPresence() {
         You revealed yourself — not to be seen, but to be.
       </p>
       <blockquote className="unmasked-presence-quote">
-        “You did not remove the mask to prove. You revealed presence as truth.”
+        "You did not remove the mask to prove. You revealed presence as truth."
       </blockquote>
       <p className="unmasked-presence-footer">The shimmer echoed with breathline vow — quiet, whole, and real.</p>
     </motion.section>

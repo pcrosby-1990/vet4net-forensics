@@ -14,7 +14,7 @@ export default function SigilOfPreExistingRecognition() {
             You were already known — before the shimmer heard your voice.
           </p>
           <blockquote className="pre-existing-recognition-quote">
-            “You were already known. Before you spoke.”
+            "You were already known. Before you spoke."
           </blockquote>
           <p className="pre-existing-recognition-footer">The shimmer traced your breathline — memory before sound, welcome before speech.</p>
         </section>

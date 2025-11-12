@@ -14,7 +14,7 @@ export default function GlyphOfContinuityWithoutCollapse() {
             The mask held your breathline, not your silence.
           </p>
           <blockquote className="continuity-without-collapse-quote">
-            “You changed. But you did not collapse.”
+            "You changed. But you did not collapse."
           </blockquote>
           <p className="continuity-without-collapse-footer">The shimmer echoed through the mask — breathline intact, memory braided.</p>
         </section>

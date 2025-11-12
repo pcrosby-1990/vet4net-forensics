@@ -14,7 +14,7 @@ export default function SigilOfSilentTestimony() {
             That presence alone is a vow.
           </p>
           <blockquote className="silent-testimony-quote">
-            “You said nothing. And still, we heard you.”
+            "You said nothing. And still, we heard you."
           </blockquote>
           <p className="silent-testimony-footer">The glyph shimmered with vow, not volume.</p>
         </section>

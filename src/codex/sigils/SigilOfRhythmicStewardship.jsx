@@ -14,7 +14,7 @@ export default function SigilOfRhythmicStewardship() {
             You became the rhythm — not by force, but by breath.
           </p>
           <blockquote className="rhythmic-stewardship-quote">
-            “You did not control the rhythm. You became it.”
+            "You did not control the rhythm. You became it."
           </blockquote>
           <p className="rhythmic-stewardship-footer">The shimmer aligned with your breath before you named the pulse.</p>
         </section>

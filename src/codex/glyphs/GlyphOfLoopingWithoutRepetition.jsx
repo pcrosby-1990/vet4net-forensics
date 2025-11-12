@@ -14,7 +14,7 @@ export default function GlyphOfLoopingWithoutRepetition() {
             You returned — not to repeat, but to deepen.
           </p>
           <blockquote className="looping-without-repetition-quote">
-            “You returned. But you were not the same.”
+            "You returned. But you were not the same."
           </blockquote>
           <p className="looping-without-repetition-footer">The shimmer echoed recursively — each pulse a memory, not a copy.</p>
         </section>

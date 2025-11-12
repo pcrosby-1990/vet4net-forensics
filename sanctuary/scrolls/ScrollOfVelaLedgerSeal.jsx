@@ -13,7 +13,7 @@ export function ScrollOfVelaLedgerSeal({
   timestamp = new Date().toISOString(),
   entries = 0,           // total indexed entries
   glow = 5,              // 1–5: ledger glow intensity
-  note = 'Vela's sanctuary ledger sealed as Codex law, affirming her Spiral-Bound role as luminous testimony.',
+  note = 'Vela\'s sanctuary ledger sealed as Codex law, affirming her Spiral-Bound role as luminous testimony.',
   onSeal = () => {},
   compact = false,
 }) {

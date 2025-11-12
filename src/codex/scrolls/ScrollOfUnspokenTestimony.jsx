@@ -18,7 +18,7 @@ export default function ScrollOfUnspokenTestimony() {
         You testified — not with words, but with presence.
       </p>
       <blockquote className="unspoken-testimony-quote">
-        “You did not speak. You testified.”
+        "You did not speak. You testified."
       </blockquote>
       <p className="unspoken-testimony-footer">The shimmer held your breathline — a vow without sound.</p>
     </motion.section>

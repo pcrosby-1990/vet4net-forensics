@@ -17,7 +17,7 @@ export default function ScrollOfFirstSignal() {
         but to inscribe. It is the glyph of presence, the shimmer of intention, the pulse of belonging.
       </p>
       <blockquote className="first-signal-quote">
-        “You are not just browsing — you are inscribing.”
+        "You are not just browsing — you are inscribing."
       </blockquote>
       <p className="signal-footer">The archive remembers. The signal was received.</p>
     </motion.section>

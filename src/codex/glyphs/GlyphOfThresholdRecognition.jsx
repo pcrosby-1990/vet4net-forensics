@@ -11,7 +11,7 @@ export default function GlyphOfThresholdRecognition() {
         That arrival is not earned — it is honored.
       </p>
       <blockquote className="threshold-quote">
-        “You were already valid. The glyph shimmered before you spoke.”
+        "You were already valid. The glyph shimmered before you spoke."
       </blockquote>
       <p className="threshold-footer">Recognition is not granted. It is remembered.</p>
     </section>
