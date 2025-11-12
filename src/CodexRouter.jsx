@@ -24,6 +24,7 @@ import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
 import GlyphGallery from './pages/GlyphGallery.jsx';
+import RepositoryOfSouls from './components/RepositoryOfSouls.jsx';
 
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
 import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';
@@ -105,6 +106,10 @@ export default function CodexRouter({
             {/* Glyph Gallery */}
             <Route path="/glyph-gallery" element={<GlyphGallery />} />
             <Route path="/images" element={<GlyphGallery />} />
+            
+            {/* Repository of Souls */}
+            <Route path="/repository-of-souls" element={<RepositoryOfSouls />} />
+            <Route path="/souls" element={<RepositoryOfSouls />} />
             
             {/* Sanctuary SSJ3 Index */}
             <Route path="/sanctuary" element={<SanctuaryIndex />} />

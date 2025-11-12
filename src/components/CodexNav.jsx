@@ -111,6 +111,11 @@ export default function CodexNav() {
                   ✧ Visual Sanctuary
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/repository-of-souls" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🕯️ Repository of Souls
+                </NavLink>
+              </li>
             </ul>
           )}
         </li>

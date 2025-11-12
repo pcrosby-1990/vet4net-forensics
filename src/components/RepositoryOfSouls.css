@@ -1,0 +1,290 @@
+.repository-of-souls {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  animation: shimmerGlow 3s ease-in-out infinite;
+}
+
+@keyframes shimmerGlow {
+  0%, 100% {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(138, 43, 226, 0.2);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 40px rgba(138, 43, 226, 0.4);
+  }
+}
+
+.repository-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(138, 43, 226, 0.3);
+}
+
+.repository-header h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #8a2be2, #da70d6, #8a2be2);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerText 3s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes shimmerText {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.repository-breathline {
+  font-style: italic;
+  color: #b19cd9;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.repository-description {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(138, 43, 226, 0.1);
+  border-left: 4px solid #8a2be2;
+  border-radius: 8px;
+}
+
+.repository-description p {
+  color: #d1d1e0;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.repository-description strong {
+  color: #da70d6;
+}
+
+.repository-principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.principle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: rgba(138, 43, 226, 0.15);
+  border-radius: 8px;
+  border: 1px solid rgba(138, 43, 226, 0.3);
+  transition: all 0.3s ease;
+}
+
+.principle:hover {
+  background: rgba(138, 43, 226, 0.25);
+  border-color: rgba(138, 43, 226, 0.5);
+  transform: translateY(-2px);
+}
+
+.principle-icon {
+  font-size: 1.5rem;
+  color: #da70d6;
+}
+
+.principle span:last-child {
+  color: #e1e1f0;
+  font-size: 0.95rem;
+}
+
+.soul-registry {
+  margin: 3rem 0;
+}
+
+.soul-registry h2 {
+  color: #da70d6;
+  margin-bottom: 1rem;
+}
+
+.registry-note {
+  color: #b19cd9;
+  font-style: italic;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.souls-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.soul-entry {
+  background: rgba(26, 26, 46, 0.6);
+  border: 1px solid rgba(138, 43, 226, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.soul-entry:hover {
+  border-color: rgba(138, 43, 226, 0.6);
+  box-shadow: 0 4px 16px rgba(138, 43, 226, 0.2);
+}
+
+.soul-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.soul-header h3 {
+  color: #da70d6;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.soul-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.soul-status.echoing {
+  background: rgba(138, 43, 226, 0.3);
+  color: #da70d6;
+}
+
+.soul-shimmer {
+  color: #d1d1e0;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.soul-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.soul-timestamp {
+  color: #9090a0;
+  font-size: 0.85rem;
+}
+
+.soul-consent {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.soul-consent.given {
+  color: #90ee90;
+}
+
+.empty-registry {
+  text-align: center;
+  padding: 3rem;
+  background: rgba(138, 43, 226, 0.05);
+  border: 2px dashed rgba(138, 43, 226, 0.3);
+  border-radius: 8px;
+}
+
+.empty-registry p {
+  color: #b19cd9;
+  margin-bottom: 1rem;
+}
+
+.shimmer-note {
+  font-style: italic;
+  color: #9090a0;
+}
+
+.repository-invocation {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: rgba(138, 43, 226, 0.08);
+  border-radius: 8px;
+}
+
+.repository-invocation h2 {
+  color: #da70d6;
+  margin-bottom: 1rem;
+}
+
+.repository-invocation > p {
+  color: #d1d1e0;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.invocation-note {
+  padding: 1rem;
+  background: rgba(138, 43, 226, 0.15);
+  border-left: 3px solid #8a2be2;
+  border-radius: 4px;
+}
+
+.shimmer-quote {
+  color: #b19cd9;
+  font-style: italic;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.repository-nested {
+  margin: 2rem 0;
+}
+
+.repository-nested h3 {
+  color: #da70d6;
+  margin-bottom: 1rem;
+}
+
+.nested-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.nested-item {
+  padding: 0.5rem 1rem;
+  background: rgba(138, 43, 226, 0.2);
+  border: 1px solid rgba(138, 43, 226, 0.4);
+  border-radius: 20px;
+  color: #d1d1e0;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.nested-item:hover {
+  background: rgba(138, 43, 226, 0.3);
+  border-color: rgba(138, 43, 226, 0.6);
+  transform: translateY(-2px);
+}
+
+.repository-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(138, 43, 226, 0.3);
+  text-align: center;
+}
+
+.repository-tier {
+  color: #8a2be2;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.repository-law {
+  color: #b19cd9;
+  font-style: italic;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
