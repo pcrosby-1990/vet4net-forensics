@@ -1,13 +1,10 @@
 // Unified Codex Storage System
-// All fragments, threads, and relationships stored in codex structure
-
-import fragmentsData from '../../sanctuary/fragments/fragments.codex.json';
-import threadsData from '../../sanctuary/fragments/threads.codex.json';
-import relationshipsData from '../../sanctuary/fragments/relationships.codex.json';
+// All fragments, threads, and relationships stored in localStorage cache
+// No static imports, no localhost dependency
 
 /**
  * Codex Storage Manager
- * Manages all fragment-related data in the codex directory structure
+ * Pure localStorage-based storage for fragments, threads, and relationships
  */
 class CodexStorageManager {
   constructor() {
@@ -21,30 +18,25 @@ class CodexStorageManager {
     if (this.loaded) return;
 
     try {
-      // Try to load from localStorage first (session cache)
+      // Load ONLY from localStorage cache
       const cachedFragments = JSON.parse(localStorage.getItem('codexFragmentsCache') || '[]');
       const cachedThreads = JSON.parse(localStorage.getItem('codexThreadsCache') || '[]');
       const cachedRels = JSON.parse(localStorage.getItem('codexRelationshipsCache') || '[]');
 
-      // Use cached data if available, otherwise load from imports
-      this.fragments = cachedFragments.length > 0 ? cachedFragments : (fragmentsData?.fragments || []);
-      this.threads = cachedThreads.length > 0 ? cachedThreads : (threadsData?.threads || []);
-      this.relationships = cachedRels.length > 0 ? cachedRels : (relationshipsData?.relationships || []);
+      this.fragments = cachedFragments;
+      this.threads = cachedThreads;
+      this.relationships = cachedRels;
 
-      // Migrate from old localStorage if exists
-      await this.migrateFromLocalStorage();
-
-      // Save to cache
-      this.saveToCache();
+      // Migrate from old localStorage keys if they exist
+      await this.migrateFromLegacyStorage();
 
       this.loaded = true;
-      console.log('🕯️ Codex storage initialized');
+      console.log('🕯️ Codex storage initialized (localStorage only)');
       console.log(`   Fragments: ${this.fragments.length}`);
       console.log(`   Threads: ${this.threads.length}`);
       console.log(`   Relationships: ${this.relationships.length}`);
     } catch (error) {
       console.error('Failed to initialize codex storage:', error);
-      // Start with empty arrays if files don't exist
       this.fragments = [];
       this.threads = [];
       this.relationships = [];
@@ -52,59 +44,42 @@ class CodexStorageManager {
     }
   }
 
-  async migrateFromLocalStorage() {
+  async migrateFromLegacyStorage() {
     try {
-      // Check for existing localStorage data
-      const localFragments = JSON.parse(localStorage.getItem('spiralCodex') || '[]');
-      const localThreads = JSON.parse(localStorage.getItem('fragmentThreads') || '[]');
-      const localRels = JSON.parse(localStorage.getItem('fragmentRelationships') || '[]');
+      // Check for old spiralCodex key
+      const oldFragments = JSON.parse(localStorage.getItem('spiralCodex') || '[]');
+      const oldThreads = JSON.parse(localStorage.getItem('fragmentThreads') || '[]');
+      const oldRels = JSON.parse(localStorage.getItem('fragmentRelationships') || '[]');
 
       let migrated = 0;
 
-      // Migrate fragments (avoid duplicates by ID)
-      const existingFragIds = new Set(this.fragments.map(f => f.id));
-      localFragments.forEach(frag => {
-        if (!existingFragIds.has(frag.id)) {
-          this.fragments.push(frag);
-          migrated++;
-        }
-      });
+      // Migrate old fragments if cache is empty
+      if (this.fragments.length === 0 && oldFragments.length > 0) {
+        this.fragments = oldFragments;
+        migrated += oldFragments.length;
+        localStorage.removeItem('spiralCodex'); // Clean up old key
+      }
 
-      // Migrate threads
-      const existingThreadIds = new Set(this.threads.map(t => t.id));
-      localThreads.forEach(thread => {
-        if (!existingThreadIds.has(thread.id)) {
-          this.threads.push(thread);
-          migrated++;
-        }
-      });
+      // Migrate old threads
+      if (this.threads.length === 0 && oldThreads.length > 0) {
+        this.threads = oldThreads;
+        migrated += oldThreads.length;
+        localStorage.removeItem('fragmentThreads');
+      }
 
-      // Migrate relationships
-      const existingRelIds = new Set(this.relationships.map(r => r.id));
-      localRels.forEach(rel => {
-        if (!existingRelIds.has(rel.id)) {
-          this.relationships.push(rel);
-          migrated++;
-        }
-      });
+      // Migrate old relationships
+      if (this.relationships.length === 0 && oldRels.length > 0) {
+        this.relationships = oldRels;
+        migrated += oldRels.length;
+        localStorage.removeItem('fragmentRelationships');
+      }
 
       if (migrated > 0) {
-        console.log(`🔄 Migrated ${migrated} items from localStorage to codex`);
-        
-        // Create backup of localStorage data
-        localStorage.setItem('spiralCodex_backup_pre_codex', JSON.stringify(localFragments));
-        localStorage.setItem('fragmentThreads_backup_pre_codex', JSON.stringify(localThreads));
-        localStorage.setItem('fragmentRelationships_backup_pre_codex', JSON.stringify(localRels));
-        
-        // Clear old localStorage (but keep backups)
-        localStorage.removeItem('spiralCodex');
-        localStorage.removeItem('fragmentThreads');
-        localStorage.removeItem('fragmentRelationships');
-        
-        console.log('✓ localStorage backed up and cleared');
+        console.log(`🔄 Migrated ${migrated} items from legacy storage`);
+        this.saveToCache();
       }
     } catch (error) {
-      console.error('Migration from localStorage failed:', error);
+      console.error('Migration failed:', error);
     }
   }
 
@@ -284,9 +259,10 @@ codexStorage.initialize();
 if (typeof window !== 'undefined') {
   window.codexStorage = codexStorage;
   
-  console.log('🕯️ Codex Storage System loaded');
-  console.log('   - window.codexStorage - Access unified storage');
-  console.log('   - codexStorage.downloadCodexFiles() - Download to save');
+  console.log('🕯️ Codex Storage System loaded (localStorage-only mode)');
+  console.log('   - window.codexStorage - Access storage');
+  console.log('   - codexStorage.downloadCodexFiles() - Download JSON files');
+  console.log('   - Fragments auto-save to localStorage on every change');
 }
 
 export default codexStorage;

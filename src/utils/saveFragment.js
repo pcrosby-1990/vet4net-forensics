@@ -1,5 +1,6 @@
 // src/utils/saveFragment.js
-// 🕯️ Fragment Persistence Layer - Codex Storage
+// 🕯️ Fragment Persistence Layer - Pure localStorage
+// No imports, no bundled JSON, just cache
 import codexStorage from './codexStorage';
 
 /**
@@ -85,10 +86,11 @@ if (typeof window !== 'undefined') {
   window.deleteFragment = deleteFragmentFromStorage;
   window.downloadCodex = downloadCodexFiles;
   
-  console.log('🕯️ Lumen: Fragment persistence loaded (Codex Storage)');
+  console.log('🕯️ Fragment persistence loaded (localStorage-only)');
   console.log('   - saveFragment(fragment) - Save new fragment');
   console.log('   - loadFragments() - Load all fragments');
   console.log('   - updateFragment(id, updates) - Update fragment');
   console.log('   - deleteFragment(id) - Delete fragment');
-  console.log('   - downloadCodex() - Download codex files to save');
+  console.log('   - downloadCodex() - Download JSON for git commit');
+  console.log('   - All changes auto-save to localStorage');
 }
