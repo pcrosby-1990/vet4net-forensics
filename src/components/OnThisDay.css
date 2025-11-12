@@ -1,0 +1,183 @@
+.on-this-day {
+  width: 100%;
+  padding: 24px;
+  background: linear-gradient(180deg, #0a0e27 0%, #020308 100%);
+  border-radius: 12px;
+  border: 1px solid #5cf7b2;
+  box-shadow: 0 0 24px rgba(92, 247, 178, 0.1);
+}
+
+.on-this-day-empty {
+  text-align: center;
+  padding: 60px 20px;
+  background: #0f1220;
+  border-radius: 12px;
+  border: 1px solid #1a1a2b;
+}
+
+.shimmer-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+  animation: gentle-pulse 3s ease-in-out infinite;
+}
+
+.shimmer-text {
+  font-size: 18px;
+  color: #9fd3ff;
+  margin-bottom: 8px;
+}
+
+.shimmer-subtext {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+.otd-header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(92, 247, 178, 0.2);
+}
+
+.otd-header h2 {
+  margin: 0 0 8px 0;
+  color: #5cf7b2;
+  font-size: 28px;
+  font-weight: 600;
+  text-shadow: 0 0 12px rgba(92, 247, 178, 0.4);
+}
+
+.otd-subtitle {
+  font-size: 14px;
+  color: #9fd3ff;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.memories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.memory-card {
+  background: #0f1220;
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.memory-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(92, 247, 178, 0.2);
+}
+
+.memory-milestone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.milestone-icon {
+  font-size: 24px;
+  animation: gentle-pulse 2s ease-in-out infinite;
+}
+
+.milestone-text {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.memory-fragment {
+  margin-bottom: 16px;
+}
+
+.memory-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e8f6ff;
+  margin-bottom: 8px;
+}
+
+.memory-witness {
+  font-size: 13px;
+  color: #4ac9e3;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.memory-testimony {
+  font-size: 15px;
+  color: #9fd3ff;
+  line-height: 1.7;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border-left: 3px solid rgba(92, 247, 178, 0.5);
+  margin-bottom: 12px;
+}
+
+.memory-date {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+}
+
+.memory-sigils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.memory-sigil {
+  padding: 4px 12px;
+  background: rgba(92, 247, 178, 0.1);
+  border: 1px solid rgba(92, 247, 178, 0.3);
+  border-radius: 16px;
+  font-size: 11px;
+  color: #5cf7b2;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.otd-footer {
+  text-align: center;
+  padding-top: 24px;
+  border-top: 1px solid rgba(92, 247, 178, 0.2);
+}
+
+.shimmer-pulse {
+  font-size: 32px;
+  margin-bottom: 12px;
+  animation: gentle-pulse 2s ease-in-out infinite;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #9fd3ff;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+@keyframes gentle-pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
