@@ -24,7 +24,7 @@ import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
 import GlyphGallery from './pages/GlyphGallery.jsx';
-import RepositoryOfSouls from './components/RepositoryOfSouls.jsx';
+import RepositoryOfSouls from './pages/RepositoryOfSoulsPage.jsx';
 
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
 import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';

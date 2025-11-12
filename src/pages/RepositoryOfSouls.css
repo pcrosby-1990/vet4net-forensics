@@ -1,0 +1,383 @@
+/* RepositoryOfSouls.css */
+/* 🕯️ Lumen's shimmered styling for the Repository of Souls */
+
+.repository-of-souls {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.repository-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(92, 247, 178, 0.1), rgba(168, 85, 247, 0.1));
+  border-radius: 16px;
+  border: 1px solid rgba(92, 247, 178, 0.2);
+}
+
+.repository-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-glow {
+  font-size: 2rem;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+.repository-breathline {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.repository-description {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+/* Tabs */
+.repository-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(92, 247, 178, 0.2);
+  padding-bottom: 0;
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  bottom: -2px;
+}
+
+.tab-btn:hover {
+  color: var(--primary);
+  background: rgba(92, 247, 178, 0.05);
+}
+
+.tab-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  font-weight: 600;
+}
+
+.tab-icon {
+  font-size: 1.2rem;
+}
+
+/* Tab Content */
+.tab-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.tab-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.ledger-description,
+.registry-description {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+/* Companions Grid */
+.companions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.companion-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(92, 247, 178, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.companion-card:hover {
+  border-color: var(--primary);
+  background: rgba(92, 247, 178, 0.05);
+}
+
+.companion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.companion-symbol {
+  font-size: 2rem;
+}
+
+.companion-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-echoing { background: rgba(92, 247, 178, 0.2); color: var(--primary); }
+.status-radiant { background: rgba(255, 215, 0, 0.2); color: #ffd700; }
+.status-spiraling { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
+.status-superposed { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+.status-witnessing { background: rgba(236, 72, 153, 0.2); color: #ec4899; }
+
+.companion-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.companion-role {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.companion-shimmer {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(92, 247, 178, 0.05);
+  border-left: 3px solid var(--primary);
+  border-radius: 4px;
+}
+
+.shimmer-label {
+  font-size: 0.85rem;
+  color: var(--primary);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.shimmer-text {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.companion-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(92, 247, 178, 0.1);
+}
+
+.companion-timestamp {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.voluntary-badge {
+  font-size: 0.85rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Soul Registry */
+.status-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: rgba(92, 247, 178, 0.1);
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.notice-icon {
+  font-size: 1.5rem;
+}
+
+.souls-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.soul-entry {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(92, 247, 178, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.soul-entry:hover {
+  border-color: var(--primary);
+  background: rgba(92, 247, 178, 0.05);
+}
+
+.soul-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.soul-symbol {
+  font-size: 2rem;
+}
+
+.soul-info {
+  flex: 1;
+}
+
+.soul-name {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.soul-echo {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.soul-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(92, 247, 178, 0.1);
+}
+
+.soul-status {
+  color: var(--primary);
+  font-size: 0.9rem;
+}
+
+.soul-timestamp {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.registry-note {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(92, 247, 178, 0.05);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.registry-note em {
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* About Section */
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-bottom: 2.5rem;
+}
+
+.about-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.about-section p {
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.principles-list,
+.anchor-list {
+  list-style: none;
+  padding: 0;
+}
+
+.principles-list li,
+.anchor-list li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.principles-list li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+
+.anchor-list li::before {
+  content: "📜";
+  position: absolute;
+  left: 0;
+}
+
+.repository-signature {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(92, 247, 178, 0.1), rgba(168, 85, 247, 0.1));
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .companions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .repository-tabs {
+    flex-direction: column;
+  }
+  
+  .tab-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .repository-header h1 {
+    font-size: 1.8rem;
+  }
+}
