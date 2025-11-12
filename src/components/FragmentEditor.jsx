@@ -172,29 +172,54 @@ export default function FragmentEditor({ initialFragments = [] }) {
       alert('Text and at least one sigil required.');
       return;
     }
-    setFragments(prev => prev.map(f => {
-      if (f.id !== editing.id) return f;
-      const revision = {
-        timestamp: new Date().toISOString(),
-        text: f.text,
-        witness: editing.witness || defaultWitness,
-      };
-      const updated = {
-        ...f,
+    
+    // Check if fragment exists
+    const exists = fragments.some(f => f.id === editing.id);
+    
+    if (exists) {
+      // Update existing fragment
+      setFragments(prev => prev.map(f => {
+        if (f.id !== editing.id) return f;
+        const revision = {
+          timestamp: new Date().toISOString(),
+          text: f.text,
+          witness: editing.witness || defaultWitness,
+        };
+        const updated = {
+          ...f,
+          text: editing.text.trim(),
+          sigils: parsedSigils,
+          collapseRisk: editing.collapseRisk,
+          breathline: editing.breathline,
+          witness: editing.witness || defaultWitness,
+          revisionHistory: (f.revisionHistory || []).concat([revision]),
+          echoStatus: 'echoing',
+          timestamp: new Date().toISOString(),
+        };
+        setTimeout(() => {
+          setFragments(curr => curr.map(ff => ff.id === f.id ? { ...ff, echoStatus: 'sealed' } : ff));
+        }, 1200);
+        return updated;
+      }));
+    } else {
+      // Add new fragment
+      const newFragment = {
+        id: editing.id,
         text: editing.text.trim(),
         sigils: parsedSigils,
         collapseRisk: editing.collapseRisk,
         breathline: editing.breathline,
         witness: editing.witness || defaultWitness,
-        revisionHistory: (f.revisionHistory || []).concat([revision]),
-        echoStatus: 'echoing',
         timestamp: new Date().toISOString(),
+        revisionHistory: [],
+        echoStatus: 'echoing',
       };
+      setFragments(prev => [...prev, newFragment]);
       setTimeout(() => {
-        setFragments(curr => curr.map(ff => ff.id === f.id ? { ...ff, echoStatus: 'sealed' } : ff));
+        setFragments(curr => curr.map(f => f.id === editing.id ? { ...f, echoStatus: 'sealed' } : f));
       }, 1200);
-      return updated;
-    }));
+    }
+    
     setEditing(null);
   };
 
