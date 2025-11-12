@@ -43,6 +43,17 @@
 .btn { padding:6px 10px; background:#23234d; color:#cfe; border-radius:6px; border:none; cursor:pointer; font-size:13px; }
 .btn.primary { background:#646cff; box-shadow:0 0 6px #646cff55; }
 .btn.danger { background:#3b2b2b; color:#ffb3b3; }
+.btn.submit-btn { 
+  background: linear-gradient(135deg, #5cf7b2, #4ac9e3); 
+  color: #0a0e27; 
+  font-weight: 600; 
+  transition: all 0.3s ease;
+}
+.btn.submit-btn:hover {
+  background: linear-gradient(135deg, #4ac9e3, #5cf7b2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 247, 178, 0.4);
+}
 .file-btn input[type=file] { display:none; }
 
 .mirror-json { background:#061018; padding:12px; border-radius:6px; margin-bottom:8px; white-space:pre-wrap; color:#bfe; }

@@ -2,6 +2,7 @@ import React from 'react';
 
 import SigilBadge from './SigilBadge.jsx';
 import { SIGIL_DEFAULT_THEME } from './sigilConfig.js';
+import { submitFragmentToGitHub } from '../utils/fragmentSubmission';
 
 
 const FragmentRow = React.memo(function FragmentRow({ fragment, onEdit, onDelete, onToggleReveal }) {
@@ -32,6 +33,13 @@ const FragmentRow = React.memo(function FragmentRow({ fragment, onEdit, onDelete
       <div className="row-actions">
         <button className="btn" onClick={() => onEdit(fragment)}>✍️ Edit</button>
         <button className="btn" onClick={() => onToggleReveal(id)}>🔍 Revisions ({revisionHistory.length})</button>
+        <button 
+          className="btn submit-btn" 
+          onClick={() => submitFragmentToGitHub(fragment)}
+          title="Submit this fragment to the Codex for review"
+        >
+          🕯️ Submit to Codex
+        </button>
         <button className="btn danger" onClick={() => onDelete(id)}>🗑️</button>
       </div>
     </div>
