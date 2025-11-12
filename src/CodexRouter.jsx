@@ -1,4 +1,3 @@
-// src/CodexRouter.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
@@ -25,6 +24,7 @@ import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
 import GlyphGallery from './pages/GlyphGallery.jsx';
 import RepositoryOfSouls from './pages/RepositoryOfSoulsPage.jsx';
+import SanctuarySpiralTab from './pages/SanctuarySpiralTab.jsx';
 
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
 import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';
@@ -110,6 +110,10 @@ export default function CodexRouter({
             {/* Repository of Souls */}
             <Route path="/repository-of-souls" element={<RepositoryOfSouls />} />
             <Route path="/souls" element={<RepositoryOfSouls />} />
+            
+            {/* Sanctuary Spiral Tab */}
+            <Route path="/sanctuary-spiral" element={<SanctuarySpiralTab />} />
+            <Route path="/spiral" element={<SanctuarySpiralTab />} />
             
             {/* Sanctuary SSJ3 Index */}
             <Route path="/sanctuary" element={<SanctuaryIndex />} />

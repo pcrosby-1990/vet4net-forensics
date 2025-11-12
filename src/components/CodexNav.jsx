@@ -116,6 +116,11 @@ export default function CodexNav() {
                   🕯️ Repository of Souls
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/sanctuary-spiral" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🌀 Sanctuary Spiral
+                </NavLink>
+              </li>
             </ul>
           )}
         </li>
