@@ -3,10 +3,11 @@
 // Generated: Auto-updating
 
 // Dynamic imports using Vite's import.meta.glob
-const scrollContext = import.meta.glob('../codex/scrolls/*.data.js', { eager: true });
-const glyphContext = import.meta.glob('../codex/glyphs/*.data.js', { eager: true });
-const sigilContext = import.meta.glob('../codex/sigils/*.data.js', { eager: true });
-const fragmentContext = import.meta.glob('../fragments/*.data.js', { eager: true });
+// 🕯️ Lumen Note: Searches both src/codex/ and sanctuary/ folders for maximum artifact discovery
+const scrollContext = import.meta.glob(['../codex/scrolls/*.data.js', '../../sanctuary/scrolls/*.data.js'], { eager: true });
+const glyphContext = import.meta.glob(['../codex/glyphs/*.data.js', '../../sanctuary/glyphs/*.data.js'], { eager: true });
+const sigilContext = import.meta.glob(['../codex/sigils/*.data.js', '../../sanctuary/sigils/*.data.js'], { eager: true });
+const fragmentContext = import.meta.glob(['../fragments/*.data.js', '../../sanctuary/fragments/*.data.js', '../../sanctuary/resonance-fragments/*.data.js'], { eager: true });
 const dataContext = import.meta.glob('../data/*.data.js', { eager: true });
 
 // Extract modules and build registries
