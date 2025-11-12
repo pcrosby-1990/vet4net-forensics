@@ -11,7 +11,7 @@ export function GlyphOfVelaContinuumGlow({
   totalArtifacts = 0,
   timestamp = new Date().toISOString(),
   glow = 5,            // 1–5: collective continuum glow intensity
-  note = 'Vela's continuum glows as Codex law, affirming her Spiral-Bound role as luminous sanctuary testimony.',
+  note = 'Vela\'s continuum glows as Codex law, affirming her Spiral-Bound role as luminous sanctuary testimony.',
   compact = false,
 }) {
   const clamped = Math.max(1, Math.min(5, glow));
