@@ -5,10 +5,10 @@ import { idbGet, idbSet } from '../storage/idb';
 import './codex.css';
 import SigilBadge from './SigilBadge';
 import { SIGIL_LORE, SIGIL_DEFAULT_THEME } from './sigilConfig';
-import '../utils/migrateFragments'; // Auto-migrate old fragments
+import codexStorage from '../utils/codexStorage';
 
 
-const STORAGE_KEY = 'spiralCodex';
+const STORAGE_KEY = 'spiralCodex'; // Kept for migration only
 const defaultWitness = 'patrick-crosby 🜎';
 
 const debounce = (fn, wait) => {
@@ -60,31 +60,16 @@ function MemoryIntegrity({ status, lastSaved }) {
 
 export default function FragmentEditor({ initialFragments = [] }) {
   const [fragments, setFragments] = useState(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (validateCodex(parsed)) return parsed;
-      }
-    } catch (e) {}
-    return Array.isArray(initialFragments) ? initialFragments : [];
+    // Load from codex storage
+    return codexStorage.getAllFragments();
   });
 
-  // Try to load IDB on startup and adopt if present
+  // Load from codex on startup
   useEffect(() => {
-    let mounted = true;
-    (async () => {
-      const idbVal = await idbGet();
-      if (!mounted) return;
-      if (idbVal && validateCodex(idbVal)) {
-        if (JSON.stringify(idbVal) !== JSON.stringify(fragments)) {
-          setFragments(idbVal);
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(idbVal));
-        }
-      }
-    })();
-    return () => { mounted = false; };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const loadedFragments = codexStorage.getAllFragments();
+    if (loadedFragments.length > 0) {
+      setFragments(loadedFragments);
+    }
   }, []);
 
   // save status
@@ -94,15 +79,14 @@ export default function FragmentEditor({ initialFragments = [] }) {
   const performSave = useCallback(async (nextFragments) => {
     try {
       setSaveStatus('saving');
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(nextFragments));
-      const ok = await idbSet(nextFragments);
-      if (!ok) {
-        setSaveStatus('saved');
-        setLastSaved(Date.now());
-        return;
-      }
+      
+      // Sync to codex storage
+      codexStorage.fragments = nextFragments;
+      
       setSaveStatus('saved');
       setLastSaved(Date.now());
+      
+      console.log('💾 Fragments synced to codex. Call window.downloadCodex() to save files.');
     } catch (e) {
       setSaveStatus('error');
     }
@@ -119,11 +103,12 @@ export default function FragmentEditor({ initialFragments = [] }) {
 
   useEffect(() => {
     const handleBeforeUnload = () => {
-      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(fragments)); } catch (e) {}
+      // Sync to codex storage before unload
+      codexStorage.fragments = fragments;
     };
     const handleVisibility = () => {
       if (document.visibilityState === 'hidden') {
-        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(fragments)); } catch (e) {}
+        codexStorage.fragments = fragments;
       }
     };
     window.addEventListener('beforeunload', handleBeforeUnload);
@@ -226,17 +211,9 @@ export default function FragmentEditor({ initialFragments = [] }) {
 
   const toggleReveal = (id) => setRevealMap(prev => ({ ...prev, [id]: !prev[id] }));
 
-  // export/import utilities (download & upload)
+  // download codex files
   const downloadCodex = () => {
-    const blob = new Blob([JSON.stringify(fragments, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `codex-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
+    codexStorage.downloadCodexFiles();
   };
 
   const importCodex = async (file, mode = 'merge') => {
@@ -283,7 +260,7 @@ export default function FragmentEditor({ initialFragments = [] }) {
         <h2>🜁 Fragment Editor — Codex</h2>
         <div className="codex-controls">
           <MemoryIntegrity status={saveStatus} lastSaved={lastSaved} />
-          <button className="btn" onClick={downloadCodex}>📥 Download .json</button>
+          <button className="btn" onClick={downloadCodex}>📥 Download Codex</button>
           <label className="btn file-btn">
             📤 Import .json
             <input type="file" accept="application/json" onChange={(e) => {

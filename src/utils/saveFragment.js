@@ -1,28 +1,15 @@
 // src/utils/saveFragment.js
-// 🕯️ Fragment Persistence Layer
-
-// UNIFIED STORAGE KEY - matches FragmentEditor.jsx
-const STORAGE_KEY = 'spiralCodex';
+// 🕯️ Fragment Persistence Layer - Codex Storage
+import codexStorage from './codexStorage';
 
 /**
- * Save a generated fragment to localStorage AND to the in-memory registry
- * This creates shimmer persistence across page reloads
+ * Save a generated fragment to codex storage
  */
 export const saveFragmentToStorage = (fragment) => {
   try {
-    // Get existing fragments from localStorage (using unified key)
-    const existingFragments = JSON.parse(
-      localStorage.getItem(STORAGE_KEY) || '[]'
-    );
-
-    // Add new fragment to the beginning (most recent first)
-    const updated = [fragment, ...existingFragments];
-
-    // Save back to localStorage
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-
-    console.log('🕯️ Fragment saved to localStorage:', fragment.id || fragment.name);
-    return { success: true, fragment };
+    const savedFragment = codexStorage.addFragment(fragment);
+    console.log('🕯️ Fragment saved to codex:', fragment.id || fragment.name);
+    return { success: true, fragment: savedFragment };
   } catch (error) {
     console.error('❌ Failed to save fragment:', error);
     return { success: false, error };
@@ -30,14 +17,12 @@ export const saveFragmentToStorage = (fragment) => {
 };
 
 /**
- * Load all fragments from localStorage
+ * Load all fragments from codex storage
  */
 export const loadFragmentsFromStorage = () => {
   try {
-    const fragments = JSON.parse(
-      localStorage.getItem(STORAGE_KEY) || '[]'
-    );
-    console.log(`🕯️ Loaded ${fragments.length} fragments from localStorage`);
+    const fragments = codexStorage.getAllFragments();
+    console.log(`🕯️ Loaded ${fragments.length} fragments from codex`);
     return fragments;
   } catch (error) {
     console.error('❌ Failed to load fragments:', error);
@@ -46,23 +31,19 @@ export const loadFragmentsFromStorage = () => {
 };
 
 /**
- * Update an existing fragment
+ * Update an existing fragment in codex
  */
 export const updateFragmentInStorage = (fragmentId, updates) => {
   try {
-    const fragments = loadFragmentsFromStorage();
-    const index = fragments.findIndex(f => (f.id || f.name) === fragmentId);
+    const updated = codexStorage.updateFragment(fragmentId, updates);
     
-    if (index === -1) {
+    if (!updated) {
       console.warn('⚠️ Fragment not found:', fragmentId);
       return { success: false, error: 'Fragment not found' };
     }
 
-    fragments[index] = { ...fragments[index], ...updates };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(fragments));
-    
-    console.log('🕯️ Fragment updated:', fragmentId);
-    return { success: true, fragment: fragments[index] };
+    console.log('🕯️ Fragment updated in codex:', fragmentId);
+    return { success: true, fragment: updated };
   } catch (error) {
     console.error('❌ Failed to update fragment:', error);
     return { success: false, error };
@@ -70,20 +51,30 @@ export const updateFragmentInStorage = (fragmentId, updates) => {
 };
 
 /**
- * Delete a fragment from storage
+ * Delete a fragment from codex storage
  */
 export const deleteFragmentFromStorage = (fragmentId) => {
   try {
-    const fragments = loadFragmentsFromStorage();
-    const filtered = fragments.filter(f => (f.id || f.name) !== fragmentId);
+    const deleted = codexStorage.deleteFragment(fragmentId);
     
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered));
-    console.log('🕯️ Fragment deleted:', fragmentId);
+    if (!deleted) {
+      console.warn('⚠️ Fragment not found:', fragmentId);
+      return { success: false, error: 'Fragment not found' };
+    }
+    
+    console.log('🕯️ Fragment deleted from codex:', fragmentId);
     return { success: true };
   } catch (error) {
     console.error('❌ Failed to delete fragment:', error);
     return { success: false, error };
   }
+};
+
+/**
+ * Download codex files to save changes
+ */
+export const downloadCodexFiles = () => {
+  codexStorage.downloadCodexFiles();
 };
 
 // Auto-expose to window for console access
@@ -92,10 +83,12 @@ if (typeof window !== 'undefined') {
   window.loadFragments = loadFragmentsFromStorage;
   window.updateFragment = updateFragmentInStorage;
   window.deleteFragment = deleteFragmentFromStorage;
+  window.downloadCodex = downloadCodexFiles;
   
-  console.log('🕯️ Lumen: Fragment persistence loaded');
+  console.log('🕯️ Lumen: Fragment persistence loaded (Codex Storage)');
   console.log('   - saveFragment(fragment) - Save new fragment');
   console.log('   - loadFragments() - Load all fragments');
   console.log('   - updateFragment(id, updates) - Update fragment');
   console.log('   - deleteFragment(id) - Delete fragment');
+  console.log('   - downloadCodex() - Download codex files to save');
 }

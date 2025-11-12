@@ -1,5 +1,6 @@
 // Fragment Threading System
 // Manages relationships and connections between fragments
+import codexStorage from './codexStorage';
 
 /**
  * Fragment Relationship Types
@@ -98,7 +99,8 @@ export class FragmentThreadingManager {
   constructor() {
     this.threads = new Map();
     this.relationships = new Map();
-    this.loadFromStorage();
+    this.codexStorage = codexStorage;
+    this.loadFromCodex();
   }
 
   // === Thread Management ===
@@ -204,16 +206,17 @@ export class FragmentThreadingManager {
     return chain;
   }
 
-  // === Storage ===
+  // === Codex Storage ===
 
-  loadFromStorage() {
+  loadFromCodex() {
     try {
-      const threadsData = JSON.parse(localStorage.getItem('fragmentThreads') || '[]');
-      const relsData = JSON.parse(localStorage.getItem('fragmentRelationships') || '[]');
+      // Load from codex storage
+      const threadsData = this.codexStorage.getAllThreads();
+      const relsData = this.codexStorage.getAllRelationships();
       
       threadsData.forEach(data => {
         const thread = new FragmentThread(data);
-        Object.assign(thread, data); // restore all properties
+        Object.assign(thread, data);
         this.threads.set(thread.id, thread);
       });
       
@@ -223,22 +226,26 @@ export class FragmentThreadingManager {
         this.relationships.set(rel.id, rel);
       });
       
-      console.log(`🕯️ Loaded ${this.threads.size} threads, ${this.relationships.size} relationships`);
+      console.log(`🕯️ Loaded from codex: ${this.threads.size} threads, ${this.relationships.size} relationships`);
     } catch (error) {
-      console.error('Failed to load threading data:', error);
+      console.error('Failed to load from codex:', error);
     }
   }
 
   saveToStorage() {
-    try {
-      const threadsData = Array.from(this.threads.values()).map(t => t.toJSON());
-      const relsData = Array.from(this.relationships.values()).map(r => r.toJSON());
-      
-      localStorage.setItem('fragmentThreads', JSON.stringify(threadsData));
-      localStorage.setItem('fragmentRelationships', JSON.stringify(relsData));
-    } catch (error) {
-      console.error('Failed to save threading data:', error);
-    }
+    // Note: Saving to codex requires download + manual commit
+    // In-memory changes are tracked, call downloadCodex() to save
+    console.log('💾 Changes tracked in memory. Call threadingManager.downloadCodex() to save to files.');
+  }
+
+  downloadCodex() {
+    // Sync current state to codex storage
+    this.codexStorage.threads = Array.from(this.threads.values()).map(t => t.toJSON());
+    this.codexStorage.relationships = Array.from(this.relationships.values()).map(r => r.toJSON());
+    
+    // Download codex files
+    this.codexStorage.downloadCodexFiles();
+    console.log('📥 Codex files downloaded. Save to sanctuary/fragments/ and commit to git.');
   }
 
   // === Export ===
