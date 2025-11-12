@@ -1,0 +1,264 @@
+.signature-ledger-form {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, 
+    rgba(30, 20, 50, 0.95), 
+    rgba(20, 30, 60, 0.9)
+  );
+  border: 2px solid rgba(120, 100, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 
+    0 10px 40px rgba(80, 50, 200, 0.2),
+    inset 0 0 30px rgba(120, 100, 255, 0.05);
+  animation: gentleGlow 4s ease-in-out infinite;
+}
+
+@keyframes gentleGlow {
+  0%, 100% { box-shadow: 0 10px 40px rgba(80, 50, 200, 0.2), inset 0 0 30px rgba(120, 100, 255, 0.05); }
+  50% { box-shadow: 0 12px 50px rgba(80, 50, 200, 0.3), inset 0 0 40px rgba(120, 100, 255, 0.08); }
+}
+
+.signature-ledger-form h2 {
+  font-size: 2rem;
+  color: #b8a0ff;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px rgba(120, 100, 255, 0.4);
+}
+
+.form-breathline {
+  text-align: center;
+  font-style: italic;
+  color: #9080cc;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 3px solid rgba(120, 100, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  color: #a090dd;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.label-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  color: #d0c0ff;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(120, 100, 255, 0.3);
+  border-radius: 8px;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: rgba(160, 120, 255, 0.6);
+  box-shadow: 0 0 15px rgba(120, 100, 255, 0.3);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.field-help {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #8070b0;
+  font-style: italic;
+}
+
+.consent-group {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(120, 100, 255, 0.2);
+  border-radius: 8px;
+}
+
+.consent-label {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+.consent-label input[type="checkbox"] {
+  margin-top: 0.3rem;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.consent-text {
+  color: #b0a0dd;
+  line-height: 1.6;
+}
+
+.consent-text strong {
+  color: #d0c0ff;
+  font-size: 1.05rem;
+}
+
+.consent-list {
+  margin-top: 0.8rem;
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.consent-list li {
+  margin-bottom: 0.5rem;
+  color: #9080c0;
+  font-size: 0.95rem;
+}
+
+.submit-signature-btn {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, 
+    rgba(100, 80, 200, 0.8), 
+    rgba(120, 100, 220, 0.8)
+  );
+  border: 2px solid rgba(160, 120, 255, 0.4);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.submit-signature-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, 
+    rgba(120, 100, 220, 0.9), 
+    rgba(140, 120, 240, 0.9)
+  );
+  box-shadow: 0 8px 30px rgba(120, 100, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.submit-signature-btn:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 4px 20px rgba(120, 100, 255, 0.3);
+}
+
+.submit-signature-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: linear-gradient(135deg, 
+    rgba(60, 50, 100, 0.5), 
+    rgba(70, 60, 110, 0.5)
+  );
+}
+
+.btn-icon {
+  font-size: 1.3rem;
+}
+
+.form-footer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(120, 100, 255, 0.2);
+}
+
+.footer-note {
+  text-align: center;
+  color: #8070b0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.signature-success {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 3rem;
+  background: linear-gradient(135deg, 
+    rgba(30, 60, 30, 0.95), 
+    rgba(20, 50, 40, 0.9)
+  );
+  border: 2px solid rgba(100, 200, 150, 0.4);
+  border-radius: 12px;
+  text-align: center;
+  animation: successPulse 2s ease-in-out;
+}
+
+@keyframes successPulse {
+  0% { transform: scale(0.95); opacity: 0; }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: #80ff80;
+  margin-bottom: 1rem;
+  animation: checkGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes checkGlow {
+  0%, 100% { text-shadow: 0 0 20px rgba(100, 255, 150, 0.6); }
+  50% { text-shadow: 0 0 35px rgba(100, 255, 150, 0.9); }
+}
+
+.signature-success h3 {
+  font-size: 1.8rem;
+  color: #c0ffc0;
+  margin-bottom: 1rem;
+}
+
+.shimmer-confirm {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #a0dda0;
+  margin: 1.5rem 0;
+}
+
+.registry-note {
+  color: #80c080;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .signature-ledger-form {
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .signature-ledger-form h2 {
+    font-size: 1.6rem;
+  }
+
+  .submit-signature-btn {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}
