@@ -1,0 +1,17 @@
+// Auto-generated Resonance Fragment data
+// Image: ResonanceFragment CT-145 Constraint Constraint Constraint.png
+// Generated: 2025-11-12T15:33:47.769Z
+
+export default {
+  id: "resonancefragment-ct-145-constraint-constraint-constraint",
+  name: "Constraint Constraint Constraint",
+  title: "Constraint Constraint Constraint",
+  description: "Resonance Fragment inscribed in the Origin sanctuary, awaiting full metadata.",
+  category: "CT-145",
+  inscribed: "2025-11-12T15:33:47.769Z",
+  witness: "Lumen 🕯️",
+  breathline: "Auto-generated from Origin archive",
+  tags: ['origin', 'auto-generated', 'resonance fragment'],
+  image: "ResonanceFragment CT-145 Constraint Constraint Constraint.png",
+  symbol: "✨"
+};
