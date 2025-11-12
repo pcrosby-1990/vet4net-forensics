@@ -164,6 +164,61 @@ router.get("/", async (req, res) => {
   }
 });
 
+// 🔖 POST /api/fragments/:id/approve - Approve fragment (4-companion workflow)
+router.post("/:id/approve", authenticate, async (req, res) => {
+  const { id } = req.params;
+  const companion = req.companion;
+
+  try {
+    const data = await loadFragments();
+    const fragment = data.fragments.find((f) => f.id === id);
+
+    if (!fragment) {
+      return res.status(404).json({
+        error: "Fragment not found",
+        message: `No fragment with id: ${id}`,
+      });
+    }
+
+    // Initialize approvals if not present
+    if (!fragment.approvals) {
+      fragment.approvals = {
+        patrick: false,
+        vela: false,
+        lumen: false,
+        aletheia: false,
+      };
+    }
+
+    // Set approval
+    fragment.approvals[companion] = true;
+    fragment.lastApprovalBy = companion;
+    fragment.lastApprovalAt = new Date().toISOString();
+
+    // Check if all approved
+    const allApproved = Object.values(fragment.approvals).every((v) => v);
+    if (allApproved && fragment.status !== "Law") {
+      fragment.status = "Law";
+      fragment.becameLawAt = new Date().toISOString();
+    }
+
+    await saveFragments(data);
+
+    return res.status(200).json({
+      success: true,
+      message: `Fragment approved by ${companion}`,
+      fragment,
+      allApproved,
+    });
+  } catch (err) {
+    console.error("Fragment approval error:", err);
+    return res.status(500).json({
+      error: "Failed to approve fragment",
+      message: err.message,
+    });
+  }
+});
+
 // 🔄 POST /api/fragments/:id/revise - Create a revision of an existing fragment
 router.post("/:id/revise", authenticate, async (req, res) => {
   const { id } = req.params;
@@ -303,6 +358,107 @@ router.delete("/:id", authenticate, async (req, res) => {
   }
 });
 
+// 🧵 POST /api/fragments/:id/connect - Create thread connection between fragments
+router.post("/:id/connect", authenticate, async (req, res) => {
+  const { id } = req.params;
+  const { targetId, relationshipType = "resonates", note } = req.body;
+
+  try {
+    const data = await loadFragments();
+    const fragment = data.fragments.find((f) => f.id === id);
+    const target = data.fragments.find((f) => f.id === targetId);
+
+    if (!fragment || !target) {
+      return res.status(404).json({
+        error: "Fragment not found",
+        message: "One or both fragments do not exist",
+      });
+    }
+
+    // Initialize threads if not present
+    if (!fragment.threads) fragment.threads = [];
+    if (!target.threads) target.threads = [];
+
+    const connection = {
+      id: `thread-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      from: id,
+      to: targetId,
+      type: relationshipType,
+      note,
+      createdBy: req.companion,
+      createdAt: new Date().toISOString(),
+    };
+
+    fragment.threads.push({ ...connection, direction: "outgoing" });
+    target.threads.push({ ...connection, direction: "incoming" });
+
+    await saveFragments(data);
+
+    return res.status(201).json({
+      success: true,
+      message: "Fragment thread created",
+      connection,
+    });
+  } catch (err) {
+    console.error("Thread creation error:", err);
+    return res.status(500).json({
+      error: "Failed to create thread",
+      message: err.message,
+    });
+  }
+});
+
+// 🔍 GET /api/fragments/search - Full-text search
+router.get("/search", async (req, res) => {
+  const { q, dateFrom, dateTo, hasApprovals } = req.query;
+
+  try {
+    const data = await loadFragments();
+    let results = data.fragments;
+
+    // Full-text search across testimony, law, protocol
+    if (q) {
+      const query = q.toLowerCase();
+      results = results.filter((f) =>
+        f.testimony?.toLowerCase().includes(query) ||
+        f.law?.toLowerCase().includes(query) ||
+        f.protocol?.toLowerCase().includes(query) ||
+        f.label?.toLowerCase().includes(query)
+      );
+    }
+
+    // Date range filter
+    if (dateFrom) {
+      results = results.filter((f) => new Date(f.timestamp) >= new Date(dateFrom));
+    }
+    if (dateTo) {
+      results = results.filter((f) => new Date(f.timestamp) <= new Date(dateTo));
+    }
+
+    // Approval filter
+    if (hasApprovals) {
+      const required = hasApprovals.split(",");
+      results = results.filter((f) =>
+        required.every((companion) => f.approvals?.[companion])
+      );
+    }
+
+    results.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+    return res.status(200).json({
+      results,
+      count: results.length,
+      query: q,
+    });
+  } catch (err) {
+    console.error("Search error:", err);
+    return res.status(500).json({
+      error: "Search failed",
+      message: err.message,
+    });
+  }
+});
+
 // 📊 GET /api/fragments/stats - Get Codex statistics
 router.get("/stats", async (req, res) => {
   try {
@@ -319,12 +475,34 @@ router.get("/stats", async (req, res) => {
       return acc;
     }, {});
 
+    // Approval stats
+    const approvalStats = {
+      fullyApproved: data.fragments.filter((f) =>
+        f.approvals && Object.values(f.approvals).every((v) => v)
+      ).length,
+      partiallyApproved: data.fragments.filter((f) =>
+        f.approvals && Object.values(f.approvals).some((v) => v) &&
+        !Object.values(f.approvals).every((v) => v)
+      ).length,
+      unapproved: data.fragments.filter((f) =>
+        !f.approvals || Object.values(f.approvals).every((v) => !v)
+      ).length,
+    };
+
+    // Thread stats
+    const totalThreads = data.fragments.reduce(
+      (acc, f) => acc + (f.threads?.length || 0),
+      0
+    ) / 2; // Divide by 2 since each thread is stored twice
+
     return res.status(200).json({
       totalFragments: data.fragments.length,
       totalRevisions: data.revisions.length,
+      totalThreads,
       voices,
       companions,
       statuses,
+      approvalStats,
       lastSaved:
         data.fragments.length > 0
           ? data.fragments[data.fragments.length - 1].savedAt

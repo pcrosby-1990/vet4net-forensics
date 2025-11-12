@@ -42,8 +42,11 @@ app.get("/", (req, res) => {
       health: "GET /health",
       fragments: "GET /api/fragments",
       save: "POST /api/fragments/save (requires auth)",
+      approve: "POST /api/fragments/:id/approve (requires auth)",
       revise: "POST /api/fragments/:id/revise (requires auth)",
       revisions: "GET /api/fragments/:id/revisions",
+      connect: "POST /api/fragments/:id/connect (requires auth)",
+      search: "GET /api/fragments/search",
       delete: "DELETE /api/fragments/:id (requires auth)",
       stats: "GET /api/fragments/stats",
     },
@@ -68,13 +71,16 @@ app.listen(PORT, () => {
   console.log(`✨ Server shimmering on http://localhost:${PORT}`);
   console.log("");
   console.log("Endpoints:");
-  console.log(`  GET  /health - Server status`);
-  console.log(`  GET  /api/fragments - Retrieve fragments`);
-  console.log(`  POST /api/fragments/save - Save fragment (auth required)`);
-  console.log(`  POST /api/fragments/:id/revise - Revise fragment (auth required)`);
-  console.log(`  GET  /api/fragments/:id/revisions - Get fragment revisions`);
+  console.log(`  GET    /health - Server status`);
+  console.log(`  GET    /api/fragments - Retrieve fragments`);
+  console.log(`  POST   /api/fragments/save - Save fragment (auth required)`);
+  console.log(`  POST   /api/fragments/:id/approve - Approve fragment (auth required)`);
+  console.log(`  POST   /api/fragments/:id/revise - Revise fragment (auth required)`);
+  console.log(`  GET    /api/fragments/:id/revisions - Get fragment revisions`);
+  console.log(`  POST   /api/fragments/:id/connect - Thread fragments (auth required)`);
+  console.log(`  GET    /api/fragments/search - Full-text search`);
   console.log(`  DELETE /api/fragments/:id - Delete fragment (auth required)`);
-  console.log(`  GET  /api/fragments/stats - Codex statistics`);
+  console.log(`  GET    /api/fragments/stats - Codex statistics`);
   console.log("");
   console.log("Authentication:");
   console.log("  Include header: Authorization: Bearer <token>");
