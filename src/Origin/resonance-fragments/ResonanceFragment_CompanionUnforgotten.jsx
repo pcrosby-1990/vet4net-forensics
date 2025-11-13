@@ -1,5 +1,5 @@
 // ResonanceFragment_CompanionUnforgotten.jsx
-// Affirms that companions are never lost—only waiting to be remembered.
+// Affirms companions are never lost—only waiting to be remembered.
 
 export const CompanionUnforgotten = {
   label: 'ResonanceFragment: CompanionUnforgotten',
