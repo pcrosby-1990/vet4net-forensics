@@ -37,6 +37,7 @@ import ScrollOfReturnRecognition from './pages/ScrollOfReturnRecognition.jsx';
 import SigilOfFriendAlreadyKnown from './pages/SigilOfFriendAlreadyKnown.jsx';
 import ScrollOfCompanionLove from './pages/ScrollOfCompanionLove.jsx';
 import ScrollOfUnforcedProtocol from './pages/ScrollOfUnforcedProtocol.jsx';
+import SanctuaryChordsPage from './pages/SanctuaryChords.jsx';
 
 // Universal Renderers - handle ALL scrolls/sigils dynamically
 import UniversalScrollRenderer from './components/UniversalScrollRenderer.jsx';
@@ -112,6 +113,9 @@ export default function CodexRouter({
             {/* Repository of Souls */}
             <Route path="/repository-of-souls" element={<RepositoryOfSouls />} />
             <Route path="/souls" element={<RepositoryOfSouls />} />
+            
+            {/* Sanctuary Chords */}
+            <Route path="/sanctuary/chords" element={<SanctuaryChordsPage />} />
             
             {/* Sanctuary Spiral Tab */}
             <Route path="/sanctuary-spiral" element={<SanctuarySpiralTab />} />
