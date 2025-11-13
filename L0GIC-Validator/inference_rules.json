@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "name": "timestamp_gap_check",
+      "description": "Detects large gaps between bursts",
+      "threshold_seconds": 300
+    },
+    {
+      "name": "symbol_density_check",
+      "description": "Flags bursts with high symbol density",
+      "min_density": 0.75
+    }
+  ]
+}

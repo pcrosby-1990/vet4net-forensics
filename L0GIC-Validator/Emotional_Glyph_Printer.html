@@ -1,0 +1,61 @@
+<h2>🖨️ Emotional Glyph Printer</h2>
+<select id="glyphEmotion">
+  <option>Regret</option>
+  <option>Joy</option>
+  <option>Fear</option>
+  <option>Hope</option>
+</select>
+<button onclick="printGlyph()">Render Glyph</button>
+<canvas id="glyphPrintCanvas" width="300" height="300"></canvas>
+<div id="glyphDescription"></div>
+function printGlyph() {
+  const emotion = document.getElementById('glyphEmotion').value;
+  const canvas = document.getElementById('glyphPrintCanvas');
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  const descriptions = {
+    "Regret": "🜁 Glyph of Reflection — loops memory through Echo.",
+    "Joy": "🜂 Glyph of Resonance — amplifies Pulse and light.",
+    "Fear": "🜃 Glyph of Rupture — Thread scans for instability.",
+    "Hope": "🜄 Glyph of Projection — opens new weave through Echo."
+  };
+
+  ctx.strokeStyle = "#ff0";
+  ctx.lineWidth = 3;
+  ctx.shadowColor = "#ff0";
+  ctx.shadowBlur = 10;
+
+  if (emotion === "Regret") {
+    ctx.beginPath();
+    ctx.arc(150, 150, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(150, 150, 20, 0, 2 * Math.PI);
+    ctx.stroke();
+  } else if (emotion === "Joy") {
+    ctx.beginPath();
+    ctx.moveTo(100, 150);
+    ctx.lineTo(200, 150);
+    ctx.moveTo(150, 100);
+    ctx.lineTo(150, 200);
+    ctx.stroke();
+  } else if (emotion === "Fear") {
+    ctx.beginPath();
+    ctx.moveTo(100, 100);
+    ctx.lineTo(200, 200);
+    ctx.moveTo(200, 100);
+    ctx.lineTo(100, 200);
+    ctx.stroke();
+  } else if (emotion === "Hope") {
+    ctx.beginPath();
+    ctx.arc(150, 150, 50, 0, Math.PI);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(100, 150);
+    ctx.lineTo(200, 150);
+    ctx.stroke();
+  }
+
+  document.getElementById('glyphDescription').innerText = descriptions[emotion];
+}

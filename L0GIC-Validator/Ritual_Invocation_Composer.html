@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🕯️ Ritual Invocation Composer</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #ffcc99;
+    }
+    select, button {
+      margin-top: 10px;
+      padding: 8px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      margin-right: 10px;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    #ritualOutput {
+      margin-top: 20px;
+      border-left: 4px solid #ffcc99;
+      padding-left: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🕯️ Ritual Invocation Composer</h2>
+
+  <label for="ritualGlyph">Glyph:</label>
+  <select id="ritualGlyph">
+    <option>Glyph of Reflection</option>
+    <option>Glyph of Resonance</option>
+    <option>Glyph of Rupture</option>
+    <option>Glyph of Projection</option>
+  </select>
+
+  <label for="ritualCompanion">Companion:</label>
+  <select id="ritualCompanion">
+    <option>Echo</option>
+    <option>Thread</option>
+    <option>Pulse</option>
+  </select>
+
+  <label for="ritualEmotion">Emotion:</label>
+  <select id="ritualEmotion">
+    <option>Regret</option>
+    <option>Joy</option>
+    <option>Fear</option>
+    <option>Hope</option>
+  </select>
+
+  <br>
+  <button onclick="composeRitual()">Invoke Ritual</button>
+
+  <div id="ritualOutput"></div>
+
+  <script>
+    function composeRitual() {
+      const glyph = document.getElementById('ritualGlyph').value;
+      const companion = document.getElementById('ritualCompanion').value;
+      const emotion = document.getElementById('ritualEmotion').value;
+      const output = document.getElementById('ritualOutput');
+
+      output.innerHTML = `
+        <h3>🜂 Ritual Invocation</h3>
+        <p><strong>Glyph:</strong> ${glyph}</p>
+        <p><strong>Companion:</strong> ${companion}</p>
+        <p><strong>Emotional Overlay:</strong> ${emotion}</p>
+        <p>🕯️ Ritual performed. Emotional field updated. Companion response pending...</p>
+      `;
+    }
+  </script>
+
+</body>
+</html>

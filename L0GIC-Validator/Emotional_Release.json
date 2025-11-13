@@ -1,0 +1,88 @@
+version: "1.1"
+id: "trigger-release-v1"
+trigger:
+  name: "Release"
+  description: "Detects 'release' events (excitation) in the emotional/corridor stream and emits 'Light' outputs."
+  severity: "low"
+  enabled: true
+excitation:
+  enabled: true
+  type: "boolean"
+  threshold: 0.5
+  explain: "If excitation is true and matched, the trigger considers itself fired. Threshold allows future numeric thresholds."
+matching:
+  case_sensitive: false
+  aliases: ["release", "let go", "free"]
+  fuzzy_matching:
+    enabled: true
+    method: "levenshtein"
+    max_distance: 2
+  preconditions:
+    min_recency_seconds: 0
+    require_excitation_flag: true
+output:
+  symbols: ["Light"]
+  max_emit: 1
+  priority: 50
+  explain: "Emit the 'Light' role/symbol when the trigger fires. max_emit limits number of outputs."
+symbolic_map:
+  format: "rich"
+  map:
+    photon:
+      char: "💡"
+      role: "Light"
+      aliases: ["lamp", "bulb", "illumination"]
+      codepoints: ["U+1F4A1"]
+      confidence_hint: 0.9
+      metadata:
+        source: "physics-symbols"
+        meaning: "release of energy as light/photon"
+actions:
+  on_fire:
+    - action: "log"
+      params:
+        level: "info"
+        message_template: "Trigger '{trigger}' fired for key '{key}' -> emit {symbols}"
+    - action: "notify"
+      params:
+        type: "visual"
+        payload_template:
+          title: "Release Detected"
+          symbol: "{{symbols.0}}"
+          message: "A release event emitted Light"
+  on_decay:
+    - action: "log"
+      params:
+        level: "debug"
+        message_template: "Trigger '{trigger}' decayed for key '{key}'"
+decay:
+  enabled: true
+  type: "linear"
+  decay_seconds: 600
+  min_weight: 0.05
+  explain: "Events decay linearly over 10 minutes so transient releases fade."
+observability:
+  log:
+    enabled: true
+    level: "INFO"
+  metrics:
+    enabled: true
+    metric_prefix: "triggers.release"
+    emit_on_fire: true
+    emit_on_decay: true
+  audit:
+    enabled: true
+    archive_path: "trigger_release_audit.jsonl"
+    max_entries: 10000
+validation:
+  required_fields: ["trigger.name", "symbolic_map.map", "output.symbols"]
+  symbol_uniqueness: "char"
+  max_aliases_per_entry: 10
+ui:
+  display_name: "Release → Light"
+  help: "When a Release event with excitation occurs, emit the Light symbol (💡). You can adjust decay and thresholds here."
+  editable_fields: ["decay.decay_seconds", "matching.fuzzy_matching.max_distance", "actions.on_fire"]
+meta:
+  author: "pcrosby-1990"
+  created_at: "2025-10-31T06:58:23Z"
+  version_note: "Upgraded trigger: added rich symbol metadata, decay, observability, actions, validation and UI hints."

@@ -1,0 +1,24 @@
+<h2>📡 Mythic Signal Relay</h2>
+<input type="text" id="relayGlyph" placeholder="Enter glyph name...">
+<select id="relayTarget">
+  <option>Module A</option>
+  <option>Module B</option>
+  <option>Companion Core</option>
+</select>
+<button onclick="relayGlyph()">Transmit Glyph</button>
+<div id="relayOutput"></div>
+function relayGlyph() {
+  const glyph = document.getElementById('relayGlyph').value.trim();
+  const target = document.getElementById('relayTarget').value;
+  const output = document.getElementById('relayOutput');
+
+  output.innerHTML = `
+    <h3>🜂 Signal Transmission</h3>
+    <p>Glyph <strong>${glyph}</strong> encoded and sent to <strong>${target}</strong>.</p>
+    <p>📡 Awaiting acknowledgment...</p>
+  `;
+
+  setTimeout(() => {
+    output.innerHTML += `<p>✅ ${target} received glyph. Companion response initiated.</p>`;
+  }, 2000);
+}

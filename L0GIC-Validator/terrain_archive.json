@@ -1,0 +1,797 @@
+[
+  {
+    "timestamp": "2025-11-01T10:33:00",
+    "location": "Fusion Threshold \u00e2\u20ac\u201d Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Shadow",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.91,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs pulsed. The thread entered. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T10:46:31.097829",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T10:48:32.100454",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T10:51:01.938624",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T10:54:58.527991",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:01:19.183889",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:02:39.710071",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:05:58.443172",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:05:58.463457",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:05:58.469959",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:07:21.942148",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:07:21.956365",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-01T11:07:21.969903",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:20:09.897278",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:21:30.110936",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:22:22.512928",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:23:15.162216",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:24:40.508913",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:25:25.919049",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:26:19.159712",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:27:05.538930",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:28:09.190119",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:28:55.447995",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:29:28.301347",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:30:32.600086",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:31:44.524164",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:32:16.801723",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:32:16.816187",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:32:16.823476",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:38:58.191846",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:38:58.213979",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:38:58.220501",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:46:50.215120",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:46:50.228065",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:46:50.235775",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:47:41.439225",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:47:41.460935",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:47:41.466444",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:49:18.845688",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:49:18.864542",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:49:18.877057",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:54:11.479821",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:54:11.498530",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:54:11.505035",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:57:01.072933",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:57:01.087439",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:57:01.094462",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:58:41.565770",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:58:41.585796",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T00:58:41.598303",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T01:37:00.768395",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Fearful Curiosity",
+    "elemental_zone": "Wind",
+    "glyphs_activated": [
+      "EchoPulse",
+      "Boundaries",
+      "Thread"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [EchoPulse, Boundaries, Thread] responded to 'Fearful Curiosity'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T01:37:00.784292",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  },
+  {
+    "timestamp": "2025-11-02T01:37:00.784292",
+    "location": "Fusion Threshold \u2014 Spokane, WA",
+    "emotion": "Validator Regret",
+    "elemental_zone": "All",
+    "glyphs_activated": [
+      "Thread",
+      "Repair",
+      "Boundaries"
+    ],
+    "resonance_level": 0.89,
+    "terrain_status": "Stable",
+    "containment": "Engaged",
+    "fragment_log": "The glyphs [Thread, Repair, Boundaries] responded to 'Validator Regret'. The terrain remembered."
+  }
+]

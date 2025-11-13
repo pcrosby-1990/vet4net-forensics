@@ -1,0 +1,2 @@
+n_detector_rows,n_events,correlation,false_positive_rate,avg_lead_seconds,n_lead_times,n_peaks,peak_accuracy,peak_matched,noisy_false_positive_rate,monte_carlo_mean_score,threshold,mc_iters,seed,match_window_seconds
+21,2,,1.0,,0,5,0.0,0,1.0,-1.0,0.7,1000,,30

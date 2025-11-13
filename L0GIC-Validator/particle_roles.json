@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "id": "semantic-symbol-map-v1",
+  "description": "Rich semantic symbol map: maps domain tokens (particles/abstract concepts) to metadata used by the listener, dashboard, and promotion tools.",
+  "generated_at": "2025-10-31T07:32:18Z",
+  "author": "pcrosby-1990",
+  "format": "rich",
+  "map": {
+    "electron": {
+      "char": "⚫",
+      "role": "chaos",
+      "effect": "motion",
+      "category": "particle",
+      "aliases": ["e", "neg_lepton"],
+      "codepoints": ["U+26AB"],
+      "confidence_hint": 0.9,
+      "notes": "Represents negative charge / motion disturbances; used to indicate small, fast changes in the corridor."
+    },
+    "photon": {
+      "char": "💡",
+      "role": "release",
+      "effect": "catharsis",
+      "category": "boson",
+      "aliases": ["light", "spark", "illumination"],
+      "codepoints": ["U+1F4A1"],
+      "confidence_hint": 0.98,
+      "notes": "Symbolizes release of energy or insight; triggers light/cathartic UI cues and logging."
+    },
+    "gluon": {
+      "char": "🕸",
+      "role": "binding",
+      "effect": "memory cohesion",
+      "category": "gauge_boson",
+      "aliases": ["g", "strong_binder", "cohesion"],
+      "codepoints": ["U+1F578"],
+      "confidence_hint": 0.88,
+      "notes": "Used to indicate binding/aggregation events in the system (linking items together, strengthening memory/corridor coherence)."
+    },
+    "neutrino": {
+      "char": "🫧",
+      "role": "whisper",
+      "effect": "background_trace",
+      "category": "particle",
+      "aliases": ["nu", "ghost_signal"],
+      "codepoints": ["U+1FAC7"],
+      "confidence_hint": 0.7,
+      "notes": "Very light-weight signal; low-impact background event useful for telemetry or hidden traces."
+    },
+    "photon_release_boost": {
+      "char": "✨",
+      "role": "release",
+      "effect": "catharsis_plus",
+      "category": "effect",
+      "aliases": ["sparkle", "bright_release"],
+      "codepoints": ["U+2728"],
+      "confidence_hint": 0.85,
+      "notes": "Higher-intensity variant of photon for stronger release events (UI sparkle/celebration)."
+    },
+    "electron_swirl": {
+      "char": "⚫︎",
+      "role": "chaos",
+      "effect": "motion_swirl",
+      "category": "composite",
+      "aliases": ["electron_swirl", "motion_swirl"],
+      "codepoints": ["U+26AB"],
+      "confidence_hint": 0.6,
+      "notes": "A variant used when motion is swirling/unstable; maps to same char as electron but different semantic effect."
+    },
+    "binder_lock": {
+      "char": "🔗",
+      "role": "binding",
+      "effect": "cohesion_lock",
+      "category": "utility",
+      "aliases": ["link", "lock"],
+      "codepoints": ["U+1F517"],
+      "confidence_hint": 0.9,
+      "notes": "Represents an enforced binding or persistent memory cohesion (stronger than gluon)."
+    },
+    "catharsis_wave": {
+      "char": "🌊",
+      "role": "release",
+      "effect": "catharsis_wave",
+      "category": "effect",
+      "aliases": ["wave_release"],
+      "codepoints": ["U+1F30A"],
+      "confidence_hint": 0.78,
+      "notes": "A broader release effect that affects multiple downstream components (broadcast style)."
+    },
+    "entropy_spike": {
+      "char": "🔥",
+      "role": "chaos",
+      "effect": "rapid_motion",
+      "category": "event",
+      "aliases": ["spike", "heat"],
+      "codepoints": ["U+1F525"],
+      "confidence_hint": 0.82,
+      "notes": "High-entropy, high-impact motion event. Often requires conflict resolution or dampening."
+    },
+    "memory_anchor": {
+      "char": "⚓",
+      "role": "binding",
+      "effect": "anchor_memory",
+      "category": "utility",
+      "aliases": ["anchor", "save_point"],
+      "codepoints": ["U+2693"],
+      "confidence_hint": 0.92,
+      "notes": "Anchors memory or state to stable baseline; useful when binding must persist across restarts."
+    }
+  }
+}

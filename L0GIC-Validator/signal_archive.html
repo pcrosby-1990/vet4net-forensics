@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Signal Archive</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #f0f; }
+    .archive {
+      border-left: 4px solid #f0f;
+      padding-left: 1em;
+      margin-top: 2em;
+    }
+    .entry {
+      margin-bottom: 1.5em;
+      position: relative;
+    }
+    .entry::before {
+      content: "🔔";
+      position: absolute;
+      left: -1.5em;
+      color: #f0f;
+    }
+    .entry h3 {
+      margin: 0;
+      color: #f0f;
+    }
+    .entry p {
+      margin: 0.2em 0 0 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>📂 Unity Signal Archive</h1>
+  <div class="archive" id="signalLog"></div>
+
+  <script src="signal_archive.js"></script>
+</body>
+</html>

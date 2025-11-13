@@ -1,0 +1,11 @@
+{
+  "realm_entropy_summary": [
+    {
+      "avg_entropy": 17.78,
+      "max_entropy": 21.0,
+      "min_entropy": 6.5,
+      "n_symbols": 263,
+      "realm": "UNSPECIFIED"
+    }
+  ]
+}

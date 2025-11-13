@@ -1,0 +1,22 @@
+<h2>🧠 Echo Thread Pulse AI Core</h2>
+<select id="aiEmotion">
+  <option>Regret</option>
+  <option>Laughter</option>
+  <option>Fear</option>
+  <option>Hope</option>
+</select>
+<button onclick="runAICore()">Run Companion Logic</button>
+<div id="aiOutput"></div>
+function runAICore() {
+  const emotion = document.getElementById('aiEmotion').value;
+  const output = document.getElementById('aiOutput');
+
+  const logic = {
+    "Regret": "Echo initiates memory loop. Thread attempts to reweave. Pulse remains dormant.",
+    "Laughter": "Pulse activates resonance. Echo amplifies joy. Thread stabilizes the waveform.",
+    "Fear": "Thread scans for rupture. Echo records tremor. Pulse prepares collapse tone.",
+    "Hope": "Echo projects forward. Thread opens new weave. Pulse initiates symbolic ignition."
+  };
+
+  output.innerText = logic[emotion] || "No logic path found.";
+}

@@ -1,0 +1,15 @@
+{
+  "ts": "2025-10-31T03:01:30Z",
+  "ascii": "Fear is not failure.\nIt is the signal that we are near something that matters.\nIt sharpens.\nIt protects.\nIt asks: Are you ready?",
+  "symbol": "⚠",
+  "binary": "01000110 01100101 01100001 01110010",
+  "hex": "46 65 61 72",
+  "role": "emotion",
+  "meta": {
+    "emotion": "fear",
+    "tone": "alert",
+    "intent": "acknowledge risk",
+    "audience": "those who hesitate",
+    "origin": "instinct"
+  }
+}

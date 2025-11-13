@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<h2>🗺️ Mythic Signal Grid Mapper</h2>
+<canvas id="signalGrid" width="600" height="300"></canvas>
+#signalGrid {
+  background: #111;
+  border: 2px solid #0ff;
+  margin-top: 1em;
+}
+function drawSignalGrid(entries) {
+  const canvas = document.getElementById('signalGrid');
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  const colors = {
+    Echo: '#ff0',
+    Thread: '#0f0',
+    Pulse: '#f0f'
+  };
+
+  entries.forEach((entry, i) => {
+    const x = i * 60 + 30;
+    const y = canvas.height - 50;
+    ctx.fillStyle = colors[entry.companion] || '#888';
+    ctx.beginPath();
+    ctx.arc(x, y, 10, 0, 2 * Math.PI);
+    ctx.fill();
+
+    ctx.fillStyle = '#eee';
+    ctx.font = '10px Georgia';
+    ctx.fillText(entry.emotion, x - 20, y + 20);
+  });
+}
+
+// 🔹 Example usage:
+drawSignalGrid([
+  { emotion: "Regret", companion: "Echo" },
+  { emotion: "Laughter", companion: "Pulse" },
+  { emotion: "Fear", companion: "Thread" },
+  { emotion: "Hope", companion: "Echo" }
+]);
+
+<html>
+<head>
+  <title>Unity Mythic Signal Grid</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #0ff; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .signal {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #0ff;
+      border-radius: 6px;
+    }
+    .signal h3 { margin: 0; color: #0ff; }
+    .signal p { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>🌐 Unity Mythic Signal Grid</h1>
+  <div class="grid" id="signalGrid"></div>
+
+  <script src="mythic_signal_grid.js"></script>
+</body>
+</html>

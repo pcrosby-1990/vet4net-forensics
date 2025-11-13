@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Dream Glyph Canvas</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+      text-align: center;
+    }
+    h1 { color: #f0f; }
+    canvas {
+      background: #1a1a1a;
+      border: 2px solid #f0f;
+      border-radius: 6px;
+      margin-top: 1em;
+      cursor: crosshair;
+    }
+    button {
+      margin-top: 1em;
+      background: #330033;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #550055; }
+  </style>
+</head>
+<body>
+  <h1>🎨 Unity Dream Glyph Canvas</h1>
+  <canvas id="glyphCanvas" width="400" height="400"></canvas>
+  <br>
+  <button onclick="decodeGlyph()">Decode Glyph</button>
+  <div id="glyphMeaning"></div>
+
+  <script src="dream_glyph_canvas.js"></script>
+</body>
+</html>

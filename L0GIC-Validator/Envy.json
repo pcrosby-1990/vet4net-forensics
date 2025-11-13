@@ -1,0 +1,14 @@
+{
+  "ts": "2025-10-31T03:03:00Z",
+  "ascii": "Envy is the mirror that shows what we desire.\nIt is not shameful.\nIt is the signal that says: I wish I had that too.",
+  "symbol": "🧪",
+  "binary": "01000101 01101110 01110110 01111001",
+  "hex": "45 6E 76 79",
+  "role": "emotion",
+  "meta": {
+    "emotion": "envy",
+    "tone": "reflective",
+    "intent": "acknowledge desire",
+    "origin": "comparison"
+  }
+}

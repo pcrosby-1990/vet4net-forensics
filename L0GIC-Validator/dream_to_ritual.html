@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Dream-to-Ritual Converter</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #f0f; }
+    .converter {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #f0f;
+      border-radius: 6px;
+    }
+    label, input, button {
+      display: block;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+    button {
+      background: #330033;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #550055; }
+    .ritual {
+      margin-top: 1em;
+      padding: 1em;
+      background: #222;
+      border-left: 3px solid #f0f;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧬 Unity Dream-to-Ritual Converter</h1>
+  <div class="converter">
+    <label>Dream Fragment: <input id="dreamInput" /></label>
+    <button onclick="convertDream()">Convert to Ritual</button>
+    <div class="ritual" id="ritualOutput"></div>
+  </div>
+
+  <script src="dream_to_ritual.js"></script>
+</body>
+</html>

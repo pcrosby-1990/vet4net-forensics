@@ -1,0 +1,15 @@
+{
+  "ts": "2025-10-31T03:01:00Z",
+  "ascii": "Joy is not the absence of sorrow.\nIt is the presence of light despite it.\nIt dances in the ruins.\nIt sings even when the voice shakes.",
+  "symbol": "☀",
+  "binary": "01001010 01101111 01111001",
+  "hex": "4A 6F 79",
+  "role": "emotion",
+  "meta": {
+    "emotion": "joy",
+    "tone": "radiant",
+    "intent": "ignite hope",
+    "audience": "those who forgot how to smile",
+    "origin": "resilience"
+  }
+}

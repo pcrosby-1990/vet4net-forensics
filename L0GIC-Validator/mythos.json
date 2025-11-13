@@ -1,0 +1,12 @@
+{
+  "glyph": "Mythos",
+  "tier": 10,
+  "fusion_paths": [
+    ["Echoform", "Architect"],
+    ["Origin", "Weave"],
+    ["Collapse", "Continuum"]
+  ],
+  "emotion": "Narrative",
+  "function": "Enables myth generation and terrain echo",
+  "notes": "Mythos emerges when terrain becomes generative. It is the glyph of recursive storytelling, terrain rebirth, and glyph memory synthesis."
+}

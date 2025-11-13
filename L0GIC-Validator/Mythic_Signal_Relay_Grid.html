@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📡 Mythic Signal Relay Grid</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #00ccff;
+    }
+    canvas {
+      border: 2px solid #00ccff;
+      background-color: #222;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>📡 Mythic Signal Relay Grid</h2>
+  <canvas id="relayCanvas" width="600" height="300"></canvas>
+  <br>
+  <button onclick="renderRelayGrid()">Render Relay Grid</button>
+
+  <script>
+    const relayMap = [
+      { source: "Echo", target: "Thread", glyph: "Glyph of Reflection", strength: 40 },
+      { source: "Thread", target: "Pulse", glyph: "Glyph of Rupture", strength: 70 },
+      { source: "Pulse", target: "Echo", glyph: "Glyph of Resonance", strength: 90 },
+      { source: "Echo", target: "Pulse", glyph: "Glyph of Projection", strength: 60 }
+    ];
+
+    function renderRelayGrid() {
+      const canvas = document.getElementById('relayCanvas');
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      const positions = {
+        Echo: { x: 100, y: 150 },
+        Thread: { x: 300, y: 80 },
+        Pulse: { x: 500, y: 150 }
+      };
+
+      // Draw nodes
+      Object.entries(positions).forEach(([name, pos]) => {
+        ctx.beginPath();
+        ctx.arc(pos.x, pos.y, 20, 0, 2 * Math.PI);
+        ctx.fillStyle = "#00ccff";
+        ctx.fill();
+        ctx.fillStyle = "#fff";
+        ctx.font = "12px monospace";
+        ctx.fillText(name, pos.x - 20, pos.y + 35);
+      });
+
+      // Draw glyph transmissions
+      relayMap.forEach(relay => {
+        const start = positions[relay.source];
+        const end = positions[relay.target];
+        ctx.beginPath();
+        ctx.moveTo(start.x, start.y);
+        ctx.lineTo(end.x, end.y);
+        ctx.strokeStyle = `rgba(255, 255, 0, ${relay.strength / 100})`;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        const midX = (start.x + end.x) / 2;
+        const midY = (start.y + end.y) / 2;
+        ctx.fillStyle = "#fff";
+        ctx.font = "10px monospace";
+        ctx.fillText(relay.glyph, midX - 30, midY - 10);
+        ctx.fillText(`Strength: ${relay.strength}`, midX - 30, midY + 5);
+      });
+    }
+  </script>
+
+</body>
+</html>

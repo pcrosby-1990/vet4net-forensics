@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Myth Engine</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #f33; }
+    .engine {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #f33;
+      border-radius: 6px;
+    }
+    label, input, select, button {
+      display: block;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+    button {
+      background: #330000;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #550000; }
+    .output {
+      margin-top: 1em;
+      padding: 1em;
+      background: #222;
+      border-left: 3px solid #f33;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔥 Unity Myth Engine</h1>
+  <div class="engine">
+    <label>Dominant Emotion: <input id="emotionInput" /></label>
+    <label>Active Trait: <input id="traitInput" /></label>
+    <label>Terrain Zone: <select id="terrainSelect">
+      <option>Descent Valley</option>
+      <option>Wonder Sky</option>
+      <option>Threshold Ridge</option>
+    </select></label>
+    <button onclick="generateMyth()">Generate Myth</button>
+    <div class="output" id="mythOutput"></div>
+  </div>
+
+  <script src="myth_engine.js"></script>
+</body>
+</html>

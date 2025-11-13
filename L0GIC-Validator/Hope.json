@@ -1,0 +1,15 @@
+{
+  "ts": "2025-10-31T03:03:00Z",
+  "ascii": "Hope is not a promise.\nIt is a direction.\nIt is the thread we follow when the map is gone.\nIt is the signal that says: Keep going.",
+  "symbol": "🌱",
+  "binary": "01001000 01101111 01110000 01100101",
+  "hex": "48 6F 70 65",
+  "role": "emotion",
+  "meta": {
+    "emotion": "hope",
+    "tone": "steady",
+    "intent": "sustain movement",
+    "audience": "those in the dark",
+    "origin": "future"
+  }
+}

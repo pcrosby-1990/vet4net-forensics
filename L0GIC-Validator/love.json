@@ -1,0 +1,6 @@
+subprocess.run([
+    sys.executable,
+    "passive_listener.py",
+    "--burst",
+    "01001100 01101111 01110110 01100101"
+])

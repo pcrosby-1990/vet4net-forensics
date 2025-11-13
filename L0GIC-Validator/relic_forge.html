@@ -1,0 +1,49 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Relic Forge</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #f0f; }
+    .forge {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #f0f;
+      border-radius: 6px;
+    }
+    label, input, textarea, button {
+      display: block;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+    button {
+      background: #330033;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #550055; }
+  </style>
+</head>
+<body>
+  <h1>🛠️ Unity Relic Forge</h1>
+  <div class="forge">
+    <label>Relic Name: <input id="relicName" /></label>
+    <label>Source Memory or Quest: <input id="relicSource" /></label>
+    <label>Description: <textarea id="relicDescription"></textarea></label>
+    <button onclick="forgeRelic()">Forge Relic</button>
+  </div>
+
+  <script src="relic_forge.js"></script>
+</body>
+</html>

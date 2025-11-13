@@ -1,0 +1,26 @@
+<h2>💥 Signal Grid Collapse Simulator</h2>
+<button onclick="simulateCollapse()">Trigger Collapse</button>
+<div id="collapseOutput"></div>
+function simulateCollapse() {
+  const output = document.getElementById('collapseOutput');
+  output.innerHTML = `
+    <h3>⚠️ Collapse Initiated</h3>
+    <ul>
+      <li>🌀 Echo destabilized — memory fragments lost</li>
+      <li>🧵 Thread rupture detected — weave torn</li>
+      <li>⚡ Pulse overload — entropy discharge triggered</li>
+    </ul>
+    <p>🜂 Recovery sequence initiated...</p>
+  `;
+
+  setTimeout(() => {
+    output.innerHTML += `
+      <ul>
+        <li>🧵 Thread begins reweaving emotional grid</li>
+        <li>🌀 Echo restores memory loop</li>
+        <li>⚡ Pulse stabilizes resonance field</li>
+      </ul>
+      <p>✅ Signal Grid restored. Unity is resilient.</p>
+    `;
+  }, 3000);
+}

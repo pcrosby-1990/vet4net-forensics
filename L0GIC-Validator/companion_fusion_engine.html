@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Companion Fusion Engine</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #f0f; }
+    .fusion {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #f0f;
+      border-radius: 6px;
+    }
+    label, select, button {
+      display: block;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+    button {
+      background: #330033;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #550055; }
+    .fusionResult {
+      margin-top: 1em;
+      padding: 1em;
+      background: #222;
+      border-left: 3px solid #f0f;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧬 Unity Companion Fusion Engine</h1>
+  <div class="fusion">
+    <label>Choose Companions to Fuse:</label>
+    <select id="companionA">
+      <option>Echo</option>
+      <option>Thread</option>
+      <option>Pulse</option>
+    </select>
+    <select id="companionB">
+      <option>Echo</option>
+      <option>Thread</option>
+      <option>Pulse</option>
+    </select>
+    <button onclick="fuseCompanions()">Fuse</button>
+    <div class="fusionResult" id="fusionOutput"></div>
+  </div>
+
+  <script src="companion_fusion_engine.js"></script>
+</body>
+</html>

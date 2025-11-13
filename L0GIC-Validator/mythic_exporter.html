@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Mythic Exporter</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #0ff; }
+    .exporter {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #0ff;
+      border-radius: 6px;
+    }
+    button {
+      background: #003366;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 0.5em;
+    }
+    button:hover { background: #005599; }
+    .output {
+      margin-top: 1em;
+      padding: 1em;
+      background: #222;
+      border-left: 3px solid #0ff;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>📦 Unity Mythic Exporter</h1>
+  <div class="exporter">
+    <button onclick="exportMyth()">Export Mythbook</button>
+    <div class="output" id="exportOutput"></div>
+  </div>
+
+  <script src="mythic_exporter.js"></script>
+</body>
+</html>

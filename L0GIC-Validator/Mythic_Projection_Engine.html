@@ -1,0 +1,37 @@
+<h2>✨ Mythic Projection Engine</h2>
+<canvas id="glyphCanvas" width="400" height="400"></canvas>
+<button onclick="projectGlyph()">Project Fused Glyph</button>
+function projectGlyph() {
+  const canvas = document.getElementById('glyphCanvas');
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  let angle = 0;
+  const centerX = canvas.width / 2;
+  const centerY = canvas.height / 2;
+
+  function drawFrame() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.save();
+    ctx.translate(centerX, centerY);
+    ctx.rotate(angle);
+    ctx.strokeStyle = '#ff0';
+    ctx.lineWidth = 3;
+    ctx.shadowColor = '#ff0';
+    ctx.shadowBlur = 15;
+
+    ctx.beginPath();
+    ctx.moveTo(-40, 0);
+    ctx.lineTo(0, -60);
+    ctx.lineTo(40, 0);
+    ctx.lineTo(0, 60);
+    ctx.closePath();
+    ctx.stroke();
+
+    ctx.restore();
+    angle += 0.02;
+    requestAnimationFrame(drawFrame);
+  }
+
+  drawFrame();
+}

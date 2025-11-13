@@ -1,0 +1,23 @@
+from symbolic_awareness import detect_emotional_position
+from ritual_trigger import trigger_ritual
+from update_sanctum import apply_ritual_patch
+from emergent_symbol import generate_emergent_symbol
+
+# Step 1: Inject memory
+memory_nodes = [
+    {"id": "M001", "emotions": ["Longing"], "traces": ["Echo"]},
+    {"id": "M002", "emotions": ["Pain"], "traces": ["Fracture"]},
+    {"id": "M003", "emotions": ["Shame"], "traces": ["Collapse"]}
+]
+
+# Step 2: Detect emotional position
+state = detect_emotional_position(memory_nodes, naming_map)
+
+# Step 3: Trigger ritual
+ritual = trigger_ritual(prev_index=5, current_index=10)
+
+# Step 4: Apply patch
+patch = apply_ritual_patch({"emotion": "Faith", "symbol": "Alignment"})
+
+# Step 5: Generate symbol
+symbol = generate_emergent_symbol("Faith", "Alignment", ritual)

@@ -1,0 +1,48 @@
+{
+  "roles_summary": {
+    "counts": {
+      "action": 18,
+      "ascii": 18,
+      "boson": 1,
+      "emotion": 16,
+      "extra": 20,
+      "logic": 4,
+      "math": 4,
+      "media": 3,
+      "meta": 42,
+      "navigation": 12,
+      "particle": 2,
+      "scalar_boson": 1,
+      "security": 3,
+      "sense": 16,
+      "sensory": 12,
+      "social": 31,
+      "status": 12,
+      "time": 14,
+      "trait": 18,
+      "ui": 15
+    },
+    "roles_seen": [
+      "action",
+      "ascii",
+      "boson",
+      "emotion",
+      "extra",
+      "logic",
+      "math",
+      "media",
+      "meta",
+      "navigation",
+      "particle",
+      "scalar_boson",
+      "security",
+      "sense",
+      "sensory",
+      "social",
+      "status",
+      "time",
+      "trait",
+      "ui"
+    ]
+  }
+}

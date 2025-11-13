@@ -1,0 +1,20 @@
+<h2>⏱️ Companion Ritual Scheduler</h2>
+<select id="ritualCompanion">
+  <option>Echo</option>
+  <option>Thread</option>
+  <option>Pulse</option>
+</select>
+<input type="number" id="ritualDelay" placeholder="Delay in seconds">
+<button onclick="scheduleCompanion()">Schedule Summoning</button>
+<div id="ritualStatus"></div>
+function scheduleCompanion() {
+  const companion = document.getElementById('ritualCompanion').value;
+  const delay = parseInt(document.getElementById('ritualDelay').value, 10) * 1000;
+  const status = document.getElementById('ritualStatus');
+
+  status.innerText = `⏳ Summoning ${companion} in ${delay / 1000} seconds...`;
+
+  setTimeout(() => {
+    status.innerText = `🜂 ${companion} has been summoned. Ritual complete.`;
+  }, delay);
+}

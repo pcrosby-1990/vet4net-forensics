@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Mythic Interface Shell</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #ff0; }
+    .shell {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .module {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #ff0;
+      border-radius: 6px;
+    }
+    .module h3 { margin: 0; color: #ff0; }
+    .module p { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>🧭 Unity Mythic Interface Shell</h1>
+  <div class="shell" id="interfaceShell"></div>
+
+  <script src="mythic_interface_shell.js"></script>
+</body>
+</html>

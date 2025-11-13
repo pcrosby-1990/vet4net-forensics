@@ -1,0 +1,20 @@
+<h2>📜 Glyph Ritual Timeline</h2>
+<div id="glyphTimeline" style="max-height:300px; overflow-y:auto;"></div>
+function renderGlyphTimeline() {
+  const container = document.getElementById('glyphTimeline');
+  container.innerHTML = '';
+
+  glyphArchive.slice().reverse().forEach(glyph => {
+    const el = document.createElement('div');
+    el.style.borderLeft = '4px solid #ff0';
+    el.style.padding = '0.5em 1em';
+    el.style.marginBottom = '1em';
+    el.innerHTML = `
+      <strong>🜂 ${glyph.name}</strong><br>
+      Emotion Epoch: ${glyph.emotion}<br>
+      Activated by: ${glyph.companion}<br>
+      Timestamp: ${new Date(glyph.timestamp).toLocaleString()}
+    `;
+    container.appendChild(el);
+  });
+}

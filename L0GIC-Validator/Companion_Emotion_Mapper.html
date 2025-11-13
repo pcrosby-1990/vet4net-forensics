@@ -1,0 +1,39 @@
+<h2>🗺️ Companion Emotion Mapper</h2>
+<select id="emotionSelect">
+  <option>Regret</option>
+  <option>Joy</option>
+  <option>Fear</option>
+  <option>Hope</option>
+</select>
+<button onclick="mapCompanionEmotion()">Map Response</button>
+<div id="emotionMapOutput"></div>
+function mapCompanionEmotion() {
+  const emotion = document.getElementById('emotionSelect').value;
+  const output = document.getElementById('emotionMapOutput');
+
+  const map = {
+    "Regret": [
+      "🌀 Echo loops memory fragments",
+      "🧵 Thread attempts reweave",
+      "⚡ Pulse remains dormant"
+    ],
+    "Joy": [
+      "⚡ Pulse activates resonance",
+      "🌀 Echo amplifies harmonic memory",
+      "🧵 Thread stabilizes waveform"
+    ],
+    "Fear": [
+      "🧵 Thread scans for rupture",
+      "🌀 Echo records tremor",
+      "⚡ Pulse prepares collapse tone"
+    ],
+    "Hope": [
+      "🌀 Echo projects forward",
+      "🧵 Thread opens new weave",
+      "⚡ Pulse initiates symbolic ignition"
+    ]
+  };
+
+  output.innerHTML = `<h3>Companion Responses to ${emotion}</h3><ul>` +
+    map[emotion].map(r => `<li>${r}</li>`).join('') + `</ul>`;
+}

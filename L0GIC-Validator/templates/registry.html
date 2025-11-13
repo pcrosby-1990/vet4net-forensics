@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registry Viewer</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { padding: 8px 12px; border: 1px solid #ccc; }
+    th { background-color: #f2f2f2; }
+    tr:hover { background-color: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <h2>Signed Files</h2>
+  <table>
+    <tr>
+      <th>Filename</th>
+      <th>Hash</th>
+      <th>Signature</th>
+      <th>Timestamp</th>
+    </tr>
+    {% for name, entry in registry.items() %}
+      <tr>
+        <td>{{ name }}</td>
+        <td>{{ entry.hash }}</td>
+        <td>{{ entry.signature }}</td>
+        <td>{{ entry.timestamp }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

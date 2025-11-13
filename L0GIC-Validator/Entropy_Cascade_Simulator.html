@@ -1,0 +1,38 @@
+<h2>🌊 Entropy Cascade Simulator</h2>
+<select id="ruptureEmotion">
+  <option>Regret</option>
+  <option>Fear</option>
+  <option>Joy</option>
+  <option>Despair</option>
+</select>
+<button onclick="simulateCascade()">Simulate Cascade</button>
+<div id="cascadeOutput"></div>
+function simulateCascade() {
+  const emotion = document.getElementById('ruptureEmotion').value;
+  const output = document.getElementById('cascadeOutput');
+
+  const cascades = {
+    "Regret": [
+      "🌀 Echo loops the memory fragment.",
+      "🧵 Thread attempts to reweave the rupture.",
+      "🕯️ Pulse remains dormant, awaiting resolution."
+    ],
+    "Fear": [
+      "🧵 Thread scans for instability.",
+      "🌀 Echo records tremor signals.",
+      "⚡ Pulse prepares collapse tone discharge."
+    ],
+    "Joy": [
+      "⚡ Pulse activates resonance field.",
+      "🌀 Echo amplifies harmonic memory.",
+      "🧵 Thread stabilizes emotional waveform."
+    ],
+    "Despair": [
+      "🌀 Echo fragments under overload.",
+      "🧵 Thread fails to bind rupture.",
+      "⚠️ Pulse initiates emergency entropy flush."
+    ]
+  };
+
+  output.innerHTML = cascades[emotion].map(step => `<p>${step}</p>`).join('');
+}

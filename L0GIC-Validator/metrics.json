@@ -1,0 +1,17 @@
+{
+  "n_detector_rows": 21,
+  "n_events": 2,
+  "correlation": null,
+  "false_positive_rate": 1.0,
+  "avg_lead_seconds": null,
+  "n_lead_times": 0,
+  "n_peaks": 5,
+  "peak_accuracy": 0.0,
+  "peak_matched": 0,
+  "noisy_false_positive_rate": 1.0,
+  "monte_carlo_mean_score": -1.0,
+  "threshold": 0.7,
+  "mc_iters": 1000,
+  "seed": null,
+  "match_window_seconds": 30
+}

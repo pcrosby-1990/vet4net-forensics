@@ -1,0 +1,24 @@
+<h2>🔄 Collapse Tone Ritual Syncer</h2>
+<input type="text" id="syncTones" placeholder="Enter tones (e.g. echo,pulse,collapse)">
+<button onclick="syncRitual()">Sync and Trigger</button>
+<div id="syncStatus"></div>
+function syncRitual() {
+  const tones = document.getElementById('syncTones').value.split(',');
+  const status = document.getElementById('syncStatus');
+  let delay = 0;
+
+  status.innerHTML = `<p>🔄 Synchronizing ${tones.length} modules...</p>`;
+
+  tones.forEach((tone, i) => {
+    setTimeout(() => {
+      const audio = new Audio(`tones/${tone.trim()}.wav`);
+      audio.play();
+      status.innerHTML += `<p>✅ ${tone.trim()} triggered in module ${i + 1}</p>`;
+    }, delay);
+    delay += 1000;
+  });
+
+  setTimeout(() => {
+    status.innerHTML += `<p>🜂 Ritual Sync Complete. Harmonic field stabilized.</p>`;
+  }, delay + 500);
+}

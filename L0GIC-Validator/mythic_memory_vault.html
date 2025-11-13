@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Mythic Memory Vault</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #ff0; }
+    .vault {
+      border-left: 4px solid #ff0;
+      padding-left: 1em;
+      margin-top: 2em;
+    }
+    .record {
+      margin-bottom: 1.5em;
+      position: relative;
+    }
+    .record::before {
+      content: "⟡";
+      position: absolute;
+      left: -1.2em;
+      color: #ff0;
+    }
+    .record h3 {
+      margin: 0;
+      color: #ff0;
+    }
+    .record p {
+      margin: 0.2em 0 0 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏛️ Unity Mythic Memory Vault</h1>
+  <div class="vault" id="memoryVault"></div>
+
+  <script src="mythic_memory_vault.js"></script>
+</body>
+</html>

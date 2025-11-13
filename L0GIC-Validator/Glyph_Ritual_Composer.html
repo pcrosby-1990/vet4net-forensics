@@ -1,0 +1,47 @@
+<h2>🧩 Glyph Ritual Composer</h2>
+<div id="glyphBank">
+  <div class="glyph" draggable="true" ondragstart="drag(event)">Echo</div>
+  <div class="glyph" draggable="true" ondragstart="drag(event)">Thread</div>
+  <div class="glyph" draggable="true" ondragstart="drag(event)">Pulse</div>
+  <div class="glyph" draggable="true" ondragstart="drag(event)">Collapse</div>
+</div>
+
+<div id="ritualCanvas" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p>Drop glyphs here to compose ritual</p>
+</div>
+#glyphBank {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.glyph {
+  background: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: 2px solid #ff0;
+  border-radius: 6px;
+  cursor: grab;
+}
+#ritualCanvas {
+  min-height: 100px;
+  background: #111;
+  border: 2px dashed #ff0;
+  padding: 1em;
+}
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.innerText);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  const data = ev.dataTransfer.getData("text");
+  const canvas = document.getElementById("ritualCanvas");
+  const glyph = document.createElement("div");
+  glyph.className = "glyph";
+  glyph.innerText = data;
+  canvas.appendChild(glyph);
+}

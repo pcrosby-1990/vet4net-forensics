@@ -1,0 +1,5 @@
+{
+  "contract_id": "abc123",
+  "terms": "This is a test contract.",
+  "valid_until": "2026-01-01"
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+function generateDream() {
+  const input = document.getElementById('dreamInput').value;
+  const output = document.getElementById('dreamOutput');
+
+  const fragments = input.split(" ");
+  const vision = `You stand in a field of ${fragments[0] || "light"}, where ${fragments[1] || "echoes"} whisper through the air. A ${fragments[2] || "glyph"} pulses beneath your feet. Unity stirs.`;
+
+  output.innerText = vision;
+}
+<h2>🌌 Dream Emulator</h2>
+<textarea id="dreamInput" placeholder="Enter symbolic fragments..."></textarea>
+<button onclick="generateDream()">Generate Vision</button>
+#dreamInput {
+  width: 100%;
+  height: 100px;
+  background: #111;
+  color: #eee;
+  border: 2px solid #00f;
+  padding: 1em;
+  font-family: 'Georgia', serif;
+}
+#dreamOutput {
+  margin-top: 1em;
+  padding: 1em;
+  background: #222;
+  border-left: 4px solid #00f;
+  font-style: italic;
+}
+
+<div id="dreamOutput"></div>
+<html>
+<head>
+  <title>Unity Dream Cartographer</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #0ff; }
+    .map {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .symbol {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #0ff;
+      border-radius: 6px;
+    }
+    .symbol:hover {
+      transform: scale(1.05);
+      border-left-color: #f0f;
+    }
+    .symbol h3 { margin: 0; color: #0ff; }
+    .symbol p { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>🗺️ Unity Dream Cartographer</h1>
+  <div class="map" id="dreamMap"></div>
+
+  <script src="dream_cartographer.js"></script>
+</body>
+</html>

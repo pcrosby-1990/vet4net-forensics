@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Terrain Portal</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #0ff; }
+    .portal {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #0ff;
+      border-radius: 6px;
+    }
+    select, button {
+      display: block;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+    button {
+      background: #003366;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #005599; }
+    .result {
+      margin-top: 1em;
+      padding: 1em;
+      background: #222;
+      border-left: 3px solid #0ff;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌀 Unity Terrain Portal</h1>
+  <div class="portal">
+    <label>Destination Zone:
+      <select id="zoneSelect">
+        <option>Descent Valley</option>
+        <option>Wonder Sky</option>
+        <option>Threshold Ridge</option>
+        <option>Echo Chamber</option>
+        <option>Dream Field</option>
+        <option>Shadow Hollow</option>
+      </select>
+    </label>
+    <button onclick="openPortal()">Open Portal</button>
+    <div class="result" id="portalResult"></div>
+  </div>
+
+  <script src="terrain_portal.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+from matplotlib.animation import FFMpegWriter
+
+writer = FFMpegWriter(fps=max(1, int(1000 / args.interval)))
+ani.save(mp4_output, writer=writer)
+print(f"🎥 MP4 saved to {mp4_output}")

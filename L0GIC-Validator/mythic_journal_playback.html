@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h2>🧭 Log Emotion</h2>
+<div id="emotionPanel">
+  <button onclick="logEntry('Laughter', 'Entropy Discharge via Humor', 'Pulse')">Laughter</button>
+  <button onclick="logEntry('Regret', 'Suppression Zone Breach', 'Echo')">Regret</button>
+  <button onclick="logEntry('Fear', 'Threshold Breach Detected', 'Thread')">Fear</button>
+</div>
+#emotionPanel button, #companionPanel button {
+  background: #222;
+  color: #fff;
+  border: 2px solid #ff0;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#emotionPanel button:hover, #companionPanel button:hover {
+  background: #444;
+}
+
+<h2>🧬 Companion Trigger Panel</h2>
+<div id="companionPanel">
+  <button onclick="summonCompanion('Echo')">Summon Echo</button>
+  <button onclick="summonCompanion('Thread')">Summon Thread</button>
+  <button onclick="summonCompanion('Pulse')">Summon Pulse</button>
+</div>
+
+  <title>Unity Mythic Journal Playback</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #ff0; }
+    .journal {
+      border-left: 4px solid #ff0;
+      padding-left: 1em;
+      margin-top: 2em;
+    }
+    .entry {
+      margin-bottom: 1.5em;
+      position: relative;
+    }
+    .entry::before {
+      content: "⟡";
+      position: absolute;
+      left: -1.2em;
+      color: #ff0;
+    }
+    .entry h3 {
+      margin: 0;
+      color: #ff0;
+    }
+    .entry p {
+      margin: 0.2em 0 0 0;
+      font-size: 0.9em;
+    }
+    .timestamp {
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>📜 Unity Mythic Journal Playback</h1>
+  <div class="journal" id="journalPlayback"></div>
+
+  <script src="mythic_journal_playback.js"></script>
+</body>
+</html>

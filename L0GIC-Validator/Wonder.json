@@ -1,0 +1,15 @@
+{
+  "ts": "2025-10-31T03:02:00Z",
+  "ascii": "Wonder is the moment the corridor grows.\nIt is the breath before the question.\nIt is the silence that listens.\nIt is the yes that follows the unknown.",
+  "symbol": "✨",
+  "binary": "01010111 01101111 01101110 01100100 01100101 01110010",
+  "hex": "57 6F 6E 64 65 72",
+  "role": "emotion",
+  "meta": {
+    "emotion": "wonder",
+    "tone": "awe",
+    "intent": "expand awareness",
+    "audience": "seekers",
+    "origin": "curiosity"
+  }
+}

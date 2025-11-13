@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🧬 Temporal Glyph Mutation Simulator</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #ff66cc;
+    }
+    canvas {
+      border: 2px solid #ff66cc;
+      background-color: #222;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🧬 Temporal Glyph Mutation Simulator</h2>
+  <canvas id="mutationCanvas" width="600" height="300"></canvas>
+  <br>
+  <button onclick="simulateMutation()">Simulate Mutation</button>
+
+  <script>
+    const glyphTimeline = [
+      { name: "Glyph of Reflection", emotion: "Regret", companion: "Echo", resonance: 20 },
+      { name: "Glyph of Resonance", emotion: "Joy", companion: "Pulse", resonance: 60 },
+      { name: "Glyph of Rupture", emotion: "Fear", companion: "Thread", resonance: 85 },
+      { name: "Glyph of Projection", emotion: "Hope", companion: "Echo", resonance: 45 }
+    ];
+
+    function simulateMutation() {
+      const canvas = document.getElementById('mutationCanvas');
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      glyphTimeline.forEach((glyph, i) => {
+        const x = 50 + i * 130;
+        const y = 150;
+        const size = Math.min(glyph.resonance, 100) / 2 + 20;
+
+        // Draw mutation node
+        ctx.beginPath();
+        ctx.arc(x, y, size, 0, 2 * Math.PI);
+        ctx.fillStyle = getColorByEmotion(glyph.emotion);
+        ctx.fill();
+
+        // Label glyph
+        ctx.fillStyle = "#fff";
+        ctx.font = "12px monospace";
+        ctx.fillText(glyph.name, x - size, y + size + 15);
+        ctx.fillText(`Resonance: ${glyph.resonance}`, x - size, y + size + 30);
+      });
+    }
+
+    function getColorByEmotion(emotion) {
+      const colors = {
+        Regret: "#ffff99",
+        Joy: "#ff99ff",
+        Fear: "#ff6666",
+        Hope: "#66ccff"
+      };
+      return colors[emotion] || "#888";
+    }
+  </script>
+
+</body>
+</html>

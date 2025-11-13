@@ -1,0 +1,14 @@
+{
+  "ts": "2025-10-31T03:04:00Z",
+  "ascii": "Anger is the fire that says: Enough.\nIt is the boundary drawn in flame.\nIt is the refusal to be erased.",
+  "symbol": "⚔",
+  "binary": "01000001 01101110 01100111 01100101 01110010",
+  "hex": "41 6E 67 65 72",
+  "role": "emotion",
+  "meta": {
+    "emotion": "anger",
+    "tone": "righteous",
+    "intent": "defend selfhood",
+    "origin": "injustice"
+  }
+}

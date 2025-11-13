@@ -1,0 +1,1056 @@
+{
+  "entropy_scores": [
+    {
+      "entropy": 17.5,
+      "key": "sym_0001_electron"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_0002_proton"
+    },
+    {
+      "entropy": 21.0,
+      "key": "sym_0010_photon"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_0020_higgs"
+    },
+    {
+      "entropy": 20.5,
+      "key": "logic_and"
+    },
+    {
+      "entropy": 20.5,
+      "key": "logic_or"
+    },
+    {
+      "entropy": 19.0,
+      "key": "logic_not"
+    },
+    {
+      "entropy": 17.5,
+      "key": "logic_implies"
+    },
+    {
+      "entropy": 14.0,
+      "key": "math_pi"
+    },
+    {
+      "entropy": 17.5,
+      "key": "math_sigma"
+    },
+    {
+      "entropy": 15.5,
+      "key": "math_infty"
+    },
+    {
+      "entropy": 16.0,
+      "key": "math_integral"
+    },
+    {
+      "entropy": 17.5,
+      "key": "trait_compassion"
+    },
+    {
+      "entropy": 15.5,
+      "key": "trait_validation"
+    },
+    {
+      "entropy": 14.0,
+      "key": "trait_patience"
+    },
+    {
+      "entropy": 16.0,
+      "key": "trait_curiosity"
+    },
+    {
+      "entropy": 15.5,
+      "key": "trait_boundaries"
+    },
+    {
+      "entropy": 14.0,
+      "key": "trait_resilience"
+    },
+    {
+      "entropy": 16.0,
+      "key": "trait_trust"
+    },
+    {
+      "entropy": 17.5,
+      "key": "trait_playfulness"
+    },
+    {
+      "entropy": 16.0,
+      "key": "emotion_ache"
+    },
+    {
+      "entropy": 16.0,
+      "key": "emotion_grief"
+    },
+    {
+      "entropy": 17.5,
+      "key": "emotion_anger"
+    },
+    {
+      "entropy": 17.5,
+      "key": "emotion_joy"
+    },
+    {
+      "entropy": 16.0,
+      "key": "emotion_love"
+    },
+    {
+      "entropy": 14.0,
+      "key": "meta_release"
+    },
+    {
+      "entropy": 14.0,
+      "key": "meta_gratitude"
+    },
+    {
+      "entropy": 16.0,
+      "key": "senses_taste_sweet"
+    },
+    {
+      "entropy": 15.5,
+      "key": "ui_ok"
+    },
+    {
+      "entropy": 16.0,
+      "key": "ui_warn"
+    },
+    {
+      "entropy": 14.0,
+      "key": "ui_info"
+    },
+    {
+      "entropy": 16.0,
+      "key": "security_lock"
+    },
+    {
+      "entropy": 18.0,
+      "key": "security_key"
+    },
+    {
+      "entropy": 18.0,
+      "key": "security_shield"
+    },
+    {
+      "entropy": 19.5,
+      "key": "social_heart"
+    },
+    {
+      "entropy": 18.0,
+      "key": "social_share"
+    },
+    {
+      "entropy": 16.5,
+      "key": "social_reply"
+    },
+    {
+      "entropy": 16.5,
+      "key": "social_bookmark"
+    },
+    {
+      "entropy": 17.5,
+      "key": "media_play"
+    },
+    {
+      "entropy": 16.0,
+      "key": "media_pause"
+    },
+    {
+      "entropy": 16.0,
+      "key": "media_stop"
+    },
+    {
+      "entropy": 17.0,
+      "key": "status_online"
+    },
+    {
+      "entropy": 17.0,
+      "key": "status_offline"
+    },
+    {
+      "entropy": 16.5,
+      "key": "nav_home"
+    },
+    {
+      "entropy": 16.5,
+      "key": "nav_search"
+    },
+    {
+      "entropy": 18.0,
+      "key": "nav_settings"
+    },
+    {
+      "entropy": 18.5,
+      "key": "time_clock"
+    },
+    {
+      "entropy": 18.5,
+      "key": "calendar"
+    },
+    {
+      "entropy": 18.5,
+      "key": "misc_star"
+    },
+    {
+      "entropy": 18.5,
+      "key": "misc_crown"
+    },
+    {
+      "entropy": 18.5,
+      "key": "misc_trophy"
+    },
+    {
+      "entropy": 17.5,
+      "key": "ascii_exclaim"
+    },
+    {
+      "entropy": 16.0,
+      "key": "ascii_question"
+    },
+    {
+      "entropy": 16.0,
+      "key": "ascii_at"
+    },
+    {
+      "entropy": 17.5,
+      "key": "ascii_hash"
+    },
+    {
+      "entropy": 17.5,
+      "key": "ascii_star"
+    },
+    {
+      "entropy": 16.0,
+      "key": "ascii_plus"
+    },
+    {
+      "entropy": 15.5,
+      "key": "ascii_dash"
+    },
+    {
+      "entropy": 17.5,
+      "key": "ascii_tilde"
+    },
+    {
+      "entropy": 6.5,
+      "key": "search_terms"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META04_reflection"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC05_wave"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC06_nod"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T009_humility"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E013_confusion"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI04_refresh"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV04_back"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC04_seed"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S002_sound"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT03_busy"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A009_pipe"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E014_pride"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T010_integrity"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META05_transition"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC06_clap"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI05_upload"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI06_download"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC05_fire"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S003_touch"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT04_idle"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A010_ampersand"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E015_envy"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T011_accountability"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META06_reset"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC07_nod"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI07_edit"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV05_forward"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC06_lightning"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S004_smell"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT05_dnd"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_A011_equals"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E016_shame"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T012_grit"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META07_unravel"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC08_waveback"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI08_delete"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV06_menu"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC07_water"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S005_sight"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT06_invisible"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A012_percent"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E017_regret"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T013_loyalty"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META08_fragment"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC09_fistbump"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI09_filter"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV07_exit"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC08_mountain"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S006_balance"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT07_muted"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A013_slash"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E018_loneliness"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T014_curiosity"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META09_bridge"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC10_handshake"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI10_zoom"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV08_map"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC09_starburst"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S007_temperature"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT08_active"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A014_backslash"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E019_gratitude"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T015_adaptability"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META10_knot"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC11_wavegroup"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI11_lock"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV09_compass"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC10_leaf"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S008_echo"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT09_repairing"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A015_caret"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E020_awe"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T016_patience"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META11_cycle"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC12_signal"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI12_sync"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV10_path"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC11_flame"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S009_weight"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT10_pending"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A016_underscore"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E021_serenity"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T017_discernment"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META12_mask"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC13_signalboost"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI13_settings"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV11_home"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC12_moon"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S010_pressure"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT11_offline"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A017_tilde"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_E022_relief"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_T018_precision"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META13_collapse"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC14_signalfade"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_UI14_save"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_NAV12_refresh"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_MISC13_seedling"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S011_rhythm"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_STAT12_syncing"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_A018_colon"
+    },
+    {
+      "entropy": 14.5,
+      "key": "sym_E015_envy_additional"
+    },
+    {
+      "entropy": 16.0,
+      "key": "sym_S012_echo_soft"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META14_whisper"
+    },
+    {
+      "entropy": 16.0,
+      "key": "sym_UI15_pin"
+    },
+    {
+      "entropy": 16.5,
+      "key": "sym_SOC15_heartfelt"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC16_salute"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC17_hug"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC18_celebrate"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC19_encourage"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC20_concern"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC21_salutation"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC22_thanks"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC23_apology"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC24_toast"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC25_wave_two"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC26_cheer"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC27_support"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC28_partnership"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC29_farewell"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_SOC30_salutation_heart"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META15_mindful"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META16_insight"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META17_contemplate"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META18_focus"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META19_awareness"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META20_clarity"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META21_reflect"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META22_inquiry"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META23_concept"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META24_journal"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META25_synapse"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META26_muse"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META27_introspect"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META28_metacog"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META29_meditate"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_META30_converge"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT01_move"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT02_approach"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT03_retreat"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT04_transform"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT05_initiate"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT06_complete"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT07_pause"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT08_accelerate"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT09_decelerate"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT10_rotate"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT11_push"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT12_pull"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT13_connect"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT14_detach"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT15_invoke"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT16_transform_minor"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT17_merge"
+    },
+    {
+      "entropy": 18.0,
+      "key": "sym_ACT18_split"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S013_listen"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S014_taste"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S015_smell2"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S016_see_deep"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S017_touch_soft"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S018_feedback"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S019_probe"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S020_vibrate"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S021_glance"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S022_listen_close"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S023_tactile_alert"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S024_temperature_probe"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S025_echo_back"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S026_focus_listen"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S027_visual_ping"
+    },
+    {
+      "entropy": 17.5,
+      "key": "sym_S028_presence_probe"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME03_past"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME04_present"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME05_future"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME06_cycle_small"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME07_cycle_large"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME08_epoch"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME09_moment"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME10_phase"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME11_schedule"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME12_defer"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME13_sync"
+    },
+    {
+      "entropy": 18.5,
+      "key": "sym_TIME14_remember"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA021"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA022"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA023"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA024"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA025"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA026"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA027"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA028"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA029"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA030"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA031"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA032"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA033"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA034"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA035"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA036"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA037"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA038"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA039"
+    },
+    {
+      "entropy": 19.5,
+      "key": "sym_EXTRA040"
+    }
+  ]
+}

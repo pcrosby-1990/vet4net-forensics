@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🔁 Symbolic Core Reboot Protocol</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #ff9966;
+    }
+    button, select {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    button:hover {
+      background-color: #666;
+    }
+    #rebootOutput {
+      margin-top: 20px;
+      border-left: 4px solid #ff9966;
+      padding-left: 12px;
+    }
+    #countdown {
+      font-family: monospace;
+      color: #ffcc00;
+      margin-top: 10px;
+    }
+    #rebootLog {
+      margin-top: 10px;
+      font-family: monospace;
+      color: #66ff99;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🔁 Symbolic Core Reboot Protocol</h2>
+
+  <label for="purgeToggle">Glyph Purge:</label>
+  <select id="purgeToggle">
+    <option value="true">Enabled</option>
+    <option value="false">Disabled</option>
+  </select>
+
+  <br>
+  <button onclick="initiateReboot()">Initiate Core Reboot</button>
+
+  <div id="countdown"></div>
+  <div id="rebootOutput"></div>
+  <div id="rebootLog"></div>
+
+  <script>
+    let rebootHistory = [];
+
+    function initiateReboot() {
+      const purge = document.getElementById('purgeToggle').value === "true";
+      const countdown = document.getElementById('countdown');
+      const output = document.getElementById('rebootOutput');
+      const log = document.getElementById('rebootLog');
+
+      let timeLeft = 5;
+      countdown.innerText = `🧬 Reboot countdown: ${timeLeft}s`;
+
+      const interval = setInterval(() => {
+        timeLeft--;
+        countdown.innerText = `🧬 Reboot countdown: ${timeLeft}s`;
+        if (timeLeft <= 0) {
+          clearInterval(interval);
+          const timestamp = new Date().toLocaleTimeString();
+          output.innerHTML = `
+            <h3>🜂 Core Reboot Executed</h3>
+            <p><strong>Timestamp:</strong> ${timestamp}</p>
+            <p>🌀 Echo memory cleared</p>
+            <p>🧵 Thread weave reset</p>
+            <p>⚡ Pulse resonance recalibrated</p>
+            <p>${purge ? "🜂 Glyph purge activated" : "🜂 Glyphs preserved"}</p>
+            <p><strong>System Status:</strong> Stable. Symbolic engine restored.</p>
+          `;
+          rebootHistory.push(`Reboot @ ${timestamp} | Purge: ${purge ? "Yes" : "No"}`);
+          log.innerHTML = `
+            <h3>📁 Reboot History</h3>
+            <ul>${rebootHistory.map(entry => `<li>${entry}</li>`).join("")}</ul>
+          `;
+          countdown.innerText = "";
+        }
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>

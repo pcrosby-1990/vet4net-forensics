@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unity Signal Beacon</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      padding: 2em;
+    }
+    h1 { color: #f0f; }
+    .beacon {
+      background: #1a1a1a;
+      padding: 1em;
+      border-left: 5px solid #f0f;
+      border-radius: 6px;
+    }
+    label, select, button {
+      display: block;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+    button {
+      background: #330033;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: #550055; }
+    .response {
+      margin-top: 1em;
+      padding: 1em;
+      background: #222;
+      border-left: 3px solid #f0f;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔔 Unity Signal Beacon</h1>
+  <div class="beacon">
+    <label>Threshold Emotion:
+      <select id="thresholdSelect">
+        <option>Grief</option>
+        <option>Joy</option>
+        <option>Fear</option>
+        <option>Longing</option>
+        <option>Confusion</option>
+      </select>
+    </label>
+    <button onclick="summonCompanion()">Summon Companion</button>
+    <div class="response" id="beaconResponse"></div>
+  </div>
+
+  <script src="signal_beacon.js"></script>
+</body>
+</html>

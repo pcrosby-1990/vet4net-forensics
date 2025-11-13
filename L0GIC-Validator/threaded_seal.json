@@ -1,0 +1,11 @@
+{
+  "id": "THREADED_SEAL",
+  "symbol": "🜃",
+  "role": "ritual_lock",
+  "seal_phrase": "Welcome home",
+  "digest_algorithm": "blake3",
+  "signature_algorithm": "dilithium",
+  "anchored": true,
+  "ritual": "seal with belonging and breath",
+  "status": "immutable"
+}

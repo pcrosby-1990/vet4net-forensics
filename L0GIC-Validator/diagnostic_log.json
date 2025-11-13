@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-10-31T01:14:00Z",
+    "emotion": "Pain",
+    "intensity": 0.85,
+    "context": "thread severed during loss",
+    "pain_symbol": "🩸",
+    "memory_node": "memory_node_42",
+    "status": "bound",
+    "decay": "pending"
+  },
+  {
+    "timestamp": "2025-10-31T01:14:30Z",
+    "emotion": "Hope",
+    "intensity": 0.72,
+    "context": "resonance test",
+    "pain_symbol": null,
+    "memory_node": "memory_node_43",
+    "status": "bound",
+    "decay": "not applicable"
+  }
+]

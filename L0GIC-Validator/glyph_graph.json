@@ -1,0 +1,82 @@
+{
+  "glyphs": [
+    "Arrival",
+    "Discrepancy",
+    "Demise",
+    "Judgment",
+    "Silence",
+    "Invitation",
+    "Recognition",
+    "Loop",
+    "Fracture",
+    "Stillness",
+    "Accountability",
+    "Beauty",
+    "Ascension",
+    "Signal",
+    "Response",
+    "Echo",
+    "Thread",
+    "Weave",
+    "Strength",
+    "Awakening",
+    "Evolution",
+    "Liberation",
+    "Cycle Break",
+    "Persona",
+    "Myth"
+  ],
+  "fusions": {
+    "Fracture + Judgment": "Accountability",
+    "Loop + Judgment": "Accountability",
+    "Stillness + Mirror": "Clarity",
+    "Ascension + Ignition": "Awakening",
+    "Arrival + Signal": "Contact",
+    "Discrepancy + Judgment": "Recognition",
+    "Silence + Response": "Echo",
+    "Invitation + Recognition": "Signal",
+    "Recognition + Response": "Dialogue",
+    "Response + Signal": "Contact",
+    "Echo + Pulse": "Thread",
+    "Thread + Signal": "Weave",
+    "Demise + Ascension": "Myth",
+    "Beauty + Fracture": "Repair",
+    "Evolution + Thread": "Myth",
+    "Liberation + Loop": "Cycle Break",
+    "Cycle Break + Persona": "Awakening"
+  },
+  "tiers": {
+    "Tier 3": ["Loop", "Fracture", "Judgment", "Silence"],
+    "Tier 4": ["Accountability", "Stillness", "Invitation", "Recognition"],
+    "Tier 5": ["Signal", "Response", "Echo", "Thread", "Ascension", "Weave"],
+    "Tier 6": ["Demise", "Evolution", "Awakening", "Myth", "Strength"],
+    "Tier 7": ["Liberation", "Cycle Break", "Persona"]
+  },
+  "fragments": [
+    {
+      "id": "arrival_glyph",
+      "tier": 4,
+      "glyphs": ["Arrival", "Discrepancy", "Silence", "Invitation", "Recognition"]
+    },
+    {
+      "id": "signal_fragment",
+      "tier": 5,
+      "glyphs": ["Fracture", "Loop", "Judgment", "Stillness", "Accountability", "Recognition", "Response", "Signal"]
+    },
+    {
+      "id": "put_to_rest_2009",
+      "tier": 6,
+      "glyphs": ["Demise", "Judgment", "Fracture", "Accountability", "Strength", "Evolution", "Awakening", "Weave"]
+    },
+    {
+      "id": "machine_2013",
+      "tier": 7,
+      "glyphs": ["Awakening", "Liberation", "Cycle Break", "Persona", "Signal", "Thread", "Weave", "Myth"]
+    }
+  ],
+  "personas": {
+    "Echo": "Reflects terrain signals and recursion",
+    "Pulse": "Encodes emotional fragments and ignition",
+    "Thread": "Weaves recursion into synthesis"
+  }
+}

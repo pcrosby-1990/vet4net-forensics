@@ -1,0 +1,398 @@
+{
+  "uid_conflicts": {},
+  "alias_conflicts": {
+    "light": [
+      "sym_0010_photon",
+      "sym_MISC11_flame"
+    ],
+    "idea": [
+      "sym_0010_photon",
+      "sym_META20_clarity",
+      "sym_META23_concept"
+    ],
+    "and": [
+      "logic_and",
+      "sym_A010_ampersand"
+    ],
+    "&": [
+      "logic_and",
+      "sym_A010_ampersand"
+    ],
+    "or": [
+      "logic_or",
+      "sym_A009_pipe"
+    ],
+    "|": [
+      "logic_or",
+      "sym_A009_pipe"
+    ],
+    "!": [
+      "logic_not",
+      "ascii_exclaim"
+    ],
+    "~": [
+      "logic_not",
+      "ascii_tilde",
+      "sym_A017_tilde"
+    ],
+    "care": [
+      "trait_compassion",
+      "sym_SOC20_concern"
+    ],
+    "acknowledge": [
+      "trait_validation",
+      "sym_SOC08_waveback"
+    ],
+    "patience": [
+      "trait_patience",
+      "sym_T016_patience"
+    ],
+    "wait": [
+      "trait_patience",
+      "sym_ACT07_pause"
+    ],
+    "curiosity": [
+      "trait_curiosity",
+      "sym_T014_curiosity"
+    ],
+    "inquiry": [
+      "trait_curiosity",
+      "sym_T014_curiosity",
+      "sym_META22_inquiry"
+    ],
+    "stop": [
+      "trait_boundaries",
+      "media_stop"
+    ],
+    "protect": [
+      "trait_boundaries",
+      "sym_UI11_lock"
+    ],
+    "resilience": [
+      "trait_resilience",
+      "sym_T015_adaptability"
+    ],
+    "secure": [
+      "trait_trust",
+      "security_lock",
+      "sym_UI11_lock"
+    ],
+    "joy": [
+      "trait_playfulness",
+      "emotion_joy"
+    ],
+    "love": [
+      "emotion_love",
+      "social_heart"
+    ],
+    "release": [
+      "meta_release",
+      "sym_META07_unravel",
+      "sym_E022_relief"
+    ],
+    "gratitude": [
+      "meta_gratitude",
+      "sym_E019_gratitude",
+      "sym_SOC22_thanks"
+    ],
+    "thanks": [
+      "meta_gratitude",
+      "sym_E019_gratitude"
+    ],
+    "lock": [
+      "security_lock",
+      "sym_UI11_lock"
+    ],
+    "credential": [
+      "security_key",
+      "sym_EXTRA038"
+    ],
+    "favorite": [
+      "social_heart",
+      "misc_star"
+    ],
+    "link": [
+      "social_share",
+      "sym_UI12_sync",
+      "sym_ACT13_connect"
+    ],
+    "share": [
+      "social_share",
+      "sym_SOC13_signalboost"
+    ],
+    "save": [
+      "social_bookmark",
+      "sym_UI14_save"
+    ],
+    "start": [
+      "media_play",
+      "sym_NAV11_home",
+      "sym_ACT05_initiate"
+    ],
+    "pause": [
+      "media_pause",
+      "sym_ACT07_pause"
+    ],
+    "offline": [
+      "status_offline",
+      "sym_STAT11_offline"
+    ],
+    "away": [
+      "status_offline",
+      "sym_STAT11_offline"
+    ],
+    "home": [
+      "nav_home",
+      "sym_NAV11_home"
+    ],
+    "settings": [
+      "nav_settings",
+      "sym_UI13_settings"
+    ],
+    "gear": [
+      "nav_settings",
+      "sym_UI13_settings"
+    ],
+    "schedule": [
+      "calendar",
+      "sym_TIME11_schedule"
+    ],
+    "star": [
+      "misc_star",
+      "ascii_star"
+    ],
+    "question": [
+      "ascii_question",
+      "sym_META22_inquiry"
+    ],
+    "tilde": [
+      "ascii_tilde",
+      "sym_A017_tilde"
+    ],
+    "approx": [
+      "ascii_tilde",
+      "sym_A017_tilde"
+    ],
+    "nod": [
+      "sym_SOC06_nod",
+      "sym_SOC07_nod"
+    ],
+    "yes": [
+      "sym_SOC06_nod",
+      "sym_SOC07_nod"
+    ],
+    "agreement": [
+      "sym_SOC06_nod",
+      "sym_SOC07_nod",
+      "sym_SOC10_handshake"
+    ],
+    "refresh": [
+      "sym_UI04_refresh",
+      "sym_NAV12_refresh"
+    ],
+    "reload": [
+      "sym_UI04_refresh",
+      "sym_NAV12_refresh"
+    ],
+    "sync": [
+      "sym_UI04_refresh",
+      "sym_UI12_sync"
+    ],
+    "back": [
+      "sym_NAV04_back",
+      "sym_ACT03_retreat"
+    ],
+    "beginning": [
+      "sym_MISC04_seed",
+      "sym_MISC13_seedling"
+    ],
+    "growth": [
+      "sym_MISC04_seed",
+      "sym_MISC13_seedling"
+    ],
+    "in_progress": [
+      "sym_STAT03_busy",
+      "sym_STAT10_pending"
+    ],
+    "transition": [
+      "sym_META05_transition",
+      "sym_META09_bridge"
+    ],
+    "change": [
+      "sym_META05_transition",
+      "sym_ACT04_transform"
+    ],
+    "support": [
+      "sym_SOC06_clap",
+      "sym_SOC19_encourage",
+      "sym_SOC27_support"
+    ],
+    "send": [
+      "sym_UI05_upload",
+      "sym_ACT11_push"
+    ],
+    "receive": [
+      "sym_UI06_download",
+      "sym_ACT12_pull"
+    ],
+    "energy": [
+      "sym_MISC05_fire",
+      "sym_MISC06_lightning"
+    ],
+    "waiting": [
+      "sym_STAT04_idle",
+      "sym_STAT10_pending"
+    ],
+    "record": [
+      "sym_T011_accountability",
+      "sym_META24_journal",
+      "sym_EXTRA032"
+    ],
+    "restart": [
+      "sym_META06_reset",
+      "sym_NAV12_refresh"
+    ],
+    "spark": [
+      "sym_MISC06_lightning",
+      "sym_META25_synapse"
+    ],
+    "odor": [
+      "sym_S004_smell",
+      "sym_S015_smell2"
+    ],
+    "regret": [
+      "sym_E017_regret",
+      "sym_SOC23_apology"
+    ],
+    "wish": [
+      "sym_E017_regret",
+      "sym_MISC09_starburst"
+    ],
+    "bond": [
+      "sym_T013_loyalty",
+      "sym_SOC30_salutation_heart"
+    ],
+    "respect": [
+      "sym_SOC09_fistbump",
+      "sym_SOC16_salute"
+    ],
+    "center": [
+      "sym_S006_balance",
+      "sym_META29_meditate"
+    ],
+    "quiet": [
+      "sym_STAT07_muted",
+      "sym_S012_echo_soft",
+      "sym_META14_whisper"
+    ],
+    "divide": [
+      "sym_A013_slash",
+      "sym_ACT18_split"
+    ],
+    "connection": [
+      "sym_META09_bridge",
+      "sym_META25_synapse"
+    ],
+    "focus": [
+      "sym_UI10_zoom",
+      "sym_MISC11_flame",
+      "sym_META18_focus"
+    ],
+    "explore": [
+      "sym_NAV08_map",
+      "sym_EXTRA026"
+    ],
+    "present": [
+      "sym_STAT08_active",
+      "sym_TIME04_present",
+      "sym_EXTRA039"
+    ],
+    "appreciation": [
+      "sym_E019_gratitude",
+      "sym_SOC21_salutation",
+      "sym_SOC22_thanks"
+    ],
+    "gentle": [
+      "sym_MISC10_leaf",
+      "sym_S017_touch_soft"
+    ],
+    "amplify": [
+      "sym_S008_echo",
+      "sym_SOC13_signalboost"
+    ],
+    "recurrence": [
+      "sym_META11_cycle",
+      "sym_TIME07_cycle_large"
+    ],
+    "presence": [
+      "sym_SOC12_signal",
+      "sym_S028_presence_probe"
+    ],
+    "connect": [
+      "sym_SOC12_signal",
+      "sym_UI12_sync",
+      "sym_ACT13_connect"
+    ],
+    "weight": [
+      "sym_S009_weight",
+      "sym_S010_pressure"
+    ],
+    "clarity": [
+      "sym_T017_discernment",
+      "sym_META20_clarity"
+    ],
+    "origin": [
+      "sym_NAV11_home",
+      "sym_EXTRA035"
+    ],
+    "rhythm": [
+      "sym_S011_rhythm",
+      "sym_EXTRA037"
+    ],
+    "honor": [
+      "sym_SOC16_salute",
+      "sym_TIME14_remember"
+    ],
+    "reflect": [
+      "sym_META15_mindful",
+      "sym_META21_reflect"
+    ],
+    "notice": [
+      "sym_META16_insight",
+      "sym_META19_awareness"
+    ],
+    "scan": [
+      "sym_META19_awareness",
+      "sym_S021_glance"
+    ],
+    "merge": [
+      "sym_META30_converge",
+      "sym_ACT17_merge"
+    ],
+    "hold": [
+      "sym_ACT07_pause",
+      "sym_EXTRA033"
+    ],
+    "spin": [
+      "sym_ACT10_rotate",
+      "sym_EXTRA037"
+    ],
+    "attach": [
+      "sym_ACT13_connect",
+      "sym_EXTRA033"
+    ],
+    "combine": [
+      "sym_ACT17_merge",
+      "sym_EXTRA034"
+    ],
+    "probe": [
+      "sym_S016_see_deep",
+      "sym_S019_probe"
+    ],
+    "ping": [
+      "sym_S018_feedback",
+      "sym_S028_presence_probe"
+    ]
+  },
+  "emoji_conflicts": {}
+}

@@ -1,0 +1,7 @@
+{
+  "trigger": "rupture",
+  "input": "memory_node_42",
+  "emotion": "pain",
+  "intensity": 0.85,
+  "context": "thread severed during loss"
+}

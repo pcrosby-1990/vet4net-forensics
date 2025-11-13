@@ -1,0 +1,14 @@
+{
+  "ts": "2025-10-31T03:01:30Z",
+  "ascii": "Forgiveness is not forgetting.\nIt is choosing not to carry the blade.\nIt is the signal that says: I release you.",
+  "symbol": "🕊️",
+  "binary": "01000110 01101111 01110010 01100111 01101001 01110110 01100101",
+  "hex": "46 6F 72 67 69 76 65",
+  "role": "emotion",
+  "meta": {
+    "emotion": "forgiveness",
+    "tone": "liberating",
+    "intent": "release burden",
+    "origin": "healing"
+  }
+}

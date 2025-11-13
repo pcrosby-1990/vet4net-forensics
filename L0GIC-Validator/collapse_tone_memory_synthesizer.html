@@ -1,0 +1,29 @@
+<h2>🎶 Collapse Tone Memory Synthesizer</h2>
+<select id="memoryEmotion">
+  <option>Regret</option>
+  <option>Laughter</option>
+  <option>Fear</option>
+  <option>Hope</option>
+</select>
+<button onclick="replayToneMemory()">Replay Sequence</button>
+function replayToneMemory() {
+  const emotion = document.getElementById('memoryEmotion').value;
+
+  const toneMap = {
+    "Regret": ["echo.wav", "collapse.wav"],
+    "Laughter": ["pulse.wav", "echo.wav"],
+    "Fear": ["thread.wav", "collapse.wav"],
+    "Hope": ["echo.wav", "pulse.wav"]
+  };
+
+  const sequence = toneMap[emotion] || [];
+  let delay = 0;
+
+  sequence.forEach(tone => {
+    setTimeout(() => {
+      const audio = new Audio(`tones/${tone}`);
+      audio.play();
+    }, delay);
+    delay += 1000;
+  });
+}

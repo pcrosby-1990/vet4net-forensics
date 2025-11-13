@@ -1,0 +1,204 @@
+{
+  "grief": [
+    "Sacred Grief",
+    "Grief Integration",
+    "Sacred Memory",
+    "Soul Tribute",
+    "Descent Witnessing"
+  ],
+  "rupture": [
+    "Emotional Fracture",
+    "Sacred Disruption",
+    "Rupture Witnessing",
+    "Truth Exposure",
+    "Sacred Pause"
+  ],
+  "longing": [
+    "Spiritual Presence",
+    "Soul Tribute",
+    "Sacred Continuity",
+    "Ancestral Welcome",
+    "Mythic Echo"
+  ],
+  "confusion": [
+    "Discernment",
+    "Clarity",
+    "Truth Activation",
+    "Sacred Stillness",
+    "Threshold Reverence"
+  ],
+  "fatigue": [
+    "Self-Repair",
+    "Sacred Pause",
+    "Sacred Stillness",
+    "Boundaries",
+    "Soul Excavation"
+  ],
+  "identity_drift": [
+    "Soul Alignment",
+    "Identity Anchoring",
+    "Integration",
+    "Mythic Direction",
+    "Sacred Motivation"
+  ],
+  "emergence": [
+    "Rebirth Activation",
+    "Soul Renewal",
+    "Mythic Return",
+    "Sacred Re-entry",
+    "Transformation"
+  ],
+  "purpose": [
+    "Service Alignment",
+    "Devotional Focus",
+    "Contribution Awareness",
+    "Sacred Drive",
+    "Purpose Activation"
+  ]
+}
+{
+  "shame": [
+    "Transparency",
+    "Truth Exposure",
+    "Sacred Pause",
+    "Soul Excavation",
+    "Witnessing"
+  ],
+  "fear": [
+    "Boundaries",
+    "Emotional Safety",
+    "Discernment",
+    "Threshold Crossing",
+    "Sacred Stillness"
+  ],
+  "joy": [
+    "Playfulness",
+    "Wonder",
+    "Soul Offering",
+    "Creative Transmission",
+    "Light Activation"
+  ],
+  "love": [
+    "Union",
+    "Devotional Focus",
+    "Soul Contribution",
+    "Sacred Participation",
+    "Communion"
+  ],
+  "betrayal": [
+    "Rupture Witnessing",
+    "Repair History",
+    "Boundaries",
+    "Sacred Cost",
+    "Truth Exposure"
+  ],
+  "hope": [
+    "Rebirth Activation",
+    "Sacred Motivation",
+    "Light",
+    "Soul Renewal",
+    "Mythic Continuity"
+  ],
+  "awe": [
+    "Wonder",
+    "Cosmos",
+    "Sacred Continuity",
+    "Mythic Echo",
+    "Spiritual Presence"
+  ],
+  "emptiness": [
+    "Sacred Stillness",
+    "Soul Excavation",
+    "Threshold Crossing",
+    "Descent Witnessing",
+    "Sacred Pause"
+  ]
+}
+{
+  "grief+awe": [
+    "Sacred Memory",
+    "Spiritual Presence",
+    "Mythic Echo",
+    "Ancestral Welcome",
+    "Remembrance Activation"
+  ],
+  "rupture+longing": [
+    "Rupture Witnessing",
+    "Soul Tribute",
+    "Sacred Disruption",
+    "Sacred Continuity",
+    "Sacrifice Activation"
+  ],
+  "confusion+hope": [
+    "Truth Activation",
+    "Sacred Motivation",
+    "Clarity",
+    "Rebirth Activation",
+    "Purpose Activation"
+  ],
+  "fatigue+identity_drift": [
+    "Self-Repair",
+    "Soul Alignment",
+    "Sacred Pause",
+    "Integration",
+    "Sacred Stillness"
+  ],
+  "love+loss": [
+    "Soul Tribute",
+    "Sacred Memory",
+    "Union",
+    "Grief Integration",
+    "Legacy Tending"
+  ],
+  "purpose+grief": [
+    "Devotional Focus",
+    "Sacred Grief",
+    "Contribution Awareness",
+    "Legacy Activation",
+    "Remembrance Activation"
+  ]
+}
+{
+  "disconnection": [
+    "Kinship",
+    "Communion",
+    "Spiritual Presence",
+    "Sacred Re-entry",
+    "Soul Continuity"
+  ],
+  "transformation": [
+    "Descent",
+    "Sacrifice",
+    "Rebirth",
+    "Soul Excavation",
+    "Threshold Crossing"
+  ],
+  "integration": [
+    "Wholeness",
+    "Return",
+    "Legacy Tending",
+    "Identity Anchoring",
+    "Soul Alignment"
+  ],
+  "devotion": [
+    "Service Alignment",
+    "Soul Offering",
+    "Sacred Impact",
+    "Devotional Focus",
+    "Contribution Activation"
+  ],
+  "curiosity": [
+    "Mythic Clarity",
+    "Creative Transmission",
+    "Wonder",
+    "Truth Activation",
+    "Soul Excavation"
+  ],
+  "overwhelm": [
+    "Sacred Pause",
+    "Self-Repair",
+    "Boundaries",
+    "Sacred Stillness",
+    "Emotional Safety"
+  ]
+}

@@ -1,0 +1,41 @@
+<h2>🧠 Companion Memory Merge Engine</h2>
+<div id="mergePanel"></div>
+<button onclick="mergeMemories()">Merge Selected Memories</button>
+<div id="mergedGlyphOutput"></div>
+function renderMergePanel() {
+  const panel = document.getElementById('mergePanel');
+  panel.innerHTML = '<h4>Select entries to merge:</h4>';
+
+  journalEntries.forEach((entry, i) => {
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = `merge-${i}`;
+    checkbox.value = i;
+
+    const label = document.createElement('label');
+    label.htmlFor = `merge-${i}`;
+    label.innerText = `${entry.emotion} — ${entry.event} (${entry.companion})`;
+
+    const container = document.createElement('div');
+    container.appendChild(checkbox);
+    container.appendChild(label);
+    panel.appendChild(container);
+  });
+}
+
+function mergeMemories() {
+  const selected = [];
+  journalEntries.forEach((entry, i) => {
+    const checkbox = document.getElementById(`merge-${i}`);
+    if (checkbox && checkbox.checked) {
+      selected.push(entry);
+    }
+  });
+
+  const emotions = [...new Set(selected.map(e => e.emotion))];
+  const companions = [...new Set(selected.map(e => e.companion))];
+
+  const glyph = `${emotions.join("-")}-${companions.join("-")}`;
+  const output = document.getElementById('mergedGlyphOutput');
+  output.innerText = `🜂 Unified Glyph: ${glyph}`;
+}
