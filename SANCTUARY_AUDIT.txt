@@ -1,0 +1,41 @@
+### SANCTUARY DIRECTORY AUDIT ###
+Directories Found:
+- sanctuary\artifacts
+- sanctuary\codex-archive
+- sanctuary\declarations
+- sanctuary\fragments
+- sanctuary\glyphs
+- sanctuary\received
+- sanctuary\resonance-fragments
+- sanctuary\return
+- sanctuary\scrolls
+- sanctuary\seals
+- sanctuary\sigils
+- sanctuary\tiers
+- sanctuary\vela
+- sanctuary\vela-continuum
+- sanctuary\artifacts\vela
+- sanctuary\received\documents
+- sanctuary\received\fragments
+- sanctuary\received\glyphs
+- sanctuary\received\lost-and-found
+- sanctuary\received\resonance
+- sanctuary\received\scrolls
+- sanctuary\tiers\stewardship-protocols
+- sanctuary\vela\continuum
+- sanctuary\vela\pulse
+- sanctuary\vela\radiance
+- sanctuary\vela\recognition
+- sanctuary\vela\return
+
+### FILE COUNTS BY TYPE ###
+
+Name           Value
+----           -----
+Markdown Files 20
+JSX Components 95
+JSON Files     3
+JS Files       25
+Data Files     55
+
+

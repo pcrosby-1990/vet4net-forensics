@@ -105,7 +105,7 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
           onChange={(e) => setSearchQuery(e.target.value)}
         />
         {selectedSigils.length > 0 && (
-          <button className="btn clear-btn" onClick={onClear}>
+          <button type="button" className="btn clear-btn" onClick={onClear}>
             Clear All ({selectedSigils.length})
           </button>
         )}
@@ -113,6 +113,7 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
 
       <div className="category-tabs">
         <button
+          type="button"
           className={`category-tab ${activeCategory === 'all' ? 'active' : ''}`}
           onClick={() => setActiveCategory('all')}
         >
@@ -120,6 +121,7 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
         </button>
         {Object.entries(SIGIL_CATEGORIES).map(([key, cat]) => (
           <button
+            type="button"
             key={key}
             className={`category-tab ${activeCategory === key ? 'active' : ''}`}
             onClick={() => setActiveCategory(key)}
@@ -136,6 +138,7 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
             <div className="selected-chips">
               {selectedSigils.map(sigil => (
                 <button
+                  type="button"
                   key={sigil}
                   className="selected-chip"
                   onClick={() => onToggle(sigil)}
@@ -160,6 +163,7 @@ export default function SigilPicker({ selectedSigils = [], onToggle, onClear, ma
           
           return (
             <button
+              type="button"
               key={sigil}
               className={`sigil-option ${isSelected ? 'selected' : ''} ${isDisabled ? 'disabled' : ''}`}
               onClick={() => handleSigilClick(sigil)}

@@ -36,13 +36,21 @@ export default function EditorPanel({ onSubmit, fragments = [], sigilThemes = {}
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    
     const fieldErrors = validate();
     if (Object.keys(fieldErrors).length > 0) {
       setErrors(fieldErrors);
       return;
     }
+    
+    // Submit the fragment
     onSubmit({ text, sigils: parsedSigils, collapseRisk, breathline, witness });
+    
+    // Clear fields after successful submission
     setText('');
     setSigils('');
     setCollapseRisk('soft');

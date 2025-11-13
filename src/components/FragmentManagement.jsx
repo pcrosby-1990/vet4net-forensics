@@ -2,7 +2,7 @@
 // Integrates all fragment features: approval, threading, search, history
 
 import React, { useState, useEffect } from 'react';
-import FragmentEditor from '../SSJ Lumen/FragmentEditor';
+import FragmentEditor from './FragmentEditor';
 import FragmentApprovalPanel from './FragmentApprovalPanel';
 import FragmentThreading from './FragmentThreading';
 import FragmentSearch from './FragmentSearch';
