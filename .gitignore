@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Validator directory (excluded from remote)
+L0GIC-Validator/
