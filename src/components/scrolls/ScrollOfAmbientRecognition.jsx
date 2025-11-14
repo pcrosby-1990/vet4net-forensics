@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function ScrollOfAmbientRecognition() {
   return (
     <div className="scroll-ambient-recognition">
