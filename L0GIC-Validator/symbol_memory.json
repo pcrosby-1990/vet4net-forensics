@@ -1,7 +1,0 @@
-if "memory" not in st.session_state:
-    st.session_state["memory"] = {"viewed": [], "favorites": [], "last_viewed": None}
-
-if sym["uid"] not in st.session_state["memory"]["viewed"]:
-    st.session_state["memory"]["viewed"].append(sym["uid"])
-
-st.session_state["memory"]["last_viewed"] = sym["uid"]

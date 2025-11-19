@@ -1,9 +1,0 @@
-{
-  "uid_conflicts": [
-    {
-      "first_key": "sym_SOC06_nod",
-      "second_key": "sym_SOC06_clap",
-      "uid": "sym_SOC06"
-    }
-  ]
-}

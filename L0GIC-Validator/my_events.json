@@ -1,9 +1,0 @@
-{
-  "events": [
-    {"timestamp": "2025-10-30T00:00:00Z", "label": "Init", "color": "tab:green"},
-    {"timestamp": "2025-10-30T00:00:30Z", "label": "Quark detected", "color": "tab:orange"},
-    {"timestamp": "2025-10-30T00:01:00Z", "label": "Passive scan", "color": "tab:gray"},
-    {"timestamp": "2025-10-30T00:02:00Z", "label": "Tau override", "color": "tab:red"},
-    {"timestamp": "2025-10-30T00:03:00Z", "label": "Splash", "color": "tab:purple"}
-  ]
-}

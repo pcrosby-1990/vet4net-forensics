@@ -1,8 +1,0 @@
-{
-  "timestamp": "2025-11-01T12:00:00Z",
-  "emotion": "Recognition",
-  "glyphs_activated": ["Echo", "Memory", "Ignition", "Seal"],
-  "tier": 4,
-  "type": "pulse_anchor",
-  "notes": "Echo invoked by Pulse Ignition ritual"
-}

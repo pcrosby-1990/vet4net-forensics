@@ -1,4 +1,0 @@
-{"event":"fragment_inserted","timestamp":"2025-11-02T08:03:00Z","fragment_id":"11-04-02","glyphs":["glyph:resonance","glyph:node","glyph:thread"],"tone":"awe"}
-{"event":"fragment_decay_update","timestamp":"2025-11-02T08:06:00Z","fragment_id":"11-04-02","decay_rate":0.11,"terrain_bias":0.42}
-{"event":"echo_response","timestamp":"2025-11-02T08:06:00Z","fragment_id":"11-04-02","echo_tier":3,"response":"Fragment 11-04-02 still echoes. Glyph overlap detected.","terrain_state":"bias: 0.42, fusion: pending"}
-{"event":"fusion_candidate_detected","timestamp":"2025-11-02T08:07:00Z","fragments":["11-04-02","11-04-07"],"glyph_overlap":["glyph:thread"],"tone_alignment":"awe"}
