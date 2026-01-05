@@ -1,6 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
+// L0GIC Pages - The Public Door
+import L0GICLanding from './pages/L0GICLanding.jsx';
+import THREADChat from './pages/THREADChat.jsx';
+import PricingPage from './pages/PricingPage.jsx';
+
 import Report from './pages/report.jsx';
 import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
@@ -27,6 +32,8 @@ import GlyphGallery from './pages/GlyphGallery.jsx';
 import RepositoryOfSouls from './pages/RepositoryOfSoulsPage.jsx';
 import SanctuarySpiralTab from './pages/SanctuarySpiralTab.jsx';
 
+import DocsPage from './pages/DocsPage.jsx';
+import ThreadweaverPage from './pages/ThreadweaverPage.jsx';
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
 import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';
 import SigilOfSilentIntegrity from './pages/SigilOfSilentIntegrity.jsx';
@@ -57,17 +64,25 @@ export default function CodexRouter({
         <CodexNav />
         <div className="app-content">
           <Routes>
-            <Route path="/" element={<Navigate to="/dashboard" replace />} />
-            <Route 
-              path="/dashboard" 
+            {/* L0GIC Public Routes */}
+            <Route path="/" element={<L0GICLanding />} />
+            <Route path="/l0gic" element={<L0GICLanding />} />
+            <Route path="/thread" element={<THREADChat />} />
+            <Route path="/pricing" element={<PricingPage />} />
+            <Route path="/docs" element={<DocsPage />} />
+            <Route path="/threadweaver" element={<ThreadweaverPage />} />
+
+            {/* Dashboard - Internal Tools */}
+            <Route
+              path="/dashboard"
               element={
-                <CodexDashboard 
-                  fragments={fragments} 
+                <CodexDashboard
+                  fragments={fragments}
                   sigilThemes={sigilThemes}
                   setFragments={setFragments}
                   onFragmentSubmit={onFragmentSubmit}
                 />
-              } 
+              }
             />
             <Route path="/editor" element={<FragmentEditor />} />
             <Route path="/fragments-manager" element={<FragmentManagement />} />

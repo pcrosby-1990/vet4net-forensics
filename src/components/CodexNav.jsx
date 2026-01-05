@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import '../styles/CodexNav.css';
 
 export default function CodexNav() {
-  const [expandedSection, setExpandedSection] = useState('dashboard');
+  const [expandedSection, setExpandedSection] = useState('l0gic');
 
   const toggleSection = (section) => {
     setExpandedSection(expandedSection === section ? null : section);
@@ -26,9 +26,49 @@ export default function CodexNav() {
       </div>
 
       <ul className="codex-nav-list">
+        {/* L0GIC Section - The Public Door */}
+        <li className="nav-section">
+          <button
+            className={`nav-section-toggle ${expandedSection === 'l0gic' ? 'expanded' : ''}`}
+            onClick={() => toggleSection('l0gic')}
+          >
+            <span className="nav-icon">🌅</span>
+            <span className="nav-label">L0GIC</span>
+          </button>
+          {expandedSection === 'l0gic' && (
+            <ul className="nav-subsection">
+              <li>
+                <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🌅 Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/thread" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🧵 Meet THREAD
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/pricing" className={({ isActive }) => isActive ? 'active' : ''}>
+                  💎 Pricing
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/threadweaver" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🔧 For Builders
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/docs" className={({ isActive }) => isActive ? 'active' : ''}>
+                  📚 Documentation
+                </NavLink>
+              </li>
+            </ul>
+          )}
+        </li>
+
         {/* Dashboard Section */}
         <li className="nav-section">
-          <button 
+          <button
             className={`nav-section-toggle ${expandedSection === 'dashboard' ? 'expanded' : ''}`}
             onClick={() => toggleSection('dashboard')}
           >
