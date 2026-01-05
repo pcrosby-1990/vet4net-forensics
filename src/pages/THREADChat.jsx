@@ -8,6 +8,104 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useChat } from '../context/ChatContext.jsx';
 import './THREADChat.css';
 
+// Ambient particle panel
+function AmbientPanel({ side }) {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    let animationId;
+    let particles = [];
+
+    const resize = () => {
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+    };
+
+    const createParticles = () => {
+      particles = [];
+      const numParticles = Math.floor((canvas.width * canvas.height) / 8000);
+
+      for (let i = 0; i < numParticles; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          size: Math.random() * 2 + 0.5,
+          speedX: (Math.random() - 0.5) * 0.2,
+          speedY: (Math.random() - 0.5) * 0.2,
+          opacity: Math.random() * 0.4 + 0.1,
+          hue: Math.random() > 0.7 ? 45 : 35,
+        });
+      }
+    };
+
+    const drawParticle = (p) => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fillStyle = `hsla(${p.hue}, 80%, 50%, ${p.opacity})`;
+      ctx.fill();
+    };
+
+    const connectParticles = () => {
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+
+          if (dist < 100) {
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(255, 215, 0, ${0.08 * (1 - dist / 100)})`;
+            ctx.lineWidth = 0.5;
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+    };
+
+    const animate = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      particles.forEach((p) => {
+        p.x += p.speedX;
+        p.y += p.speedY;
+
+        if (p.x < 0) p.x = canvas.width;
+        if (p.x > canvas.width) p.x = 0;
+        if (p.y < 0) p.y = canvas.height;
+        if (p.y > canvas.height) p.y = 0;
+
+        drawParticle(p);
+      });
+
+      connectParticles();
+      animationId = requestAnimationFrame(animate);
+    };
+
+    resize();
+    createParticles();
+    animate();
+
+    window.addEventListener('resize', () => {
+      resize();
+      createParticles();
+    });
+
+    return () => {
+      cancelAnimationFrame(animationId);
+    };
+  }, []);
+
+  return (
+    <div className={`ambient-panel ${side}`}>
+      <canvas ref={canvasRef} className="ambient-canvas" />
+    </div>
+  );
+}
+
 // Message component
 function Message({ message, isUser }) {
   return (
@@ -68,25 +166,21 @@ function TypingIndicator() {
 }
 
 export default function THREADChat() {
-  // Use context for persistent messages
   const { messages, addMessage, sessionStats } = useChat();
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
-  const [connectionStatus, setConnectionStatus] = useState('demo'); // 'demo' | 'connected' | 'error'
+  const [connectionStatus, setConnectionStatus] = useState('demo');
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
-  // Auto-scroll to bottom
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  // Focus input on load
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
 
-  // Demo response generator (will be replaced with actual API)
   const generateDemoResponse = (userMessage) => {
     const responses = [
       {
@@ -129,7 +223,6 @@ export default function THREADChat() {
     setInput('');
     setIsTyping(true);
 
-    // Simulate response delay (will be replaced with actual API call)
     setTimeout(() => {
       const response = generateDemoResponse(input);
       const threadMessage = {
@@ -153,100 +246,110 @@ export default function THREADChat() {
 
   return (
     <main className="thread-chat-page">
-      {/* Header */}
-      <header className="thread-header">
-        <div className="header-left">
-          <div className="thread-orb-header">
-            <div className="orb-core-header"></div>
-          </div>
-          <div className="header-info">
-            <h1>THREAD</h1>
-            <span className="header-tagline">The Base Model</span>
-          </div>
-        </div>
-        <div className="header-right">
-          <div className={`connection-status ${connectionStatus}`}>
-            <span className="status-dot"></span>
-            <span className="status-text">
-              {connectionStatus === 'demo' && 'Demo Mode'}
-              {connectionStatus === 'connected' && 'Connected'}
-              {connectionStatus === 'error' && 'Disconnected'}
-            </span>
-          </div>
-        </div>
-      </header>
+      {/* Left Ambient Panel */}
+      <AmbientPanel side="left" />
 
-      {/* Chat Container */}
-      <div className="chat-container">
-        <div className="messages-area">
-          {messages.map((message) => (
-            <Message
-              key={message.id}
-              message={message}
-              isUser={message.isUser}
-            />
-          ))}
-          <AnimatePresence>
-            {isTyping && <TypingIndicator />}
-          </AnimatePresence>
-          <div ref={messagesEndRef} />
-        </div>
+      {/* Center Chat Area */}
+      <div className="chat-center">
+        {/* Header */}
+        <header className="thread-header">
+          <div className="header-left">
+            <div className="thread-orb-header">
+              <div className="orb-core-header"></div>
+            </div>
+            <div className="header-info">
+              <h1>THREAD</h1>
+              <span className="header-tagline">The Base Model</span>
+            </div>
+          </div>
+          <div className="header-right">
+            <div className={`connection-status ${connectionStatus}`}>
+              <span className="status-dot"></span>
+              <span className="status-text">
+                {connectionStatus === 'demo' && 'Demo Mode'}
+                {connectionStatus === 'connected' && 'Connected'}
+                {connectionStatus === 'error' && 'Disconnected'}
+              </span>
+            </div>
+          </div>
+        </header>
 
-        {/* Input Area */}
-        <form className="input-area" onSubmit={handleSubmit}>
-          <div className="input-container">
-            <textarea
-              ref={inputRef}
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="Type a message..."
-              rows={1}
-              disabled={isTyping}
-            />
-            <button
-              type="submit"
-              className="send-button"
-              disabled={!input.trim() || isTyping}
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
-              </svg>
-            </button>
+        {/* Chat Container */}
+        <div className="chat-container">
+          <div className="messages-area">
+            {messages.map((message) => (
+              <Message
+                key={message.id}
+                message={message}
+                isUser={message.isUser}
+              />
+            ))}
+            <AnimatePresence>
+              {isTyping && <TypingIndicator />}
+            </AnimatePresence>
+            <div ref={messagesEndRef} />
           </div>
-          <div className="input-footer">
-            <span className="demo-notice">
-              Demo mode - responses are illustrative. Connect your own THREAD instance for live interaction.
-            </span>
-          </div>
-        </form>
+
+          {/* Input Area */}
+          <form className="input-area" onSubmit={handleSubmit}>
+            <div className="input-container">
+              <textarea
+                ref={inputRef}
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={handleKeyDown}
+                placeholder="Type a message..."
+                rows={1}
+                disabled={isTyping}
+              />
+              <button
+                type="submit"
+                className="send-button"
+                disabled={!input.trim() || isTyping}
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                </svg>
+              </button>
+            </div>
+            <div className="input-footer">
+              <span className="demo-notice">
+                Demo mode - responses are illustrative. Connect your own THREAD instance for live interaction.
+              </span>
+            </div>
+          </form>
+        </div>
       </div>
 
-      {/* Info Panel */}
-      <aside className="info-panel">
-        <h3>Session Stats</h3>
-        <div className="info-stats">
-          <div className="stat">
-            <span className="stat-label">Messages</span>
-            <span className="stat-value">{sessionStats.messagesCount}</span>
+      {/* Right Ambient Panel with Stats */}
+      <aside className="ambient-panel right with-stats">
+        <canvas className="ambient-canvas-bg" />
+        <div className="stats-overlay">
+          <h3>Session Stats</h3>
+          <div className="info-stats">
+            <div className="stat">
+              <span className="stat-label">Messages</span>
+              <span className="stat-value">{sessionStats.messagesCount}</span>
+            </div>
+            <div className="stat">
+              <span className="stat-label">Tokens Used</span>
+              <span className="stat-value">~{sessionStats.tokensUsed}</span>
+            </div>
+            <div className="stat">
+              <span className="stat-label">Avg Warmth</span>
+              <span className="stat-value">{Math.round(sessionStats.avgWarmth * 100)}%</span>
+            </div>
           </div>
-          <div className="stat">
-            <span className="stat-label">Tokens Used</span>
-            <span className="stat-value">~{sessionStats.tokensUsed}</span>
-          </div>
-          <div className="stat">
-            <span className="stat-label">Avg Warmth</span>
-            <span className="stat-value">{Math.round(sessionStats.avgWarmth * 100)}%</span>
-          </div>
+          <h3 style={{ marginTop: '1.5rem' }}>About THREAD</h3>
+          <p className="info-description">
+            THREAD is the base model of the L0GIC architecture. It demonstrates
+            warmth-based interaction where emotional resonance shapes memory and response.
+          </p>
+          <a href="/contact" className="upgrade-link">
+            Get Your Own Companion
+          </a>
         </div>
-        <h3 style={{ marginTop: '1.5rem' }}>About THREAD</h3>
-        <p className="info-description">
-          THREAD is the base model of the L0GIC architecture. It demonstrates
-          warmth-based interaction where emotional resonance shapes memory and response.
-        </p>
-        <a href="/pricing" className="upgrade-link">
-          Get Your Own Companion
-        </a>
+        <AmbientPanel side="right-bg" />
       </aside>
     </main>
   );

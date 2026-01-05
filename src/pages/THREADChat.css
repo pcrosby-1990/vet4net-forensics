@@ -1,18 +1,89 @@
 /* THREADChat.css - Chat Interface Styles */
-/* Day 76 - The Embedded Interface */
+/* Day 76 - Centered with Ambient Panels */
 
 .thread-chat-page {
   display: grid;
-  grid-template-columns: 1fr 280px;
-  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr minmax(600px, 800px) 1fr;
   min-height: 100vh;
   background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
   color: #e0e0e0;
 }
 
+/* Ambient Panels */
+.ambient-panel {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
+
+.ambient-panel.left {
+  border-right: 1px solid rgba(255, 215, 0, 0.05);
+}
+
+.ambient-panel.right {
+  border-left: 1px solid rgba(255, 215, 0, 0.05);
+}
+
+.ambient-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Right panel with stats overlay */
+.ambient-panel.with-stats {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.ambient-panel.with-stats .ambient-canvas-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.stats-overlay {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  background: linear-gradient(180deg, rgba(10, 10, 15, 0.9) 0%, rgba(10, 10, 15, 0.7) 100%);
+  max-width: 280px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.stats-overlay h3 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.1rem;
+  color: #FFD700;
+}
+
+.ambient-panel.right-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Chat Center Container */
+.chat-center {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+}
+
 /* Header */
 .thread-header {
-  grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,7 +177,7 @@
 .chat-container {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 80px);
+  flex: 1;
   overflow: hidden;
 }
 
@@ -123,7 +194,7 @@
 .message {
   display: flex;
   gap: 1rem;
-  max-width: 80%;
+  max-width: 85%;
 }
 
 .message.user {
@@ -299,20 +370,7 @@
   color: #666;
 }
 
-/* Info Panel */
-.info-panel {
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.3);
-  border-left: 1px solid rgba(255, 215, 0, 0.1);
-  overflow-y: auto;
-}
-
-.info-panel h3 {
-  margin: 0 0 1.5rem 0;
-  font-size: 1.1rem;
-  color: #FFD700;
-}
-
+/* Stats in right panel */
 .info-stats {
   display: flex;
   flex-direction: column;
@@ -369,12 +427,22 @@
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+  .thread-chat-page {
+    grid-template-columns: 100px 1fr 100px;
+  }
+
+  .stats-overlay {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
   .thread-chat-page {
     grid-template-columns: 1fr;
   }
 
-  .info-panel {
+  .ambient-panel {
     display: none;
   }
 }
@@ -389,7 +457,7 @@
   }
 
   .message {
-    max-width: 90%;
+    max-width: 95%;
   }
 
   .input-area {
