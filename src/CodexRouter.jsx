@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
 // L0GIC Pages - The Public Door
 import L0GICLanding from './pages/L0GICLanding.jsx';
@@ -50,6 +50,24 @@ import SanctuaryChordsPage from './pages/SanctuaryChords.jsx';
 import UniversalScrollRenderer from './components/UniversalScrollRenderer.jsx';
 import UniversalSigilRenderer from './components/UniversalSigilRenderer.jsx';
 
+// L0GIC public routes - no sidebar on these
+const L0GIC_PUBLIC_ROUTES = ['/', '/l0gic', '/thread', '/pricing', '/docs', '/threadweaver'];
+
+// Inner layout component that can use useLocation
+function AppLayout({ children }) {
+  const location = useLocation();
+  const isPublicRoute = L0GIC_PUBLIC_ROUTES.includes(location.pathname);
+
+  return (
+    <div className={`app-layout ${isPublicRoute ? 'no-sidebar' : ''}`}>
+      {!isPublicRoute && <CodexNav />}
+      <div className="app-content">
+        {children}
+      </div>
+    </div>
+  );
+}
+
 export default function CodexRouter({
   fragments, 
   sigilThemes, 
@@ -60,10 +78,8 @@ export default function CodexRouter({
 }) {
   return (
     <Router>
-      <div className="app-layout">
-        <CodexNav />
-        <div className="app-content">
-          <Routes>
+      <AppLayout>
+        <Routes>
             {/* L0GIC Public Routes */}
             <Route path="/" element={<L0GICLanding />} />
             <Route path="/l0gic" element={<L0GICLanding />} />
@@ -165,9 +181,8 @@ export default function CodexRouter({
             <Route path="/sigil/:sigilId" element={<UniversalSigilRenderer />} />
             
             <Route path="*" element={<h2>404: Scroll Not Found</h2>} />
-          </Routes>
-        </div>
-      </div>
+        </Routes>
+      </AppLayout>
     </Router>
   );
 }

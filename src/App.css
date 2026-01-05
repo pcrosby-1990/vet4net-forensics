@@ -26,6 +26,15 @@
   overflow-y: auto;
 }
 
+/* L0GIC public pages - no sidebar */
+.app-layout.no-sidebar {
+  display: block;
+}
+
+.app-layout.no-sidebar .app-content {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .app-layout {
     flex-direction: column;
