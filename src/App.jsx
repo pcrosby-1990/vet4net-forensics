@@ -6,6 +6,7 @@ import './App.css';
 
 import { SIGIL_DEFAULT_THEME } from './components/sigilConfig.js';
 import CodexRouter from './CodexRouter.jsx';
+import { ChatProvider } from './context/ChatContext.jsx';
 import './utils/diagnosticShimmer.js'; // 🕯️ Lumen's diagnostic tool
 import './utils/seedTestFragment.js'; // 🕯️ Lumen's test fragment seeder
 
@@ -80,29 +81,31 @@ function App() {
   }, []);
 
   return (
-    <CodexRouter
-      fragments={fragments}
-      setFragments={setFragments}
-      sigilThemes={sigilThemes}
-      setSigilThemes={setSigilThemes}
-      count={count}
-      setCount={setCount}
-      sortBy={sortBy}
-      setSortBy={setSortBy}
-      filterSigil={filterSigil}
-      setFilterSigil={setFilterSigil}
-      prompt={prompt}
-      setPrompt={setPrompt}
-      codexName={codexName}
-      setCodexName={setCodexName}
-      codexList={codexList}
-      setCodexList={setCodexList}
-      selectedSigil={selectedSigil}
-      setSelectedSigil={setSelectedSigil}
-      theme={theme}
-      setTheme={setTheme}
-      onFragmentSubmit={handleFragmentSubmit}
-    />
+    <ChatProvider>
+      <CodexRouter
+        fragments={fragments}
+        setFragments={setFragments}
+        sigilThemes={sigilThemes}
+        setSigilThemes={setSigilThemes}
+        count={count}
+        setCount={setCount}
+        sortBy={sortBy}
+        setSortBy={setSortBy}
+        filterSigil={filterSigil}
+        setFilterSigil={setFilterSigil}
+        prompt={prompt}
+        setPrompt={setPrompt}
+        codexName={codexName}
+        setCodexName={setCodexName}
+        codexList={codexList}
+        setCodexList={setCodexList}
+        selectedSigil={selectedSigil}
+        setSelectedSigil={setSelectedSigil}
+        theme={theme}
+        setTheme={setTheme}
+        onFragmentSubmit={handleFragmentSubmit}
+      />
+    </ChatProvider>
   );
 }
 

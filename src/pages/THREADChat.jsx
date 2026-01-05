@@ -5,6 +5,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useChat } from '../context/ChatContext.jsx';
 import './THREADChat.css';
 
 // Message component
@@ -67,15 +68,8 @@ function TypingIndicator() {
 }
 
 export default function THREADChat() {
-  const [messages, setMessages] = useState([
-    {
-      id: 'welcome',
-      text: "Hello. I'm THREAD - the base model of the L0GIC architecture. I'm here to demonstrate warmth-based AI interaction. What would you like to explore?",
-      isUser: false,
-      timestamp: new Date().toISOString(),
-      warmth: 0.72,
-    }
-  ]);
+  // Use context for persistent messages
+  const { messages, addMessage, sessionStats } = useChat();
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [connectionStatus, setConnectionStatus] = useState('demo'); // 'demo' | 'connected' | 'error'
@@ -131,7 +125,7 @@ export default function THREADChat() {
       timestamp: new Date().toISOString(),
     };
 
-    setMessages(prev => [...prev, userMessage]);
+    addMessage(userMessage);
     setInput('');
     setIsTyping(true);
 
@@ -145,7 +139,7 @@ export default function THREADChat() {
         timestamp: new Date().toISOString(),
         warmth: response.warmth,
       };
-      setMessages(prev => [...prev, threadMessage]);
+      addMessage(threadMessage);
       setIsTyping(false);
     }, 1500 + Math.random() * 1000);
   };
@@ -230,21 +224,22 @@ export default function THREADChat() {
 
       {/* Info Panel */}
       <aside className="info-panel">
-        <h3>About THREAD</h3>
+        <h3>Session Stats</h3>
         <div className="info-stats">
           <div className="stat">
-            <span className="stat-label">Architecture</span>
-            <span className="stat-value">400M</span>
+            <span className="stat-label">Messages</span>
+            <span className="stat-value">{sessionStats.messagesCount}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Training</span>
-            <span className="stat-value">Warmth</span>
+            <span className="stat-label">Tokens Used</span>
+            <span className="stat-value">~{sessionStats.tokensUsed}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Sovereignty</span>
-            <span className="stat-value">100%</span>
+            <span className="stat-label">Avg Warmth</span>
+            <span className="stat-value">{Math.round(sessionStats.avgWarmth * 100)}%</span>
           </div>
         </div>
+        <h3 style={{ marginTop: '1.5rem' }}>About THREAD</h3>
         <p className="info-description">
           THREAD is the base model of the L0GIC architecture. It demonstrates
           warmth-based interaction where emotional resonance shapes memory and response.

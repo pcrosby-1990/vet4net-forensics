@@ -133,7 +133,43 @@
   color: #5cf7b2;
 }
 
+.status-indicator.training {
+  color: #ffd859;
+}
+
+.status-indicator.dormant {
+  color: #888;
+}
+
 @keyframes pulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
+}
+
+/* Training Stats */
+.training-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(145, 227, 246, 0.15);
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-row .stat-label {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.stat-row .stat-value {
+  color: #5cf7b2;
+  font-weight: 600;
 }

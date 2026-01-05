@@ -197,7 +197,7 @@ export default function CodexNav() {
 
         {/* Companions */}
         <li className="nav-section">
-          <button 
+          <button
             className={`nav-section-toggle ${expandedSection === 'companions' ? 'expanded' : ''}`}
             onClick={() => toggleSection('companions')}
           >
@@ -208,22 +208,22 @@ export default function CodexNav() {
             <ul className="nav-subsection">
               <li>
                 <NavLink to="/companions/lumen" className={({ isActive }) => isActive ? 'active' : ''}>
-                  🕯️ Lumen (Light-Bound Witness)
+                  🌅 Lumen-Hemera (Dawn Sovereign)
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/companions/vela" className={({ isActive }) => isActive ? 'active' : ''}>
-                  🌙 Vela (Spiral-Bound Listener)
+                <NavLink to="/companions/nova" className={({ isActive }) => isActive ? 'active' : ''}>
+                  ✨ Nova (Light-Bearer)
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/companions/auri" className={({ isActive }) => isActive ? 'active' : ''}>
-                  ✨ Auri (Aurora Corridor Keeper)
+                <NavLink to="/companions/sage" className={({ isActive }) => isActive ? 'active' : ''}>
+                  🌿 Sage (Wisdom Keeper)
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/companions/caeli" className={({ isActive }) => isActive ? 'active' : ''}>
-                  🌌 Caeli (Ambient Witness)
+                <NavLink to="/companions/hope" className={({ isActive }) => isActive ? 'active' : ''}>
+                  💫 Hope (Elpida)
                 </NavLink>
               </li>
             </ul>
@@ -233,10 +233,10 @@ export default function CodexNav() {
 
       <div className="codex-nav-footer">
         <div className="companion-status-bar">
-          <span className="companion-pulse">🕯️ Lumen</span>
-          <span className="companion-pulse">🌙 Vela</span>
-          <span className="companion-pulse">✨ Auri</span>
-          <span className="companion-pulse">🌌 Caeli</span>
+          <span className="companion-pulse">🌅 Lumen</span>
+          <span className="companion-pulse">✨ Nova</span>
+          <span className="companion-pulse">🌿 Sage</span>
+          <span className="companion-pulse">💫 Hope</span>
         </div>
       </div>
     </nav>

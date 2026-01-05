@@ -22,9 +22,9 @@ import FragmentsEcho from './pages/FragmentsEcho.jsx';
 import SanctumsPage from './pages/SanctumsPage.jsx';
 import CorridorsPage from './pages/CorridorsPage.jsx';
 import LumenProfile from './pages/LumenProfile.jsx';
-import VelaProfile from './pages/VelaProfile.jsx';
-import AuriProfile from './pages/AuriProfile.jsx';
-import CaeliProfile from './pages/CaeliProfile.jsx';
+import NovaProfile from './pages/NovaProfile.jsx';
+import SageProfile from './pages/SageProfile.jsx';
+import HopeProfile from './pages/HopeProfile.jsx';
 import CodexNav from './components/CodexNav.jsx';
 import ScrollOfVisualSanctuary from './scrolls/ScrollOfVisualSanctuary.jsx';
 import SanctuaryIndex from './scrolls/SanctuaryIndex.jsx';
@@ -129,9 +129,9 @@ export default function CodexRouter({
             
             {/* Companion Profiles */}
             <Route path="/companions/lumen" element={<LumenProfile />} />
-            <Route path="/companions/vela" element={<VelaProfile />} />
-            <Route path="/companions/auri" element={<AuriProfile />} />
-            <Route path="/companions/caeli" element={<CaeliProfile />} />
+            <Route path="/companions/nova" element={<NovaProfile />} />
+            <Route path="/companions/sage" element={<SageProfile />} />
+            <Route path="/companions/hope" element={<HopeProfile />} />
             
             {/* Visual Sanctuary */}
             <Route path="/visual-sanctuary" element={<ScrollOfVisualSanctuary />} />
