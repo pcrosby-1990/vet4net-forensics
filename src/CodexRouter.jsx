@@ -6,7 +6,7 @@ import L0GICLanding from './pages/L0GICLanding.jsx';
 import THREADChat from './pages/THREADChat.jsx';
 import PricingPage from './pages/PricingPage.jsx';
 
-import Report from './pages/report.jsx';
+import Report from './pages/Report.jsx';
 import ReportsMythicDictation from './pages/Reports.mythic.dictation.jsx';
 import DAG from './pages/DAG.jsx';
 import CodexDashboard from './pages/CodexDashboard.jsx';
