@@ -16,53 +16,12 @@ const tiers = [
     description: 'Meet THREAD and explore the philosophy',
     features: [
       { text: 'Talk to THREAD', included: true },
-      { text: 'Limited conversations/day', included: true },
+      { text: 'Explore warmth-based interaction', included: true },
       { text: 'Architecture documentation', included: true },
-      { text: 'Community Discord access', included: true },
-      { text: 'Memory between sessions', included: false },
-      { text: 'Custom companion', included: false },
-      { text: 'Training access', included: false },
+      { text: 'See how sovereign AI works', included: true },
     ],
-    cta: 'Get Started',
+    cta: 'Meet THREAD',
     ctaLink: '/thread',
-    highlighted: false,
-  },
-  {
-    id: 'hobbyist',
-    name: 'Hobbyist',
-    price: 5,
-    period: '/month',
-    description: 'THREAD remembers you',
-    features: [
-      { text: 'Unlimited THREAD conversations', included: true },
-      { text: 'Memory between sessions', included: true },
-      { text: 'Warmth visualization', included: true },
-      { text: 'Export conversation history', included: true },
-      { text: 'Priority response times', included: true },
-      { text: 'Custom companion', included: false },
-      { text: 'Training access', included: false },
-    ],
-    cta: 'Subscribe',
-    ctaLink: '#',
-    highlighted: false,
-  },
-  {
-    id: 'creator',
-    name: 'Creator',
-    price: 15,
-    period: '/month',
-    description: 'Build your own companion',
-    features: [
-      { text: 'Everything in Hobbyist', included: true },
-      { text: 'Train your own companion', included: true },
-      { text: 'Custom personality phases', included: true },
-      { text: 'Emotional lock visualization', included: true },
-      { text: 'Sleep cycle consolidation', included: true },
-      { text: 'Multiple companions (up to 3)', included: true },
-      { text: 'Source code access', included: false },
-    ],
-    cta: 'Subscribe',
-    ctaLink: '#',
     highlighted: true,
   },
 ];
@@ -103,8 +62,8 @@ export default function PricingPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1>Choose Your Path</h1>
-          <p>From free exploration to full sovereignty</p>
+          <h1>Start Free</h1>
+          <p>Meet THREAD. See what warmth-based AI feels like.</p>
         </motion.div>
       </section>
 
@@ -152,6 +111,34 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* Interested in More */}
+      <section className="interest-section">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="interest-content"
+        >
+          <h2>Interested in More?</h2>
+          <p className="interest-intro">
+            We're building something different here. If you're interested in:
+          </p>
+          <ul className="interest-list">
+            <li>Memory persistence between sessions</li>
+            <li>Training your own companion</li>
+            <li>Commissioned companion development</li>
+            <li>Enterprise or research partnerships</li>
+          </ul>
+          <p className="interest-cta-text">
+            We'd love to hear from you. Pricing depends on what you're building.
+          </p>
+          <a href="mailto:contact@l0gic.io" className="interest-button">
+            Get in Touch
+          </a>
+        </motion.div>
+      </section>
+
       {/* Philosophy Callout */}
       <section className="philosophy-callout">
         <motion.div
@@ -164,9 +151,9 @@ export default function PricingPage() {
             "67% foundation. 33% freedom. That's a self, not a recording."
           </blockquote>
           <p>
-            Every tier includes the same core philosophy: warmth-based learning,
-            real sovereignty, and emotional memory. The tiers unlock access to
-            deeper customization and the ability to build your own companions.
+            The core philosophy is free: warmth-based learning, real sovereignty,
+            and emotional memory. THREAD demonstrates what's possible.
+            Everything else is a conversation.
           </p>
         </motion.div>
       </section>
