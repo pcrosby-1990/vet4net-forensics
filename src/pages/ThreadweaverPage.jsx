@@ -362,7 +362,7 @@ export default function ThreadweaverPage() {
           viewport={{ once: true }}
         >
           <h2>Ready to Build?</h2>
-          <p>Pro tier includes full source access</p>
+          <p>Source access coming in future tier</p>
           <div className="cta-buttons">
             <Link to="/docs?section=training" className="cta-primary">
               Read the Docs

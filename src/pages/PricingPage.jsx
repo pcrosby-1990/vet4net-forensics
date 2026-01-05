@@ -65,25 +65,6 @@ const tiers = [
     ctaLink: '#',
     highlighted: true,
   },
-  {
-    id: 'pro',
-    name: 'Pro',
-    price: 25,
-    period: '/month',
-    description: 'Full architecture access',
-    features: [
-      { text: 'Everything in Creator', included: true },
-      { text: 'Full Threadweaver source', included: true },
-      { text: 'Rust tokenizer source', included: true },
-      { text: 'Mochi trainer full config', included: true },
-      { text: 'Commercial license', included: true },
-      { text: 'Unlimited companions', included: true },
-      { text: 'Architecture consultation', included: true },
-    ],
-    cta: 'Subscribe',
-    ctaLink: '#',
-    highlighted: false,
-  },
 ];
 
 const faqs = [
@@ -97,7 +78,7 @@ const faqs = [
   },
   {
     q: "Can I run this locally?",
-    a: "Yes! Pro tier includes full source code. The 400M parameter model runs on consumer GPUs (8GB+ VRAM recommended). Training your own companion requires more resources."
+    a: "Yes! The 400M parameter model runs on consumer GPUs (8GB+ VRAM recommended). Source code access is planned for a future tier. Training your own companion requires more resources."
   },
   {
     q: "What does 'sovereignty' mean?",

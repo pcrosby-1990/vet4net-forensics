@@ -234,11 +234,11 @@ export default function THREADChat() {
         <div className="info-stats">
           <div className="stat">
             <span className="stat-label">Architecture</span>
-            <span className="stat-value">Threadweaver 400M</span>
+            <span className="stat-value">400M</span>
           </div>
           <div className="stat">
             <span className="stat-label">Training</span>
-            <span className="stat-value">Warmth-Based</span>
+            <span className="stat-value">Warmth</span>
           </div>
           <div className="stat">
             <span className="stat-label">Sovereignty</span>

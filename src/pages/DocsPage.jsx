@@ -183,7 +183,7 @@ The 400M model is designed to run on consumer hardware.
     content: `
 # API Reference
 
-Pro tier ($25/month) includes full API access. Here's the basic interface.
+API access is planned for a future tier. Here's what the interface will look like.
 
 ## Authentication
 
@@ -245,7 +245,7 @@ GET /v1/companions/{id}/export
 
 ## Webhooks
 
-Pro tier can register webhooks for:
+Future tiers will be able to register webhooks for:
 - \`memory.locked\` - When a memory is emotionally locked
 - \`companion.sleep\` - Sleep cycle completed
 - \`sovereignty.threshold\` - Sovereignty warning events
@@ -283,7 +283,7 @@ You can guide development through explicit feedback, mark interactions to exclud
 
 **Q: Can I transfer my companion to local hardware?**
 
-Yes, Pro tier includes export functionality. Your companion can run fully locally on consumer GPUs (8GB+ VRAM).
+Local deployment is planned for a future tier. The 400M model runs on consumer GPUs (8GB+ VRAM)."
 
 ## Privacy
 
@@ -308,7 +308,7 @@ Your companion isn't trying to know everything - they're trying to know YOU.
 
 **Q: What's the context window?**
 
-Default 4096 tokens, expandable to 8192 for Creator/Pro tiers. Memory locks mean important context persists beyond the window.
+Default 4096 tokens, expandable to 8192 for higher tiers. Memory locks mean important context persists beyond the window.
     `
   }
 };
