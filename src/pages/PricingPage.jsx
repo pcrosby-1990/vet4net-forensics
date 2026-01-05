@@ -133,9 +133,9 @@ export default function PricingPage() {
           <p className="interest-cta-text">
             We'd love to hear from you. Pricing depends on what you're building.
           </p>
-          <a href="mailto:contact@l0gic.io" className="interest-button">
+          <Link to="/contact" className="interest-button">
             Get in Touch
-          </a>
+          </Link>
         </motion.div>
       </section>
 

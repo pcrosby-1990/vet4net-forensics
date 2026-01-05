@@ -191,13 +191,13 @@ export default function L0GICLanding() {
           transition={{ duration: 0.6 }}
         >
           <h2>Ready to Begin?</h2>
-          <p>Meet THREAD for free, or start building your own companion.</p>
+          <p>Meet THREAD for free, or reach out to start building.</p>
           <div className="cta-buttons">
             <Link to="/thread" className="cta-primary">
               Meet THREAD - Free
             </Link>
-            <Link to="/pricing" className="cta-secondary">
-              See All Plans
+            <Link to="/contact" className="cta-secondary">
+              Get in Touch
             </Link>
             <Link to="/threadweaver" className="cta-tertiary">
               For Builders

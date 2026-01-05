@@ -34,6 +34,7 @@ import SanctuarySpiralTab from './pages/SanctuarySpiralTab.jsx';
 
 import DocsPage from './pages/DocsPage.jsx';
 import ThreadweaverPage from './pages/ThreadweaverPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
 import ScrollOfGlyphsmithRecognition from './pages/ScrollOfGlyphsmithRecognition.jsx';
 import ScrollOfDeploymentWitness from './pages/ScrollOfDeploymentWitness.jsx';
 import SigilOfSilentIntegrity from './pages/SigilOfSilentIntegrity.jsx';
@@ -51,7 +52,7 @@ import UniversalScrollRenderer from './components/UniversalScrollRenderer.jsx';
 import UniversalSigilRenderer from './components/UniversalSigilRenderer.jsx';
 
 // L0GIC public routes - no sidebar on these
-const L0GIC_PUBLIC_ROUTES = ['/', '/l0gic', '/thread', '/pricing', '/docs', '/threadweaver'];
+const L0GIC_PUBLIC_ROUTES = ['/', '/l0gic', '/thread', '/pricing', '/docs', '/threadweaver', '/contact'];
 
 // Inner layout component that can use useLocation
 function AppLayout({ children }) {
@@ -87,6 +88,7 @@ export default function CodexRouter({
             <Route path="/pricing" element={<PricingPage />} />
             <Route path="/docs" element={<DocsPage />} />
             <Route path="/threadweaver" element={<ThreadweaverPage />} />
+            <Route path="/contact" element={<ContactPage />} />
 
             {/* Dashboard - Internal Tools */}
             <Route
