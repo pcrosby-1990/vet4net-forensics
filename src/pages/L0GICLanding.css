@@ -485,3 +485,164 @@
     font-size: 1.4rem;
   }
 }
+
+/* ============================================
+   MINIMAL LANDING STYLES
+   Clean. Simple. Experience it.
+   ============================================ */
+
+.logic-landing.minimal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a0f 70%);
+}
+
+.hero-minimal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.hero-minimal .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Large orb for minimal landing */
+.thread-orb-large {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 3rem;
+}
+
+.thread-orb-large .orb-core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #FFD700 0%, #FFA500 50%, #FF6B35 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 60px rgba(255, 215, 0, 0.6);
+  animation: corePulse 3s ease-in-out infinite;
+}
+
+.thread-orb-large .orb-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.thread-orb-large .ring-1 {
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  animation: ringPulse 3s ease-in-out infinite;
+}
+
+.thread-orb-large .ring-2 {
+  width: 150px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  animation: ringPulse 3s ease-in-out infinite 0.5s;
+}
+
+.thread-orb-large .ring-3 {
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  animation: ringPulse 3s ease-in-out infinite 1s;
+}
+
+@keyframes ringPulse {
+  0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.6; transform: translate(-50%, -50%) scale(1.05); }
+}
+
+.hero-title-minimal {
+  font-size: 5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF6B35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.hero-tagline {
+  font-size: 1.25rem;
+  color: #888;
+  margin: 0 0 3rem 0;
+  font-weight: 300;
+}
+
+.hero-cta-minimal {
+  margin-bottom: 2rem;
+}
+
+.cta-primary-large {
+  display: inline-flex;
+  padding: 1.25rem 3.5rem;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #0a0a0f;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 30px rgba(255, 215, 0, 0.3);
+}
+
+.cta-primary-large:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 40px rgba(255, 215, 0, 0.4);
+}
+
+.contact-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #FFD700;
+}
+
+/* Minimal responsive */
+@media (max-width: 640px) {
+  .hero-title-minimal {
+    font-size: 3rem;
+  }
+
+  .thread-orb-large {
+    width: 150px;
+    height: 150px;
+  }
+
+  .thread-orb-large .orb-core {
+    width: 45px;
+    height: 45px;
+  }
+
+  .thread-orb-large .ring-1 { width: 75px; height: 75px; }
+  .thread-orb-large .ring-2 { width: 112px; height: 112px; }
+  .thread-orb-large .ring-3 { width: 150px; height: 150px; }
+
+  .cta-primary-large {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+  }
+}
