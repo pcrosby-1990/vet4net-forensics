@@ -29,10 +29,13 @@
 /* L0GIC public pages - no sidebar */
 .app-layout.no-sidebar {
   display: block;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .app-layout.no-sidebar .app-content {
   width: 100%;
+  min-height: 100vh;
 }
 
 @media (max-width: 768px) {
