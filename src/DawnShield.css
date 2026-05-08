@@ -1,0 +1,367 @@
+/* DawnShield.css — extends Landing.css with deep-page sections.
+   Day 202 (2026-05-05) Lumen-Hemera + Patrick. */
+
+.brand-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero (slightly smaller than Landing hero, more content-focused) */
+.ds-hero {
+  position: relative;
+  z-index: 1;
+  padding: 80px 48px 60px;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ds-headline {
+  font-size: clamp(28px, 4.5vw, 48px);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 24px 0 20px;
+  max-width: 24ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ds-sub {
+  font-size: clamp(15px, 1.3vw, 17px);
+  color: var(--ink-soft);
+  line-height: 1.65;
+  max-width: 64ch;
+  margin: 0 auto 24px;
+}
+
+.ds-sub strong {
+  color: var(--cyan-soft);
+  font-weight: 600;
+}
+
+.ds-covenant {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 56ch;
+  margin: 0 auto;
+  padding: 18px 22px;
+  border-left: 2px solid var(--cyan);
+  background: rgba(103, 224, 255, 0.05);
+  color: var(--ink);
+  text-align: left;
+  border-radius: 4px;
+}
+
+.ds-covenant em {
+  font-style: italic;
+  color: var(--cyan-soft);
+}
+
+/* Section base */
+.ds-section {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 60px 48px;
+}
+
+.ds-section-emph {
+  background:
+    linear-gradient(180deg, rgba(19, 26, 54, 0.6) 0%, rgba(10, 16, 36, 0.6) 100%);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  max-width: none;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.ds-section-emph > * {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ds-section-quiet {
+  background: rgba(5, 7, 20, 0.4);
+}
+
+.ds-section-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+
+.ds-section-title em {
+  color: var(--violet-soft);
+  font-style: italic;
+}
+
+.ds-section-lede {
+  color: var(--ink-soft);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 28px;
+  max-width: 60ch;
+}
+
+/* Threat-class grid */
+.ds-threat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 880px) {
+  .ds-threat-grid { grid-template-columns: 1fr; }
+}
+
+.ds-threat {
+  padding: 24px 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(19, 26, 54, 0.55) 0%, rgba(10, 16, 36, 0.55) 100%);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ds-threat:hover {
+  border-color: rgba(103, 224, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+.ds-threat-tag {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.ds-threat-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.ds-threat p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+/* Result cards */
+.ds-result-card {
+  padding: 26px 28px;
+  margin-bottom: 18px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--cyan);
+  border-radius: 10px;
+  background: rgba(5, 7, 20, 0.5);
+}
+
+.ds-result-card:last-child {
+  margin-bottom: 0;
+}
+
+.ds-result-tag {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 4px;
+}
+
+.ds-result-date {
+  font-size: 12px;
+  color: var(--ink-mute);
+  margin-bottom: 18px;
+  letter-spacing: 0.04em;
+}
+
+.ds-result-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ds-result-bullets li {
+  position: relative;
+  padding: 7px 0 7px 22px;
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.ds-result-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 15px;
+  width: 5px;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--cyan);
+  box-shadow: 0 0 6px var(--cyan);
+}
+
+.ds-result-bullets strong {
+  color: var(--cyan-soft);
+  font-weight: 600;
+}
+
+.ds-result-bullets code {
+  font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  font-size: 13px;
+  background: rgba(103, 224, 255, 0.1);
+  color: var(--cyan-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.ds-pin {
+  color: var(--ink-mute);
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* Not-list */
+.ds-not-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ds-not-list li {
+  padding: 16px 22px;
+  margin-bottom: 12px;
+  border-left: 2px solid var(--violet);
+  background: rgba(155, 125, 255, 0.04);
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.6;
+  border-radius: 4px;
+}
+
+.ds-not-list strong {
+  color: var(--violet-soft);
+  font-weight: 600;
+  display: inline;
+}
+
+/* Two-col license + status */
+.ds-twocol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+}
+
+@media (max-width: 880px) {
+  .ds-twocol { grid-template-columns: 1fr; }
+}
+
+.ds-twocol p {
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.ds-twocol p strong {
+  color: var(--cyan-soft);
+}
+
+.ds-twocol p em {
+  color: var(--ink);
+  font-style: italic;
+}
+
+.ds-license-note {
+  color: var(--ink-mute) !important;
+  font-size: 14px !important;
+  margin-top: 12px;
+}
+
+.ds-status-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ds-status-list li {
+  padding: 10px 0;
+  font-size: 14px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.ds-status-pill {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-right: 12px;
+  background: var(--cyan);
+  color: var(--bg-deep);
+}
+
+.ds-pill-prep {
+  background: var(--violet-soft);
+}
+
+.ds-pill-process {
+  background: var(--gold);
+}
+
+/* CTA */
+.ds-cta-section {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 60px auto 80px;
+  padding: 0 48px;
+  text-align: center;
+}
+
+.ds-cta-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.ds-cta-sub {
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 50ch;
+  margin: 0 auto 28px;
+}
+
+.ds-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ds-contact {
+  font-size: 14px;
+  color: var(--ink-mute);
+}
+
+@media (max-width: 720px) {
+  .ds-hero { padding: 60px 24px 40px; }
+  .ds-section { padding: 40px 24px; }
+  .ds-section-emph { padding-left: 24px; padding-right: 24px; }
+  .ds-cta-section { padding: 0 24px; }
+}
