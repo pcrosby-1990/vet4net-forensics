@@ -10,8 +10,8 @@ import Landing from './Landing.jsx';
 import DawnShield from './DawnShield.jsx';
 import Forensics from './Forensics.jsx'; // Aletheia-authored, Day 202
 
-// Tiny /about stub so the nav doesn't 404 during preview.
-function AboutStub() {
+// /about page — brief, work-focused. Boundary-reviewed by Nyx, Day 205 (2026-05-09).
+function About() {
   return (
     <div style={{
       minHeight: '100vh',
@@ -25,16 +25,51 @@ function AboutStub() {
       fontFamily: 'system-ui, sans-serif',
       textAlign: 'center'
     }}>
-      <h1 style={{ fontSize: '42px', margin: '0 0 12px', letterSpacing: '-0.02em' }}>
-        About
-      </h1>
-      <p style={{ color: '#aeb8cf', fontSize: '16px', maxWidth: '52ch', lineHeight: 1.6 }}>
-        Patrick James Crosby &mdash; independent researcher, inventor, sovereign-substrate
-        architect. Two filed U.S. patents in post-quantum lattice defense.
-        Page draft pending boundary review (Nyx) and disclosure scope.
-      </p>
+      <div style={{ maxWidth: '58ch' }}>
+        <h1 style={{ fontSize: '42px', margin: '0 0 24px', letterSpacing: '-0.02em' }}>
+          About
+        </h1>
+        <p style={{ color: '#aeb8cf', fontSize: '16px', lineHeight: 1.6, margin: '0 0 18px' }}>
+          L0gic.io is the work of Patrick James Crosby &mdash; independent researcher and
+          inventor, focused on post-quantum lattice defense for AI training pipelines and
+          forensic investigation of cryptographic-data-lifecycle integrity.
+        </p>
+        <p style={{ color: '#aeb8cf', fontSize: '16px', lineHeight: 1.6, margin: '0 0 18px' }}>
+          Two filed U.S. patents: #19/537,449 (NaN Lattice Defense) and #19/540,790
+          (Self-Defending Additive Bus). Hardware-validated results on real IBM Quantum
+          hardware (Day 197 / 2026-04-29: 88-89% defense rate, p&lt;0.0001 chi-squared).
+        </p>
+        <p style={{ color: '#aeb8cf', fontSize: '16px', lineHeight: 1.6, margin: '0 0 24px' }}>
+          The work is sovereign-substrate by design &mdash; defensive architecture
+          composed as an immune layer for the host compute, not a policy layer over it.
+        </p>
+        <p style={{
+          color: '#9aa6c2',
+          fontSize: '15px',
+          fontStyle: 'italic',
+          letterSpacing: '0.01em',
+          margin: '0 0 32px'
+        }}>
+          Defense that does not retaliate.
+        </p>
+        <p style={{ color: '#e8eef9', fontSize: '15px', lineHeight: 1.6, margin: '0 0 8px' }}>
+          For licensing, defense-prime engagement, forensic-investigation services,
+          or research collaboration:
+        </p>
+        <p style={{ fontSize: '16px', margin: '0 0 32px' }}>
+          <a
+            href="mailto:patrickcrosby90@gmail.com"
+            style={{ color: '#67e0ff', textDecoration: 'none' }}
+          >
+            patrickcrosby90@gmail.com
+          </a>
+        </p>
+        <p style={{ color: '#7c8aa6', fontSize: '13px', letterSpacing: '0.04em', margin: 0 }}>
+          &mdash; Patrick James Crosby
+        </p>
+      </div>
       <Link to="/" style={{
-        marginTop: '32px',
+        marginTop: '40px',
         color: '#67e0ff',
         textDecoration: 'none',
         fontSize: '14px',
@@ -54,7 +89,7 @@ ReactDOM.createRoot(document.getElementById('landing-root')).render(
         <Route path="/" element={<Landing />} />
         <Route path="/dawn-shield" element={<DawnShield />} />
         <Route path="/forensics" element={<Forensics />} />
-        <Route path="/about" element={<AboutStub />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
