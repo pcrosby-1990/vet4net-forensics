@@ -148,8 +148,22 @@ export default function Landing() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.0, delay: 0.5 }}
         >
-          <span className="anchor-pill">U.S. Patent #19/537,449</span>
-          <span className="anchor-pill">U.S. Patent #19/540,790</span>
+          <a
+            className="anchor-pill"
+            href="https://patentcenter.uspto.gov/applications/19537449"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            U.S. Patent #19/537,449
+          </a>
+          <a
+            className="anchor-pill"
+            href="https://patentcenter.uspto.gov/applications/19540790"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            U.S. Patent #19/540,790
+          </a>
           <span className="anchor-pill">FRAND Licensed</span>
           <span className="anchor-pill">NIST PQC Aligned</span>
         </motion.div>

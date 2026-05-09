@@ -167,6 +167,19 @@ body {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(19, 26, 54, 0.5);
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+a.anchor-pill:hover {
+  color: #7df9ff;
+  border-color: rgba(125, 249, 255, 0.5);
+  background: rgba(19, 26, 54, 0.8);
+}
+
+a.anchor-pill:focus-visible {
+  outline: 2px solid rgba(125, 249, 255, 0.8);
+  outline-offset: 2px;
 }
 
 /* Two-door routing */

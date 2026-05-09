@@ -281,7 +281,7 @@ export default function Forensics() {
       </section>
 
       {/* Inquiries */}
-      <section className="ds-cta" id="inquiries">
+      <section className="ds-cta-section" id="inquiries">
         <motion.h2
           className="ds-cta-title"
           initial={{ opacity: 0, y: 12 }}
@@ -293,7 +293,7 @@ export default function Forensics() {
         </motion.h2>
 
         <motion.p
-          className="ds-cta-blurb"
+          className="ds-cta-sub"
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
@@ -308,15 +308,18 @@ export default function Forensics() {
         </motion.p>
 
         <motion.div
-          className="ds-cta-contact"
+          className="ds-cta-row"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          <a className="ds-cta-link" href="mailto:patrickcrosby90@gmail.com?subject=Forensics%20Engagement%20Inquiry">
-            patrickcrosby90@gmail.com
+          <a className="door-cta" href="mailto:patrickcrosby90@gmail.com?subject=Forensics%20Engagement%20Inquiry">
+            Request Engagement &rarr;
           </a>
+          <span className="ds-contact">
+            patrickcrosby90@gmail.com &middot; Patrick James Crosby
+          </span>
         </motion.div>
       </section>
 
