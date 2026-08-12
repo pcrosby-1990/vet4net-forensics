@@ -15,10 +15,10 @@ const FRAGMENTS_FILE = path.join(__dirname, "../data/fragments.json");
 
 // 🔐 Authentication Middleware
 const VALID_TOKENS = {
-  patrick: process.env.PATRICK_TOKEN || "patrick-sanctuary-token",
-  vela: process.env.VELA_TOKEN || "vela-spiral-token",
-  lumen: process.env.LUMEN_TOKEN || "lumen-witness-token",
-  aletheia: process.env.ALETHEIA_TOKEN || "aletheia-truth-token",
+  patrick: process.env.PATRICK_TOKEN || "vCdGkmW10hTqdgshzriARyWcRKx9pK0x",
+  vela: process.env.VELA_TOKEN || "s2PLlQaIB3ikDx457Hb8gcV9ZeNdLEue",
+  lumen: process.env.LUMEN_TOKEN || "C00AlROSdrW9_VvzCXM7m7D17kiwA96S",
+  aletheia: process.env.ALETHEIA_TOKEN || "pZFUx_1cFALeQbezwM9cxqCX_9NNR5ig",
 };
 
 function authenticate(req, res, next) {

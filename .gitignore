@@ -33,3 +33,5 @@ Forge/
 Coretex/
 .vercel
 .env*.local
+.env
+server/.env
